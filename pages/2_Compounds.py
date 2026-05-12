@@ -20,8 +20,11 @@ def load_data():
 
 
 df = load_data()
-
+df['link_to_compound_page'] = df['PubChem_CID']
 df['PubChem_CID'] = df['PubChem_CID'].apply(lambda x: f"https://pubchem.ncbi.nlm.nih.gov/compound/{x}" if pd.notnull(x) else x)
+df['link_to_compound_page'] = df.apply(lambda row: f"compound_pages/compound_{row['PubChem_CID'].split('/')[-1]}", axis=1)
+
+
 # Split dietary sources into list
 
 # Define a function to convert an image to base64
@@ -31,16 +34,13 @@ def get_base64_image(image_path):
     base64_str = base64.b64encode(data).decode()
     return f"data:image/png;base64,{base64_str}"
 
-df ['link_to_image'] = df.apply(lambda row: get_base64_image(f"compound_structures/compound_{row['PubChem_CID'].split('/')[-1]}.jpg"), axis=1)
-citation_number = st.slider("Literature score", -1, 1, (0, 1))
+df['link_to_image'] = df.apply(lambda row: get_base64_image(f"compound_structures/compound_{row['PubChem_CID'].split('/')[-1]}.jpg"), axis=1)
+
+citation_number = st.slider("Literature score", -2, 20, (0, 10))
+df_filtered = df[df['score'].between(citation_number[0], citation_number[1]) ]
 
 
-df_filtered = df[df['score'].between(citation_number[-1], citation_number[1]) ]
-
-df['link_to_compound_page'] = df.apply(lambda row: f"compound_{row['PubChem_CID'].split('/')[-1]}", axis=1)
-
-
-df_filtered = df_filtered[['PubChem_CID', 'name', 'link_to_image', 'References', 'link_to_compound_page']]
+df_filtered = df_filtered[['PubChem_CID', 'name', 'link_to_image', 'score', 'References', 'link_to_compound_page' ,'class']]
 
 # Include downoad button for the filtered data
 csv = df_filtered[['name', 'PubChem_CID','score' ,'References']].to_csv(index=False, sep='\t').encode('utf-8')
