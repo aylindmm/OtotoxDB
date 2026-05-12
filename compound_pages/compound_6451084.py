@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Salvianolic acid B", layout="wide")
+st.title("Salvianolic acid B")
+st.markdown(f"PubChem Compound ID: [6451084](https://pubchem.ncbi.nlm.nih.gov/compound/6451084)")
+st.markdown(f"IUPAC Name: (2R)-2-[(E)-3-[(2S,3S)-3-[(1R)-1-carboxy-2-(3,4-dihydroxyphenyl)ethoxy]carbonyl-2-(3,4-dihydroxyphenyl)-7-hydroxy-2,3-dihydro-1-benzofuran-4-yl]prop-2-enoyl]oxy-3-(3,4-dihydroxyphenyl)propanoic acid")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_6451084.jpg", caption=f"SMILES: O=C(C=Cc1ccc(O)c2c1C(C(=O)OC(Cc1ccc(O)c(O)c1)C(=O)O)[C@@H](c1ccc(O)c(O)c1)O2)OC(Cc1ccc(O)c(O)c1)C(=O)O")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 6451084) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    

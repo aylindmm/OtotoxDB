@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="doxorubicin", layout="wide")
+st.title("doxorubicin")
+st.markdown(f"PubChem Compound ID: [31703](https://pubchem.ncbi.nlm.nih.gov/compound/31703)")
+st.markdown(f"IUPAC Name: (7S,9S)-7-[(2R,4S,5S,6S)-4-amino-5-hydroxy-6-methyloxan-2-yl]oxy-6,9,11-trihydroxy-9-(2-hydroxyacetyl)-4-methoxy-8,10-dihydro-7H-tetracene-5,12-dione")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_31703.jpg", caption=f"SMILES: COc1cccc2c(O)c3c(c(O)c12)C(=O)C1=C(C[C@@](O)(C(=O)CO)C[C@@H]1O[C@H]1C[C@H](N)[C@H](O)[C@H](C)O1)C3=O")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 31703) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    

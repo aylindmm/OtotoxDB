@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="ecabet sodium", layout="wide")
+st.title("ecabet sodium")
+st.markdown(f"PubChem Compound ID: [23663982](https://pubchem.ncbi.nlm.nih.gov/compound/23663982)")
+st.markdown(f"IUPAC Name: sodium (4bS,8R,8aR)-8-carboxy-4b,8-dimethyl-2-propan-2-yl-5,6,7,8a,9,10-hexahydrophenanthrene-3-sulfonate")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_23663982.jpg", caption=f"SMILES: CC(C)c1cc2c(cc1S(=O)(=O)O)[C@@]1(C)CCC[C@@](C)(C(=O)O)[C@@H]1CC2")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 23663982) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    

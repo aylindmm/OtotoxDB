@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Transforming growth factor alpha (human)", layout="wide")
+st.title("Transforming growth factor alpha (human)")
+st.markdown(f"PubChem Compound ID: [121494106](https://pubchem.ncbi.nlm.nih.gov/compound/121494106)")
+st.markdown(f"IUPAC Name: (4S)-4-[[(4R,7S,10S,16S,19S,25S,28S,31R)-31-[[(2S)-2-[[(1R,6R,9S,12S,18S,21S,24S,27S,30S,33S,36S,39S,42R,47R,53S,56S,59S,62S,65S,68S,71S,76S,79S,85S)-47-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-3-methylbutanoyl]amino]-3-methylbutanoyl]amino]-3-hydroxypropanoyl]amino]-3-(1H-imidazol-4-yl)propanoyl]amino]-3-phenylpropanoyl]amino]-4-oxobutanoyl]amino]-3-carboxypropanoyl]amino]-18-(4-aminobutyl)-27,68-bis(3-amino-3-oxopropyl)-36,71,76-tribenzyl-39-(3-carbamimidamidopropyl)-24-(2-carboxyethyl)-21,56-bis(carboxymethyl)-65,85-bis[(1R)-1-hydroxyethyl]-59-(hydroxymethyl)-62,79-bis(1H-imidazol-4-ylmethyl)-9-methyl-33-(2-methylpropyl)-8,11,17,20,23,26,29,32,35,38,41,48,54,57,60,63,66,69,72,74,77,80,83,86-tetracosaoxo-30-propan-2-yl-3,4,44,45-tetrathia-7,10,16,19,22,25,28,31,34,37,40,49,55,58,61,64,67,70,73,75,78,81,84,87-tetracosazatetracyclo[40.31.14.012,16.049,53]heptaoctacontane-6-carbonyl]amino]-3-methylbutanoyl]amino]-7-(3-carbamimidamidopropyl)-25-(hydroxymethyl)-19-[(4-hydroxyphenyl)methyl]-28-(1H-imidazol-4-ylmethyl)-10-methyl-6,9,12,15,18,21,24,27,30-nonaoxo-16-propan-2-yl-1,2-dithia-5,8,11,14,17,20,23,26,29-nonazacyclodotriacontane-4-carbonyl]amino]-5-[[(2S)-1-[[(2S)-1-[[(2S)-3-carboxy-1-[[(2S)-1-[[(2S)-1-[[(1S)-1-carboxyethyl]amino]-4-methyl-1-oxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxopropan-2-yl]amino]-1-oxopropan-2-yl]amino]-3-(1H-imidazol-4-yl)-1-oxopropan-2-yl]amino]-5-oxopentanoic acid")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_121494106.jpg", caption=f"SMILES: CC(C)CC(NC(=O)C(CC(C)C)NC(=O)C(CC(=O)O)NC(=O)C(C)NC(=O)C(Cc1c[nH]cn1)NC(=O)C(CCC(=O)O)NC(=O)C1CSSCC(NC(=O)C(NC(=O)C2CSSCC3NC(=O)C(Cc4ccccc4)NC(=O)C(CCC(N)=O)NC(=O)C([C@@H](C)O)NC(=O)C(Cc4c[nH]cn4)NC(=O)C(CO)NC(=O)C(CC(=O)O)NC(=O)C4CCCN4C(=O)C(NC(=O)C(CC(=O)O)NC(=O)C(CC(N)=O)NC(=O)C(Cc4ccccc4)NC(=O)C(Cc4c[nH]cn4)NC(=O)C(CO)NC(=O)C(NC(=O)C(N)C(C)C)C(C)C)CSSCC(NC(=O)C([C@@H](C)O)NC(=O)CNC(=O)C(Cc4c[nH]cn4)NC(=O)C(Cc4ccccc4)NC3=O)C(=O)NC(CCCN=C(N)N)C(=O)NC(Cc3ccccc3)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCC(N)=O)C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NC(CCCCN)C(=O)N3CCCC3C(=O)NC(C)C(=O)N2)C(C)C)C(=O)NC(Cc2c[nH]cn2)C(=O)NC(CO)C(=O)NCC(=O)NC(Cc2ccc(O)cc2)C(=O)NC(C(C)C)C(=O)NCC(=O)NC(C)C(=O)NC(CCCNC(=N)N)C(=O)N1)C(=O)NC(C)C(=O)O")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 121494106) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    

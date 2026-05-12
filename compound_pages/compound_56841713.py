@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Apelin", layout="wide")
+st.title("Apelin")
+st.markdown(f"PubChem Compound ID: [56841713](https://pubchem.ncbi.nlm.nih.gov/compound/56841713)")
+st.markdown(f"IUPAC Name: (4S)-4-[[(2S)-2-[[2-[[(2S)-4-amino-2-[[2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]pyrrolidine-2-carbonyl]amino]-4-methylpentanoyl]pyrrolidine-2-carbonyl]amino]-3-carboxypropanoyl]amino]acetyl]amino]-4-oxobutanoyl]amino]acetyl]amino]-4-methylpentanoyl]amino]-5-[[(2S)-1-[[2-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[(2S)-2-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[2-[(2S)-2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-5-amino-1-[[2-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[2-[(2S)-2-[[(2S)-1-[(2S)-2-[[(1S)-1-carboxy-2-phenylethyl]carbamoyl]pyrrolidin-1-yl]-4-methylsulfanyl-1-oxobutan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-1-oxohexan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-2-oxoethyl]amino]-1,5-dioxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-1,4-dioxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-2-oxoethyl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_56841713.jpg", caption=f"SMILES: CSCCC(NC(=O)C(CC(C)C)NC(=O)C(CO)NC(=O)CN)C(=O)N1CCCC1C(=O)NC(CC(C)C)C(=O)N1CCCC1C(=O)NC(CC(=O)O)C(=O)NCC(=O)NC(CC(N)=O)C(=O)NCC(=O)NC(CC(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CC(=O)O)C(=O)NCC(=O)NC(CC(N)=O)C(=O)NC(C(=O)NC(CCCN=C(N)N)C(=O)NC(Cc1cnc[nH]1)C(=O)NC(CC(C)C)C(=O)NC(C(=O)NC(CCC(N)=O)C(=O)N1CCCC1C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)NC(CO)C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(N)=O)C(=O)NCC(=O)N1CCCC1C(=O)NCC(=O)N1CCCC1C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(CCC(N)=O)C(=O)NCC(=O)NCC(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(Cc1ccccc1)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(N)=O)C(=O)NC(CCCNC(=N)N)C(=O)N1CCCC1C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(C)C)C(=O)NC(CO)C(=O)NC(Cc1cnc[nH]1)C(=O)NC(CCCCN)C(=O)NCC(=O)N1CCCC1C(=O)NC(CCSC)C(=O)N1CCCC1C(=O)NC(Cc1ccccc1)C(=O)O)C(C)C)C(C)C")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 56841713) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    

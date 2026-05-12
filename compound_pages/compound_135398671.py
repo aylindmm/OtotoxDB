@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="Celiomycin", layout="wide")
+st.title("Celiomycin")
+st.markdown(f"PubChem Compound ID: [135398671](https://pubchem.ncbi.nlm.nih.gov/compound/135398671)")
+st.markdown(f"IUPAC Name: (3S)-3,6-diamino-N-[(3S,6Z,9S,12S,15S)-3-[(4R,6S)-2-amino-6-hydroxy-1,4,5,6-tetrahydropyrimidin-4-yl]-6-[(carbamoylamino)methylidene]-9,12-bis(hydroxymethyl)-2,5,8,11,14-pentaoxo-1,4,7,10,13-pentazacyclohexadec-15-yl]hexanamide")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_135398671.jpg", caption=f"SMILES: NCCC[C@H](N)CC(=O)NC1CNC(=O)C([C@H]2C[C@H](O)N=C(N)N2)NC(=O)C(=CNC(N)=O)NC(=O)C(CO)NC(=O)C(CO)NC1=O")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 135398671) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    

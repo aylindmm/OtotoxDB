@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="9004-10-8", layout="wide")
+st.title("9004-10-8")
+st.markdown(f"PubChem Compound ID: [70678557](https://pubchem.ncbi.nlm.nih.gov/compound/70678557)")
+st.markdown(f"IUPAC Name: (4S)-4-[[2-[[(1R,6R,12S,15S,18S,21S,24S,27S,30S,33S,36S,39S,42R,47R,50S,53S,56S,59S,62S,65S,68S,71S,74S,77S,80S,83S,88R)-88-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[(2-aminoacetyl)amino]-3-methylpentanoyl]amino]-3-methylbutanoyl]amino]-4-carboxybutanoyl]amino]-5-oxopentanoyl]amino]-6-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S)-3-amino-2-[[(2S)-2-[[(2S)-2-amino-3-phenylpropanoyl]amino]-3-methylbutanoyl]amino]-3-oxopropanoyl]amino]-5-oxopentanoyl]amino]-3-(1H-imidazol-4-yl)propanoyl]amino]-4-methylpentanoyl]amino]-47-[[(1S)-3-amino-1-carboxy-3-oxopropyl]carbamoyl]-53-(2-amino-2-oxoethyl)-62-(3-amino-3-oxopropyl)-77-[(2R)-butan-2-yl]-24,56-bis(2-carboxyethyl)-83-[(1S)-1-hydroxyethyl]-12,71,80-tris(hydroxymethyl)-33,50,65-tris[(4-hydroxyphenyl)methyl]-15-(1H-imidazol-4-ylmethyl)-27-methyl-18,30,36,59,68-pentakis(2-methylpropyl)-7,10,13,16,19,22,25,28,31,34,37,40,49,52,55,58,61,64,67,70,73,76,79,82,85,87-hexacosaoxo-21,39-di(propan-2-yl)-3,4,44,45,90,91-hexathia-8,11,14,17,20,23,26,29,32,35,38,41,48,51,54,57,60,63,66,69,72,75,78,81,84,86-hexacosazabicyclo[72.11.7]dononacontane-42-carbonyl]amino]acetyl]amino]-5-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S,3S)-1-[(2S)-2-[[(2S)-6-amino-1-[[(1S,2S)-1-carboxy-2-hydroxypropyl]amino]-1-oxohexan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-hydroxy-1-oxobutan-2-yl]amino]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-oxopentanoic acid")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_70678557.jpg", caption=f"SMILES: CC[C@@H](C)C(NC(=O)CN)C(=O)NC(C(=O)NC(CCC(=O)O)C(=O)NC(CCC(N)=O)C(=O)NC1CSSCC2NC(=O)C([C@H](C)CC)NC(=O)C(CO)NC(=O)C([C@H](C)O)NC(=O)C(CSSCC(NC(=O)C(CC(C)C)NC(=O)C(Cc3c[nH]cn3)NC(=O)C(CCC(N)=O)NC(=O)C(NC(=O)C(NC(=O)C(N)Cc3ccccc3)C(C)C)C(N)=O)C(=O)NCC(=O)NC(CO)C(=O)NC(Cc3c[nH]cn3)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(C)C(=O)NC(CC(C)C)C(=O)NC(Cc3ccc(O)cc3)C(=O)NC(CC(C)C)C(=O)NC(C(C)C)C(=O)NC(C(=O)NCC(=O)NC(CCC(=O)O)C(=O)NC(CCCN=C(N)N)C(=O)NCC(=O)NC(Cc3ccccc3)C(=O)NC(Cc3ccccc3)C(=O)NC(Cc3ccc(O)cc3)C(=O)NC(C(=O)N3CCCC3C(=O)NC(CCCCN)C(=O)NC(C(=O)O)[C@H](C)O)[C@H](C)O)CSSCC(C(=O)NC(CC(N)=O)C(=O)O)NC(=O)C(Cc3ccc(O)cc3)NC(=O)C(CC(N)=O)NC(=O)C(CCC(=O)O)NC(=O)C(CC(C)C)NC(=O)C(CCC(N)=O)NC(=O)C(Cc3ccc(O)cc3)NC(=O)C(CC(C)C)NC(=O)C(CO)NC2=O)NC1=O)C(C)C")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 70678557) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    

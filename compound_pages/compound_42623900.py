@@ -1,0 +1,58 @@
+
+import streamlit as st
+import pandas as pd
+
+st.set_page_config(page_title="QS11", layout="wide")
+st.title("QS11")
+st.markdown(f"PubChem Compound ID: [42623900](https://pubchem.ncbi.nlm.nih.gov/compound/42623900)")
+st.markdown(f"IUPAC Name: (2S)-2-[[2-(2,3-dihydro-1H-inden-5-yloxy)-9-[(4-phenylphenyl)methyl]purin-6-yl]amino]-3-phenylpropan-1-ol")
+
+
+# 4. Display the image in Streamlit
+st.image(f"compound_structures/compound_42623900.jpg", caption=f"SMILES: OC[C@H](Cc1ccccc1)Nc1nc(Oc2ccc3c(c2)CCC3)nc2c1ncn2Cc1ccc(-c2ccccc2)cc1")
+
+st.write("---")
+
+st.subheader("References")
+
+@st.cache_data
+def load_data():
+    sources = pd.read_csv("data/articles.tsv", sep='\t')
+    return sources
+
+
+sources = load_data()
+
+df_filtered = sources[(sources["PubChem_CID"] == 42623900) ]
+
+# Convert dataframe to CSV
+csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
+
+st.download_button(
+    label="Download data as TSV",
+    data=csv,
+    file_name='articles.tsv',
+    mime='text/tsv',
+)
+
+
+df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
+
+for variable in df_filtered['variable'].unique():
+    st.markdown(f"**{variable}**")
+    source_df = df_filtered[df_filtered['variable'] == variable]
+    st.dataframe(
+        source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
+        use_container_width=True,
+        column_config={
+            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+            "Title": st.column_config.TextColumn("Title"),
+        },
+        hide_index=True,
+    )
+
+
+if st.button("Back"):
+    st.switch_page("pages/1_Home.py")
+
+    
