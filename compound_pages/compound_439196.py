@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2R,3R)-1,4-bis(sulfanyl)butane-2,3-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_439196.jpg", caption=f"SMILES: O[C@@H](CS)[C@@H](O)CS")
+st.image(f"compound_structures/compound_439196.jpg", width=400)
 
 st.write("---")
 

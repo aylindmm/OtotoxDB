@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="13-(Benzyloxy)-13-oxotridecanoic acid", layout="wide")
-st.title("13-(Benzyloxy)-13-oxotridecanoic acid")
+st.set_page_config(page_title="13-(benzyloxy)-13-oxotridecanoic acid", layout="wide")
+st.title("13-(benzyloxy)-13-oxotridecanoic acid")
 st.markdown(f"PubChem Compound ID: [10759163](https://pubchem.ncbi.nlm.nih.gov/compound/10759163)")
 st.markdown(f"IUPAC Name: 13-oxo-13-phenylmethoxytridecanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10759163.jpg", caption=f"SMILES: O=C(O)CCCCCCCCCCCC(=O)OCc1ccccc1")
+st.image(f"compound_structures/compound_10759163.jpg", width=400)
 
 st.write("---")
 

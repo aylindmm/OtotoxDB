@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="misoprostol", layout="wide")
-st.title("misoprostol")
+st.set_page_config(page_title="Misoprostol", layout="wide")
+st.title("Misoprostol")
 st.markdown(f"PubChem Compound ID: [5282381](https://pubchem.ncbi.nlm.nih.gov/compound/5282381)")
 st.markdown(f"IUPAC Name: methyl 7-[(1R,2R,3R)-3-hydroxy-2-[(E)-4-hydroxy-4-methyloct-1-enyl]-5-oxocyclopentyl]heptanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5282381.jpg", caption=f"SMILES: CCCCC(C)(O)C/C=C/[C@@H]1C(CCCCCCC(=O)OC)C(=O)C[C@H]1O")
+st.image(f"compound_structures/compound_5282381.jpg", width=400)
 
 st.write("---")
 

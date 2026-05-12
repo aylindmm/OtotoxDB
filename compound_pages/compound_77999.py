@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="rosiglitazone", layout="wide")
-st.title("rosiglitazone")
+st.set_page_config(page_title="Rosiglitazone", layout="wide")
+st.title("Rosiglitazone")
 st.markdown(f"PubChem Compound ID: [77999](https://pubchem.ncbi.nlm.nih.gov/compound/77999)")
 st.markdown(f"IUPAC Name: 5-[[4-[2-[methyl(pyridin-2-yl)amino]ethoxy]phenyl]methyl]-1,3-thiazolidine-2,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_77999.jpg", caption=f"SMILES: CN(CCOc1ccc(Cc2sc(=O)[nH]c2O)cc1)c1ccccn1")
+st.image(f"compound_structures/compound_77999.jpg", width=400)
 
 st.write("---")
 

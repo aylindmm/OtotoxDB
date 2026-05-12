@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="idebenone", layout="wide")
-st.title("idebenone")
+st.set_page_config(page_title="Idebenone", layout="wide")
+st.title("Idebenone")
 st.markdown(f"PubChem Compound ID: [3686](https://pubchem.ncbi.nlm.nih.gov/compound/3686)")
 st.markdown(f"IUPAC Name: 2-(10-hydroxydecyl)-5,6-dimethoxy-3-methylcyclohexa-2,5-diene-1,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3686.jpg", caption=f"SMILES: COc1c(O)c(C)c(C=CCCCCCCCCO)c(O)c1OC")
+st.image(f"compound_structures/compound_3686.jpg", width=400)
 
 st.write("---")
 

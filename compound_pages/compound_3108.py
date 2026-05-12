@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dipyridamole", layout="wide")
-st.title("dipyridamole")
+st.set_page_config(page_title="Dipyridamole", layout="wide")
+st.title("Dipyridamole")
 st.markdown(f"PubChem Compound ID: [3108](https://pubchem.ncbi.nlm.nih.gov/compound/3108)")
 st.markdown(f"IUPAC Name: 2-[[2-[bis(2-hydroxyethyl)amino]-4,8-di(piperidin-1-yl)pyrimido[5,4-d]pyrimidin-6-yl]-(2-hydroxyethyl)amino]ethanol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3108.jpg", caption=f"SMILES: OCCN(CCO)c1nc(N2CCCCC2)c2nc(N(CCO)CCO)nc(N3CCCCC3)c2n1")
+st.image(f"compound_structures/compound_3108.jpg", width=400)
 
 st.write("---")
 

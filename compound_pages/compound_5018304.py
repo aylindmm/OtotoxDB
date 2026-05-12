@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: sodium 2-[2-(2,6-dichloroanilino)phenyl]acetate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5018304.jpg", caption=f"SMILES: O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl")
+st.image(f"compound_structures/compound_5018304.jpg", width=400)
 
 st.write("---")
 

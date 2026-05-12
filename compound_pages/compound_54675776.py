@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tetracycline", layout="wide")
-st.title("tetracycline")
+st.set_page_config(page_title="Tetracycline", layout="wide")
+st.title("Tetracycline")
 st.markdown(f"PubChem Compound ID: [54675776](https://pubchem.ncbi.nlm.nih.gov/compound/54675776)")
 st.markdown(f"IUPAC Name: (4S,4aS,5aS,6S,12aR)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54675776.jpg", caption=f"SMILES: CN(C)C1C(=O)C(C(N)=O)C(=O)[C@@]2(O)C(=O)C3C(=O)c4c(O)cccc4[C@@](C)(O)[C@H]3C[C@@H]12")
+st.image(f"compound_structures/compound_54675776.jpg", width=400)
 
 st.write("---")
 

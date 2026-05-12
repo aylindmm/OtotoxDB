@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="capsazepine", layout="wide")
-st.title("capsazepine")
+st.set_page_config(page_title="Capsazepine", layout="wide")
+st.title("Capsazepine")
 st.markdown(f"PubChem Compound ID: [2733484](https://pubchem.ncbi.nlm.nih.gov/compound/2733484)")
 st.markdown(f"IUPAC Name: N-[2-(4-chlorophenyl)ethyl]-7,8-dihydroxy-1,3,4,5-tetrahydro-2-benzazepine-2-carbothioamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2733484.jpg", caption=f"SMILES: Oc1cc2c(cc1O)CN(C(=S)NCCc1ccc(Cl)cc1)CCC2")
+st.image(f"compound_structures/compound_2733484.jpg", width=400)
 
 st.write("---")
 

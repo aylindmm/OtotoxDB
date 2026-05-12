@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SODIUM THIOSULFATE", layout="wide")
-st.title("SODIUM THIOSULFATE")
+st.set_page_config(page_title="Sodium thiosulfate", layout="wide")
+st.title("Sodium thiosulfate")
 st.markdown(f"PubChem Compound ID: [24477](https://pubchem.ncbi.nlm.nih.gov/compound/24477)")
 st.markdown(f"IUPAC Name: disodium;dioxido-oxo-sulfanylidene-lambda6-sulfane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24477.jpg", caption=f"SMILES: O=S(O)(O)=S")
+st.image(f"compound_structures/compound_24477.jpg", width=400)
 
 st.write("---")
 

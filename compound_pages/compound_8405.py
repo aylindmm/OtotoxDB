@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ISOQUINOLINE", layout="wide")
-st.title("ISOQUINOLINE")
+st.set_page_config(page_title="Isoquinoline", layout="wide")
+st.title("Isoquinoline")
 st.markdown(f"PubChem Compound ID: [8405](https://pubchem.ncbi.nlm.nih.gov/compound/8405)")
 st.markdown(f"IUPAC Name: isoquinoline")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8405.jpg", caption=f"SMILES: c1ccc2cnccc2c1")
+st.image(f"compound_structures/compound_8405.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="3-[(4-AMINO-1-TERT-BUTYL-1H-PYRAZOLO[3,4-D]PYRIMIDIN-3-YL)METHYL]PHENOL", layout="wide")
-st.title("3-[(4-AMINO-1-TERT-BUTYL-1H-PYRAZOLO[3,4-D]PYRIMIDIN-3-YL)METHYL]PHENOL")
+st.set_page_config(page_title="3-[(4-amino-1-tert-butyl-1h-pyrazolo[3,4-d]pyrimidin-3-yl)methyl]phenol", layout="wide")
+st.title("3-[(4-amino-1-tert-butyl-1h-pyrazolo[3,4-d]pyrimidin-3-yl)methyl]phenol")
 st.markdown(f"PubChem Compound ID: [16750071](https://pubchem.ncbi.nlm.nih.gov/compound/16750071)")
 st.markdown(f"IUPAC Name: 3-[(4-amino-1-tert-butylpyrazolo[3,4-d]pyrimidin-3-yl)methyl]phenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16750071.jpg", caption=f"SMILES: CC(C)(C)n1nc(Cc2cccc(O)c2)c2c(N)ncnc21")
+st.image(f"compound_structures/compound_16750071.jpg", width=400)
 
 st.write("---")
 

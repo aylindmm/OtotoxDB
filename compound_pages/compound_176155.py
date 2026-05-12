@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SB-203580", layout="wide")
-st.title("SB-203580")
+st.set_page_config(page_title="Sb-203580", layout="wide")
+st.title("Sb-203580")
 st.markdown(f"PubChem Compound ID: [176155](https://pubchem.ncbi.nlm.nih.gov/compound/176155)")
 st.markdown(f"IUPAC Name: 4-[4-(4-fluorophenyl)-2-(4-methylsulfinylphenyl)-1H-imidazol-5-yl]pyridine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_176155.jpg", caption=f"SMILES: CS(=O)c1ccc(-c2nc(-c3ccc(F)cc3)c(-c3ccncc3)[nH]2)cc1")
+st.image(f"compound_structures/compound_176155.jpg", width=400)
 
 st.write("---")
 

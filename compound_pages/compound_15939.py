@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="PARAQUAT", layout="wide")
-st.title("PARAQUAT")
+st.set_page_config(page_title="Paraquat", layout="wide")
+st.title("Paraquat")
 st.markdown(f"PubChem Compound ID: [15939](https://pubchem.ncbi.nlm.nih.gov/compound/15939)")
 st.markdown(f"IUPAC Name: 1-methyl-4-(1-methylpyridin-1-ium-4-yl)pyridin-1-ium")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_15939.jpg", caption=f"SMILES: C[n+]1ccc(-c2cc[n+](C)cc2)cc1")
+st.image(f"compound_structures/compound_15939.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="deferoxamine", layout="wide")
-st.title("deferoxamine")
+st.set_page_config(page_title="Deferoxamine", layout="wide")
+st.title("Deferoxamine")
 st.markdown(f"PubChem Compound ID: [2973](https://pubchem.ncbi.nlm.nih.gov/compound/2973)")
 st.markdown(f"IUPAC Name: N-[5-[[4-[5-[acetyl(hydroxy)amino]pentylamino]-4-oxobutanoyl]-hydroxyamino]pentyl]-N'-(5-aminopentyl)-N'-hydroxybutanediamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2973.jpg", caption=f"SMILES: CC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCNC(=O)CCC(=O)N(O)CCCCCN")
+st.image(f"compound_structures/compound_2973.jpg", width=400)
 
 st.write("---")
 

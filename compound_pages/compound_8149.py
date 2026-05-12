@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="3,3'-Iminodipropionitrile", layout="wide")
-st.title("3,3'-Iminodipropionitrile")
+st.set_page_config(page_title="3,3'-iminodipropionitrile", layout="wide")
+st.title("3,3'-iminodipropionitrile")
 st.markdown(f"PubChem Compound ID: [8149](https://pubchem.ncbi.nlm.nih.gov/compound/8149)")
 st.markdown(f"IUPAC Name: 3-(2-cyanoethylamino)propanenitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8149.jpg", caption=f"SMILES: N#CCCNCCC#N")
+st.image(f"compound_structures/compound_8149.jpg", width=400)
 
 st.write("---")
 

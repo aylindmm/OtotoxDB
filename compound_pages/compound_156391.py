@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="NAPROXEN", layout="wide")
-st.title("NAPROXEN")
+st.set_page_config(page_title="Naproxen", layout="wide")
+st.title("Naproxen")
 st.markdown(f"PubChem Compound ID: [156391](https://pubchem.ncbi.nlm.nih.gov/compound/156391)")
 st.markdown(f"IUPAC Name: (2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_156391.jpg", caption=f"SMILES: COc1ccc2cc(C(C)C(=O)O)ccc2c1")
+st.image(f"compound_structures/compound_156391.jpg", width=400)
 
 st.write("---")
 

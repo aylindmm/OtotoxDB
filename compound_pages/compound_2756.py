@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cimetidine", layout="wide")
-st.title("cimetidine")
+st.set_page_config(page_title="Cimetidine", layout="wide")
+st.title("Cimetidine")
 st.markdown(f"PubChem Compound ID: [2756](https://pubchem.ncbi.nlm.nih.gov/compound/2756)")
 st.markdown(f"IUPAC Name: 1-cyano-2-methyl-3-[2-[(5-methyl-1H-imidazol-4-yl)methylsulfanyl]ethyl]guanidine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2756.jpg", caption=f"SMILES: CN=C(NC#N)NCCSCc1[nH]cnc1C")
+st.image(f"compound_structures/compound_2756.jpg", width=400)
 
 st.write("---")
 

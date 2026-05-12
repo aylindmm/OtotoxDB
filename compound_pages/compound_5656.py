@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="venlafaxine", layout="wide")
-st.title("venlafaxine")
+st.set_page_config(page_title="Venlafaxine", layout="wide")
+st.title("Venlafaxine")
 st.markdown(f"PubChem Compound ID: [5656](https://pubchem.ncbi.nlm.nih.gov/compound/5656)")
 st.markdown(f"IUPAC Name: 1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexan-1-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5656.jpg", caption=f"SMILES: COc1ccc(C(CN(C)C)C2(O)CCCCC2)cc1")
+st.image(f"compound_structures/compound_5656.jpg", width=400)
 
 st.write("---")
 

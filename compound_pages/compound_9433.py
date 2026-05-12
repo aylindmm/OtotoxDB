@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="aminophylline", layout="wide")
-st.title("aminophylline")
+st.set_page_config(page_title="Aminophylline", layout="wide")
+st.title("Aminophylline")
 st.markdown(f"PubChem Compound ID: [9433](https://pubchem.ncbi.nlm.nih.gov/compound/9433)")
 st.markdown(f"IUPAC Name: bis(1,3-dimethyl-7H-purine-2,6-dione);ethane-1,2-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9433.jpg", caption=f"SMILES: Cn1c(=O)c2[nH]cnc2n(C)c1=O.Cn1c(=O)c2[nH]cnc2n(C)c1=O.NCCN")
+st.image(f"compound_structures/compound_9433.jpg", width=400)
 
 st.write("---")
 

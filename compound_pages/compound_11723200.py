@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Avenanthramide C", layout="wide")
-st.title("Avenanthramide C")
+st.set_page_config(page_title="Avenanthramide c", layout="wide")
+st.title("Avenanthramide c")
 st.markdown(f"PubChem Compound ID: [11723200](https://pubchem.ncbi.nlm.nih.gov/compound/11723200)")
 st.markdown(f"IUPAC Name: 2-[[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]amino]-5-hydroxybenzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11723200.jpg", caption=f"SMILES: O=C(C=Cc1ccc(O)c(O)c1)Nc1ccc(O)cc1C(=O)O")
+st.image(f"compound_structures/compound_11723200.jpg", width=400)
 
 st.write("---")
 

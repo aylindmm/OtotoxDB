@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="1,2-Diethyl-3-hydroxypyridin-4-one", layout="wide")
-st.title("1,2-Diethyl-3-hydroxypyridin-4-one")
+st.set_page_config(page_title="1,2-diethyl-3-hydroxypyridin-4-one", layout="wide")
+st.title("1,2-diethyl-3-hydroxypyridin-4-one")
 st.markdown(f"PubChem Compound ID: [86322](https://pubchem.ncbi.nlm.nih.gov/compound/86322)")
 st.markdown(f"IUPAC Name: 1,2-diethyl-3-hydroxypyridin-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_86322.jpg", caption=f"SMILES: CCc1c(O)c(=O)ccn1CC")
+st.image(f"compound_structures/compound_86322.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Ceramide, Monosialosyl Tetraglycosyl", layout="wide")
-st.title("Ceramide, Monosialosyl Tetraglycosyl")
+st.set_page_config(page_title="Ceramide, monosialosyl tetraglycosyl", layout="wide")
+st.title("Ceramide, monosialosyl tetraglycosyl")
 st.markdown(f"PubChem Compound ID: [6434235](https://pubchem.ncbi.nlm.nih.gov/compound/6434235)")
 st.markdown(f"IUPAC Name: (2S,4S,5R,6R)-5-acetamido-6-[3-[(2S,3R,4R,5S,6R)-5-[(2S,3R,4R,5R,6R)-3-acetamido-5-hydroxy-6-(hydroxymethyl)-4-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-2-[(2R,3S,4R,5R,6R)-4,5-dihydroxy-2-(hydroxymethyl)-6-[(E)-3-hydroxy-2-(octadecanoylamino)octadec-4-enoxy]oxan-3-yl]oxy-3-hydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-1,2-dihydroxypropyl]-2,4-dihydroxyoxane-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6434235.jpg", caption=f"SMILES: CCCCCCCCCCCCC/C=C/C(O)C(CO[C@@H]1O[C@H](CO)[C@@H](O[C@@H]2O[C@H](CO)[C@H](O[C@@H]3O[C@H](CO)[C@H](O)[C@H](O[C@@H]4O[C@H](CO)[C@H](O)[C@H](O)[C@H]4O)[C@H]3NC(C)=O)[C@H](OCC(O)C(O)[C@@H]3O[C@](O)(C(=O)O)C[C@H](O)[C@H]3NC(C)=O)[C@H]2O)[C@H](O)[C@H]1O)NC(=O)CCCCCCCCCCCCCCCCC")
+st.image(f"compound_structures/compound_6434235.jpg", width=400)
 
 st.write("---")
 

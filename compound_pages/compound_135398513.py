@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="acyclovir", layout="wide")
-st.title("acyclovir")
+st.set_page_config(page_title="Acyclovir", layout="wide")
+st.title("Acyclovir")
 st.markdown(f"PubChem Compound ID: [135398513](https://pubchem.ncbi.nlm.nih.gov/compound/135398513)")
 st.markdown(f"IUPAC Name: 2-amino-9-(2-hydroxyethoxymethyl)-1H-purin-6-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135398513.jpg", caption=f"SMILES: Nc1nc(=O)c2ncn(COCCO)c2[nH]1")
+st.image(f"compound_structures/compound_135398513.jpg", width=400)
 
 st.write("---")
 

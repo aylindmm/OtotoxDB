@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="isosorbide", layout="wide")
-st.title("isosorbide")
+st.set_page_config(page_title="Isosorbide", layout="wide")
+st.title("Isosorbide")
 st.markdown(f"PubChem Compound ID: [12597](https://pubchem.ncbi.nlm.nih.gov/compound/12597)")
 st.markdown(f"IUPAC Name: (3S,3aR,6R,6aR)-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-3,6-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_12597.jpg", caption=f"SMILES: O[C@@H]1CO[C@H]2[C@@H]1OC[C@@H]2O")
+st.image(f"compound_structures/compound_12597.jpg", width=400)
 
 st.write("---")
 

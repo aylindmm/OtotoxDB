@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: mercury(2+) sulfide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10220267.jpg", caption=f"SMILES: [Hg+2].[S-2]")
+st.image(f"compound_structures/compound_10220267.jpg", width=400)
 
 st.write("---")
 

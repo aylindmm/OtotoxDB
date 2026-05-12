@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="berberine", layout="wide")
-st.title("berberine")
+st.set_page_config(page_title="Berberine", layout="wide")
+st.title("Berberine")
 st.markdown(f"PubChem Compound ID: [2353](https://pubchem.ncbi.nlm.nih.gov/compound/2353)")
 st.markdown(f"IUPAC Name: 16,17-dimethoxy-5,7-dioxa-13-azoniapentacyclo[11.8.0.02,10.04,8.015,20]henicosa-1(13),2,4(8),9,14,16,18,20-octaene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2353.jpg", caption=f"SMILES: COc1ccc2cc3[n+](cc2c1OC)CCc1cc2c(cc1-3)OCO2")
+st.image(f"compound_structures/compound_2353.jpg", width=400)
 
 st.write("---")
 

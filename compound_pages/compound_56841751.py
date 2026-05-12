@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (4S)-4-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_56841751.jpg", caption=f"SMILES: CC[C@H](C)C(NC(=O)C(Cc1c[nH]cn1)NC(=O)C(CCSC)NC(=O)C(CS)NC(=O)C(NC(=O)CNC(=O)CNC(=O)C(CC(N)=O)NC(=O)C(CC(C)C)NC(=O)C(CS)NC(=O)C(Cc1ccc(O)cc1)NC(=O)CNC(=O)C(CC(=O)O)NC(=O)C(Cc1ccc(O)cc1)NC(=O)C(CO)NC(=O)C(CO)NC(=O)C1CCCN1C(=O)C(CS)NC(=O)CNC(=O)C1CCCN1C(=O)C(Cc1ccc(O)cc1)NC(=O)C(CO)NC(=O)C(N)CC(N)=O)C(C)C)C(=O)NC(CCC(=O)O)C(=O)NC(CO)C(=O)NC(CC(C)C)C(=O)NC(CC(=O)O)C(=O)NC(CO)C(=O)NC(Cc1ccc(O)cc1)C(=O)NC(C(=O)NC(CS)C(=O)NC(CC(N)=O)C(=O)NC(CS)C(=O)NC(C(=O)NC(C(=O)NCC(=O)NC(Cc1ccc(O)cc1)C(=O)NC(CO)C(=O)NCC(=O)NC(CC(=O)O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CS)C(=O)NC(CCC(N)=O)C(=O)NC(C(=O)NC(CCCNC(=N)N)C(=O)NC(CC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(Cc1c[nH]c2ccccc12)C(=O)NC(CCC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(CCCNC(=N)N)C(=O)O)[C@@H](C)O)[C@@H](C)CC)C(C)C)[C@@H](C)O")
+st.image(f"compound_structures/compound_56841751.jpg", width=400)
 
 st.write("---")
 

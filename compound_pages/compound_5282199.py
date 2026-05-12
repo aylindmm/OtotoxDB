@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="teprenone", layout="wide")
-st.title("teprenone")
+st.set_page_config(page_title="Teprenone", layout="wide")
+st.title("Teprenone")
 st.markdown(f"PubChem Compound ID: [5282199](https://pubchem.ncbi.nlm.nih.gov/compound/5282199)")
 st.markdown(f"IUPAC Name: (5E,9E,13E)-6,10,14,18-tetramethylnonadeca-5,9,13,17-tetraen-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5282199.jpg", caption=f"SMILES: CC(=O)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C")
+st.image(f"compound_structures/compound_5282199.jpg", width=400)
 
 st.write("---")
 

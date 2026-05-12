@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Ivermectin B1a", layout="wide")
-st.title("Ivermectin B1a")
+st.set_page_config(page_title="Ivermectin b1a", layout="wide")
+st.title("Ivermectin b1a")
 st.markdown(f"PubChem Compound ID: [6321424](https://pubchem.ncbi.nlm.nih.gov/compound/6321424)")
 st.markdown(f"IUPAC Name: (1R,4S,5'S,6R,6'R,8R,10E,12S,13S,14E,16E,20R,21R,24S)-6'-[(2S)-butan-2-yl]-21,24-dihydroxy-12-[(2R,4S,5S,6S)-5-[(2S,4S,5S,6S)-5-hydroxy-4-methoxy-6-methyloxan-2-yl]oxy-4-methoxy-6-methyloxan-2-yl]oxy-5',11,13,22-tetramethylspiro[3,7,19-trioxatetracyclo[15.6.1.14,8.020,24]pentacosa-10,14,16,22-tetraene-6,2'-oxane]-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6321424.jpg", caption=f"SMILES: CC[C@H](C)[C@H]1O[C@]2(CC[C@@H]1C)C[C@@H]1C[C@@H](C/C=C(\C)[C@@H](O[C@H]3C[C@H](OC)[C@@H](O[C@H]4C[C@H](OC)[C@@H](O)[C@H](C)O4)[C@H](C)O3)[C@@H](C)/C=C/C=C3CO[C@@H]4[C@H](O)C(C)=CC(C(=O)O1)[C@]34O)O2")
+st.image(f"compound_structures/compound_6321424.jpg", width=400)
 
 st.write("---")
 

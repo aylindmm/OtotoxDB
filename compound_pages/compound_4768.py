@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="phenoxybenzamine", layout="wide")
-st.title("phenoxybenzamine")
+st.set_page_config(page_title="Phenoxybenzamine", layout="wide")
+st.title("Phenoxybenzamine")
 st.markdown(f"PubChem Compound ID: [4768](https://pubchem.ncbi.nlm.nih.gov/compound/4768)")
 st.markdown(f"IUPAC Name: N-benzyl-N-(2-chloroethyl)-1-phenoxypropan-2-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4768.jpg", caption=f"SMILES: CC(COc1ccccc1)N(CCCl)Cc1ccccc1")
+st.image(f"compound_structures/compound_4768.jpg", width=400)
 
 st.write("---")
 

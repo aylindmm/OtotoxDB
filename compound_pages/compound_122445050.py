@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ORC-13661", layout="wide")
-st.title("ORC-13661")
+st.set_page_config(page_title="Orc-13661", layout="wide")
+st.title("Orc-13661")
 st.markdown(f"PubChem Compound ID: [122445050](https://pubchem.ncbi.nlm.nih.gov/compound/122445050)")
 st.markdown(f"IUPAC Name: (1R,8S)-4-[(4-chlorophenyl)carbamoylamino]-11-methyl-5-thia-11-azatricyclo[6.2.1.02,6]undeca-2(6),3-diene-3-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_122445050.jpg", caption=f"SMILES: CN1[C@H]2CC[C@@H]1c1c(sc(NC(=O)Nc3ccc(Cl)cc3)c1C(N)=O)C2")
+st.image(f"compound_structures/compound_122445050.jpg", width=400)
 
 st.write("---")
 

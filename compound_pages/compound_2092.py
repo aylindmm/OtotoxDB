@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="alfuzosin", layout="wide")
-st.title("alfuzosin")
+st.set_page_config(page_title="Alfuzosin", layout="wide")
+st.title("Alfuzosin")
 st.markdown(f"PubChem Compound ID: [2092](https://pubchem.ncbi.nlm.nih.gov/compound/2092)")
 st.markdown(f"IUPAC Name: N-[3-[(4-amino-6,7-dimethoxyquinazolin-2-yl)-methylamino]propyl]oxolane-2-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2092.jpg", caption=f"SMILES: COc1cc2nc(N(C)CCCNC(=O)C3CCCO3)nc(N)c2cc1OC")
+st.image(f"compound_structures/compound_2092.jpg", width=400)
 
 st.write("---")
 

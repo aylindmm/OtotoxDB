@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (E,3R,5S)-7-[2-cyclopropyl-4-(4-fluorophenyl)quinolin-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5282452.jpg", caption=f"SMILES: O=C(O)C[C@H](O)C[C@H](O)/C=C/c1c(C2CC2)nc2ccccc2c1-c1ccc(F)cc1")
+st.image(f"compound_structures/compound_5282452.jpg", width=400)
 
 st.write("---")
 

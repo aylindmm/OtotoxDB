@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="bilirubin", layout="wide")
-st.title("bilirubin")
+st.set_page_config(page_title="Bilirubin", layout="wide")
+st.title("Bilirubin")
 st.markdown(f"PubChem Compound ID: [5280352](https://pubchem.ncbi.nlm.nih.gov/compound/5280352)")
 st.markdown(f"IUPAC Name: 3-[2-[[3-(2-carboxyethyl)-5-[(Z)-(3-ethenyl-4-methyl-5-oxopyrrol-2-ylidene)methyl]-4-methyl-1H-pyrrol-2-yl]methyl]-5-[(Z)-(4-ethenyl-3-methyl-5-oxopyrrol-2-ylidene)methyl]-4-methyl-1H-pyrrol-3-yl]propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280352.jpg", caption=f"SMILES: C=CC1=C(C)C(Cc2[nH]c(Cc3[nH]c(C=c4[nH]c(O)c(C)c4=CC)c(C)c3C=CC(=O)O)c(CCC(=O)O)c2C)=NC1=O")
+st.image(f"compound_structures/compound_5280352.jpg", width=400)
 
 st.write("---")
 

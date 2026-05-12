@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: methylmercury(1+)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6860.jpg", caption=f"SMILES: [CH3][Hg+]")
+st.image(f"compound_structures/compound_6860.jpg", width=400)
 
 st.write("---")
 

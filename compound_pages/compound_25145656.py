@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="capmatinib", layout="wide")
-st.title("capmatinib")
+st.set_page_config(page_title="Capmatinib", layout="wide")
+st.title("Capmatinib")
 st.markdown(f"PubChem Compound ID: [25145656](https://pubchem.ncbi.nlm.nih.gov/compound/25145656)")
 st.markdown(f"IUPAC Name: 2-fluoro-N-methyl-4-[7-(quinolin-6-ylmethyl)imidazo[1,2-b][1,2,4]triazin-2-yl]benzamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_25145656.jpg", caption=f"SMILES: CNC(=O)c1ccc(-c2cnc3ncc(Cc4ccc5ncccc5c4)n3n2)cc1F")
+st.image(f"compound_structures/compound_25145656.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sisomicin", layout="wide")
-st.title("sisomicin")
+st.set_page_config(page_title="Sisomicin", layout="wide")
+st.title("Sisomicin")
 st.markdown(f"PubChem Compound ID: [36119](https://pubchem.ncbi.nlm.nih.gov/compound/36119)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[[(2S,3R)-3-amino-6-(aminomethyl)-3,4-dihydro-2H-pyran-2-yl]oxy]-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_36119.jpg", caption=f"SMILES: CN[C@@H]1[C@@H](O)[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@H]3OC(CN)=CC[C@H]3N)[C@@H](N)C[C@H]2N)OC[C@]1(C)O")
+st.image(f"compound_structures/compound_36119.jpg", width=400)
 
 st.write("---")
 

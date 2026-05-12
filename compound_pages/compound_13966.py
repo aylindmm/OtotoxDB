@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CARCAINIUM CHLORIDE", layout="wide")
-st.title("CARCAINIUM CHLORIDE")
+st.set_page_config(page_title="Carcainium chloride", layout="wide")
+st.title("Carcainium chloride")
 st.markdown(f"PubChem Compound ID: [13966](https://pubchem.ncbi.nlm.nih.gov/compound/13966)")
 st.markdown(f"IUPAC Name: bis(2-anilino-2-oxoethyl)-dimethylazanium chloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_13966.jpg", caption=f"SMILES: C[N+](C)(CC(=O)Nc1ccccc1)CC(=O)Nc1ccccc1")
+st.image(f"compound_structures/compound_13966.jpg", width=400)
 
 st.write("---")
 

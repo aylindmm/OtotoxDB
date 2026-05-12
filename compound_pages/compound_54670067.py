@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="l-ascorbic acid", layout="wide")
-st.title("l-ascorbic acid")
+st.set_page_config(page_title="L-ascorbic acid", layout="wide")
+st.title("L-ascorbic acid")
 st.markdown(f"PubChem Compound ID: [54670067](https://pubchem.ncbi.nlm.nih.gov/compound/54670067)")
 st.markdown(f"IUPAC Name: (2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54670067.jpg", caption=f"SMILES: OC[C@H](O)c1oc(O)c(O)c1O")
+st.image(f"compound_structures/compound_54670067.jpg", width=400)
 
 st.write("---")
 

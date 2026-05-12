@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nifedipine", layout="wide")
-st.title("nifedipine")
+st.set_page_config(page_title="Nifedipine", layout="wide")
+st.title("Nifedipine")
 st.markdown(f"PubChem Compound ID: [4485](https://pubchem.ncbi.nlm.nih.gov/compound/4485)")
 st.markdown(f"IUPAC Name: dimethyl 2,6-dimethyl-4-(2-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4485.jpg", caption=f"SMILES: COC(=O)C1=C(C)N=C(C)C(C(=O)OC)C1c1ccccc1[N+](=O)[O-]")
+st.image(f"compound_structures/compound_4485.jpg", width=400)
 
 st.write("---")
 

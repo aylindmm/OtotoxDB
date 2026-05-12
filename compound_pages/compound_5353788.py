@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="molsidomine", layout="wide")
-st.title("molsidomine")
+st.set_page_config(page_title="Molsidomine", layout="wide")
+st.title("Molsidomine")
 st.markdown(f"PubChem Compound ID: [5353788](https://pubchem.ncbi.nlm.nih.gov/compound/5353788)")
 st.markdown(f"IUPAC Name: (1E)-1-ethoxy-N-(3-morpholin-4-yloxadiazol-3-ium-5-yl)methanimidate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5353788.jpg", caption=f"SMILES: CCOC([O-])=Nc1c[n+](N2CCOCC2)no1")
+st.image(f"compound_structures/compound_5353788.jpg", width=400)
 
 st.write("---")
 

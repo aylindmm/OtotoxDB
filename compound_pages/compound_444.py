@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="bupropion", layout="wide")
-st.title("bupropion")
+st.set_page_config(page_title="Bupropion", layout="wide")
+st.title("Bupropion")
 st.markdown(f"PubChem Compound ID: [444](https://pubchem.ncbi.nlm.nih.gov/compound/444)")
 st.markdown(f"IUPAC Name: 2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_444.jpg", caption=f"SMILES: CC(NC(C)(C)C)C(=O)c1cccc(Cl)c1")
+st.image(f"compound_structures/compound_444.jpg", width=400)
 
 st.write("---")
 

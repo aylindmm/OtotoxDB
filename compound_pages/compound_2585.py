@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="carvedilol", layout="wide")
-st.title("carvedilol")
+st.set_page_config(page_title="Carvedilol", layout="wide")
+st.title("Carvedilol")
 st.markdown(f"PubChem Compound ID: [2585](https://pubchem.ncbi.nlm.nih.gov/compound/2585)")
 st.markdown(f"IUPAC Name: 1-(9H-carbazol-4-yloxy)-3-[2-(2-methoxyphenoxy)ethylamino]propan-2-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2585.jpg", caption=f"SMILES: COc1ccccc1OCCNCC(O)COc1cccc2[nH]c3ccccc3c12")
+st.image(f"compound_structures/compound_2585.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="caffeic acid", layout="wide")
-st.title("caffeic acid")
+st.set_page_config(page_title="Caffeic acid", layout="wide")
+st.title("Caffeic acid")
 st.markdown(f"PubChem Compound ID: [689043](https://pubchem.ncbi.nlm.nih.gov/compound/689043)")
 st.markdown(f"IUPAC Name: (E)-3-(3,4-dihydroxyphenyl)prop-2-enoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_689043.jpg", caption=f"SMILES: O=C(O)C=Cc1ccc(O)c(O)c1")
+st.image(f"compound_structures/compound_689043.jpg", width=400)
 
 st.write("---")
 

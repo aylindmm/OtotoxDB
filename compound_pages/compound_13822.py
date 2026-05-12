@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TRIETHYLSTANNANE", layout="wide")
-st.title("TRIETHYLSTANNANE")
+st.set_page_config(page_title="Triethylstannane", layout="wide")
+st.title("Triethylstannane")
 st.markdown(f"PubChem Compound ID: [13822](https://pubchem.ncbi.nlm.nih.gov/compound/13822)")
 st.markdown(f"IUPAC Name: triethylstannane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_13822.jpg", caption=f"SMILES: C[CH2][SnH]([CH2]C)[CH2]C")
+st.image(f"compound_structures/compound_13822.jpg", width=400)
 
 st.write("---")
 

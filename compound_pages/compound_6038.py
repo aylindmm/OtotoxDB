@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-Hydroxyquinoline", layout="wide")
-st.title("2-Hydroxyquinoline")
+st.set_page_config(page_title="2-hydroxyquinoline", layout="wide")
+st.title("2-hydroxyquinoline")
 st.markdown(f"PubChem Compound ID: [6038](https://pubchem.ncbi.nlm.nih.gov/compound/6038)")
 st.markdown(f"IUPAC Name: 1H-quinolin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6038.jpg", caption=f"SMILES: O=c1ccc2ccccc2[nH]1")
+st.image(f"compound_structures/compound_6038.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="gemcitabine", layout="wide")
-st.title("gemcitabine")
+st.set_page_config(page_title="Gemcitabine", layout="wide")
+st.title("Gemcitabine")
 st.markdown(f"PubChem Compound ID: [60750](https://pubchem.ncbi.nlm.nih.gov/compound/60750)")
 st.markdown(f"IUPAC Name: 4-amino-1-[(2R,4R,5R)-3,3-difluoro-4-hydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_60750.jpg", caption=f"SMILES: Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)C2(F)F)c(=O)n1")
+st.image(f"compound_structures/compound_60750.jpg", width=400)
 
 st.write("---")
 

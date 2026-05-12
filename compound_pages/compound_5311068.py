@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DEXMEDETOMIDINE", layout="wide")
-st.title("DEXMEDETOMIDINE")
+st.set_page_config(page_title="Dexmedetomidine", layout="wide")
+st.title("Dexmedetomidine")
 st.markdown(f"PubChem Compound ID: [5311068](https://pubchem.ncbi.nlm.nih.gov/compound/5311068)")
 st.markdown(f"IUPAC Name: 5-[(1S)-1-(2,3-dimethylphenyl)ethyl]-1H-imidazole")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311068.jpg", caption=f"SMILES: Cc1cccc([C@H](C)c2c[nH]cn2)c1C")
+st.image(f"compound_structures/compound_5311068.jpg", width=400)
 
 st.write("---")
 

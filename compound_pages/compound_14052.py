@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ethambutol", layout="wide")
-st.title("ethambutol")
+st.set_page_config(page_title="Ethambutol", layout="wide")
+st.title("Ethambutol")
 st.markdown(f"PubChem Compound ID: [14052](https://pubchem.ncbi.nlm.nih.gov/compound/14052)")
 st.markdown(f"IUPAC Name: (2S)-2-[2-[[(2S)-1-hydroxybutan-2-yl]amino]ethylamino]butan-1-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_14052.jpg", caption=f"SMILES: CC[C@@H](CO)NCCN[C@@H](CC)CO")
+st.image(f"compound_structures/compound_14052.jpg", width=400)
 
 st.write("---")
 

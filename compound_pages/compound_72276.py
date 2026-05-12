@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="(-)-Epicatechin", layout="wide")
-st.title("(-)-Epicatechin")
+st.set_page_config(page_title="(-)-epicatechin", layout="wide")
+st.title("(-)-epicatechin")
 st.markdown(f"PubChem Compound ID: [72276](https://pubchem.ncbi.nlm.nih.gov/compound/72276)")
 st.markdown(f"IUPAC Name: (2R,3R)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-chromene-3,5,7-triol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_72276.jpg", caption=f"SMILES: Oc1cc(O)c2c(c1)O[C@H](c1ccc(O)c(O)c1)[C@H](O)C2")
+st.image(f"compound_structures/compound_72276.jpg", width=400)
 
 st.write("---")
 

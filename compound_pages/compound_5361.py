@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="suramin", layout="wide")
-st.title("suramin")
+st.set_page_config(page_title="Suramin", layout="wide")
+st.title("Suramin")
 st.markdown(f"PubChem Compound ID: [5361](https://pubchem.ncbi.nlm.nih.gov/compound/5361)")
 st.markdown(f"IUPAC Name: 8-[[4-methyl-3-[[3-[[3-[[2-methyl-5-[(4,6,8-trisulfonaphthalen-1-yl)carbamoyl]phenyl]carbamoyl]phenyl]carbamoylamino]benzoyl]amino]benzoyl]amino]naphthalene-1,3,5-trisulfonic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5361.jpg", caption=f"SMILES: Cc1ccc(C(=O)Nc2ccc(S(=O)(=O)O)c3cc(S(=O)(=O)O)cc(S(=O)(=O)O)c23)cc1NC(=O)c1cccc(NC(=O)Nc2cccc(C(=O)Nc3cc(C(=O)Nc4ccc(S(=O)(=O)O)c5cc(S(=O)(=O)O)cc(S(=O)(=O)O)c45)ccc3C)c2)c1")
+st.image(f"compound_structures/compound_5361.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="piceatannol", layout="wide")
-st.title("piceatannol")
+st.set_page_config(page_title="Piceatannol", layout="wide")
+st.title("Piceatannol")
 st.markdown(f"PubChem Compound ID: [667639](https://pubchem.ncbi.nlm.nih.gov/compound/667639)")
 st.markdown(f"IUPAC Name: 4-[(E)-2-(3,5-dihydroxyphenyl)ethenyl]benzene-1,2-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_667639.jpg", caption=f"SMILES: Oc1cc(O)cc(C=Cc2ccc(O)c(O)c2)c1")
+st.image(f"compound_structures/compound_667639.jpg", width=400)
 
 st.write("---")
 

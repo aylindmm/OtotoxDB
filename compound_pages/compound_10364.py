@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CARVACROL", layout="wide")
-st.title("CARVACROL")
+st.set_page_config(page_title="Carvacrol", layout="wide")
+st.title("Carvacrol")
 st.markdown(f"PubChem Compound ID: [10364](https://pubchem.ncbi.nlm.nih.gov/compound/10364)")
 st.markdown(f"IUPAC Name: 2-methyl-5-propan-2-ylphenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10364.jpg", caption=f"SMILES: Cc1ccc(C(C)C)cc1O")
+st.image(f"compound_structures/compound_10364.jpg", width=400)
 
 st.write("---")
 

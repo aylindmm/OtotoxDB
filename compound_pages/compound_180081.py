@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DIZOCILPINE", layout="wide")
-st.title("DIZOCILPINE")
+st.set_page_config(page_title="Dizocilpine", layout="wide")
+st.title("Dizocilpine")
 st.markdown(f"PubChem Compound ID: [180081](https://pubchem.ncbi.nlm.nih.gov/compound/180081)")
 st.markdown(f"IUPAC Name: (1S,9R)-1-methyl-16-azatetracyclo[7.6.1.02,7.010,15]hexadeca-2,4,6,10,12,14-hexaene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_180081.jpg", caption=f"SMILES: C[C@]12N[C@H](Cc3ccccc31)c1ccccc12")
+st.image(f"compound_structures/compound_180081.jpg", width=400)
 
 st.write("---")
 

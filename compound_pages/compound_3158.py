@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="doxepin", layout="wide")
-st.title("doxepin")
+st.set_page_config(page_title="Doxepin", layout="wide")
+st.title("Doxepin")
 st.markdown(f"PubChem Compound ID: [3158](https://pubchem.ncbi.nlm.nih.gov/compound/3158)")
 st.markdown(f"IUPAC Name: 3-(6H-benzo[c][1]benzoxepin-11-ylidene)-N,N-dimethylpropan-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3158.jpg", caption=f"SMILES: CN(C)CCC=C1c2ccccc2COc2ccccc21")
+st.image(f"compound_structures/compound_3158.jpg", width=400)
 
 st.write("---")
 

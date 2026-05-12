@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SERATRODAST", layout="wide")
-st.title("SERATRODAST")
+st.set_page_config(page_title="Seratrodast", layout="wide")
+st.title("Seratrodast")
 st.markdown(f"PubChem Compound ID: [2449](https://pubchem.ncbi.nlm.nih.gov/compound/2449)")
 st.markdown(f"IUPAC Name: 7-phenyl-7-(2,4,5-trimethyl-3,6-dioxocyclohexa-1,4-dien-1-yl)heptanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2449.jpg", caption=f"SMILES: Cc1c(C)c(O)c(C(=CCCCCC(=O)O)c2ccccc2)c(C)c1O")
+st.image(f"compound_structures/compound_2449.jpg", width=400)
 
 st.write("---")
 

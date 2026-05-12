@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="enalapril", layout="wide")
-st.title("enalapril")
+st.set_page_config(page_title="Enalapril", layout="wide")
+st.title("Enalapril")
 st.markdown(f"PubChem Compound ID: [5388962](https://pubchem.ncbi.nlm.nih.gov/compound/5388962)")
 st.markdown(f"IUPAC Name: (2S)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]pyrrolidine-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5388962.jpg", caption=f"SMILES: CCOC(=O)C(CCc1ccccc1)NC(C)C(=O)N1CCCC1C(=O)O")
+st.image(f"compound_structures/compound_5388962.jpg", width=400)
 
 st.write("---")
 

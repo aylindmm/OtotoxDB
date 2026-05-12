@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="bucillamine", layout="wide")
-st.title("bucillamine")
+st.set_page_config(page_title="Bucillamine", layout="wide")
+st.title("Bucillamine")
 st.markdown(f"PubChem Compound ID: [656604](https://pubchem.ncbi.nlm.nih.gov/compound/656604)")
 st.markdown(f"IUPAC Name: (2R)-2-[(2-methyl-2-sulfanylpropanoyl)amino]-3-sulfanylpropanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_656604.jpg", caption=f"SMILES: CC(C)(S)C(=O)NC(CS)C(=O)O")
+st.image(f"compound_structures/compound_656604.jpg", width=400)
 
 st.write("---")
 

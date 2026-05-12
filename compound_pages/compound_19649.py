@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="streptomycin", layout="wide")
-st.title("streptomycin")
+st.set_page_config(page_title="Streptomycin", layout="wide")
+st.title("Streptomycin")
 st.markdown(f"PubChem Compound ID: [19649](https://pubchem.ncbi.nlm.nih.gov/compound/19649)")
 st.markdown(f"IUPAC Name: 2-[(1R,2R,3S,4R,5R,6S)-3-(diaminomethylideneamino)-4-[(2R,3R,4R,5S)-3-[(2S,3S,4S,5R,6S)-4,5-dihydroxy-6-(hydroxymethyl)-3-(methylamino)oxan-2-yl]oxy-4-formyl-4-hydroxy-5-methyloxolan-2-yl]oxy-2,5,6-trihydroxycyclohexyl]guanidine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_19649.jpg", caption=f"SMILES: CN[C@@H]1[C@H](O[C@H]2[C@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](N=C(N)N)[C@@H](O)[C@@H]3N=C(N)N)O[C@@H](C)[C@]2(O)C=O)O[C@@H](CO)[C@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_19649.jpg", width=400)
 
 st.write("---")
 

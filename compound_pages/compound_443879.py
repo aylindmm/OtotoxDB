@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tolterodine", layout="wide")
-st.title("tolterodine")
+st.set_page_config(page_title="Tolterodine", layout="wide")
+st.title("Tolterodine")
 st.markdown(f"PubChem Compound ID: [443879](https://pubchem.ncbi.nlm.nih.gov/compound/443879)")
 st.markdown(f"IUPAC Name: 2-[(1R)-3-[di(propan-2-yl)amino]-1-phenylpropyl]-4-methylphenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_443879.jpg", caption=f"SMILES: Cc1ccc(O)c([C@H](CCN(C(C)C)C(C)C)c2ccccc2)c1")
+st.image(f"compound_structures/compound_443879.jpg", width=400)
 
 st.write("---")
 

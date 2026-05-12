@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TAPI-1", layout="wide")
-st.title("TAPI-1")
+st.set_page_config(page_title="Tapi-1", layout="wide")
+st.title("Tapi-1")
 st.markdown(f"PubChem Compound ID: [10458621](https://pubchem.ncbi.nlm.nih.gov/compound/10458621)")
 st.markdown(f"IUPAC Name: (2R)-N-[(2S)-1-[[(2S)-1-(2-aminoethylamino)-1-oxopropan-2-yl]amino]-3-naphthalen-2-yl-1-oxopropan-2-yl]-N'-hydroxy-2-(2-methylpropyl)butanediamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10458621.jpg", caption=f"SMILES: CC(C)CC(CC(O)=NO)C(=O)NC(Cc1ccc2ccccc2c1)C(=O)NC(C)C(=O)NCCN")
+st.image(f"compound_structures/compound_10458621.jpg", width=400)
 
 st.write("---")
 

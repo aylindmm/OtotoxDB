@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="4-Methylpyrazole", layout="wide")
-st.title("4-Methylpyrazole")
+st.set_page_config(page_title="4-methylpyrazole", layout="wide")
+st.title("4-methylpyrazole")
 st.markdown(f"PubChem Compound ID: [3406](https://pubchem.ncbi.nlm.nih.gov/compound/3406)")
 st.markdown(f"IUPAC Name: 4-methyl-1H-pyrazole")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3406.jpg", caption=f"SMILES: Cc1cn[nH]c1")
+st.image(f"compound_structures/compound_3406.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="METALLOTHIONEIN", layout="wide")
-st.title("METALLOTHIONEIN")
+st.set_page_config(page_title="Metallothionein", layout="wide")
+st.title("Metallothionein")
 st.markdown(f"PubChem Compound ID: [156025075](https://pubchem.ncbi.nlm.nih.gov/compound/156025075)")
 st.markdown(f"IUPAC Name: (2R)-6-amino-2-[[2-[[(2S)-2-[[2-[[(2R)-2-[[(2S)-2-[[(2R,3S)-2-[[2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2R)-2-[[(2S,3S)-2-[[(2R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2R)-2-[[2-[[2-[[2-[(2-amino-1-hydroxyethylidene)amino]-3-carboxy-1-hydroxypropylidene]amino]-1-hydroxy-3-sulfanylpropylidene]amino]-1-hydroxyethylidene]amino]-1-hydroxy-3-sulfanylpropylidene]amino]-1,3-dihydroxypropylidene]amino]-1-hydroxyethylidene]amino]-1-hydroxypropylidene]amino]-1,3-dihydroxypropylidene]amino]-1,3-dihydroxypropylidene]amino]-1-hydroxy-3-sulfanylpropylidene]amino]-1,3-dihydroxybutylidene]amino]-1-hydroxy-3-sulfanylpropylidene]amino]-1-hydroxypropylidene]amino]-1,3-dihydroxypropylidene]amino]-1-hydroxyethylidene]amino]-1,5-dihydroxy-5-iminopentylidene]amino]-1-hydroxy-3-sulfanylpropylidene]amino]-1,3-dihydroxybutylidene]amino]-1-hydroxy-3-sulfanylpropylidene]amino]-1,3-dihydroxypropylidene]amino]-1-hydroxyethylidene]amino]-1-hydroxy-3-sulfanylpropylidene]amino]-1-hydroxyethylidene]amino]hexanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_156025075.jpg", caption=f"SMILES: CC(N=C(O)CN=C(O)C(CO)N=C(O)C(CS)N=C(O)CN=C(O)C(CS)N=C(O)C(CC(=O)O)N=C(O)CN)C(=O)NC(CO)C(=O)N[C@@H](CO)C(O)=N[C@@H](CS)C(O)=N[C@H](C(O)=N[C@@H](CS)C(O)=NC(C)C(O)=NC(CO)C(O)=NCC(O)=NC(CCC(N)=O)C(O)=NC(CS)C(O)=NC(C(O)=NC(CS)C(O)=NC(CO)C(O)=NCC(O)=NC(CS)C(O)=NCC(O)=NC(CCCCN)C(=O)O)[C@H](C)O)[C@H](C)O")
+st.image(f"compound_structures/compound_156025075.jpg", width=400)
 
 st.write("---")
 

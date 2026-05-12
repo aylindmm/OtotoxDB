@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CALCIUM GLUCONATE", layout="wide")
-st.title("CALCIUM GLUCONATE")
+st.set_page_config(page_title="Calcium gluconate", layout="wide")
+st.title("Calcium gluconate")
 st.markdown(f"PubChem Compound ID: [9290](https://pubchem.ncbi.nlm.nih.gov/compound/9290)")
 st.markdown(f"IUPAC Name: calcium bis((2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoate)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9290.jpg", caption=f"SMILES: O=C(O)C(O)C(O)C(O)C(O)CO.O=C(O)C(O)C(O)C(O)C(O)CO")
+st.image(f"compound_structures/compound_9290.jpg", width=400)
 
 st.write("---")
 

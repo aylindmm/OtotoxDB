@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ribavirin", layout="wide")
-st.title("ribavirin")
+st.set_page_config(page_title="Ribavirin", layout="wide")
+st.title("Ribavirin")
 st.markdown(f"PubChem Compound ID: [37542](https://pubchem.ncbi.nlm.nih.gov/compound/37542)")
 st.markdown(f"IUPAC Name: 1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1,2,4-triazole-3-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_37542.jpg", caption=f"SMILES: NC(=O)c1ncn([C@@H]2O[C@H](CO)[C@@H](O)[C@H]2O)n1")
+st.image(f"compound_structures/compound_37542.jpg", width=400)
 
 st.write("---")
 

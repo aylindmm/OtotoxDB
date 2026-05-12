@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="EGTA", layout="wide")
-st.title("EGTA")
+st.set_page_config(page_title="Egta", layout="wide")
+st.title("Egta")
 st.markdown(f"PubChem Compound ID: [6207](https://pubchem.ncbi.nlm.nih.gov/compound/6207)")
 st.markdown(f"IUPAC Name: 2-[2-[2-[2-[bis(carboxymethyl)amino]ethoxy]ethoxy]ethyl-(carboxymethyl)amino]acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6207.jpg", caption=f"SMILES: O=C(O)CN(CCOCCOCCN(CC(=O)O)CC(=O)O)CC(=O)O")
+st.image(f"compound_structures/compound_6207.jpg", width=400)
 
 st.write("---")
 

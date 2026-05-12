@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3-aminobenzamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1645.jpg", caption=f"SMILES: NC(=O)c1cccc(N)c1")
+st.image(f"compound_structures/compound_1645.jpg", width=400)
 
 st.write("---")
 

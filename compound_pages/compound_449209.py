@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="COMPOUND 19", layout="wide")
-st.title("COMPOUND 19")
+st.set_page_config(page_title="Compound 19", layout="wide")
+st.title("Compound 19")
 st.markdown(f"PubChem Compound ID: [449209](https://pubchem.ncbi.nlm.nih.gov/compound/449209)")
 st.markdown(f"IUPAC Name: (2S,3R)-3-(4-hydroxyphenyl)-2-[4-[(2R)-2-pyrrolidin-1-ylpropoxy]phenyl]-2,3-dihydro-1,4-benzoxathiin-6-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_449209.jpg", caption=f"SMILES: C[C@H](COc1ccc([C@@H]2Oc3ccc(O)cc3S[C@@H]2c2ccc(O)cc2)cc1)N1CCCC1")
+st.image(f"compound_structures/compound_449209.jpg", width=400)
 
 st.write("---")
 

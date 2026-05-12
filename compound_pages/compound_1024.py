@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="pyrroloquinoline quinone", layout="wide")
-st.title("pyrroloquinoline quinone")
+st.set_page_config(page_title="Pyrroloquinoline quinone", layout="wide")
+st.title("Pyrroloquinoline quinone")
 st.markdown(f"PubChem Compound ID: [1024](https://pubchem.ncbi.nlm.nih.gov/compound/1024)")
 st.markdown(f"IUPAC Name: 4,5-dioxo-1H-pyrrolo[2,3-f]quinoline-2,7,9-tricarboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1024.jpg", caption=f"SMILES: O=C(O)c1cc(C(=O)O)c2c(n1)C(=O)C(=O)c1cc(C(=O)O)[nH]c1-2")
+st.image(f"compound_structures/compound_1024.jpg", width=400)
 
 st.write("---")
 

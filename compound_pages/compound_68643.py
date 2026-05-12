@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-methyl-2-pyridin-2-ylethanamine;dihydrochloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_68643.jpg", caption=f"SMILES: CNCCc1ccccn1")
+st.image(f"compound_structures/compound_68643.jpg", width=400)
 
 st.write("---")
 

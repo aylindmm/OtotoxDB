@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="N-Benzyloxycarbonyl-leucyl-leucyl-phenylalaninal", layout="wide")
-st.title("N-Benzyloxycarbonyl-leucyl-leucyl-phenylalaninal")
+st.set_page_config(page_title="N-benzyloxycarbonyl-leucyl-leucyl-phenylalaninal", layout="wide")
+st.title("N-benzyloxycarbonyl-leucyl-leucyl-phenylalaninal")
 st.markdown(f"PubChem Compound ID: [5487496](https://pubchem.ncbi.nlm.nih.gov/compound/5487496)")
 st.markdown(f"IUPAC Name: benzyl N-[(2S)-4-methyl-1-[[(2S)-4-methyl-2-[(1-oxo-3-phenylpropan-2-yl)amino]pentanoyl]amino]-1-oxopentan-2-yl]carbamate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5487496.jpg", caption=f"SMILES: CC(C)CC(NC(=O)OCc1ccccc1)C(=O)NC(=O)C(CC(C)C)NC(C=O)Cc1ccccc1")
+st.image(f"compound_structures/compound_5487496.jpg", width=400)
 
 st.write("---")
 

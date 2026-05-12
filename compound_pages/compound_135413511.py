@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TIRAPAZAMINE", layout="wide")
-st.title("TIRAPAZAMINE")
+st.set_page_config(page_title="Tirapazamine", layout="wide")
+st.title("Tirapazamine")
 st.markdown(f"PubChem Compound ID: [135413511](https://pubchem.ncbi.nlm.nih.gov/compound/135413511)")
 st.markdown(f"IUPAC Name: 1,4-dioxido-1,2,4-benzotriazine-1,4-diium-3-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135413511.jpg", caption=f"SMILES: Nc1n[n+]([O-])c2ccccc2[n+]1[O-]")
+st.image(f"compound_structures/compound_135413511.jpg", width=400)
 
 st.write("---")
 

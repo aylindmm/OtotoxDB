@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="pantothenic acid", layout="wide")
-st.title("pantothenic acid")
+st.set_page_config(page_title="Pantothenic acid", layout="wide")
+st.title("Pantothenic acid")
 st.markdown(f"PubChem Compound ID: [6613](https://pubchem.ncbi.nlm.nih.gov/compound/6613)")
 st.markdown(f"IUPAC Name: 3-[[(2R)-2,4-dihydroxy-3,3-dimethylbutanoyl]amino]propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6613.jpg", caption=f"SMILES: CC(C)(CO)C(O)C(=O)NCCC(=O)O")
+st.image(f"compound_structures/compound_6613.jpg", width=400)
 
 st.write("---")
 

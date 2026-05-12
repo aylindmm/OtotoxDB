@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="azosemide", layout="wide")
-st.title("azosemide")
+st.set_page_config(page_title="Azosemide", layout="wide")
+st.title("Azosemide")
 st.markdown(f"PubChem Compound ID: [2273](https://pubchem.ncbi.nlm.nih.gov/compound/2273)")
 st.markdown(f"IUPAC Name: 2-chloro-5-(2H-tetrazol-5-yl)-4-(thiophen-2-ylmethylamino)benzenesulfonamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2273.jpg", caption=f"SMILES: NS(=O)(=O)c1cc(-c2nn[nH]n2)c(NCc2cccs2)cc1Cl")
+st.image(f"compound_structures/compound_2273.jpg", width=400)
 
 st.write("---")
 

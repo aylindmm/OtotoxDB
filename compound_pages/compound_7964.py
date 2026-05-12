@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CHLOROBENZENE", layout="wide")
-st.title("CHLOROBENZENE")
+st.set_page_config(page_title="Chlorobenzene", layout="wide")
+st.title("Chlorobenzene")
 st.markdown(f"PubChem Compound ID: [7964](https://pubchem.ncbi.nlm.nih.gov/compound/7964)")
 st.markdown(f"IUPAC Name: chlorobenzene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_7964.jpg", caption=f"SMILES: Clc1ccccc1")
+st.image(f"compound_structures/compound_7964.jpg", width=400)
 
 st.write("---")
 

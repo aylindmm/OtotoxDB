@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-[4-[5-(dimethylamino)-2,3,4,5-tetrahydro-1-benzazepi
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_119369.jpg", caption=f"SMILES: Cc1ccccc1C(=O)Nc1ccc(C(=O)N2CCCC(N(C)C)c3ccccc32)cc1")
+st.image(f"compound_structures/compound_119369.jpg", width=400)
 
 st.write("---")
 

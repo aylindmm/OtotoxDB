@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Glucan from Black Yeast,", layout="wide")
-st.title("Glucan from Black Yeast,")
+st.set_page_config(page_title="Glucan from black yeast,", layout="wide")
+st.title("Glucan from black yeast,")
 st.markdown(f"PubChem Compound ID: [92024379](https://pubchem.ncbi.nlm.nih.gov/compound/92024379)")
 st.markdown(f"IUPAC Name: 2-[3,5-dihydroxy-2-(hydroxymethyl)oxan-4-yl]oxy-4-[3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-(hydroxymethyl)oxane-3,5-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_92024379.jpg", caption=f"SMILES: OCC1OC(OC2C(O)C(CO)OC(OC3C(O)COC(CO)C3O)C2O)C(O)CC1O")
+st.image(f"compound_structures/compound_92024379.jpg", width=400)
 
 st.write("---")
 

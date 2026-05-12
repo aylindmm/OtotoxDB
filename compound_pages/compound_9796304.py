@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (Z)-2-hydroxyoctadec-9-enoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9796304.jpg", caption=f"SMILES: CCCCCCCC/C=C\CCCCCCC(O)C(=O)O")
+st.image(f"compound_structures/compound_9796304.jpg", width=400)
 
 st.write("---")
 

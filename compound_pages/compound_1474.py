@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2,2'-BIPYRIDINE", layout="wide")
-st.title("2,2'-BIPYRIDINE")
+st.set_page_config(page_title="2,2'-bipyridine", layout="wide")
+st.title("2,2'-bipyridine")
 st.markdown(f"PubChem Compound ID: [1474](https://pubchem.ncbi.nlm.nih.gov/compound/1474)")
 st.markdown(f"IUPAC Name: 2-pyridin-2-ylpyridine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1474.jpg", caption=f"SMILES: c1ccc(-c2ccccn2)nc1")
+st.image(f"compound_structures/compound_1474.jpg", width=400)
 
 st.write("---")
 

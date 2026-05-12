@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3-aminopropyl(diethoxymethyl)phosphinic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_107699.jpg", caption=f"SMILES: CCOC(OCC)P(=O)(O)CCCN")
+st.image(f"compound_structures/compound_107699.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-[2-(1-benzyl-2,5-dimethylpyrrol-3-yl)-2-oxoethyl]-5-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_7802604.jpg", caption=f"SMILES: Cc1cc(C(=O)Cn2cc(C(F)(F)F)ccc2=O)c(C)n1Cc1ccccc1")
+st.image(f"compound_structures/compound_7802604.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ETHACRYNIC ACID", layout="wide")
-st.title("ETHACRYNIC ACID")
+st.set_page_config(page_title="Ethacrynic acid", layout="wide")
+st.title("Ethacrynic acid")
 st.markdown(f"PubChem Compound ID: [3278](https://pubchem.ncbi.nlm.nih.gov/compound/3278)")
 st.markdown(f"IUPAC Name: 2-[2,3-dichloro-4-(2-methylidenebutanoyl)phenoxy]acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3278.jpg", caption=f"SMILES: C=C(CC)C(=O)c1ccc(OCC(=O)O)c(Cl)c1Cl")
+st.image(f"compound_structures/compound_3278.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DESMOPRESSIN", layout="wide")
-st.title("DESMOPRESSIN")
+st.set_page_config(page_title="Desmopressin", layout="wide")
+st.title("Desmopressin")
 st.markdown(f"PubChem Compound ID: [5311065](https://pubchem.ncbi.nlm.nih.gov/compound/5311065)")
 st.markdown(f"IUPAC Name: (2S)-N-[(2R)-1-[(2-amino-2-oxoethyl)amino]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]-1-[(4R,7S,10S,13S,16S)-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-benzyl-16-[(4-hydroxyphenyl)methyl]-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carbonyl]pyrrolidine-2-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311065.jpg", caption=f"SMILES: N=C(N)NCCCC(NC(=O)C1CCCN1C(=O)C1CSSCCC(=O)NC(Cc2ccc(O)cc2)C(=O)NC(Cc2ccccc2)C(=O)NC(CCC(N)=O)C(=O)NC(CC(N)=O)C(=O)N1)C(=O)NCC(N)=O")
+st.image(f"compound_structures/compound_5311065.jpg", width=400)
 
 st.write("---")
 

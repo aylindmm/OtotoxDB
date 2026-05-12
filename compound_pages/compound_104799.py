@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-(2-chloroethyl)-3-(1-diethoxyphosphorylethyl)-1-nitr
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_104799.jpg", caption=f"SMILES: CCOP(=O)(OCC)C(C)NC(=O)N(CCCl)N=O")
+st.image(f"compound_structures/compound_104799.jpg", width=400)
 
 st.write("---")
 

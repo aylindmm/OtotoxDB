@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="salicyl alcohol", layout="wide")
-st.title("salicyl alcohol")
+st.set_page_config(page_title="Salicyl alcohol", layout="wide")
+st.title("Salicyl alcohol")
 st.markdown(f"PubChem Compound ID: [5146](https://pubchem.ncbi.nlm.nih.gov/compound/5146)")
 st.markdown(f"IUPAC Name: 2-(hydroxymethyl)phenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5146.jpg", caption=f"SMILES: OCc1ccccc1O")
+st.image(f"compound_structures/compound_5146.jpg", width=400)
 
 st.write("---")
 

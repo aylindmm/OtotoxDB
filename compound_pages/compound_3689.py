@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-[2-(4-benzylpiperidin-1-yl)-1-hydroxypropyl]phenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3689.jpg", caption=f"SMILES: CC(C(O)c1ccc(O)cc1)N1CCC(Cc2ccccc2)CC1")
+st.image(f"compound_structures/compound_3689.jpg", width=400)
 
 st.write("---")
 

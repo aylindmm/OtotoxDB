@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: magnesium;tris(2-carboxyphenolate);2-hydroxyethyl(trim
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54682045.jpg", caption=f"SMILES: C[N+](C)(C)CCO.O=C(O)c1ccccc1O.O=C(O)c1ccccc1O.O=C(O)c1ccccc1[O-]")
+st.image(f"compound_structures/compound_54682045.jpg", width=400)
 
 st.write("---")
 

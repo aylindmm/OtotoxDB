@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="resveratrol", layout="wide")
-st.title("resveratrol")
+st.set_page_config(page_title="Resveratrol", layout="wide")
+st.title("Resveratrol")
 st.markdown(f"PubChem Compound ID: [445154](https://pubchem.ncbi.nlm.nih.gov/compound/445154)")
 st.markdown(f"IUPAC Name: 5-[(E)-2-(4-hydroxyphenyl)ethenyl]benzene-1,3-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_445154.jpg", caption=f"SMILES: Oc1ccc(C=Cc2cc(O)cc(O)c2)cc1")
+st.image(f"compound_structures/compound_445154.jpg", width=400)
 
 st.write("---")
 

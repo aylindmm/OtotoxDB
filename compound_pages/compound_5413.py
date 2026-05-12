@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: tetraethylazanium")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5413.jpg", caption=f"SMILES: CC[N+](CC)(CC)CC")
+st.image(f"compound_structures/compound_5413.jpg", width=400)
 
 st.write("---")
 

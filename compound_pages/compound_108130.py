@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Schisandrin B", layout="wide")
-st.title("Schisandrin B")
+st.set_page_config(page_title="Schisandrin b", layout="wide")
+st.title("Schisandrin b")
 st.markdown(f"PubChem Compound ID: [108130](https://pubchem.ncbi.nlm.nih.gov/compound/108130)")
 st.markdown(f"IUPAC Name: 3,4,5,19-tetramethoxy-9,10-dimethyl-15,17-dioxatetracyclo[10.7.0.02,7.014,18]nonadeca-1(19),2,4,6,12,14(18)-hexaene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_108130.jpg", caption=f"SMILES: COc1cc2c(c(OC)c1OC)-c1c(cc3c(c1OC)OCO3)CC(C)C(C)C2")
+st.image(f"compound_structures/compound_108130.jpg", width=400)
 
 st.write("---")
 

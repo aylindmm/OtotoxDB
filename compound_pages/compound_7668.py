@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: propylbenzene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_7668.jpg", caption=f"SMILES: CCCc1ccccc1")
+st.image(f"compound_structures/compound_7668.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SUFENTANIL", layout="wide")
-st.title("SUFENTANIL")
+st.set_page_config(page_title="Sufentanil", layout="wide")
+st.title("Sufentanil")
 st.markdown(f"PubChem Compound ID: [41693](https://pubchem.ncbi.nlm.nih.gov/compound/41693)")
 st.markdown(f"IUPAC Name: N-[4-(methoxymethyl)-1-(2-thiophen-2-ylethyl)piperidin-4-yl]-N-phenylpropanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_41693.jpg", caption=f"SMILES: CCC(=O)N(c1ccccc1)C1(COC)CCN(CCc2cccs2)CC1")
+st.image(f"compound_structures/compound_41693.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="prazosin", layout="wide")
-st.title("prazosin")
+st.set_page_config(page_title="Prazosin", layout="wide")
+st.title("Prazosin")
 st.markdown(f"PubChem Compound ID: [4893](https://pubchem.ncbi.nlm.nih.gov/compound/4893)")
 st.markdown(f"IUPAC Name: [4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(furan-2-yl)methanone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4893.jpg", caption=f"SMILES: COc1cc2nc(N3CCN(C(=O)c4ccco4)CC3)nc(N)c2cc1OC")
+st.image(f"compound_structures/compound_4893.jpg", width=400)
 
 st.write("---")
 

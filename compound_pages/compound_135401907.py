@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="allopurinol", layout="wide")
-st.title("allopurinol")
+st.set_page_config(page_title="Allopurinol", layout="wide")
+st.title("Allopurinol")
 st.markdown(f"PubChem Compound ID: [135401907](https://pubchem.ncbi.nlm.nih.gov/compound/135401907)")
 st.markdown(f"IUPAC Name: 1,5-dihydropyrazolo[5,4-d]pyrimidin-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135401907.jpg", caption=f"SMILES: O=c1[nH]cnc2[nH]ncc12")
+st.image(f"compound_structures/compound_135401907.jpg", width=400)
 
 st.write("---")
 

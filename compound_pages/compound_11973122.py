@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Ginkgolide B", layout="wide")
-st.title("Ginkgolide B")
+st.set_page_config(page_title="Ginkgolide b", layout="wide")
+st.title("Ginkgolide b")
 st.markdown(f"PubChem Compound ID: [11973122](https://pubchem.ncbi.nlm.nih.gov/compound/11973122)")
 st.markdown(f"IUPAC Name: (1R,3R,6R,7S,8S,10R,11R,12S,13S,16S,17R)-8-tert-butyl-6,12,17-trihydroxy-16-methyl-2,4,14,19-tetraoxahexacyclo[8.7.2.01,11.03,7.07,11.013,17]nonadecane-5,15,18-trione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11973122.jpg", caption=f"SMILES: CC1C(=O)O[C@H]2[C@@H](O)[C@@]34[C@H]5C[C@@H](C(C)(C)C)[C@@]36C(O)C(=O)O[C@H]6O[C@@]4(C(=O)O5)[C@@]12O")
+st.image(f"compound_structures/compound_11973122.jpg", width=400)
 
 st.write("---")
 

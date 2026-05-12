@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: morpholin-4-yl morpholine-4-carbodithioate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_83700.jpg", caption=f"SMILES: S=C(SN1CCOCC1)N1CCOCC1")
+st.image(f"compound_structures/compound_83700.jpg", width=400)
 
 st.write("---")
 

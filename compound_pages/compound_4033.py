@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="mechlorethamine", layout="wide")
-st.title("mechlorethamine")
+st.set_page_config(page_title="Mechlorethamine", layout="wide")
+st.title("Mechlorethamine")
 st.markdown(f"PubChem Compound ID: [4033](https://pubchem.ncbi.nlm.nih.gov/compound/4033)")
 st.markdown(f"IUPAC Name: 2-chloro-N-(2-chloroethyl)-N-methylethanamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4033.jpg", caption=f"SMILES: CN(CCCl)CCCl")
+st.image(f"compound_structures/compound_4033.jpg", width=400)
 
 st.write("---")
 

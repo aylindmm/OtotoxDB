@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="trazodone", layout="wide")
-st.title("trazodone")
+st.set_page_config(page_title="Trazodone", layout="wide")
+st.title("Trazodone")
 st.markdown(f"PubChem Compound ID: [5533](https://pubchem.ncbi.nlm.nih.gov/compound/5533)")
 st.markdown(f"IUPAC Name: 2-[3-[4-(3-chlorophenyl)piperazin-1-yl]propyl]-[1,2,4]triazolo[4,3-a]pyridin-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5533.jpg", caption=f"SMILES: O=c1n(CCCN2CCN(c3cccc(Cl)c3)CC2)nc2ccccn12")
+st.image(f"compound_structures/compound_5533.jpg", width=400)
 
 st.write("---")
 

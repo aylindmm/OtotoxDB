@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cytarabine", layout="wide")
-st.title("cytarabine")
+st.set_page_config(page_title="Cytarabine", layout="wide")
+st.title("Cytarabine")
 st.markdown(f"PubChem Compound ID: [6253](https://pubchem.ncbi.nlm.nih.gov/compound/6253)")
 st.markdown(f"IUPAC Name: 4-amino-1-[(2R,3S,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6253.jpg", caption=f"SMILES: Nc1ccn([C@@H]2O[C@H](CO)[C@@H](O)[C@@H]2O)c(=O)n1")
+st.image(f"compound_structures/compound_6253.jpg", width=400)
 
 st.write("---")
 

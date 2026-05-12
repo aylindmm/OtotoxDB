@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="NEOMYCIN SULFATE", layout="wide")
-st.title("NEOMYCIN SULFATE")
+st.set_page_config(page_title="Neomycin sulfate", layout="wide")
+st.title("Neomycin sulfate")
 st.markdown(f"PubChem Compound ID: [197162](https://pubchem.ncbi.nlm.nih.gov/compound/197162)")
 st.markdown(f"IUPAC Name: (2R,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-2-[(2S,3R,4S,5R)-4-[(2R,3R,4R,5S,6S)-3-amino-6-(aminomethyl)-4,5-dihydroxyoxan-2-yl]oxy-3-hydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-3-hydroxycyclohexyl]oxyoxane-3,4-diol;sulfuric acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_197162.jpg", caption=f"SMILES: NC[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CN)[C@@H](O)[C@H](O)[C@H]3N)O[C@@H]2CO)[C@H](N)[C@@H](O)[C@@H]1O")
+st.image(f"compound_structures/compound_197162.jpg", width=400)
 
 st.write("---")
 

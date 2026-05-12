@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2R,3R)-2,3-dihydroxybutanedioic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_444305.jpg", caption=f"SMILES: O=C(O)C(O)C(O)C(=O)O")
+st.image(f"compound_structures/compound_444305.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3,5-diamino-N-(N'-benzylcarbamimidoyl)-6-chloropyrazin
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_108107.jpg", caption=f"SMILES: N=C(NCc1ccccc1)NC(=O)c1nc(Cl)c(N)nc1N")
+st.image(f"compound_structures/compound_108107.jpg", width=400)
 
 st.write("---")
 

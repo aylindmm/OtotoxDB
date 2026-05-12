@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5-fluoro-2-oxo-1H-pyrazine-3-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_492405.jpg", caption=f"SMILES: NC(=O)c1nc(F)c[nH]c1=O")
+st.image(f"compound_structures/compound_492405.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="olanzapine", layout="wide")
-st.title("olanzapine")
+st.set_page_config(page_title="Olanzapine", layout="wide")
+st.title("Olanzapine")
 st.markdown(f"PubChem Compound ID: [135398745](https://pubchem.ncbi.nlm.nih.gov/compound/135398745)")
 st.markdown(f"IUPAC Name: 2-methyl-4-(4-methylpiperazin-1-yl)-10H-thieno[2,3-b][1,5]benzodiazepine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135398745.jpg", caption=f"SMILES: Cc1cc2c(s1)Nc1ccccc1N=C2N1CCN(C)CC1")
+st.image(f"compound_structures/compound_135398745.jpg", width=400)
 
 st.write("---")
 

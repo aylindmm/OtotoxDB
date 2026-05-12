@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="VoSol HC", layout="wide")
-st.title("VoSol HC")
+st.set_page_config(page_title="Vosol hc", layout="wide")
+st.title("Vosol hc")
 st.markdown(f"PubChem Compound ID: [24847774](https://pubchem.ncbi.nlm.nih.gov/compound/24847774)")
 st.markdown(f"IUPAC Name: acetic acid;(8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24847774.jpg", caption=f"SMILES: C[C@]12CCC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO")
+st.image(f"compound_structures/compound_24847774.jpg", width=400)
 
 st.write("---")
 

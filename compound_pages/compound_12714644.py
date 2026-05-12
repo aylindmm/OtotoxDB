@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3-methylsulfonylpropanenitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_12714644.jpg", caption=f"SMILES: CS(=O)(=O)CCC#N")
+st.image(f"compound_structures/compound_12714644.jpg", width=400)
 
 st.write("---")
 

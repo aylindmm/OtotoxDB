@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Kanamycin A sulfate", layout="wide")
-st.title("Kanamycin A sulfate")
+st.set_page_config(page_title="Kanamycin a sulfate", layout="wide")
+st.title("Kanamycin a sulfate")
 st.markdown(f"PubChem Compound ID: [441374](https://pubchem.ncbi.nlm.nih.gov/compound/441374)")
 st.markdown(f"IUPAC Name: (2R,3S,4S,5R,6R)-2-(aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-3-[(2S,3R,4S,5S,6R)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxyoxane-3,4,5-triol;sulfuric acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_441374.jpg", caption=f"SMILES: NC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H](N)C[C@@H]2N)[C@H](O)[C@@H](O)[C@@H]1O")
+st.image(f"compound_structures/compound_441374.jpg", width=400)
 
 st.write("---")
 

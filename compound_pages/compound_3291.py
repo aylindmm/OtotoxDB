@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ethosuximide", layout="wide")
-st.title("ethosuximide")
+st.set_page_config(page_title="Ethosuximide", layout="wide")
+st.title("Ethosuximide")
 st.markdown(f"PubChem Compound ID: [3291](https://pubchem.ncbi.nlm.nih.gov/compound/3291)")
 st.markdown(f"IUPAC Name: 3-ethyl-3-methylpyrrolidine-2,5-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3291.jpg", caption=f"SMILES: CCC1(C)CC(=O)NC1=O")
+st.image(f"compound_structures/compound_3291.jpg", width=400)
 
 st.write("---")
 

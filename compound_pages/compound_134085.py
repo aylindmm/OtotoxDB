@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid"
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_134085.jpg", caption=f"SMILES: O=C(O)C1=CCC2CC(=O)N12")
+st.image(f"compound_structures/compound_134085.jpg", width=400)
 
 st.write("---")
 

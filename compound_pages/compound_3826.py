@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ketorolac", layout="wide")
-st.title("ketorolac")
+st.set_page_config(page_title="Ketorolac", layout="wide")
+st.title("Ketorolac")
 st.markdown(f"PubChem Compound ID: [3826](https://pubchem.ncbi.nlm.nih.gov/compound/3826)")
 st.markdown(f"IUPAC Name: 5-benzoyl-2,3-dihydro-1H-pyrrolizine-1-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3826.jpg", caption=f"SMILES: O=C(c1ccccc1)c1ccc2n1CCC2C(=O)O")
+st.image(f"compound_structures/compound_3826.jpg", width=400)
 
 st.write("---")
 

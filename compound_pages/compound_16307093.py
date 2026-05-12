@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="AdipoRon", layout="wide")
-st.title("AdipoRon")
+st.set_page_config(page_title="Adiporon", layout="wide")
+st.title("Adiporon")
 st.markdown(f"PubChem Compound ID: [16307093](https://pubchem.ncbi.nlm.nih.gov/compound/16307093)")
 st.markdown(f"IUPAC Name: 2-(4-benzoylphenoxy)-N-(1-benzylpiperidin-4-yl)acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16307093.jpg", caption=f"SMILES: O=C(COc1ccc(C(=O)c2ccccc2)cc1)NC1CCN(Cc2ccccc2)CC1")
+st.image(f"compound_structures/compound_16307093.jpg", width=400)
 
 st.write("---")
 

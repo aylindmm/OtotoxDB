@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-methoxy-3-(2-nitroimidazol-1-yl)propan-2-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_26105.jpg", caption=f"SMILES: COCC(O)Cn1ccnc1[N+](=O)[O-]")
+st.image(f"compound_structures/compound_26105.jpg", width=400)
 
 st.write("---")
 

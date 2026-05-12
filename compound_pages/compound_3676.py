@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="lidocaine", layout="wide")
-st.title("lidocaine")
+st.set_page_config(page_title="Lidocaine", layout="wide")
+st.title("Lidocaine")
 st.markdown(f"PubChem Compound ID: [3676](https://pubchem.ncbi.nlm.nih.gov/compound/3676)")
 st.markdown(f"IUPAC Name: 2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3676.jpg", caption=f"SMILES: CCN(CC)CC(=O)Nc1c(C)cccc1C")
+st.image(f"compound_structures/compound_3676.jpg", width=400)
 
 st.write("---")
 

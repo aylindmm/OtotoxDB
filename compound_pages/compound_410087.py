@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-ethenylpyrrolidin-2-one;molecular iodine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_410087.jpg", caption=f"SMILES: C=CN1CCCC1=O.II")
+st.image(f"compound_structures/compound_410087.jpg", width=400)
 
 st.write("---")
 

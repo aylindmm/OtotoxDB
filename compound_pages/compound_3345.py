@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="fentanyl", layout="wide")
-st.title("fentanyl")
+st.set_page_config(page_title="Fentanyl", layout="wide")
+st.title("Fentanyl")
 st.markdown(f"PubChem Compound ID: [3345](https://pubchem.ncbi.nlm.nih.gov/compound/3345)")
 st.markdown(f"IUPAC Name: N-phenyl-N-[1-(2-phenylethyl)piperidin-4-yl]propanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3345.jpg", caption=f"SMILES: CCC(=O)N(c1ccccc1)C1CCN(CCc2ccccc2)CC1")
+st.image(f"compound_structures/compound_3345.jpg", width=400)
 
 st.write("---")
 

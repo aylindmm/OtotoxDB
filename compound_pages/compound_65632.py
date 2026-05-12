@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-[2-oxo-2-[(2-oxothiolan-3-yl)amino]ethyl]sulfanylace
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_65632.jpg", caption=f"SMILES: O=C(O)CSCC(=O)NC1CCSC1=O")
+st.image(f"compound_structures/compound_65632.jpg", width=400)
 
 st.write("---")
 

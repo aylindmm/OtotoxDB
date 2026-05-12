@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dihexa", layout="wide")
-st.title("dihexa")
+st.set_page_config(page_title="Dihexa", layout="wide")
+st.title("Dihexa")
 st.markdown(f"PubChem Compound ID: [129010512](https://pubchem.ncbi.nlm.nih.gov/compound/129010512)")
 st.markdown(f"IUPAC Name: (2S,3S)-N-(6-amino-6-oxohexyl)-2-[[(2S)-2-(hexanoylamino)-3-(4-hydroxyphenyl)propanoyl]amino]-3-methylpentanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_129010512.jpg", caption=f"SMILES: CCCCCC(=O)NC(Cc1ccc(O)cc1)C(=O)NC(C(=O)NCCCCCC(N)=O)[C@@H](C)CC")
+st.image(f"compound_structures/compound_129010512.jpg", width=400)
 
 st.write("---")
 

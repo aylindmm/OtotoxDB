@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cefotetan", layout="wide")
-st.title("cefotetan")
+st.set_page_config(page_title="Cefotetan", layout="wide")
+st.title("Cefotetan")
 st.markdown(f"PubChem Compound ID: [53025](https://pubchem.ncbi.nlm.nih.gov/compound/53025)")
 st.markdown(f"IUPAC Name: (6R,7S)-7-[[4-(2-amino-1-carboxy-2-oxoethylidene)-1,3-dithietane-2-carbonyl]amino]-7-methoxy-3-[(1-methyltetrazol-5-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_53025.jpg", caption=f"SMILES: CO[C@@]1(NC(O)=c2sc(=C(C(N)=O)C(=O)O)s2)C(=O)N2C(C(=O)O)=C(CSc3nnnn3C)CS[C@@H]21")
+st.image(f"compound_structures/compound_53025.jpg", width=400)
 
 st.write("---")
 

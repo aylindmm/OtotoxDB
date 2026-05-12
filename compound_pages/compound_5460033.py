@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: azane;dichloroplatinum")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5460033.jpg", caption=f"SMILES: [Cl][Pt][Cl]")
+st.image(f"compound_structures/compound_5460033.jpg", width=400)
 
 st.write("---")
 

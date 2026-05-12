@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="RIFAMYCIN", layout="wide")
-st.title("RIFAMYCIN")
+st.set_page_config(page_title="Rifamycin", layout="wide")
+st.title("Rifamycin")
 st.markdown(f"PubChem Compound ID: [6324616](https://pubchem.ncbi.nlm.nih.gov/compound/6324616)")
 st.markdown(f"IUPAC Name: [(7S,9E,11S,12R,13S,14R,15R,16R,17S,18S,19E,21Z)-2,15,17,27,29-pentahydroxy-11-methoxy-3,7,12,14,16,18,22-heptamethyl-6,23-dioxo-8,30-dioxa-24-azatetracyclo[23.3.1.14,7.05,28]triaconta-1(29),2,4,9,19,21,25,27-octaen-13-yl] acetate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6324616.jpg", caption=f"SMILES: CO[C@H]1/C=C/O[C@@]2(C)Oc3c(C)c(O)c4c(O)c(cc(O)c4c3C2=O)NC(=O)C(C)=CC=CC(C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C")
+st.image(f"compound_structures/compound_6324616.jpg", width=400)
 
 st.write("---")
 

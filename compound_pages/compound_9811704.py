@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="T58MSI464G", layout="wide")
-st.title("T58MSI464G")
+st.set_page_config(page_title="T58msi464g", layout="wide")
+st.title("T58msi464g")
 st.markdown(f"PubChem Compound ID: [9811704](https://pubchem.ncbi.nlm.nih.gov/compound/9811704)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-4-[(2R,3R,4R,5S,6R)-5-[(2R,3R,4S,5S,6R)-3,4-dihydroxy-6-methyl-5-[[(1S,4R,5S,6S)-4,5,6-trihydroxy-3-(hydroxymethyl)cyclohex-2-en-1-yl]amino]oxan-2-yl]oxy-3,4-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2,3,5,6-tetrahydroxyhexanal")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9811704.jpg", caption=f"SMILES: C[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@@H](OC(C(=O)C(O)CO)[C@H](O)CO)O[C@@H]2CO)[C@H](O)[C@@H](O)[C@@H]1N[C@H]1C=C(CO)[C@@H](O)[C@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_9811704.jpg", width=400)
 
 st.write("---")
 

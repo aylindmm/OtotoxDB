@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="QS11", layout="wide")
-st.title("QS11")
+st.set_page_config(page_title="Qs11", layout="wide")
+st.title("Qs11")
 st.markdown(f"PubChem Compound ID: [42623900](https://pubchem.ncbi.nlm.nih.gov/compound/42623900)")
 st.markdown(f"IUPAC Name: (2S)-2-[[2-(2,3-dihydro-1H-inden-5-yloxy)-9-[(4-phenylphenyl)methyl]purin-6-yl]amino]-3-phenylpropan-1-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_42623900.jpg", caption=f"SMILES: OC[C@H](Cc1ccccc1)Nc1nc(Oc2ccc3c(c2)CCC3)nc2c1ncn2Cc1ccc(-c2ccccc2)cc1")
+st.image(f"compound_structures/compound_42623900.jpg", width=400)
 
 st.write("---")
 

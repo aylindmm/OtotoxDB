@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="flunarizine", layout="wide")
-st.title("flunarizine")
+st.set_page_config(page_title="Flunarizine", layout="wide")
+st.title("Flunarizine")
 st.markdown(f"PubChem Compound ID: [941361](https://pubchem.ncbi.nlm.nih.gov/compound/941361)")
 st.markdown(f"IUPAC Name: 1-[bis(4-fluorophenyl)methyl]-4-[(E)-3-phenylprop-2-enyl]piperazine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_941361.jpg", caption=f"SMILES: Fc1ccc(C(c2ccc(F)cc2)N2CCN(C/C=C/c3ccccc3)CC2)cc1")
+st.image(f"compound_structures/compound_941361.jpg", width=400)
 
 st.write("---")
 

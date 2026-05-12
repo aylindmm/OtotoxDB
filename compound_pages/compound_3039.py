@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dichlorvos", layout="wide")
-st.title("dichlorvos")
+st.set_page_config(page_title="Dichlorvos", layout="wide")
+st.title("Dichlorvos")
 st.markdown(f"PubChem Compound ID: [3039](https://pubchem.ncbi.nlm.nih.gov/compound/3039)")
 st.markdown(f"IUPAC Name: 2,2-dichloroethenyl dimethyl phosphate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3039.jpg", caption=f"SMILES: COP(=O)(OC)OC=C(Cl)Cl")
+st.image(f"compound_structures/compound_3039.jpg", width=400)
 
 st.write("---")
 

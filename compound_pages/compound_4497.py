@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nimodipine", layout="wide")
-st.title("nimodipine")
+st.set_page_config(page_title="Nimodipine", layout="wide")
+st.title("Nimodipine")
 st.markdown(f"PubChem Compound ID: [4497](https://pubchem.ncbi.nlm.nih.gov/compound/4497)")
 st.markdown(f"IUPAC Name: 3-O-(2-methoxyethyl) 5-O-propan-2-yl 2,6-dimethyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4497.jpg", caption=f"SMILES: COCCOC(=O)C1=C(C)N=C(C)C(C(=O)OC(C)C)C1c1cccc([N+](=O)[O-])c1")
+st.image(f"compound_structures/compound_4497.jpg", width=400)
 
 st.write("---")
 

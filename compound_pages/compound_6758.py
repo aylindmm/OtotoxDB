@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="rotenone", layout="wide")
-st.title("rotenone")
+st.set_page_config(page_title="Rotenone", layout="wide")
+st.title("Rotenone")
 st.markdown(f"PubChem Compound ID: [6758](https://pubchem.ncbi.nlm.nih.gov/compound/6758)")
 st.markdown(f"IUPAC Name: (1S,6R,13S)-16,17-dimethoxy-6-prop-1-en-2-yl-2,7,20-trioxapentacyclo[11.8.0.03,11.04,8.014,19]henicosa-3(11),4(8),9,14,16,18-hexaen-12-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6758.jpg", caption=f"SMILES: C=C(C)[C@H]1Cc2c(ccc3c2O[C@@H]2COc4cc(OC)c(OC)cc4C2C3=O)O1")
+st.image(f"compound_structures/compound_6758.jpg", width=400)
 
 st.write("---")
 

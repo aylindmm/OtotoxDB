@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-Naphthacenecarboxamide, 4-(dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-, hydrochloride (1:1), (4S,4aR,5S,5aR,6S,12aS)-", layout="wide")
-st.title("2-Naphthacenecarboxamide, 4-(dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-, hydrochloride (1:1), (4S,4aR,5S,5aR,6S,12aS)-")
+st.set_page_config(page_title="2-naphthacenecarboxamide, 4-(dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-, hydrochloride (1:1), (4s,4ar,5s,5ar,6s,12as)-", layout="wide")
+st.title("2-naphthacenecarboxamide, 4-(dimethylamino)-1,4,4a,5,5a,6,11,12a-octahydro-3,5,6,10,12,12a-hexahydroxy-6-methyl-1,11-dioxo-, hydrochloride (1:1), (4s,4ar,5s,5ar,6s,12as)-")
 st.markdown(f"PubChem Compound ID: [54680782](https://pubchem.ncbi.nlm.nih.gov/compound/54680782)")
 st.markdown(f"IUPAC Name: (4S,4aR,5S,5aR,6S,12aR)-4-(dimethylamino)-1,5,6,10,11,12a-hexahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide;hydrochloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54680782.jpg", caption=f"SMILES: CN(C)C1C(=O)C(C(N)=O)C(=O)[C@@]2(O)C(=O)C3C(=O)c4c(O)cccc4[C@@](C)(O)[C@H]3[C@H](O)[C@@H]12")
+st.image(f"compound_structures/compound_54680782.jpg", width=400)
 
 st.write("---")
 

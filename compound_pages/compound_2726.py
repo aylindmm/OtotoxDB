@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="chlorpromazine", layout="wide")
-st.title("chlorpromazine")
+st.set_page_config(page_title="Chlorpromazine", layout="wide")
+st.title("Chlorpromazine")
 st.markdown(f"PubChem Compound ID: [2726](https://pubchem.ncbi.nlm.nih.gov/compound/2726)")
 st.markdown(f"IUPAC Name: 3-(2-chlorophenothiazin-10-yl)-N,N-dimethylpropan-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2726.jpg", caption=f"SMILES: CN(C)CCCN1c2ccccc2Sc2ccc(Cl)cc21")
+st.image(f"compound_structures/compound_2726.jpg", width=400)
 
 st.write("---")
 

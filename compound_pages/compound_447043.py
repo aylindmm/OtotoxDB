@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="azithromycin", layout="wide")
-st.title("azithromycin")
+st.set_page_config(page_title="Azithromycin", layout="wide")
+st.title("Azithromycin")
 st.markdown(f"PubChem Compound ID: [447043](https://pubchem.ncbi.nlm.nih.gov/compound/447043)")
 st.markdown(f"IUPAC Name: (2R,3S,4R,5R,8R,10R,11R,12S,13S,14R)-11-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-2-ethyl-3,4,10-trihydroxy-13-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,6,8,10,12,14-heptamethyl-1-oxa-6-azacyclopentadecan-15-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_447043.jpg", caption=f"SMILES: CC[C@H]1OC(=O)C(C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O")
+st.image(f"compound_structures/compound_447043.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="midodrine", layout="wide")
-st.title("midodrine")
+st.set_page_config(page_title="Midodrine", layout="wide")
+st.title("Midodrine")
 st.markdown(f"PubChem Compound ID: [4195](https://pubchem.ncbi.nlm.nih.gov/compound/4195)")
 st.markdown(f"IUPAC Name: 2-amino-N-[2-(2,5-dimethoxyphenyl)-2-hydroxyethyl]acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4195.jpg", caption=f"SMILES: COc1ccc(OC)c(C(O)CNC(=O)CN)c1")
+st.image(f"compound_structures/compound_4195.jpg", width=400)
 
 st.write("---")
 

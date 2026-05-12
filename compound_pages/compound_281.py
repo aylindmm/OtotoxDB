@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="carbon monoxide", layout="wide")
-st.title("carbon monoxide")
+st.set_page_config(page_title="Carbon monoxide", layout="wide")
+st.title("Carbon monoxide")
 st.markdown(f"PubChem Compound ID: [281](https://pubchem.ncbi.nlm.nih.gov/compound/281)")
 st.markdown(f"IUPAC Name: carbon monoxide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_281.jpg", caption=f"SMILES: [C-]#[O+]")
+st.image(f"compound_structures/compound_281.jpg", width=400)
 
 st.write("---")
 

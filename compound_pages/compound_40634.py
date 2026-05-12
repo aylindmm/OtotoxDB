@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="trolox", layout="wide")
-st.title("trolox")
+st.set_page_config(page_title="Trolox", layout="wide")
+st.title("Trolox")
 st.markdown(f"PubChem Compound ID: [40634](https://pubchem.ncbi.nlm.nih.gov/compound/40634)")
 st.markdown(f"IUPAC Name: 6-hydroxy-2,5,7,8-tetramethyl-3,4-dihydrochromene-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_40634.jpg", caption=f"SMILES: Cc1c(C)c2c(c(C)c1O)CCC(C)(C(=O)O)O2")
+st.image(f"compound_structures/compound_40634.jpg", width=400)
 
 st.write("---")
 

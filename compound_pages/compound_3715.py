@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="indomethacin", layout="wide")
-st.title("indomethacin")
+st.set_page_config(page_title="Indomethacin", layout="wide")
+st.title("Indomethacin")
 st.markdown(f"PubChem Compound ID: [3715](https://pubchem.ncbi.nlm.nih.gov/compound/3715)")
 st.markdown(f"IUPAC Name: 2-[1-(4-chlorobenzoyl)-5-methoxy-2-methylindol-3-yl]acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3715.jpg", caption=f"SMILES: COc1ccc2c(c1)c(CC(=O)O)c(C)n2C(=O)c1ccc(Cl)cc1")
+st.image(f"compound_structures/compound_3715.jpg", width=400)
 
 st.write("---")
 

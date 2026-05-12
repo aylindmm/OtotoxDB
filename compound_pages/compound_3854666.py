@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-(2-bromophenyl)-3-(2-hydroxy-4-nitrophenyl)urea")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3854666.jpg", caption=f"SMILES: O=C(Nc1ccc([N+](=O)[O-])cc1O)Nc1ccccc1Br")
+st.image(f"compound_structures/compound_3854666.jpg", width=400)
 
 st.write("---")
 

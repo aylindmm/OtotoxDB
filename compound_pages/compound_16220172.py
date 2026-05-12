@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-(2,4-ditert-butyl-5-hydroxyphenyl)-4-oxo-1H-quinolin
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16220172.jpg", caption=f"SMILES: CC(C)(C)c1cc(C(C)(C)C)c(NC(=O)c2c[nH]c3ccccc3c2=O)cc1O")
+st.image(f"compound_structures/compound_16220172.jpg", width=400)
 
 st.write("---")
 

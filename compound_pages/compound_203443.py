@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-Deoxystreptamine", layout="wide")
-st.title("2-Deoxystreptamine")
+st.set_page_config(page_title="2-deoxystreptamine", layout="wide")
+st.title("2-deoxystreptamine")
 st.markdown(f"PubChem Compound ID: [203443](https://pubchem.ncbi.nlm.nih.gov/compound/203443)")
 st.markdown(f"IUPAC Name: (1S,3R,4S,6R)-4,6-diaminocyclohexane-1,2,3-triol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_203443.jpg", caption=f"SMILES: N[C@@H]1C[C@H](N)[C@@H](O)C(O)[C@H]1O")
+st.image(f"compound_structures/compound_203443.jpg", width=400)
 
 st.write("---")
 

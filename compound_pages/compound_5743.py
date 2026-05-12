@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dexamethasone", layout="wide")
-st.title("dexamethasone")
+st.set_page_config(page_title="Dexamethasone", layout="wide")
+st.title("Dexamethasone")
 st.markdown(f"PubChem Compound ID: [5743](https://pubchem.ncbi.nlm.nih.gov/compound/5743)")
 st.markdown(f"IUPAC Name: (8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13,16-trimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5743.jpg", caption=f"SMILES: C[C@@H]1C[C@H]2[C@@H]3CC=C4CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)CO")
+st.image(f"compound_structures/compound_5743.jpg", width=400)
 
 st.write("---")
 

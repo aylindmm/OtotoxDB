@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="KU6M163B0R", layout="wide")
-st.title("KU6M163B0R")
+st.set_page_config(page_title="Ku6m163b0r", layout="wide")
+st.title("Ku6m163b0r")
 st.markdown(f"PubChem Compound ID: [117587625](https://pubchem.ncbi.nlm.nih.gov/compound/117587625)")
 st.markdown(f"IUPAC Name: azane;bis(oxygen(2-));bis(ruthenium(3+));ruthenium(4+);hexachloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_117587625.jpg", caption=f"SMILES: [Ru+3].[Ru+3].[Ru+4]")
+st.image(f"compound_structures/compound_117587625.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: [(5R)-3-[3-fluoro-4-[6-(2-methyltetrazol-5-yl)-3-pyrid
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11476460.jpg", caption=f"SMILES: Cn1nnc(-c2ccc(-c3ccc(N4C[C@H](COP(=O)(O)O)OC4=O)cc3F)cn2)n1")
+st.image(f"compound_structures/compound_11476460.jpg", width=400)
 
 st.write("---")
 

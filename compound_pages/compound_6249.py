@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ampicillin", layout="wide")
-st.title("ampicillin")
+st.set_page_config(page_title="Ampicillin", layout="wide")
+st.title("Ampicillin")
 st.markdown(f"PubChem Compound ID: [6249](https://pubchem.ncbi.nlm.nih.gov/compound/6249)")
 st.markdown(f"IUPAC Name: (2S,5R,6R)-6-[[(2R)-2-amino-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6249.jpg", caption=f"SMILES: CC1(C)S[C@@H]2C(NC(=O)C(N)c3ccccc3)C(=O)N2C1C(=O)O")
+st.image(f"compound_structures/compound_6249.jpg", width=400)
 
 st.write("---")
 

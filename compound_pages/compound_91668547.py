@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="EPZ020411", layout="wide")
-st.title("EPZ020411")
+st.set_page_config(page_title="Epz020411", layout="wide")
+st.title("Epz020411")
 st.markdown(f"PubChem Compound ID: [91668547](https://pubchem.ncbi.nlm.nih.gov/compound/91668547)")
 st.markdown(f"IUPAC Name: N,N'-dimethyl-N'-[[5-[4-[3-[2-(oxan-4-yl)ethoxy]cyclobutyl]oxyphenyl]-1H-pyrazol-4-yl]methyl]ethane-1,2-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_91668547.jpg", caption=f"SMILES: CNCCN(C)Cc1c[nH]nc1-c1ccc(OC2CC(OCCC3CCOCC3)C2)cc1")
+st.image(f"compound_structures/compound_91668547.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="POBN", layout="wide")
-st.title("POBN")
+st.set_page_config(page_title="Pobn", layout="wide")
+st.title("Pobn")
 st.markdown(f"PubChem Compound ID: [135532295](https://pubchem.ncbi.nlm.nih.gov/compound/135532295)")
 st.markdown(f"IUPAC Name: N-tert-butyl-1-(1-oxidopyridin-1-ium-4-yl)methanimine oxide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135532295.jpg", caption=f"SMILES: CC(C)(C)[N+]([O-])=Cc1cc[n+]([O-])cc1")
+st.image(f"compound_structures/compound_135532295.jpg", width=400)
 
 st.write("---")
 

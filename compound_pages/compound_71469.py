@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="erythromycin lactobionate", layout="wide")
-st.title("erythromycin lactobionate")
+st.set_page_config(page_title="Erythromycin lactobionate", layout="wide")
+st.title("Erythromycin lactobionate")
 st.markdown(f"PubChem Compound ID: [71469](https://pubchem.ncbi.nlm.nih.gov/compound/71469)")
 st.markdown(f"IUPAC Name: (3R,4S,5S,6R,7R,9R,11R,12R,13S,14R)-6-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-14-ethyl-7,12,13-trihydroxy-4-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,7,9,11,13-hexamethyl-oxacyclotetradecane-2,10-dione;(2R,3R,4R,5R)-2,3,5,6-tetrahydroxy-4-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyhexanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_71469.jpg", caption=f"SMILES: CC[C@H]1OC(=O)C(C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@H](N(C)C)[C@H]2O)[C@](C)(O)CC(C)C(=O)C(C)[C@@H](O)[C@]1(C)O.O=C(O)C(O)C(O)C(O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO")
+st.image(f"compound_structures/compound_71469.jpg", width=400)
 
 st.write("---")
 

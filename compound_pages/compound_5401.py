@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="terazosin", layout="wide")
-st.title("terazosin")
+st.set_page_config(page_title="Terazosin", layout="wide")
+st.title("Terazosin")
 st.markdown(f"PubChem Compound ID: [5401](https://pubchem.ncbi.nlm.nih.gov/compound/5401)")
 st.markdown(f"IUPAC Name: [4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(oxolan-2-yl)methanone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5401.jpg", caption=f"SMILES: COc1cc2nc(N3CCN(C(=O)C4CCCO4)CC3)nc(N)c2cc1OC")
+st.image(f"compound_structures/compound_5401.jpg", width=400)
 
 st.write("---")
 

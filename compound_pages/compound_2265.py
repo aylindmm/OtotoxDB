@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="azathioprine", layout="wide")
-st.title("azathioprine")
+st.set_page_config(page_title="Azathioprine", layout="wide")
+st.title("Azathioprine")
 st.markdown(f"PubChem Compound ID: [2265](https://pubchem.ncbi.nlm.nih.gov/compound/2265)")
 st.markdown(f"IUPAC Name: 6-(3-methyl-5-nitroimidazol-4-yl)sulfanyl-7H-purine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2265.jpg", caption=f"SMILES: Cn1cnc([N+](=O)[O-])c1Sc1ncnc2[nH]cnc12")
+st.image(f"compound_structures/compound_2265.jpg", width=400)
 
 st.write("---")
 

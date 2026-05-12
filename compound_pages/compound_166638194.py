@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: iron(5+);nitroxyl;pentacyanide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_166638194.jpg", caption=f"SMILES: C#N.C#N.C#N.C#N.C#N.N=O.[Fe+5]")
+st.image(f"compound_structures/compound_166638194.jpg", width=400)
 
 st.write("---")
 

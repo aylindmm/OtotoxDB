@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="disopyramide", layout="wide")
-st.title("disopyramide")
+st.set_page_config(page_title="Disopyramide", layout="wide")
+st.title("Disopyramide")
 st.markdown(f"PubChem Compound ID: [3114](https://pubchem.ncbi.nlm.nih.gov/compound/3114)")
 st.markdown(f"IUPAC Name: 4-[di(propan-2-yl)amino]-2-phenyl-2-pyridin-2-ylbutanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3114.jpg", caption=f"SMILES: CC(C)N(CCC(C(N)=O)(c1ccccc1)c1ccccn1)C(C)C")
+st.image(f"compound_structures/compound_3114.jpg", width=400)
 
 st.write("---")
 

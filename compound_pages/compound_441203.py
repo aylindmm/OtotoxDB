@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="trans-platin", layout="wide")
-st.title("trans-platin")
+st.set_page_config(page_title="Trans-platin", layout="wide")
+st.title("Trans-platin")
 st.markdown(f"PubChem Compound ID: [441203](https://pubchem.ncbi.nlm.nih.gov/compound/441203)")
 st.markdown(f"IUPAC Name: azane;dichloroplatinum(2+)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_441203.jpg", caption=f"SMILES: [Cl][Pt+2][Cl]")
+st.image(f"compound_structures/compound_441203.jpg", width=400)
 
 st.write("---")
 

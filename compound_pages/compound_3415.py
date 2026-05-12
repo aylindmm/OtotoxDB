@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="foscarnet", layout="wide")
-st.title("foscarnet")
+st.set_page_config(page_title="Foscarnet", layout="wide")
+st.title("Foscarnet")
 st.markdown(f"PubChem Compound ID: [3415](https://pubchem.ncbi.nlm.nih.gov/compound/3415)")
 st.markdown(f"IUPAC Name: phosphonoformic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3415.jpg", caption=f"SMILES: O=C(O)P(=O)(O)O")
+st.image(f"compound_structures/compound_3415.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DTXSID3040776", layout="wide")
-st.title("DTXSID3040776")
+st.set_page_config(page_title="Dtxsid3040776", layout="wide")
+st.title("Dtxsid3040776")
 st.markdown(f"PubChem Compound ID: [18542136](https://pubchem.ncbi.nlm.nih.gov/compound/18542136)")
 st.markdown(f"IUPAC Name: 2-(2,4-dihydroxyphenyl)-3,5,7-trihydroxychromen-4-one;dihydrate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_18542136.jpg", caption=f"SMILES: O=c1c(O)c(-c2ccc(O)cc2O)oc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_18542136.jpg", width=400)
 
 st.write("---")
 

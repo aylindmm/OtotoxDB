@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="N-Acetyl-L-cysteine", layout="wide")
-st.title("N-Acetyl-L-cysteine")
+st.set_page_config(page_title="N-acetyl-l-cysteine", layout="wide")
+st.title("N-acetyl-l-cysteine")
 st.markdown(f"PubChem Compound ID: [12035](https://pubchem.ncbi.nlm.nih.gov/compound/12035)")
 st.markdown(f"IUPAC Name: (2R)-2-acetamido-3-sulfanylpropanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_12035.jpg", caption=f"SMILES: CC(=O)NC(CS)C(=O)O")
+st.image(f"compound_structures/compound_12035.jpg", width=400)
 
 st.write("---")
 

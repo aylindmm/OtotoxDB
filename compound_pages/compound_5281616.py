@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3,5,7-trihydroxy-2-phenylchromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5281616.jpg", caption=f"SMILES: O=c1c(O)c(-c2ccccc2)oc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_5281616.jpg", width=400)
 
 st.write("---")
 

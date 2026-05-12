@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="diclofenac", layout="wide")
-st.title("diclofenac")
+st.set_page_config(page_title="Diclofenac", layout="wide")
+st.title("Diclofenac")
 st.markdown(f"PubChem Compound ID: [3033](https://pubchem.ncbi.nlm.nih.gov/compound/3033)")
 st.markdown(f"IUPAC Name: 2-[2-(2,6-dichloroanilino)phenyl]acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3033.jpg", caption=f"SMILES: O=C(O)Cc1ccccc1Nc1c(Cl)cccc1Cl")
+st.image(f"compound_structures/compound_3033.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 17-methoxy-5,7-dioxa-13-azoniapentacyclo[11.8.0.02,10.
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_72704.jpg", caption=f"SMILES: COc1ccc2cc3[n+](cc2c1O)CCc1cc2c(cc1-3)OCO2")
+st.image(f"compound_structures/compound_72704.jpg", width=400)
 
 st.write("---")
 

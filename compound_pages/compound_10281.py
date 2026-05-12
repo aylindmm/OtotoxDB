@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-methyl-5-propan-2-ylcyclohexa-2,5-diene-1,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10281.jpg", caption=f"SMILES: C=C(C)c1cc(O)c(C)cc1O")
+st.image(f"compound_structures/compound_10281.jpg", width=400)
 
 st.write("---")
 

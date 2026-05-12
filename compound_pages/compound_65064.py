@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="(-)-Epigallocatechin gallate", layout="wide")
-st.title("(-)-Epigallocatechin gallate")
+st.set_page_config(page_title="(-)-epigallocatechin gallate", layout="wide")
+st.title("(-)-epigallocatechin gallate")
 st.markdown(f"PubChem Compound ID: [65064](https://pubchem.ncbi.nlm.nih.gov/compound/65064)")
 st.markdown(f"IUPAC Name: [(2R,3R)-5,7-dihydroxy-2-(3,4,5-trihydroxyphenyl)-3,4-dihydro-2H-chromen-3-yl] 3,4,5-trihydroxybenzoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_65064.jpg", caption=f"SMILES: O=C(O[C@@H]1Cc2c(O)cc(O)cc2O[C@@H]1c1cc(O)c(O)c(O)c1)c1cc(O)c(O)c(O)c1")
+st.image(f"compound_structures/compound_65064.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="hydrogen peroxide", layout="wide")
-st.title("hydrogen peroxide")
+st.set_page_config(page_title="Hydrogen peroxide", layout="wide")
+st.title("Hydrogen peroxide")
 st.markdown(f"PubChem Compound ID: [784](https://pubchem.ncbi.nlm.nih.gov/compound/784)")
 st.markdown(f"IUPAC Name: hydrogen peroxide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_784.jpg", caption=f"SMILES: OO")
+st.image(f"compound_structures/compound_784.jpg", width=400)
 
 st.write("---")
 

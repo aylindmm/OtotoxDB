@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="fluvoxamine", layout="wide")
-st.title("fluvoxamine")
+st.set_page_config(page_title="Fluvoxamine", layout="wide")
+st.title("Fluvoxamine")
 st.markdown(f"PubChem Compound ID: [5324346](https://pubchem.ncbi.nlm.nih.gov/compound/5324346)")
 st.markdown(f"IUPAC Name: 2-[(E)-[5-methoxy-1-[4-(trifluoromethyl)phenyl]pentylidene]amino]oxyethanamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5324346.jpg", caption=f"SMILES: COCCCCC(=NOCCN)c1ccc(C(F)(F)F)cc1")
+st.image(f"compound_structures/compound_5324346.jpg", width=400)
 
 st.write("---")
 

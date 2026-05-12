@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3-(dibutylamino)-1-[1,3-dichloro-6-(trifluoromethyl)ph
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_37393.jpg", caption=f"SMILES: CCCCN(CCCC)CCC(O)c1cc2c(Cl)cc(Cl)cc2c2cc(C(F)(F)F)ccc12")
+st.image(f"compound_structures/compound_37393.jpg", width=400)
 
 st.write("---")
 

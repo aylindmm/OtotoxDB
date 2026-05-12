@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="THIOPENTAL SODIUM", layout="wide")
-st.title("THIOPENTAL SODIUM")
+st.set_page_config(page_title="Thiopental sodium", layout="wide")
+st.title("Thiopental sodium")
 st.markdown(f"PubChem Compound ID: [23665410](https://pubchem.ncbi.nlm.nih.gov/compound/23665410)")
 st.markdown(f"IUPAC Name: sodium 5-ethyl-4,6-dioxo-5-pentan-2-yl-1H-pyrimidine-2-thiolate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_23665410.jpg", caption=f"SMILES: CCCC(C)C1(CC)C(=O)NC(=S)NC1=O")
+st.image(f"compound_structures/compound_23665410.jpg", width=400)
 
 st.write("---")
 

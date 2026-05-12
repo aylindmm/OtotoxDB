@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tobramycin", layout="wide")
-st.title("tobramycin")
+st.set_page_config(page_title="Tobramycin", layout="wide")
+st.title("Tobramycin")
 st.markdown(f"PubChem Compound ID: [36294](https://pubchem.ncbi.nlm.nih.gov/compound/36294)")
 st.markdown(f"IUPAC Name: (2S,3R,4S,5S,6R)-4-amino-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,5S,6R)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_36294.jpg", caption=f"SMILES: NC[C@H]1O[C@H](O[C@H]2[C@H](O)[C@@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H](N)C[C@@H]2N)[C@H](N)C[C@@H]1O")
+st.image(f"compound_structures/compound_36294.jpg", width=400)
 
 st.write("---")
 

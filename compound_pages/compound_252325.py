@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="trans-beta-Methylstyrene", layout="wide")
-st.title("trans-beta-Methylstyrene")
+st.set_page_config(page_title="Trans-beta-methylstyrene", layout="wide")
+st.title("Trans-beta-methylstyrene")
 st.markdown(f"PubChem Compound ID: [252325](https://pubchem.ncbi.nlm.nih.gov/compound/252325)")
 st.markdown(f"IUPAC Name: [(E)-prop-1-enyl]benzene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_252325.jpg", caption=f"SMILES: C/C=C/c1ccccc1")
+st.image(f"compound_structures/compound_252325.jpg", width=400)
 
 st.write("---")
 

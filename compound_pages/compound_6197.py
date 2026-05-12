@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cycloheximide", layout="wide")
-st.title("cycloheximide")
+st.set_page_config(page_title="Cycloheximide", layout="wide")
+st.title("Cycloheximide")
 st.markdown(f"PubChem Compound ID: [6197](https://pubchem.ncbi.nlm.nih.gov/compound/6197)")
 st.markdown(f"IUPAC Name: 4-[(2R)-2-[(1S,3S,5S)-3,5-dimethyl-2-oxocyclohexyl]-2-hydroxyethyl]piperidine-2,6-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6197.jpg", caption=f"SMILES: CC1C[C@H](C)CC([C@H](O)CC2CC(=O)NC(=O)C2)C1=O")
+st.image(f"compound_structures/compound_6197.jpg", width=400)
 
 st.write("---")
 

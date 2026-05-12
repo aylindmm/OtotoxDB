@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="RefChem:53344", layout="wide")
-st.title("RefChem:53344")
+st.set_page_config(page_title="Refchem:53344", layout="wide")
+st.title("Refchem:53344")
 st.markdown(f"PubChem Compound ID: [132598553](https://pubchem.ncbi.nlm.nih.gov/compound/132598553)")
 st.markdown(f"IUPAC Name: azaniumylboranuide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_132598553.jpg", caption=f"SMILES: [BH3-][NH3+]")
+st.image(f"compound_structures/compound_132598553.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="5,7-DIHYDROXY-4-METHYLCOUMARIN", layout="wide")
-st.title("5,7-DIHYDROXY-4-METHYLCOUMARIN")
+st.set_page_config(page_title="5,7-dihydroxy-4-methylcoumarin", layout="wide")
+st.title("5,7-dihydroxy-4-methylcoumarin")
 st.markdown(f"PubChem Compound ID: [5354284](https://pubchem.ncbi.nlm.nih.gov/compound/5354284)")
 st.markdown(f"IUPAC Name: 5,7-dihydroxy-4-methylchromen-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5354284.jpg", caption=f"SMILES: Cc1cc(=O)oc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_5354284.jpg", width=400)
 
 st.write("---")
 

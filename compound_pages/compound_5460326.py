@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="RefChem:1092748", layout="wide")
-st.title("RefChem:1092748")
+st.set_page_config(page_title="Refchem:1092748", layout="wide")
+st.title("Refchem:1092748")
 st.markdown(f"PubChem Compound ID: [5460326](https://pubchem.ncbi.nlm.nih.gov/compound/5460326)")
 st.markdown(f"IUPAC Name: 5-(dithiolan-3-yl)pentanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5460326.jpg", caption=f"SMILES: O=C(O)CCCCC1CCSS1")
+st.image(f"compound_structures/compound_5460326.jpg", width=400)
 
 st.write("---")
 

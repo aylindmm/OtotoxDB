@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="NecroX-5", layout="wide")
-st.title("NecroX-5")
+st.set_page_config(page_title="Necrox-5", layout="wide")
+st.title("Necrox-5")
 st.markdown(f"PubChem Compound ID: [71514788](https://pubchem.ncbi.nlm.nih.gov/compound/71514788)")
 st.markdown(f"IUPAC Name: 5-[(1,1-dioxo-1,4-thiazinan-4-yl)methyl]-N-(oxan-4-ylmethyl)-2-phenyl-1H-indol-7-amine;methanesulfonic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_71514788.jpg", caption=f"SMILES: O=S1(=O)CCN(Cc2cc(NCC3CCOCC3)c3[nH]c(-c4ccccc4)cc3c2)CC1")
+st.image(f"compound_structures/compound_71514788.jpg", width=400)
 
 st.write("---")
 

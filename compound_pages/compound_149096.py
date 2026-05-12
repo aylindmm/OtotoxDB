@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="LEVOFLOXACIN", layout="wide")
-st.title("LEVOFLOXACIN")
+st.set_page_config(page_title="Levofloxacin", layout="wide")
+st.title("Levofloxacin")
 st.markdown(f"PubChem Compound ID: [149096](https://pubchem.ncbi.nlm.nih.gov/compound/149096)")
 st.markdown(f"IUPAC Name: (2S)-7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_149096.jpg", caption=f"SMILES: C[C@H]1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23")
+st.image(f"compound_structures/compound_149096.jpg", width=400)
 
 st.write("---")
 

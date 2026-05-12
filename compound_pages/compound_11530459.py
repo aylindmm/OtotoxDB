@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-[4-(2-butoxyethoxy)-5-methyl-1,3-thiazol-2-yl]-2-flu
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11530459.jpg", caption=f"SMILES: CCCCOCCOc1nc(-c2ccc(C(=O)O)c(F)c2)sc1C")
+st.image(f"compound_structures/compound_11530459.jpg", width=400)
 
 st.write("---")
 

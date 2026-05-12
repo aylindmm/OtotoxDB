@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="VITAMIN E", layout="wide")
-st.title("VITAMIN E")
+st.set_page_config(page_title="Vitamin e", layout="wide")
+st.title("Vitamin e")
 st.markdown(f"PubChem Compound ID: [14985](https://pubchem.ncbi.nlm.nih.gov/compound/14985)")
 st.markdown(f"IUPAC Name: (2R)-2,5,7,8-tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-3,4-dihydrochromen-6-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_14985.jpg", caption=f"SMILES: Cc1c(C)c2c(c(C)c1O)CC[C@@](C)(CCC[C@H](C)CCC[C@H](C)CCCC(C)C)O2")
+st.image(f"compound_structures/compound_14985.jpg", width=400)
 
 st.write("---")
 

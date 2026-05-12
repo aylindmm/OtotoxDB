@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="HYDROCODONE", layout="wide")
-st.title("HYDROCODONE")
+st.set_page_config(page_title="Hydrocodone", layout="wide")
+st.title("Hydrocodone")
 st.markdown(f"PubChem Compound ID: [5284569](https://pubchem.ncbi.nlm.nih.gov/compound/5284569)")
 st.markdown(f"IUPAC Name: (4R,4aR,7aR,12bS)-9-methoxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5284569.jpg", caption=f"SMILES: COc1ccc2c3c1OC1C(=O)CC[C@H]4[C@@H](C2)N(C)CC[C@]314")
+st.image(f"compound_structures/compound_5284569.jpg", width=400)
 
 st.write("---")
 

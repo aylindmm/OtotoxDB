@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-carboxy-6-hydroxyphenolate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54675818.jpg", caption=f"SMILES: O=C(O)c1cccc(O)c1O")
+st.image(f"compound_structures/compound_54675818.jpg", width=400)
 
 st.write("---")
 

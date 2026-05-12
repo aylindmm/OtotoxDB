@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="oxiconazole", layout="wide")
-st.title("oxiconazole")
+st.set_page_config(page_title="Oxiconazole", layout="wide")
+st.title("Oxiconazole")
 st.markdown(f"PubChem Compound ID: [5353853](https://pubchem.ncbi.nlm.nih.gov/compound/5353853)")
 st.markdown(f"IUPAC Name: (Z)-1-(2,4-dichlorophenyl)-N-[(2,4-dichlorophenyl)methoxy]-2-imidazol-1-ylethanimine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5353853.jpg", caption=f"SMILES: Clc1ccc(CO/N=C(\Cn2ccnc2)c2ccc(Cl)cc2Cl)c(Cl)c1")
+st.image(f"compound_structures/compound_5353853.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="naphthalene", layout="wide")
-st.title("naphthalene")
+st.set_page_config(page_title="Naphthalene", layout="wide")
+st.title("Naphthalene")
 st.markdown(f"PubChem Compound ID: [931](https://pubchem.ncbi.nlm.nih.gov/compound/931)")
 st.markdown(f"IUPAC Name: naphthalene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_931.jpg", caption=f"SMILES: c1ccc2ccccc2c1")
+st.image(f"compound_structures/compound_931.jpg", width=400)
 
 st.write("---")
 

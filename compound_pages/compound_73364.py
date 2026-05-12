@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="calpeptin", layout="wide")
-st.title("calpeptin")
+st.set_page_config(page_title="Calpeptin", layout="wide")
+st.title("Calpeptin")
 st.markdown(f"PubChem Compound ID: [73364](https://pubchem.ncbi.nlm.nih.gov/compound/73364)")
 st.markdown(f"IUPAC Name: benzyl N-[(2S)-4-methyl-1-oxo-1-[[(2S)-1-oxohexan-2-yl]amino]pentan-2-yl]carbamate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_73364.jpg", caption=f"SMILES: CCCCC(C=O)NC(=O)C(CC(C)C)NC(=O)OCc1ccccc1")
+st.image(f"compound_structures/compound_73364.jpg", width=400)
 
 st.write("---")
 

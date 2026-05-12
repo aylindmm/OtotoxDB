@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="LYCOPENE", layout="wide")
-st.title("LYCOPENE")
+st.set_page_config(page_title="Lycopene", layout="wide")
+st.title("Lycopene")
 st.markdown(f"PubChem Compound ID: [446925](https://pubchem.ncbi.nlm.nih.gov/compound/446925)")
 st.markdown(f"IUPAC Name: (6E,8E,10E,12E,14E,16E,18E,20E,22E,24E,26E)-2,6,10,14,19,23,27,31-octamethyldotriaconta-2,6,8,10,12,14,16,18,20,22,24,26,30-tridecaene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_446925.jpg", caption=f"SMILES: CC(C)=CCCC(C)=CC=CC(C)=CC=CC(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C=C(\C)CCC=C(C)C")
+st.image(f"compound_structures/compound_446925.jpg", width=400)
 
 st.write("---")
 

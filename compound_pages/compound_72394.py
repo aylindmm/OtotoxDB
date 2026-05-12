@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="lividomycin A", layout="wide")
-st.title("lividomycin A")
+st.set_page_config(page_title="Lividomycin a", layout="wide")
+st.title("Lividomycin a")
 st.markdown(f"PubChem Compound ID: [72394](https://pubchem.ncbi.nlm.nih.gov/compound/72394)")
 st.markdown(f"IUPAC Name: (2R,3S,4S,5S,6R)-2-[(2S,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(2R,3S,4R,5S)-5-[(1R,2R,3S,5R,6S)-3,5-diamino-2-[(2S,3R,5S,6R)-3-amino-5-hydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-hydroxycyclohexyl]oxy-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl]oxy-4-hydroxyoxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_72394.jpg", caption=f"SMILES: NC[C@@H]1O[C@H](O[C@H]2[C@@H](O)[C@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)C[C@H]3N)O[C@@H]2CO)[C@H](N)[C@@H](O)[C@@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]1O")
+st.image(f"compound_structures/compound_72394.jpg", width=400)
 
 st.write("---")
 

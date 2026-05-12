@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: benzotriazol-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1367.jpg", caption=f"SMILES: Nn1nnc2ccccc21")
+st.image(f"compound_structures/compound_1367.jpg", width=400)
 
 st.write("---")
 

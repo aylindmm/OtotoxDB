@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="HELENALIN", layout="wide")
-st.title("HELENALIN")
+st.set_page_config(page_title="Helenalin", layout="wide")
+st.title("Helenalin")
 st.markdown(f"PubChem Compound ID: [23205](https://pubchem.ncbi.nlm.nih.gov/compound/23205)")
 st.markdown(f"IUPAC Name: (3aR,5R,5aR,8aR,9S,9aS)-9-hydroxy-5,8a-dimethyl-1-methylidene-3a,4,5,5a,9,9a-hexahydroazuleno[6,7-b]furan-2,8-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_23205.jpg", caption=f"SMILES: C=C1C(=O)O[C@@H]2C[C@@H](C)C3=CCC(=O)[C@@]3(C)[C@@H](O)[C@H]12")
+st.image(f"compound_structures/compound_23205.jpg", width=400)
 
 st.write("---")
 

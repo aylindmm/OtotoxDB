@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="probenecid", layout="wide")
-st.title("probenecid")
+st.set_page_config(page_title="Probenecid", layout="wide")
+st.title("Probenecid")
 st.markdown(f"PubChem Compound ID: [4911](https://pubchem.ncbi.nlm.nih.gov/compound/4911)")
 st.markdown(f"IUPAC Name: 4-(dipropylsulfamoyl)benzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4911.jpg", caption=f"SMILES: CCCN(CCC)S(=O)(=O)c1ccc(C(=O)O)cc1")
+st.image(f"compound_structures/compound_4911.jpg", width=400)
 
 st.write("---")
 

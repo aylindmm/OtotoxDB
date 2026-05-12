@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cccp", layout="wide")
-st.title("cccp")
+st.set_page_config(page_title="Cccp", layout="wide")
+st.title("Cccp")
 st.markdown(f"PubChem Compound ID: [2603](https://pubchem.ncbi.nlm.nih.gov/compound/2603)")
 st.markdown(f"IUPAC Name: 2-[(3-chlorophenyl)hydrazinylidene]propanedinitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2603.jpg", caption=f"SMILES: N#CC(C#N)=NNc1cccc(Cl)c1")
+st.image(f"compound_structures/compound_2603.jpg", width=400)
 
 st.write("---")
 

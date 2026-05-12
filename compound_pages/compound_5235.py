@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sodium fluoride", layout="wide")
-st.title("sodium fluoride")
+st.set_page_config(page_title="Sodium fluoride", layout="wide")
+st.title("Sodium fluoride")
 st.markdown(f"PubChem Compound ID: [5235](https://pubchem.ncbi.nlm.nih.gov/compound/5235)")
 st.markdown(f"IUPAC Name: sodium fluoride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5235.jpg", caption=f"SMILES: F")
+st.image(f"compound_structures/compound_5235.jpg", width=400)
 
 st.write("---")
 

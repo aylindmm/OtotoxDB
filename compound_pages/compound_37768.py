@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="amikacin", layout="wide")
-st.title("amikacin")
+st.set_page_config(page_title="Amikacin", layout="wide")
+st.title("Amikacin")
 st.markdown(f"PubChem Compound ID: [37768](https://pubchem.ncbi.nlm.nih.gov/compound/37768)")
 st.markdown(f"IUPAC Name: (2S)-4-amino-N-[(1R,2S,3S,4R,5S)-5-amino-2-[(2S,3R,4S,5S,6R)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4-[(2R,3R,4S,5S,6R)-6-(aminomethyl)-3,4,5-trihydroxyoxan-2-yl]oxy-3-hydroxycyclohexyl]-2-hydroxybutanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_37768.jpg", caption=f"SMILES: NCCC(O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O")
+st.image(f"compound_structures/compound_37768.jpg", width=400)
 
 st.write("---")
 

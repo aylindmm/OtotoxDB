@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2S,3R,4S,5R)-3,4,5-trihydroxy-6-oxopiperidine-2-carbo
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_160207.jpg", caption=f"SMILES: O=C1NC(C(=O)O)C(O)C(O)C1O")
+st.image(f"compound_structures/compound_160207.jpg", width=400)
 
 st.write("---")
 

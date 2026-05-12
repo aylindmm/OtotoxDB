@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="oxybutynin", layout="wide")
-st.title("oxybutynin")
+st.set_page_config(page_title="Oxybutynin", layout="wide")
+st.title("Oxybutynin")
 st.markdown(f"PubChem Compound ID: [4634](https://pubchem.ncbi.nlm.nih.gov/compound/4634)")
 st.markdown(f"IUPAC Name: 4-(diethylamino)but-2-ynyl 2-cyclohexyl-2-hydroxy-2-phenylacetate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4634.jpg", caption=f"SMILES: CCN(CC)CC#CCOC(=O)C(O)(c1ccccc1)C1CCCCC1")
+st.image(f"compound_structures/compound_4634.jpg", width=400)
 
 st.write("---")
 

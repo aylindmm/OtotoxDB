@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: bromate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_84979.jpg", caption=f"SMILES: [O-][Br+2]([O-])O")
+st.image(f"compound_structures/compound_84979.jpg", width=400)
 
 st.write("---")
 

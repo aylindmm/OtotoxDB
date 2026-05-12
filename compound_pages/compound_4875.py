@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="potassium iodide", layout="wide")
-st.title("potassium iodide")
+st.set_page_config(page_title="Potassium iodide", layout="wide")
+st.title("Potassium iodide")
 st.markdown(f"PubChem Compound ID: [4875](https://pubchem.ncbi.nlm.nih.gov/compound/4875)")
 st.markdown(f"IUPAC Name: potassium iodide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4875.jpg", caption=f"SMILES: [K+]")
+st.image(f"compound_structures/compound_4875.jpg", width=400)
 
 st.write("---")
 

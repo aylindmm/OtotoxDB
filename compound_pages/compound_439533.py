@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TAXIFOLIN", layout="wide")
-st.title("TAXIFOLIN")
+st.set_page_config(page_title="Taxifolin", layout="wide")
+st.title("Taxifolin")
 st.markdown(f"PubChem Compound ID: [439533](https://pubchem.ncbi.nlm.nih.gov/compound/439533)")
 st.markdown(f"IUPAC Name: (2R,3R)-2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-2,3-dihydrochromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_439533.jpg", caption=f"SMILES: O=C1C(O)c2c(O)cc(O)cc2OC1c1ccc(O)c(O)c1")
+st.image(f"compound_structures/compound_439533.jpg", width=400)
 
 st.write("---")
 

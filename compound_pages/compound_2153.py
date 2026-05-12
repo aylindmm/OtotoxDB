@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="theophylline", layout="wide")
-st.title("theophylline")
+st.set_page_config(page_title="Theophylline", layout="wide")
+st.title("Theophylline")
 st.markdown(f"PubChem Compound ID: [2153](https://pubchem.ncbi.nlm.nih.gov/compound/2153)")
 st.markdown(f"IUPAC Name: 1,3-dimethyl-7H-purine-2,6-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2153.jpg", caption=f"SMILES: Cn1c(=O)c2[nH]cnc2n(C)c1=O")
+st.image(f"compound_structures/compound_2153.jpg", width=400)
 
 st.write("---")
 

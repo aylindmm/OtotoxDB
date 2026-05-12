@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DTXSID00926438", layout="wide")
-st.title("DTXSID00926438")
+st.set_page_config(page_title="Dtxsid00926438", layout="wide")
+st.title("Dtxsid00926438")
 st.markdown(f"PubChem Compound ID: [123974](https://pubchem.ncbi.nlm.nih.gov/compound/123974)")
 st.markdown(f"IUPAC Name: azane;cyclohexanamine;platinum(4+);diacetate;dichloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_123974.jpg", caption=f"SMILES: NC1CCCCC1.[Pt+4]")
+st.image(f"compound_structures/compound_123974.jpg", width=400)
 
 st.write("---")
 

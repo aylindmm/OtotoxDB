@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: propane-1,3-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_428.jpg", caption=f"SMILES: NCCCN")
+st.image(f"compound_structures/compound_428.jpg", width=400)
 
 st.write("---")
 

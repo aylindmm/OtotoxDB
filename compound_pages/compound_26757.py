@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="selegiline", layout="wide")
-st.title("selegiline")
+st.set_page_config(page_title="Selegiline", layout="wide")
+st.title("Selegiline")
 st.markdown(f"PubChem Compound ID: [26757](https://pubchem.ncbi.nlm.nih.gov/compound/26757)")
 st.markdown(f"IUPAC Name: (2R)-N-methyl-1-phenyl-N-prop-2-ynylpropan-2-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_26757.jpg", caption=f"SMILES: C#CCN(C)[C@H](C)Cc1ccccc1")
+st.image(f"compound_structures/compound_26757.jpg", width=400)
 
 st.write("---")
 

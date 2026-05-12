@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="(R)-Azasetron besylate", layout="wide")
-st.title("(R)-Azasetron besylate")
+st.set_page_config(page_title="(r)-azasetron besylate", layout="wide")
+st.title("(r)-azasetron besylate")
 st.markdown(f"PubChem Compound ID: [131801108](https://pubchem.ncbi.nlm.nih.gov/compound/131801108)")
 st.markdown(f"IUPAC Name: N-[(3R)-1-azabicyclo[2.2.2]octan-3-yl]-6-chloro-4-methyl-3-oxo-1,4-benzoxazine-8-carboxamide;benzenesulfonic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_131801108.jpg", caption=f"SMILES: CN1C(=O)COc2c(C(=O)N[C@H]3CN4CCC3CC4)cc(Cl)cc21.O=S(=O)(O)c1ccccc1")
+st.image(f"compound_structures/compound_131801108.jpg", width=400)
 
 st.write("---")
 

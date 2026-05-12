@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Bcl-2 Inhibitor", layout="wide")
-st.title("Bcl-2 Inhibitor")
+st.set_page_config(page_title="Bcl-2 inhibitor", layout="wide")
+st.title("Bcl-2 inhibitor")
 st.markdown(f"PubChem Compound ID: [11822705](https://pubchem.ncbi.nlm.nih.gov/compound/11822705)")
 st.markdown(f"IUPAC Name: 4-methoxy-2-[2-(5-methoxy-2-nitrosophenyl)ethyl]-1-nitrosobenzene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11822705.jpg", caption=f"SMILES: COc1ccc(N=O)c(CCc2cc(OC)ccc2N=O)c1")
+st.image(f"compound_structures/compound_11822705.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: zinc bis(1-oxidopyridin-1-ium-2-thiolate)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_26041.jpg", caption=f"SMILES: [O-][n+]1ccccc1[S-].[O-][n+]1ccccc1[S-].[Zn+2]")
+st.image(f"compound_structures/compound_26041.jpg", width=400)
 
 st.write("---")
 

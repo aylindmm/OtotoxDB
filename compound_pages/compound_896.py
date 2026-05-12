@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-[2-(5-methoxy-1H-indol-3-yl)ethyl]acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_896.jpg", caption=f"SMILES: COc1ccc2[nH]cc(CCNC(C)=O)c2c1")
+st.image(f"compound_structures/compound_896.jpg", width=400)
 
 st.write("---")
 

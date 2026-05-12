@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="4-Methylcatechol", layout="wide")
-st.title("4-Methylcatechol")
+st.set_page_config(page_title="4-methylcatechol", layout="wide")
+st.title("4-methylcatechol")
 st.markdown(f"PubChem Compound ID: [9958](https://pubchem.ncbi.nlm.nih.gov/compound/9958)")
 st.markdown(f"IUPAC Name: 4-methylbenzene-1,2-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9958.jpg", caption=f"SMILES: Cc1ccc(O)c(O)c1")
+st.image(f"compound_structures/compound_9958.jpg", width=400)
 
 st.write("---")
 

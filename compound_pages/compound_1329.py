@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="8-Cyclopentyl-1,3-dipropylxanthine", layout="wide")
-st.title("8-Cyclopentyl-1,3-dipropylxanthine")
+st.set_page_config(page_title="8-cyclopentyl-1,3-dipropylxanthine", layout="wide")
+st.title("8-cyclopentyl-1,3-dipropylxanthine")
 st.markdown(f"PubChem Compound ID: [1329](https://pubchem.ncbi.nlm.nih.gov/compound/1329)")
 st.markdown(f"IUPAC Name: 8-cyclopentyl-1,3-dipropyl-7H-purine-2,6-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1329.jpg", caption=f"SMILES: CCCn1c(=O)c2[nH]c(C3CCCC3)nc2n(CCC)c1=O")
+st.image(f"compound_structures/compound_1329.jpg", width=400)
 
 st.write("---")
 

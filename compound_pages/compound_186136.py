@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="4-(2-Aminoethyl)benzenesulfonyl fluoride hydrochloride", layout="wide")
-st.title("4-(2-Aminoethyl)benzenesulfonyl fluoride hydrochloride")
+st.set_page_config(page_title="4-(2-aminoethyl)benzenesulfonyl fluoride hydrochloride", layout="wide")
+st.title("4-(2-aminoethyl)benzenesulfonyl fluoride hydrochloride")
 st.markdown(f"PubChem Compound ID: [186136](https://pubchem.ncbi.nlm.nih.gov/compound/186136)")
 st.markdown(f"IUPAC Name: 4-(2-aminoethyl)benzenesulfonyl fluoride;hydrochloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_186136.jpg", caption=f"SMILES: NCCc1ccc(S(=O)(=O)F)cc1")
+st.image(f"compound_structures/compound_186136.jpg", width=400)
 
 st.write("---")
 

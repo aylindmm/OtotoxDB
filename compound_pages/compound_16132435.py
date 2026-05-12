@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5-amino-2-[[2-[[10-[[6-amino-2-[[6-amino-2-[[2-[[2-[[7
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16132435.jpg", caption=f"SMILES: CSCCC(NC(=O)C1CSSCC(NC(=O)C(NC(=O)C(CO)NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C2CSSCC(NC(=O)C(CC(=O)O)NC(=O)C(NC(=O)C(CC(=O)O)NC(=O)C(NC(=O)C(Cc3ccccc3)NC(=O)C3CCC(=O)N3)C(C)O)C(C)C)C(=O)NC(CO)C(=O)NC(C(C)C)C(=O)NC(CO)C(=O)NC(CCCCN)C(=O)NC(CCC(=O)O)C(=O)N2)C(C)C)C(=O)NC(CCCCN)C(=O)NC(CC(=O)O)C(=O)NC(CC(C)C)C(=O)NC(Cc2ccccc2)C(=O)NCC(=O)NC(C(C)C)C(=O)NC(CC(=O)O)C(=O)NC(CCCN=C(N)N)C(=O)NCC(=O)NC(CCCCN)C(=O)N1)C(=O)NCC(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC1CSSCC(C(=O)NC(Cc2ccc(O)cc2)C(=O)NC(CCC(N)=O)C(=O)O)NC(=O)C(CCCNC(=N)N)NC1=O")
+st.image(f"compound_structures/compound_16132435.jpg", width=400)
 
 st.write("---")
 

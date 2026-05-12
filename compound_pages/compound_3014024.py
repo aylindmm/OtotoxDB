@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="pentonium", layout="wide")
-st.title("pentonium")
+st.set_page_config(page_title="Pentonium", layout="wide")
+st.title("Pentonium")
 st.markdown(f"PubChem Compound ID: [3014024](https://pubchem.ncbi.nlm.nih.gov/compound/3014024)")
 st.markdown(f"IUPAC Name: benzyl-dimethyl-tridecylazanium chloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3014024.jpg", caption=f"SMILES: CCCCCCCCCCCCC[N+](C)(C)Cc1ccccc1")
+st.image(f"compound_structures/compound_3014024.jpg", width=400)
 
 st.write("---")
 

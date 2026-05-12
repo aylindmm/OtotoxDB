@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="P5PZX56UCW", layout="wide")
-st.title("P5PZX56UCW")
+st.set_page_config(page_title="P5pzx56ucw", layout="wide")
+st.title("P5pzx56ucw")
 st.markdown(f"PubChem Compound ID: [119058053](https://pubchem.ncbi.nlm.nih.gov/compound/119058053)")
 st.markdown(f"IUPAC Name: methyl 3-methyl-2-[(1-pentylindazole-3-carbonyl)amino]butanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_119058053.jpg", caption=f"SMILES: CCCCCn1nc(C(=O)NC(C(=O)OC)C(C)C)c2ccccc21")
+st.image(f"compound_structures/compound_119058053.jpg", width=400)
 
 st.write("---")
 

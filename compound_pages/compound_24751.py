@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CRL-8131", layout="wide")
-st.title("CRL-8131")
+st.set_page_config(page_title="Crl-8131", layout="wide")
+st.title("Crl-8131")
 st.markdown(f"PubChem Compound ID: [24751](https://pubchem.ncbi.nlm.nih.gov/compound/24751)")
 st.markdown(f"IUPAC Name: 2-methyloxirane;oxirane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24751.jpg", caption=f"SMILES: C1CO1.CC1CO1")
+st.image(f"compound_structures/compound_24751.jpg", width=400)
 
 st.write("---")
 

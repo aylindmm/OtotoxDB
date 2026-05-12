@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5-chloro-7-iodoquinolin-8-ol;[2-[(6S,8S,10S,11S,13S,14
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6452749.jpg", caption=f"SMILES: C[C@@H]1C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)C3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)COC(=O)C(C)(C)C.Oc1c(I)cc(Cl)c2cccnc12")
+st.image(f"compound_structures/compound_6452749.jpg", width=400)
 
 st.write("---")
 

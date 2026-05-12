@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="(2R)-2-amino-3-(prop-2-en-1-yldisulfanyl)propanoic acid", layout="wide")
-st.title("(2R)-2-amino-3-(prop-2-en-1-yldisulfanyl)propanoic acid")
+st.set_page_config(page_title="(2r)-2-amino-3-(prop-2-en-1-yldisulfanyl)propanoic acid", layout="wide")
+st.title("(2r)-2-amino-3-(prop-2-en-1-yldisulfanyl)propanoic acid")
 st.markdown(f"PubChem Compound ID: [9794159](https://pubchem.ncbi.nlm.nih.gov/compound/9794159)")
 st.markdown(f"IUPAC Name: (2R)-2-amino-3-(prop-2-enyldisulfanyl)propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9794159.jpg", caption=f"SMILES: C=CCSSCC(N)C(=O)O")
+st.image(f"compound_structures/compound_9794159.jpg", width=400)
 
 st.write("---")
 

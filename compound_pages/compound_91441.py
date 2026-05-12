@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-N-(7-chloroquinolin-4-yl)-1-N,1-N-diethylpentane-1,4
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_91441.jpg", caption=f"SMILES: CCN(CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12")
+st.image(f"compound_structures/compound_91441.jpg", width=400)
 
 st.write("---")
 

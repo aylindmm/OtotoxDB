@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cyclosporin A", layout="wide")
-st.title("cyclosporin A")
+st.set_page_config(page_title="Cyclosporin a", layout="wide")
+st.title("Cyclosporin a")
 st.markdown(f"PubChem Compound ID: [5284373](https://pubchem.ncbi.nlm.nih.gov/compound/5284373)")
 st.markdown(f"IUPAC Name: (3S,6S,9S,12R,15S,18S,21S,24S,30S,33S)-30-ethyl-33-[(E,1R,2R)-1-hydroxy-2-methylhex-4-enyl]-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-3,21-di(propan-2-yl)-1,4,7,10,13,16,19,22,25,28,31-undecazacyclotritriacontane-2,5,8,11,14,17,20,23,26,29,32-undecone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5284373.jpg", caption=f"SMILES: C/C=C/C[C@@H](C)[C@@H](O)C1C(=O)NC(CC)C(=O)N(C)CC(=O)N(C)C(CC(C)C)C(=O)NC(C(C)C)C(=O)N(C)C(CC(C)C)C(=O)NC(C)C(=O)NC(C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(CC(C)C)C(=O)N(C)C(C(C)C)C(=O)N1C")
+st.image(f"compound_structures/compound_5284373.jpg", width=400)
 
 st.write("---")
 

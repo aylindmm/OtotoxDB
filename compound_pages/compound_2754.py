@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cilostazol", layout="wide")
-st.title("cilostazol")
+st.set_page_config(page_title="Cilostazol", layout="wide")
+st.title("Cilostazol")
 st.markdown(f"PubChem Compound ID: [2754](https://pubchem.ncbi.nlm.nih.gov/compound/2754)")
 st.markdown(f"IUPAC Name: 6-[4-(1-cyclohexyltetrazol-5-yl)butoxy]-3,4-dihydro-1H-quinolin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2754.jpg", caption=f"SMILES: O=C1CCc2cc(OCCCCc3nnnn3C3CCCCC3)ccc2N1")
+st.image(f"compound_structures/compound_2754.jpg", width=400)
 
 st.write("---")
 

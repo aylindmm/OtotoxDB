@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="FURSULTIAMINE", layout="wide")
-st.title("FURSULTIAMINE")
+st.set_page_config(page_title="Fursultiamine", layout="wide")
+st.title("Fursultiamine")
 st.markdown(f"PubChem Compound ID: [3002119](https://pubchem.ncbi.nlm.nih.gov/compound/3002119)")
 st.markdown(f"IUPAC Name: N-[(4-amino-2-methylpyrimidin-5-yl)methyl]-N-[(E)-5-hydroxy-3-(oxolan-2-ylmethyldisulfanyl)pent-2-en-2-yl]formamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3002119.jpg", caption=f"SMILES: CC(=C(CCO)SSCC1CCCO1)N(C=O)Cc1cnc(C)nc1N")
+st.image(f"compound_structures/compound_3002119.jpg", width=400)
 
 st.write("---")
 

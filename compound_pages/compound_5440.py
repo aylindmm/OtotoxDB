@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="thiethylperazine", layout="wide")
-st.title("thiethylperazine")
+st.set_page_config(page_title="Thiethylperazine", layout="wide")
+st.title("Thiethylperazine")
 st.markdown(f"PubChem Compound ID: [5440](https://pubchem.ncbi.nlm.nih.gov/compound/5440)")
 st.markdown(f"IUPAC Name: 2-ethylsulfanyl-10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5440.jpg", caption=f"SMILES: CCSc1ccc2c(c1)N(CCCN1CCN(C)CC1)c1ccccc1S2")
+st.image(f"compound_structures/compound_5440.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="FM1-43", layout="wide")
-st.title("FM1-43")
+st.set_page_config(page_title="Fm1-43", layout="wide")
+st.title("Fm1-43")
 st.markdown(f"PubChem Compound ID: [6508724](https://pubchem.ncbi.nlm.nih.gov/compound/6508724)")
 st.markdown(f"IUPAC Name: 3-[4-[(E)-2-[4-(dibutylamino)phenyl]ethenyl]pyridin-1-ium-1-yl]propyl-triethylazanium dibromide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6508724.jpg", caption=f"SMILES: CCCCN(CCCC)c1ccc(/C=C/c2cc[n+](CCC[N+](CC)(CC)CC)cc2)cc1")
+st.image(f"compound_structures/compound_6508724.jpg", width=400)
 
 st.write("---")
 

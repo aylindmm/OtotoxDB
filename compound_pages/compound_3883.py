@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="lansoprazole", layout="wide")
-st.title("lansoprazole")
+st.set_page_config(page_title="Lansoprazole", layout="wide")
+st.title("Lansoprazole")
 st.markdown(f"PubChem Compound ID: [3883](https://pubchem.ncbi.nlm.nih.gov/compound/3883)")
 st.markdown(f"IUPAC Name: 2-[[3-methyl-4-(2,2,2-trifluoroethoxy)-2-pyridinyl]methylsulfinyl]-1H-benzimidazole")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3883.jpg", caption=f"SMILES: Cc1c(OCC(F)(F)F)ccnc1CS(=O)c1nc2ccccc2[nH]1")
+st.image(f"compound_structures/compound_3883.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="thiotepa", layout="wide")
-st.title("thiotepa")
+st.set_page_config(page_title="Thiotepa", layout="wide")
+st.title("Thiotepa")
 st.markdown(f"PubChem Compound ID: [5453](https://pubchem.ncbi.nlm.nih.gov/compound/5453)")
 st.markdown(f"IUPAC Name: tris(aziridin-1-yl)-sulfanylidene-lambda5-phosphane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5453.jpg", caption=f"SMILES: S=P(N1CC1)(N1CC1)N1CC1")
+st.image(f"compound_structures/compound_5453.jpg", width=400)
 
 st.write("---")
 

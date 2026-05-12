@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="imipramine", layout="wide")
-st.title("imipramine")
+st.set_page_config(page_title="Imipramine", layout="wide")
+st.title("Imipramine")
 st.markdown(f"PubChem Compound ID: [3696](https://pubchem.ncbi.nlm.nih.gov/compound/3696)")
 st.markdown(f"IUPAC Name: 3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethylpropan-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3696.jpg", caption=f"SMILES: CN(C)CCCN1c2ccccc2CCc2ccccc21")
+st.image(f"compound_structures/compound_3696.jpg", width=400)
 
 st.write("---")
 

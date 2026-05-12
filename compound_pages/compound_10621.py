@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="hesperidin", layout="wide")
-st.title("hesperidin")
+st.set_page_config(page_title="Hesperidin", layout="wide")
+st.title("Hesperidin")
 st.markdown(f"PubChem Compound ID: [10621](https://pubchem.ncbi.nlm.nih.gov/compound/10621)")
 st.markdown(f"IUPAC Name: (2S)-5-hydroxy-2-(3-hydroxy-4-methoxyphenyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxy-2,3-dihydrochromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10621.jpg", caption=f"SMILES: COc1ccc([C@@H]2CC(=O)c3c(O)cc(O[C@@H]4O[C@H](CO[C@@H]5O[C@@H](C)[C@H](O)[C@@H](O)[C@H]5O)[C@@H](O)[C@H](O)[C@H]4O)cc3O2)cc1O")
+st.image(f"compound_structures/compound_10621.jpg", width=400)
 
 st.write("---")
 

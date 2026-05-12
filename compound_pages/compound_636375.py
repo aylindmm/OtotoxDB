@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="isepamicin sulfate", layout="wide")
-st.title("isepamicin sulfate")
+st.set_page_config(page_title="Isepamicin sulfate", layout="wide")
+st.title("Isepamicin sulfate")
 st.markdown(f"PubChem Compound ID: [636375](https://pubchem.ncbi.nlm.nih.gov/compound/636375)")
 st.markdown(f"IUPAC Name: (2S)-3-amino-N-[(1R,2S,3S,4R,5S)-5-amino-4-[(2R,3R,4S,5S,6R)-6-(aminomethyl)-3,4,5-trihydroxyoxan-2-yl]oxy-2-[(2R,3R,4R,5R)-3,5-dihydroxy-5-methyl-4-(methylamino)oxan-2-yl]oxy-3-hydroxycyclohexyl]-2-hydroxypropanamide;sulfuric acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_636375.jpg", caption=f"SMILES: CN[C@@H]1[C@@H](O)[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@H]3O[C@H](CN)[C@@H](O)[C@H](O)[C@H]3O)[C@@H](N)C[C@H]2NC(=O)C(O)CN)OC[C@]1(C)O")
+st.image(f"compound_structures/compound_636375.jpg", width=400)
 
 st.write("---")
 

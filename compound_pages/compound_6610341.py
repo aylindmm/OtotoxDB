@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="mntbap", layout="wide")
-st.title("mntbap")
+st.set_page_config(page_title="Mntbap", layout="wide")
+st.title("Mntbap")
 st.markdown(f"PubChem Compound ID: [6610341](https://pubchem.ncbi.nlm.nih.gov/compound/6610341)")
 st.markdown(f"IUPAC Name: manganese(3+);4-[10,15,20-tris(4-carboxyphenyl)porphyrin-22,24-diid-5-yl]benzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6610341.jpg", caption=f"SMILES: O=C(O)c1ccc(-c2c3nc(c(-c4ccc(C(=O)O)cc4)c4ccc([nH]4)c(-c4ccc(C(=O)O)cc4)c4ccc([nH]4)c(-c4ccc(C(=O)O)cc4)c4nc2C=C4)C=C3)cc1.[Mn+3]")
+st.image(f"compound_structures/compound_6610341.jpg", width=400)
 
 st.write("---")
 

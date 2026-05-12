@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sparfloxacin", layout="wide")
-st.title("sparfloxacin")
+st.set_page_config(page_title="Sparfloxacin", layout="wide")
+st.title("Sparfloxacin")
 st.markdown(f"PubChem Compound ID: [60464](https://pubchem.ncbi.nlm.nih.gov/compound/60464)")
 st.markdown(f"IUPAC Name: 5-amino-1-cyclopropyl-7-[(3R,5S)-3,5-dimethylpiperazin-1-yl]-6,8-difluoro-4-oxoquinoline-3-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_60464.jpg", caption=f"SMILES: C[C@@H]1CN(c2c(F)c(N)c3c(=O)c(C(=O)O)cn(C4CC4)c3c2F)C[C@H](C)N1")
+st.image(f"compound_structures/compound_60464.jpg", width=400)
 
 st.write("---")
 

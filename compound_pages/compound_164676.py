@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Tanshinone IIA", layout="wide")
-st.title("Tanshinone IIA")
+st.set_page_config(page_title="Tanshinone iia", layout="wide")
+st.title("Tanshinone iia")
 st.markdown(f"PubChem Compound ID: [164676](https://pubchem.ncbi.nlm.nih.gov/compound/164676)")
 st.markdown(f"IUPAC Name: 1,6,6-trimethyl-8,9-dihydro-7H-naphtho[1,2-g][1]benzofuran-10,11-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_164676.jpg", caption=f"SMILES: Cc1coc2c1C(=O)C(=O)c1c-2ccc2c1CCCC2(C)C")
+st.image(f"compound_structures/compound_164676.jpg", width=400)
 
 st.write("---")
 

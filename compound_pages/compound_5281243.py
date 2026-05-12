@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (1R)-4-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(1R,4R)-4
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5281243.jpg", caption=f"SMILES: CC(C=C[C@H]1C(C)=C[C@H](O)CC1(C)C)=CC=CC(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)C[C@@H](O)CC1(C)C")
+st.image(f"compound_structures/compound_5281243.jpg", width=400)
 
 st.write("---")
 

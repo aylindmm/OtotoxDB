@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CYPROHEPTADINE", layout="wide")
-st.title("CYPROHEPTADINE")
+st.set_page_config(page_title="Cyproheptadine", layout="wide")
+st.title("Cyproheptadine")
 st.markdown(f"PubChem Compound ID: [2913](https://pubchem.ncbi.nlm.nih.gov/compound/2913)")
 st.markdown(f"IUPAC Name: 1-methyl-4-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaenylidene)piperidine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2913.jpg", caption=f"SMILES: CN1CCC(=C2c3ccccc3C=Cc3ccccc32)CC1")
+st.image(f"compound_structures/compound_2913.jpg", width=400)
 
 st.write("---")
 

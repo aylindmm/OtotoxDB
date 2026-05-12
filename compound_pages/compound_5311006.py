@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="arachidonyl-2-chloroethylamide", layout="wide")
-st.title("arachidonyl-2-chloroethylamide")
+st.set_page_config(page_title="Arachidonyl-2-chloroethylamide", layout="wide")
+st.title("Arachidonyl-2-chloroethylamide")
 st.markdown(f"PubChem Compound ID: [5311006](https://pubchem.ncbi.nlm.nih.gov/compound/5311006)")
 st.markdown(f"IUPAC Name: (5Z,8Z,11Z,14Z)-N-(2-chloroethyl)icosa-5,8,11,14-tetraenamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311006.jpg", caption=f"SMILES: CCCCC/C=C\C/C=C\C/C=C\C/C=C\CCCC(=O)NCCCl")
+st.image(f"compound_structures/compound_5311006.jpg", width=400)
 
 st.write("---")
 

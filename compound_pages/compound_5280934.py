@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="linolenic acid", layout="wide")
-st.title("linolenic acid")
+st.set_page_config(page_title="Linolenic acid", layout="wide")
+st.title("Linolenic acid")
 st.markdown(f"PubChem Compound ID: [5280934](https://pubchem.ncbi.nlm.nih.gov/compound/5280934)")
 st.markdown(f"IUPAC Name: (9Z,12Z,15Z)-octadeca-9,12,15-trienoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280934.jpg", caption=f"SMILES: CC/C=C\C/C=C\C/C=C\CCCCCCCC(=O)O")
+st.image(f"compound_structures/compound_5280934.jpg", width=400)
 
 st.write("---")
 

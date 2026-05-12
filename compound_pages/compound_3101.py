@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 8-iodoniatricyclo[7.4.0.02,7]trideca-1(13),2,4,6,9,11-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3101.jpg", caption=f"SMILES: c1ccc2c(c1)[I+]c1ccccc1-2")
+st.image(f"compound_structures/compound_3101.jpg", width=400)
 
 st.write("---")
 

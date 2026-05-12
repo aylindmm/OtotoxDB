@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: iron(2+);bis(iron(3+));tetrakis(oxygen(2-))")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6432052.jpg", caption=f"SMILES: [Fe+2].[Fe+3].[Fe+3]")
+st.image(f"compound_structures/compound_6432052.jpg", width=400)
 
 st.write("---")
 

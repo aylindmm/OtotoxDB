@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="diazepam", layout="wide")
-st.title("diazepam")
+st.set_page_config(page_title="Diazepam", layout="wide")
+st.title("Diazepam")
 st.markdown(f"PubChem Compound ID: [3016](https://pubchem.ncbi.nlm.nih.gov/compound/3016)")
 st.markdown(f"IUPAC Name: 7-chloro-1-methyl-5-phenyl-3H-1,4-benzodiazepin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3016.jpg", caption=f"SMILES: CN1C(=O)CN=C(c2ccccc2)c2cc(Cl)ccc21")
+st.image(f"compound_structures/compound_3016.jpg", width=400)
 
 st.write("---")
 

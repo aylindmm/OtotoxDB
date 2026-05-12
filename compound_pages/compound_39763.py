@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-(4-oxocyclohexa-2,5-dien-1-ylidene)acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_39763.jpg", caption=f"SMILES: CC(=O)N=C1C=CC(=O)C=C1")
+st.image(f"compound_structures/compound_39763.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dapt", layout="wide")
-st.title("dapt")
+st.set_page_config(page_title="Dapt", layout="wide")
+st.title("Dapt")
 st.markdown(f"PubChem Compound ID: [5311272](https://pubchem.ncbi.nlm.nih.gov/compound/5311272)")
 st.markdown(f"IUPAC Name: tert-butyl (2S)-2-[[(2S)-2-[[2-(3,5-difluorophenyl)acetyl]amino]propanoyl]amino]-2-phenylacetate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311272.jpg", caption=f"SMILES: CC(NC(=O)Cc1cc(F)cc(F)c1)C(=O)NC(C(=O)OC(C)(C)C)c1ccccc1")
+st.image(f"compound_structures/compound_5311272.jpg", width=400)
 
 st.write("---")
 

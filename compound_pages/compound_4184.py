@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="mianserin", layout="wide")
-st.title("mianserin")
+st.set_page_config(page_title="Mianserin", layout="wide")
+st.title("Mianserin")
 st.markdown(f"PubChem Compound ID: [4184](https://pubchem.ncbi.nlm.nih.gov/compound/4184)")
 st.markdown(f"IUPAC Name: 5-methyl-2,5-diazatetracyclo[13.4.0.02,7.08,13]nonadeca-1(19),8,10,12,15,17-hexaene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4184.jpg", caption=f"SMILES: CN1CCN2c3ccccc3Cc3ccccc3C2C1")
+st.image(f"compound_structures/compound_4184.jpg", width=400)
 
 st.write("---")
 

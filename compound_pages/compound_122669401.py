@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="LLY-283", layout="wide")
-st.title("LLY-283")
+st.set_page_config(page_title="Lly-283", layout="wide")
+st.title("Lly-283")
 st.markdown(f"PubChem Compound ID: [122669401](https://pubchem.ncbi.nlm.nih.gov/compound/122669401)")
 st.markdown(f"IUPAC Name: (2R,3R,4S,5R)-2-(4-aminopyrrolo[2,3-d]pyrimidin-7-yl)-5-[(R)-hydroxy(phenyl)methyl]oxolane-3,4-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_122669401.jpg", caption=f"SMILES: Nc1ncnc2c1ccn2[C@@H]1O[C@H]([C@H](O)c2ccccc2)[C@@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_122669401.jpg", width=400)
 
 st.write("---")
 

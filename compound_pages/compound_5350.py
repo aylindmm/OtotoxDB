@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sulforaphane", layout="wide")
-st.title("sulforaphane")
+st.set_page_config(page_title="Sulforaphane", layout="wide")
+st.title("Sulforaphane")
 st.markdown(f"PubChem Compound ID: [5350](https://pubchem.ncbi.nlm.nih.gov/compound/5350)")
 st.markdown(f"IUPAC Name: 1-isothiocyanato-4-methylsulfinylbutane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5350.jpg", caption=f"SMILES: CS(=O)CCCCN=C=S")
+st.image(f"compound_structures/compound_5350.jpg", width=400)
 
 st.write("---")
 

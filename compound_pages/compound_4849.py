@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="piretanide", layout="wide")
-st.title("piretanide")
+st.set_page_config(page_title="Piretanide", layout="wide")
+st.title("Piretanide")
 st.markdown(f"PubChem Compound ID: [4849](https://pubchem.ncbi.nlm.nih.gov/compound/4849)")
 st.markdown(f"IUPAC Name: 4-phenoxy-3-pyrrolidin-1-yl-5-sulfamoylbenzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4849.jpg", caption=f"SMILES: NS(=O)(=O)c1cc(C(=O)O)cc(N2CCCC2)c1Oc1ccccc1")
+st.image(f"compound_structures/compound_4849.jpg", width=400)
 
 st.write("---")
 

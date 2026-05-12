@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="POTASSIUM BROMATE", layout="wide")
-st.title("POTASSIUM BROMATE")
+st.set_page_config(page_title="Potassium bromate", layout="wide")
+st.title("Potassium bromate")
 st.markdown(f"PubChem Compound ID: [23673461](https://pubchem.ncbi.nlm.nih.gov/compound/23673461)")
 st.markdown(f"IUPAC Name: potassium bromate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_23673461.jpg", caption=f"SMILES: [O-][Br+2]([O-])O")
+st.image(f"compound_structures/compound_23673461.jpg", width=400)
 
 st.write("---")
 

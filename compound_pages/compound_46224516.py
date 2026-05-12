@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-cyclohexyl-6-methoxy-N-(1-propan-2-ylpiperidin-4-yl)
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_46224516.jpg", caption=f"SMILES: COc1cc2c(NC3CCN(C(C)C)CC3)nc(C3CCCCC3)nc2cc1OCCCN1CCCC1")
+st.image(f"compound_structures/compound_46224516.jpg", width=400)
 
 st.write("---")
 

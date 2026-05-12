@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="kynurenic acid", layout="wide")
-st.title("kynurenic acid")
+st.set_page_config(page_title="Kynurenic acid", layout="wide")
+st.title("Kynurenic acid")
 st.markdown(f"PubChem Compound ID: [3845](https://pubchem.ncbi.nlm.nih.gov/compound/3845)")
 st.markdown(f"IUPAC Name: 4-oxo-1H-quinoline-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3845.jpg", caption=f"SMILES: O=C(O)c1cc(=O)c2ccccc2[nH]1")
+st.image(f"compound_structures/compound_3845.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="chloramphenicol", layout="wide")
-st.title("chloramphenicol")
+st.set_page_config(page_title="Chloramphenicol", layout="wide")
+st.title("Chloramphenicol")
 st.markdown(f"PubChem Compound ID: [5959](https://pubchem.ncbi.nlm.nih.gov/compound/5959)")
 st.markdown(f"IUPAC Name: 2,2-dichloro-N-[(1R,2R)-1,3-dihydroxy-1-(4-nitrophenyl)propan-2-yl]acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5959.jpg", caption=f"SMILES: O=C(N[C@H](CO)[C@H](O)c1ccc([N+](=O)[O-])cc1)C(Cl)Cl")
+st.image(f"compound_structures/compound_5959.jpg", width=400)
 
 st.write("---")
 

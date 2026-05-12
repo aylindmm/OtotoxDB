@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nalmefene", layout="wide")
-st.title("nalmefene")
+st.set_page_config(page_title="Nalmefene", layout="wide")
+st.title("Nalmefene")
 st.markdown(f"PubChem Compound ID: [5284594](https://pubchem.ncbi.nlm.nih.gov/compound/5284594)")
 st.markdown(f"IUPAC Name: (4R,4aS,7aS,12bS)-3-(cyclopropylmethyl)-7-methylidene-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-4a,9-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5284594.jpg", caption=f"SMILES: C=C1CC[C@@]2(O)[C@H]3Cc4ccc(O)c5c4[C@@]2(CCN3CC2CC2)[C@H]1O5")
+st.image(f"compound_structures/compound_5284594.jpg", width=400)
 
 st.write("---")
 

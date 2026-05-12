@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="THIOUREA", layout="wide")
-st.title("THIOUREA")
+st.set_page_config(page_title="Thiourea", layout="wide")
+st.title("Thiourea")
 st.markdown(f"PubChem Compound ID: [2723790](https://pubchem.ncbi.nlm.nih.gov/compound/2723790)")
 st.markdown(f"IUPAC Name: thiourea")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2723790.jpg", caption=f"SMILES: NC(N)=S")
+st.image(f"compound_structures/compound_2723790.jpg", width=400)
 
 st.write("---")
 

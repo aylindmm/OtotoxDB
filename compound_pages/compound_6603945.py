@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2S)-2-acetamido-3-methyl-3-nitrososulfanylbutanoic ac
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6603945.jpg", caption=f"SMILES: CC(=O)NC(C(=O)O)C(C)(C)SN=O")
+st.image(f"compound_structures/compound_6603945.jpg", width=400)
 
 st.write("---")
 

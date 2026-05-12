@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Calpain inhibitor II", layout="wide")
-st.title("Calpain inhibitor II")
+st.set_page_config(page_title="Calpain inhibitor ii", layout="wide")
+st.title("Calpain inhibitor ii")
 st.markdown(f"PubChem Compound ID: [121855](https://pubchem.ncbi.nlm.nih.gov/compound/121855)")
 st.markdown(f"IUPAC Name: (2S)-2-acetamido-4-methyl-N-[(2S)-4-methyl-1-[[(2S)-4-methylsulfanyl-1-oxobutan-2-yl]amino]-1-oxopentan-2-yl]pentanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_121855.jpg", caption=f"SMILES: CSCCC(C=O)NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(C)=O")
+st.image(f"compound_structures/compound_121855.jpg", width=400)
 
 st.write("---")
 

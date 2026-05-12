@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="LEVOSIMENDAN", layout="wide")
-st.title("LEVOSIMENDAN")
+st.set_page_config(page_title="Levosimendan", layout="wide")
+st.title("Levosimendan")
 st.markdown(f"PubChem Compound ID: [3033825](https://pubchem.ncbi.nlm.nih.gov/compound/3033825)")
 st.markdown(f"IUPAC Name: 2-[[4-[(4R)-4-methyl-6-oxo-4,5-dihydro-1H-pyridazin-3-yl]phenyl]hydrazinylidene]propanedinitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3033825.jpg", caption=f"SMILES: CC1CC(=O)NN=C1c1ccc(NN=C(C#N)C#N)cc1")
+st.image(f"compound_structures/compound_3033825.jpg", width=400)
 
 st.write("---")
 

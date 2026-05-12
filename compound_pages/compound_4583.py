@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ofloxacin", layout="wide")
-st.title("ofloxacin")
+st.set_page_config(page_title="Ofloxacin", layout="wide")
+st.title("Ofloxacin")
 st.markdown(f"PubChem Compound ID: [4583](https://pubchem.ncbi.nlm.nih.gov/compound/4583)")
 st.markdown(f"IUPAC Name: 7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4583.jpg", caption=f"SMILES: CC1COc2c(N3CCN(C)CC3)c(F)cc3c(=O)c(C(=O)O)cn1c23")
+st.image(f"compound_structures/compound_4583.jpg", width=400)
 
 st.write("---")
 

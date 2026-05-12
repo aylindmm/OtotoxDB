@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="L-EFLORNITHINE", layout="wide")
-st.title("L-EFLORNITHINE")
+st.set_page_config(page_title="L-eflornithine", layout="wide")
+st.title("L-eflornithine")
 st.markdown(f"PubChem Compound ID: [6992039](https://pubchem.ncbi.nlm.nih.gov/compound/6992039)")
 st.markdown(f"IUPAC Name: (2S)-2,5-diamino-2-(difluoromethyl)pentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6992039.jpg", caption=f"SMILES: NCCC[C@](N)(C(=O)O)C(F)F")
+st.image(f"compound_structures/compound_6992039.jpg", width=400)
 
 st.write("---")
 

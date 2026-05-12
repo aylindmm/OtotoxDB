@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SB 216763", layout="wide")
-st.title("SB 216763")
+st.set_page_config(page_title="Sb 216763", layout="wide")
+st.title("Sb 216763")
 st.markdown(f"PubChem Compound ID: [176158](https://pubchem.ncbi.nlm.nih.gov/compound/176158)")
 st.markdown(f"IUPAC Name: 3-(2,4-dichlorophenyl)-4-(1-methylindol-3-yl)pyrrole-2,5-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_176158.jpg", caption=f"SMILES: Cn1cc(C2=C(c3ccc(Cl)cc3Cl)C(=O)NC2=O)c2ccccc21")
+st.image(f"compound_structures/compound_176158.jpg", width=400)
 
 st.write("---")
 

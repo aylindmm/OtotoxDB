@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="RUTIN", layout="wide")
-st.title("RUTIN")
+st.set_page_config(page_title="Rutin", layout="wide")
+st.title("Rutin")
 st.markdown(f"PubChem Compound ID: [5280805](https://pubchem.ncbi.nlm.nih.gov/compound/5280805)")
 st.markdown(f"IUPAC Name: 2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-[[(2R,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxymethyl]oxan-2-yl]oxychromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280805.jpg", caption=f"SMILES: C[C@@H]1O[C@@H](OC[C@H]2O[C@@H](Oc3c(-c4ccc(O)c(O)c4)oc4cc(O)cc(O)c4c3=O)[C@H](O)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_5280805.jpg", width=400)
 
 st.write("---")
 

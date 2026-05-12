@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="estrone", layout="wide")
-st.title("estrone")
+st.set_page_config(page_title="Estrone", layout="wide")
+st.title("Estrone")
 st.markdown(f"PubChem Compound ID: [5870](https://pubchem.ncbi.nlm.nih.gov/compound/5870)")
 st.markdown(f"IUPAC Name: (8R,9S,13S,14S)-3-hydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5870.jpg", caption=f"SMILES: C[C@]12CC[C@@H]3c4ccc(O)cc4CC[C@H]3[C@@H]1CCC2=O")
+st.image(f"compound_structures/compound_5870.jpg", width=400)
 
 st.write("---")
 

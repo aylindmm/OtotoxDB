@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5,10,15,20,25,30-hexakis(hydroxymethyl)-2,4,7,9,12,14,
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_320760.jpg", caption=f"SMILES: OCC1OC2OC3C(CO)OC(OC4C(CO)OC(OC5C(CO)OC(OC6C(CO)OC(OC7C(CO)OC(OC1C(O)C2O)C(O)C7O)C(O)C6O)C(O)C5O)C(O)C4O)C(O)C3O")
+st.image(f"compound_structures/compound_320760.jpg", width=400)
 
 st.write("---")
 

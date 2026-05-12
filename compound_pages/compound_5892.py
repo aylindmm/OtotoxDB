@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nadide", layout="wide")
-st.title("nadide")
+st.set_page_config(page_title="Nadide", layout="wide")
+st.title("Nadide")
 st.markdown(f"PubChem Compound ID: [5892](https://pubchem.ncbi.nlm.nih.gov/compound/5892)")
 st.markdown(f"IUPAC Name: [[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(2R,3S,4R,5R)-5-(3-carbamoylpyridin-1-ium-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl phosphate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5892.jpg", caption=f"SMILES: NC(=O)c1ccc[n+]([C@@H]2O[C@H](COP(=O)([O-])OP(=O)(O)OC[C@H]3O[C@@H](n4cnc5c(N)ncnc54)[C@H](O)[C@@H]3O)[C@@H](O)[C@H]2O)c1")
+st.image(f"compound_structures/compound_5892.jpg", width=400)
 
 st.write("---")
 

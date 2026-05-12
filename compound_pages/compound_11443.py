@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2,4-Diisocyanato-1-methylbenzene", layout="wide")
-st.title("2,4-Diisocyanato-1-methylbenzene")
+st.set_page_config(page_title="2,4-diisocyanato-1-methylbenzene", layout="wide")
+st.title("2,4-diisocyanato-1-methylbenzene")
 st.markdown(f"PubChem Compound ID: [11443](https://pubchem.ncbi.nlm.nih.gov/compound/11443)")
 st.markdown(f"IUPAC Name: 2,4-diisocyanato-1-methylbenzene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11443.jpg", caption=f"SMILES: Cc1ccc(N=C=O)cc1N=C=O")
+st.image(f"compound_structures/compound_11443.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CD1530", layout="wide")
-st.title("CD1530")
+st.set_page_config(page_title="Cd1530", layout="wide")
+st.title("Cd1530")
 st.markdown(f"PubChem Compound ID: [9952709](https://pubchem.ncbi.nlm.nih.gov/compound/9952709)")
 st.markdown(f"IUPAC Name: 4-[7-(1-adamantyl)-6-hydroxynaphthalen-2-yl]benzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9952709.jpg", caption=f"SMILES: O=C(O)c1ccc(-c2ccc3cc(O)c(C45CC6CC(CC(C6)C4)C5)cc3c2)cc1")
+st.image(f"compound_structures/compound_9952709.jpg", width=400)
 
 st.write("---")
 

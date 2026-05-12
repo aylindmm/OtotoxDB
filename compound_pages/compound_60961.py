@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="adenosine", layout="wide")
-st.title("adenosine")
+st.set_page_config(page_title="Adenosine", layout="wide")
+st.title("Adenosine")
 st.markdown(f"PubChem Compound ID: [60961](https://pubchem.ncbi.nlm.nih.gov/compound/60961)")
 st.markdown(f"IUPAC Name: (2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_60961.jpg", caption=f"SMILES: Nc1ncnc2c1ncn2[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_60961.jpg", width=400)
 
 st.write("---")
 

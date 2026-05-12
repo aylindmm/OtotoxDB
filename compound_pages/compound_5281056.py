@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (Z)-but-2-enedioic acid;(2S)-1-(tert-butylamino)-3-[(4
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5281056.jpg", caption=f"SMILES: CC(C)(C)NC[C@H](O)COc1nsnc1N1CCOCC1")
+st.image(f"compound_structures/compound_5281056.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N,N-diethylcarbamodithioate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_28343.jpg", caption=f"SMILES: CCN(CC)C(=S)S")
+st.image(f"compound_structures/compound_28343.jpg", width=400)
 
 st.write("---")
 

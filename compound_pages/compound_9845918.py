@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="zVAD peptide", layout="wide")
-st.title("zVAD peptide")
+st.set_page_config(page_title="Zvad peptide", layout="wide")
+st.title("Zvad peptide")
 st.markdown(f"PubChem Compound ID: [9845918](https://pubchem.ncbi.nlm.nih.gov/compound/9845918)")
 st.markdown(f"IUPAC Name: (2S)-2-[[(2S)-2-[[(2S)-3-methyl-2-(phenylmethoxycarbonylamino)butanoyl]amino]propanoyl]amino]butanedioic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9845918.jpg", caption=f"SMILES: CC(NC(=O)C(NC(=O)OCc1ccccc1)C(C)C)C(=O)NC(CC(=O)O)C(=O)O")
+st.image(f"compound_structures/compound_9845918.jpg", width=400)
 
 st.write("---")
 

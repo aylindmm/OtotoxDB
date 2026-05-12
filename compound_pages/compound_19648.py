@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: bis(2-[(1R,2R,3S,4R,5R,6S)-3-(diaminomethylideneamino)
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_19648.jpg", caption=f"SMILES: CN[C@@H]1[C@H](O[C@H]2[C@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](N=C(N)N)[C@@H](O)[C@@H]3N=C(N)N)O[C@@H](C)[C@]2(O)C=O)O[C@@H](CO)[C@H](O)[C@H]1O.CN[C@@H]1[C@H](O[C@H]2[C@H](O[C@H]3[C@H](O)[C@@H](O)[C@H](N=C(N)N)[C@@H](O)[C@@H]3N=C(N)N)O[C@@H](C)[C@]2(O)C=O)O[C@@H](CO)[C@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_19648.jpg", width=400)
 
 st.write("---")
 

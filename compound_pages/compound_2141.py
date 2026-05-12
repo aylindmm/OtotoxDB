@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="amifostine", layout="wide")
-st.title("amifostine")
+st.set_page_config(page_title="Amifostine", layout="wide")
+st.title("Amifostine")
 st.markdown(f"PubChem Compound ID: [2141](https://pubchem.ncbi.nlm.nih.gov/compound/2141)")
 st.markdown(f"IUPAC Name: 2-(3-aminopropylamino)ethylsulfanylphosphonic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2141.jpg", caption=f"SMILES: NCCCNCCSP(=O)(O)O")
+st.image(f"compound_structures/compound_2141.jpg", width=400)
 
 st.write("---")
 

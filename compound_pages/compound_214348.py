@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-[3,5-bis(2-hydroxyphenyl)-1,2,4-triazol-1-yl]benzoic
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_214348.jpg", caption=f"SMILES: O=C(O)c1ccc(-n2nc(-c3ccccc3O)nc2-c2ccccc2O)cc1")
+st.image(f"compound_structures/compound_214348.jpg", width=400)
 
 st.write("---")
 

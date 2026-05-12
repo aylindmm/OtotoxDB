@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ritonavir", layout="wide")
-st.title("ritonavir")
+st.set_page_config(page_title="Ritonavir", layout="wide")
+st.title("Ritonavir")
 st.markdown(f"PubChem Compound ID: [392622](https://pubchem.ncbi.nlm.nih.gov/compound/392622)")
 st.markdown(f"IUPAC Name: 1,3-thiazol-5-ylmethyl N-[(2S,3S,5S)-3-hydroxy-5-[[(2S)-3-methyl-2-[[methyl-[(2-propan-2-yl-1,3-thiazol-4-yl)methyl]carbamoyl]amino]butanoyl]amino]-1,6-diphenylhexan-2-yl]carbamate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_392622.jpg", caption=f"SMILES: CC(C)c1nc(CN(C)C(=O)NC(C(=O)N[C@@H](Cc2ccccc2)C[C@H](O)[C@H](Cc2ccccc2)NC(=O)OCc2cncs2)C(C)C)cs1")
+st.image(f"compound_structures/compound_392622.jpg", width=400)
 
 st.write("---")
 

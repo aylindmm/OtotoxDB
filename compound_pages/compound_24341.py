@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="HYPOCHLOROUS ACID", layout="wide")
-st.title("HYPOCHLOROUS ACID")
+st.set_page_config(page_title="Hypochlorous acid", layout="wide")
+st.title("Hypochlorous acid")
 st.markdown(f"PubChem Compound ID: [24341](https://pubchem.ncbi.nlm.nih.gov/compound/24341)")
 st.markdown(f"IUPAC Name: hypochlorous acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24341.jpg", caption=f"SMILES: OCl")
+st.image(f"compound_structures/compound_24341.jpg", width=400)
 
 st.write("---")
 

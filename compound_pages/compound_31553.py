@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="silibinin", layout="wide")
-st.title("silibinin")
+st.set_page_config(page_title="Silibinin", layout="wide")
+st.title("Silibinin")
 st.markdown(f"PubChem Compound ID: [31553](https://pubchem.ncbi.nlm.nih.gov/compound/31553)")
 st.markdown(f"IUPAC Name: (2R,3R)-3,5,7-trihydroxy-2-[(2R,3R)-3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-2,3-dihydro-1,4-benzodioxin-6-yl]-2,3-dihydrochromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_31553.jpg", caption=f"SMILES: COc1cc([C@H]2Oc3cc(C4Oc5cc(O)cc(O)c5C(=O)C4O)ccc3O[C@@H]2CO)ccc1O")
+st.image(f"compound_structures/compound_31553.jpg", width=400)
 
 st.write("---")
 

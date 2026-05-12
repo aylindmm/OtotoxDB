@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: [11,16-diacetyloxy-2-benzoyloxy-5,8-dihydroxy-3-(2-hyd
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_78384800.jpg", caption=f"SMILES: CC(=O)OC1CC2OCC2(OC(C)=O)C2C(OC(=O)c3ccccc3)C3(C(C)(C)O)CC(O)C(C)=C3C(O)C(OC(=O)c3ccccc3)C12C")
+st.image(f"compound_structures/compound_78384800.jpg", width=400)
 
 st.write("---")
 

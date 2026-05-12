@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="melphalan", layout="wide")
-st.title("melphalan")
+st.set_page_config(page_title="Melphalan", layout="wide")
+st.title("Melphalan")
 st.markdown(f"PubChem Compound ID: [460612](https://pubchem.ncbi.nlm.nih.gov/compound/460612)")
 st.markdown(f"IUPAC Name: (2S)-2-amino-3-[4-[bis(2-chloroethyl)amino]phenyl]propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_460612.jpg", caption=f"SMILES: NC(Cc1ccc(N(CCCl)CCCl)cc1)C(=O)O")
+st.image(f"compound_structures/compound_460612.jpg", width=400)
 
 st.write("---")
 

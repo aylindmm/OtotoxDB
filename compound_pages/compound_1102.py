@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="spermidine", layout="wide")
-st.title("spermidine")
+st.set_page_config(page_title="Spermidine", layout="wide")
+st.title("Spermidine")
 st.markdown(f"PubChem Compound ID: [1102](https://pubchem.ncbi.nlm.nih.gov/compound/1102)")
 st.markdown(f"IUPAC Name: N'-(3-aminopropyl)butane-1,4-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1102.jpg", caption=f"SMILES: NCCCCNCCCN")
+st.image(f"compound_structures/compound_1102.jpg", width=400)
 
 st.write("---")
 

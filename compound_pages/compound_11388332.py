@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="mitoquinone", layout="wide")
-st.title("mitoquinone")
+st.set_page_config(page_title="Mitoquinone", layout="wide")
+st.title("Mitoquinone")
 st.markdown(f"PubChem Compound ID: [11388332](https://pubchem.ncbi.nlm.nih.gov/compound/11388332)")
 st.markdown(f"IUPAC Name: 10-(4,5-dimethoxy-2-methyl-3,6-dioxocyclohexa-1,4-dien-1-yl)decyl-triphenylphosphanium")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11388332.jpg", caption=f"SMILES: COc1c(O)c(C)c(C=CCCCCCCCC[P+](c2ccccc2)(c2ccccc2)c2ccccc2)c(O)c1OC")
+st.image(f"compound_structures/compound_11388332.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="diphenhydramine", layout="wide")
-st.title("diphenhydramine")
+st.set_page_config(page_title="Diphenhydramine", layout="wide")
+st.title("Diphenhydramine")
 st.markdown(f"PubChem Compound ID: [3100](https://pubchem.ncbi.nlm.nih.gov/compound/3100)")
 st.markdown(f"IUPAC Name: 2-benzhydryloxy-N,N-dimethylethanamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3100.jpg", caption=f"SMILES: CN(C)CCOC(c1ccccc1)c1ccccc1")
+st.image(f"compound_structures/compound_3100.jpg", width=400)
 
 st.write("---")
 

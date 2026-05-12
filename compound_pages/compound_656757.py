@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="(3R)-3-(5-chloro-2-methoxy-phenyl)-3-fluoro-6-(trifluoromethyl)indolin-2-one", layout="wide")
-st.title("(3R)-3-(5-chloro-2-methoxy-phenyl)-3-fluoro-6-(trifluoromethyl)indolin-2-one")
+st.set_page_config(page_title="(3r)-3-(5-chloro-2-methoxy-phenyl)-3-fluoro-6-(trifluoromethyl)indolin-2-one", layout="wide")
+st.title("(3r)-3-(5-chloro-2-methoxy-phenyl)-3-fluoro-6-(trifluoromethyl)indolin-2-one")
 st.markdown(f"PubChem Compound ID: [656757](https://pubchem.ncbi.nlm.nih.gov/compound/656757)")
 st.markdown(f"IUPAC Name: (3R)-3-(5-chloro-2-methoxyphenyl)-3-fluoro-6-(trifluoromethyl)-1H-indol-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_656757.jpg", caption=f"SMILES: COc1ccc(Cl)cc1[C@@]1(F)C(=O)Nc2cc(C(F)(F)F)ccc21")
+st.image(f"compound_structures/compound_656757.jpg", width=400)
 
 st.write("---")
 

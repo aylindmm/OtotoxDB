@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="gentamicin", layout="wide")
-st.title("gentamicin")
+st.set_page_config(page_title="Gentamicin", layout="wide")
+st.title("Gentamicin")
 st.markdown(f"PubChem Compound ID: [3467](https://pubchem.ncbi.nlm.nih.gov/compound/3467)")
 st.markdown(f"IUPAC Name: 2-[4,6-diamino-3-[3-amino-6-[1-(methylamino)ethyl]oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3467.jpg", caption=f"SMILES: CNC(C)C1CCC(N)C(OC2C(N)CC(N)C(OC3OCC(C)(O)C(NC)C3O)C2O)O1")
+st.image(f"compound_structures/compound_3467.jpg", width=400)
 
 st.write("---")
 

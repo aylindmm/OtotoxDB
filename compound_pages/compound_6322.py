@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6322.jpg", caption=f"SMILES: N=C(N)NCCCC(N)C(=O)O")
+st.image(f"compound_structures/compound_6322.jpg", width=400)
 
 st.write("---")
 

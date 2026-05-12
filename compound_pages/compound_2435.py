@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="brimonidine", layout="wide")
-st.title("brimonidine")
+st.set_page_config(page_title="Brimonidine", layout="wide")
+st.title("Brimonidine")
 st.markdown(f"PubChem Compound ID: [2435](https://pubchem.ncbi.nlm.nih.gov/compound/2435)")
 st.markdown(f"IUPAC Name: 5-bromo-N-(4,5-dihydro-1H-imidazol-2-yl)quinoxalin-6-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2435.jpg", caption=f"SMILES: Brc1c(NC2=NCCN2)ccc2nccnc12")
+st.image(f"compound_structures/compound_2435.jpg", width=400)
 
 st.write("---")
 

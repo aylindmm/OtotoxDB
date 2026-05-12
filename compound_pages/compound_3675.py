@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-phenylethylhydrazine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3675.jpg", caption=f"SMILES: NNCCc1ccccc1")
+st.image(f"compound_structures/compound_3675.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cromolyn", layout="wide")
-st.title("cromolyn")
+st.set_page_config(page_title="Cromolyn", layout="wide")
+st.title("Cromolyn")
 st.markdown(f"PubChem Compound ID: [2882](https://pubchem.ncbi.nlm.nih.gov/compound/2882)")
 st.markdown(f"IUPAC Name: 5-[3-(2-carboxy-4-oxochromen-5-yl)oxy-2-hydroxypropoxy]-4-oxochromene-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2882.jpg", caption=f"SMILES: O=C(O)c1cc(=O)c2c(OCC(O)COc3cccc4oc(C(=O)O)cc(=O)c34)cccc2o1")
+st.image(f"compound_structures/compound_2882.jpg", width=400)
 
 st.write("---")
 

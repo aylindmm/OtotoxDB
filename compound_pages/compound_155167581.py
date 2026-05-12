@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="STM2457", layout="wide")
-st.title("STM2457")
+st.set_page_config(page_title="Stm2457", layout="wide")
+st.title("Stm2457")
 st.markdown(f"PubChem Compound ID: [155167581](https://pubchem.ncbi.nlm.nih.gov/compound/155167581)")
 st.markdown(f"IUPAC Name: N-[[6-[(cyclohexylmethylamino)methyl]imidazo[1,2-a]pyridin-2-yl]methyl]-4-oxopyrido[1,2-a]pyrimidine-2-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_155167581.jpg", caption=f"SMILES: O=C(NCc1cn2cc(CNCC3CCCCC3)ccc2n1)c1cc(=O)n2ccccc2n1")
+st.image(f"compound_structures/compound_155167581.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Ac-VAD-CMK", layout="wide")
-st.title("Ac-VAD-CMK")
+st.set_page_config(page_title="Ac-vad-cmk", layout="wide")
+st.title("Ac-vad-cmk")
 st.markdown(f"PubChem Compound ID: [10249040](https://pubchem.ncbi.nlm.nih.gov/compound/10249040)")
 st.markdown(f"IUPAC Name: (3S)-3-[[(2S)-2-[[(2S)-2-acetamido-3-methylbutanoyl]amino]propanoyl]amino]-5-chloro-4-oxopentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10249040.jpg", caption=f"SMILES: CC(=O)NC(C(=O)NC(C)C(=O)NC(CC(=O)O)C(=O)CCl)C(C)C")
+st.image(f"compound_structures/compound_10249040.jpg", width=400)
 
 st.write("---")
 

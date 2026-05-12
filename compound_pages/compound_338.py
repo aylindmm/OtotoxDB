@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="salicylic acid", layout="wide")
-st.title("salicylic acid")
+st.set_page_config(page_title="Salicylic acid", layout="wide")
+st.title("Salicylic acid")
 st.markdown(f"PubChem Compound ID: [338](https://pubchem.ncbi.nlm.nih.gov/compound/338)")
 st.markdown(f"IUPAC Name: 2-hydroxybenzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_338.jpg", caption=f"SMILES: O=C(O)c1ccccc1O")
+st.image(f"compound_structures/compound_338.jpg", width=400)
 
 st.write("---")
 

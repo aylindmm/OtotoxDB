@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="luteolin", layout="wide")
-st.title("luteolin")
+st.set_page_config(page_title="Luteolin", layout="wide")
+st.title("Luteolin")
 st.markdown(f"PubChem Compound ID: [5280445](https://pubchem.ncbi.nlm.nih.gov/compound/5280445)")
 st.markdown(f"IUPAC Name: 2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280445.jpg", caption=f"SMILES: O=c1cc(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_5280445.jpg", width=400)
 
 st.write("---")
 

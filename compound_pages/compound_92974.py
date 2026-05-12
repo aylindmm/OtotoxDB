@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="droxidopa", layout="wide")
-st.title("droxidopa")
+st.set_page_config(page_title="Droxidopa", layout="wide")
+st.title("Droxidopa")
 st.markdown(f"PubChem Compound ID: [92974](https://pubchem.ncbi.nlm.nih.gov/compound/92974)")
 st.markdown(f"IUPAC Name: (2S,3R)-2-amino-3-(3,4-dihydroxyphenyl)-3-hydroxypropanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_92974.jpg", caption=f"SMILES: NC(C(=O)O)C(O)c1ccc(O)c(O)c1")
+st.image(f"compound_structures/compound_92974.jpg", width=400)
 
 st.write("---")
 

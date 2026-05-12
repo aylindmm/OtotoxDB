@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="5-(3,5-di-tert-butyl-4-hydroxybenzyl)-4-hydroxythiazol-2(5H)-one", layout="wide")
-st.title("5-(3,5-di-tert-butyl-4-hydroxybenzyl)-4-hydroxythiazol-2(5H)-one")
+st.set_page_config(page_title="5-(3,5-di-tert-butyl-4-hydroxybenzyl)-4-hydroxythiazol-2(5h)-one", layout="wide")
+st.title("5-(3,5-di-tert-butyl-4-hydroxybenzyl)-4-hydroxythiazol-2(5h)-one")
 st.markdown(f"PubChem Compound ID: [9819104](https://pubchem.ncbi.nlm.nih.gov/compound/9819104)")
 st.markdown(f"IUPAC Name: 5-[(3,5-ditert-butyl-4-hydroxyphenyl)methyl]-1,3-thiazolidine-2,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9819104.jpg", caption=f"SMILES: CC(C)(C)c1cc(Cc2sc(=O)[nH]c2O)cc(C(C)(C)C)c1O")
+st.image(f"compound_structures/compound_9819104.jpg", width=400)
 
 st.write("---")
 

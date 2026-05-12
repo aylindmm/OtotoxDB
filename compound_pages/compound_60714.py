@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="GADOTERIDOL", layout="wide")
-st.title("GADOTERIDOL")
+st.set_page_config(page_title="Gadoteridol", layout="wide")
+st.title("Gadoteridol")
 st.markdown(f"PubChem Compound ID: [60714](https://pubchem.ncbi.nlm.nih.gov/compound/60714)")
 st.markdown(f"IUPAC Name: 2-[4,7-bis(carboxylatomethyl)-10-(2-hydroxypropyl)-1,4,7,10-tetrazacyclododec-1-yl]acetate;gadolinium(3+)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_60714.jpg", caption=f"SMILES: CC(O)CN1CCN(CC(=O)[O-])CCN(CC(=O)[O-])CCN(CC(=O)[O-])CC1.[Gd+3]")
+st.image(f"compound_structures/compound_60714.jpg", width=400)
 
 st.write("---")
 

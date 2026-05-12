@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-amino-4,6-dimethyl-3-oxo-1-N,9-N-bis[(3R,6S,7S,10S,1
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_44415057.jpg", caption=f"SMILES: Cc1ccc(C(=O)NC2C(=O)NC(C(C)C)C(=O)N3CCCC3C(=O)N(C)CC(=O)N(C)C(C(C)C)C(=O)O[C@H]2C)c2c1Oc1c(C)c(O)c(N)c(=C(O)N=C3C(=O)NC(C(C)C)C(=O)N4CCCC4C(=O)N(C)CC(=O)N(C)C(C(C)C)C(=O)O[C@H]3C)c1=N2")
+st.image(f"compound_structures/compound_44415057.jpg", width=400)
 
 st.write("---")
 

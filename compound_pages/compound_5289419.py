@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SU9516", layout="wide")
-st.title("SU9516")
+st.set_page_config(page_title="Su9516", layout="wide")
+st.title("Su9516")
 st.markdown(f"PubChem Compound ID: [5289419](https://pubchem.ncbi.nlm.nih.gov/compound/5289419)")
 st.markdown(f"IUPAC Name: (3Z)-3-(1H-imidazol-5-ylmethylidene)-5-methoxy-1H-indol-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5289419.jpg", caption=f"SMILES: COc1ccc2c(c1)C(=Cc1c[nH]cn1)C(=O)N2")
+st.image(f"compound_structures/compound_5289419.jpg", width=400)
 
 st.write("---")
 

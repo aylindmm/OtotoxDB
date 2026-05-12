@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="3-(2,4-dichloro-5-methoxyphenyl)-2-sulfanyl-4(3H)-quinazolinone", layout="wide")
-st.title("3-(2,4-dichloro-5-methoxyphenyl)-2-sulfanyl-4(3H)-quinazolinone")
+st.set_page_config(page_title="3-(2,4-dichloro-5-methoxyphenyl)-2-sulfanyl-4(3h)-quinazolinone", layout="wide")
+st.title("3-(2,4-dichloro-5-methoxyphenyl)-2-sulfanyl-4(3h)-quinazolinone")
 st.markdown(f"PubChem Compound ID: [3825829](https://pubchem.ncbi.nlm.nih.gov/compound/3825829)")
 st.markdown(f"IUPAC Name: 3-(2,4-dichloro-5-methoxyphenyl)-2-sulfanylidene-1H-quinazolin-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3825829.jpg", caption=f"SMILES: COc1cc(-n2c(=S)[nH]c3ccccc3c2=O)c(Cl)cc1Cl")
+st.image(f"compound_structures/compound_3825829.jpg", width=400)
 
 st.write("---")
 

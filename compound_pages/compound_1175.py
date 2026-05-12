@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="uric acid", layout="wide")
-st.title("uric acid")
+st.set_page_config(page_title="Uric acid", layout="wide")
+st.title("Uric acid")
 st.markdown(f"PubChem Compound ID: [1175](https://pubchem.ncbi.nlm.nih.gov/compound/1175)")
 st.markdown(f"IUPAC Name: 7,9-dihydro-3H-purine-2,6,8-trione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1175.jpg", caption=f"SMILES: O=c1[nH]c(=O)c2[nH]c(=O)[nH]c2[nH]1")
+st.image(f"compound_structures/compound_1175.jpg", width=400)
 
 st.write("---")
 

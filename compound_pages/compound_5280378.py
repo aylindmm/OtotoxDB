@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="formononetin", layout="wide")
-st.title("formononetin")
+st.set_page_config(page_title="Formononetin", layout="wide")
+st.title("Formononetin")
 st.markdown(f"PubChem Compound ID: [5280378](https://pubchem.ncbi.nlm.nih.gov/compound/5280378)")
 st.markdown(f"IUPAC Name: 7-hydroxy-3-(4-methoxyphenyl)chromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280378.jpg", caption=f"SMILES: COc1ccc(-c2coc3cc(O)ccc3c2=O)cc1")
+st.image(f"compound_structures/compound_5280378.jpg", width=400)
 
 st.write("---")
 

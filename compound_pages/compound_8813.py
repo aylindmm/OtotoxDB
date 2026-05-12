@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="PENTAMIDINE ISETHIONATE", layout="wide")
-st.title("PENTAMIDINE ISETHIONATE")
+st.set_page_config(page_title="Pentamidine isethionate", layout="wide")
+st.title("Pentamidine isethionate")
 st.markdown(f"PubChem Compound ID: [8813](https://pubchem.ncbi.nlm.nih.gov/compound/8813)")
 st.markdown(f"IUPAC Name: 4-[5-(4-carbamimidoylphenoxy)pentoxy]benzenecarboximidamide;bis(2-hydroxyethanesulfonic acid)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8813.jpg", caption=f"SMILES: N=C(N)c1ccc(OCCCCCOc2ccc(C(=N)N)cc2)cc1.O=S(=O)(O)CCO.O=S(=O)(O)CCO")
+st.image(f"compound_structures/compound_8813.jpg", width=400)
 
 st.write("---")
 

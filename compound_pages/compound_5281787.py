@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-phenylethyl (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5281787.jpg", caption=f"SMILES: O=C(C=Cc1ccc(O)c(O)c1)OCCc1ccccc1")
+st.image(f"compound_structures/compound_5281787.jpg", width=400)
 
 st.write("---")
 

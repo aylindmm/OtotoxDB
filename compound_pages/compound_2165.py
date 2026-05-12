@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="amodiaquine", layout="wide")
-st.title("amodiaquine")
+st.set_page_config(page_title="Amodiaquine", layout="wide")
+st.title("Amodiaquine")
 st.markdown(f"PubChem Compound ID: [2165](https://pubchem.ncbi.nlm.nih.gov/compound/2165)")
 st.markdown(f"IUPAC Name: 4-[(7-chloroquinolin-4-yl)amino]-2-(diethylaminomethyl)phenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2165.jpg", caption=f"SMILES: CCN(CC)Cc1cc(Nc2ccnc3cc(Cl)ccc23)ccc1O")
+st.image(f"compound_structures/compound_2165.jpg", width=400)
 
 st.write("---")
 

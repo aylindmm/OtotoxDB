@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: bis([(1S,5R)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 3
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_60196398.jpg", caption=f"SMILES: CN1[C@@H]2CC[C@H]1CC(OC(=O)C(CO)c1ccccc1)C2.CN1[C@@H]2CC[C@H]1CC(OC(=O)C(CO)c1ccccc1)C2")
+st.image(f"compound_structures/compound_60196398.jpg", width=400)
 
 st.write("---")
 

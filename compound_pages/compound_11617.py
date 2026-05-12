@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DIALLYL SULFIDE", layout="wide")
-st.title("DIALLYL SULFIDE")
+st.set_page_config(page_title="Diallyl sulfide", layout="wide")
+st.title("Diallyl sulfide")
 st.markdown(f"PubChem Compound ID: [11617](https://pubchem.ncbi.nlm.nih.gov/compound/11617)")
 st.markdown(f"IUPAC Name: 3-prop-2-enylsulfanylprop-1-ene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11617.jpg", caption=f"SMILES: C=CCSCC=C")
+st.image(f"compound_structures/compound_11617.jpg", width=400)
 
 st.write("---")
 

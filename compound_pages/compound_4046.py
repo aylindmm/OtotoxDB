@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="mefloquine", layout="wide")
-st.title("mefloquine")
+st.set_page_config(page_title="Mefloquine", layout="wide")
+st.title("Mefloquine")
 st.markdown(f"PubChem Compound ID: [4046](https://pubchem.ncbi.nlm.nih.gov/compound/4046)")
 st.markdown(f"IUPAC Name: [2,8-bis(trifluoromethyl)quinolin-4-yl]-piperidin-2-ylmethanol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4046.jpg", caption=f"SMILES: OC(c1cc(C(F)(F)F)nc2c(C(F)(F)F)cccc12)C1CCCCN1")
+st.image(f"compound_structures/compound_4046.jpg", width=400)
 
 st.write("---")
 

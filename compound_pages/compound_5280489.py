@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="beta-carotene", layout="wide")
-st.title("beta-carotene")
+st.set_page_config(page_title="Beta-carotene", layout="wide")
+st.title("Beta-carotene")
 st.markdown(f"PubChem Compound ID: [5280489](https://pubchem.ncbi.nlm.nih.gov/compound/5280489)")
 st.markdown(f"IUPAC Name: 1,3,3-trimethyl-2-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-3,7,12,16-tetramethyl-18-(2,6,6-trimethylcyclohexen-1-yl)octadeca-1,3,5,7,9,11,13,15,17-nonaenyl]cyclohexene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280489.jpg", caption=f"SMILES: CC(C=CC1=C(C)CCCC1(C)C)=CC=CC(C)=C/C=C/C=C(C)/C=C/C=C(C)/C=C/C1=C(C)CCCC1(C)C")
+st.image(f"compound_structures/compound_5280489.jpg", width=400)
 
 st.write("---")
 

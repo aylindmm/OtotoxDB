@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: ethyl 3-amino-4-(cyclohexylamino)benzoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4068248.jpg", caption=f"SMILES: CCOC(=O)c1ccc(NC2CCCCC2)c(N)c1")
+st.image(f"compound_structures/compound_4068248.jpg", width=400)
 
 st.write("---")
 

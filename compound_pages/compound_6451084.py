@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Salvianolic acid B", layout="wide")
-st.title("Salvianolic acid B")
+st.set_page_config(page_title="Salvianolic acid b", layout="wide")
+st.title("Salvianolic acid b")
 st.markdown(f"PubChem Compound ID: [6451084](https://pubchem.ncbi.nlm.nih.gov/compound/6451084)")
 st.markdown(f"IUPAC Name: (2R)-2-[(E)-3-[(2S,3S)-3-[(1R)-1-carboxy-2-(3,4-dihydroxyphenyl)ethoxy]carbonyl-2-(3,4-dihydroxyphenyl)-7-hydroxy-2,3-dihydro-1-benzofuran-4-yl]prop-2-enoyl]oxy-3-(3,4-dihydroxyphenyl)propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6451084.jpg", caption=f"SMILES: O=C(C=Cc1ccc(O)c2c1C(C(=O)OC(Cc1ccc(O)c(O)c1)C(=O)O)[C@@H](c1ccc(O)c(O)c1)O2)OC(Cc1ccc(O)c(O)c1)C(=O)O")
+st.image(f"compound_structures/compound_6451084.jpg", width=400)
 
 st.write("---")
 

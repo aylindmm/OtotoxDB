@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ifidancitinib", layout="wide")
-st.title("ifidancitinib")
+st.set_page_config(page_title="Ifidancitinib", layout="wide")
+st.title("Ifidancitinib")
 st.markdown(f"PubChem Compound ID: [46851625](https://pubchem.ncbi.nlm.nih.gov/compound/46851625)")
 st.markdown(f"IUPAC Name: 5-[[2-(4-fluoro-3-methoxy-5-methylanilino)-5-methylpyrimidin-4-yl]amino]-3H-1,3-benzoxazol-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_46851625.jpg", caption=f"SMILES: COc1cc(Nc2ncc(C)c(Nc3ccc4oc(=O)[nH]c4c3)n2)cc(C)c1F")
+st.image(f"compound_structures/compound_46851625.jpg", width=400)
 
 st.write("---")
 

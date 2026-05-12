@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="leflunomide", layout="wide")
-st.title("leflunomide")
+st.set_page_config(page_title="Leflunomide", layout="wide")
+st.title("Leflunomide")
 st.markdown(f"PubChem Compound ID: [3899](https://pubchem.ncbi.nlm.nih.gov/compound/3899)")
 st.markdown(f"IUPAC Name: 5-methyl-N-[4-(trifluoromethyl)phenyl]-1,2-oxazole-4-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3899.jpg", caption=f"SMILES: Cc1oncc1C(=O)Nc1ccc(C(F)(F)F)cc1")
+st.image(f"compound_structures/compound_3899.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="mecysteine", layout="wide")
-st.title("mecysteine")
+st.set_page_config(page_title="Mecysteine", layout="wide")
+st.title("Mecysteine")
 st.markdown(f"PubChem Compound ID: [29145](https://pubchem.ncbi.nlm.nih.gov/compound/29145)")
 st.markdown(f"IUPAC Name: methyl (2R)-2-amino-3-sulfanylpropanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_29145.jpg", caption=f"SMILES: COC(=O)C(N)CS")
+st.image(f"compound_structures/compound_29145.jpg", width=400)
 
 st.write("---")
 

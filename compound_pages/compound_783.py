@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: molecular hydrogen")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_783.jpg", caption=f"SMILES: [H][H]")
+st.image(f"compound_structures/compound_783.jpg", width=400)
 
 st.write("---")
 

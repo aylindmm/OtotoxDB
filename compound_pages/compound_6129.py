@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CARBARYL", layout="wide")
-st.title("CARBARYL")
+st.set_page_config(page_title="Carbaryl", layout="wide")
+st.title("Carbaryl")
 st.markdown(f"PubChem Compound ID: [6129](https://pubchem.ncbi.nlm.nih.gov/compound/6129)")
 st.markdown(f"IUPAC Name: naphthalen-1-yl N-methylcarbamate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6129.jpg", caption=f"SMILES: CNC(=O)Oc1cccc2ccccc12")
+st.image(f"compound_structures/compound_6129.jpg", width=400)
 
 st.write("---")
 

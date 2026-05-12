@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5,11-dihydropyrido[2,3-b][1,4]benzodiazepin-6-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_70169.jpg", caption=f"SMILES: O=C1Nc2cccnc2Nc2ccccc21")
+st.image(f"compound_structures/compound_70169.jpg", width=400)
 
 st.write("---")
 

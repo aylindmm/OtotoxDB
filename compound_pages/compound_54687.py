@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="pravastatin", layout="wide")
-st.title("pravastatin")
+st.set_page_config(page_title="Pravastatin", layout="wide")
+st.title("Pravastatin")
 st.markdown(f"PubChem Compound ID: [54687](https://pubchem.ncbi.nlm.nih.gov/compound/54687)")
 st.markdown(f"IUPAC Name: (3R,5R)-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-[(2S)-2-methylbutanoyl]oxy-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]-3,5-dihydroxyheptanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54687.jpg", caption=f"SMILES: CCC(C)C(=O)O[C@H]1C[C@H](O)C=C2C=C[C@H](C)[C@H](CC[C@@H](O)C[C@@H](O)CC(=O)O)[C@H]21")
+st.image(f"compound_structures/compound_54687.jpg", width=400)
 
 st.write("---")
 

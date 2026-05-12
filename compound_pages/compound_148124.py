@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="docetaxel", layout="wide")
-st.title("docetaxel")
+st.set_page_config(page_title="Docetaxel", layout="wide")
+st.title("Docetaxel")
 st.markdown(f"PubChem Compound ID: [148124](https://pubchem.ncbi.nlm.nih.gov/compound/148124)")
 st.markdown(f"IUPAC Name: [(1S,2S,3R,4S,7R,9S,10S,12R,15S)-4-acetyloxy-1,9,12-trihydroxy-15-[(2R,3S)-2-hydroxy-3-[(2-methylpropan-2-yl)oxycarbonylamino]-3-phenylpropanoyl]oxy-10,14,17,17-tetramethyl-11-oxo-6-oxatetracyclo[11.3.1.03,10.04,7]heptadec-13-en-2-yl] benzoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_148124.jpg", caption=f"SMILES: CC(=O)O[C@@]12CO[C@@H]1C[C@H](O)[C@@]1(C)C(=O)C(=O)C3C(C)[C@@H](OC(=O)C(O)C(NC(=O)OC(C)(C)C)c4ccccc4)C[C@@](O)([C@@H](OC(=O)c4ccccc4)[C@H]21)C3(C)C")
+st.image(f"compound_structures/compound_148124.jpg", width=400)
 
 st.write("---")
 

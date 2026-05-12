@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2'-Hydroxyacetophenone", layout="wide")
-st.title("2'-Hydroxyacetophenone")
+st.set_page_config(page_title="2'-hydroxyacetophenone", layout="wide")
+st.title("2'-hydroxyacetophenone")
 st.markdown(f"PubChem Compound ID: [8375](https://pubchem.ncbi.nlm.nih.gov/compound/8375)")
 st.markdown(f"IUPAC Name: 1-(2-hydroxyphenyl)ethanone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8375.jpg", caption=f"SMILES: CC(=O)c1ccccc1O")
+st.image(f"compound_structures/compound_8375.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="chlorzoxazone", layout="wide")
-st.title("chlorzoxazone")
+st.set_page_config(page_title="Chlorzoxazone", layout="wide")
+st.title("Chlorzoxazone")
 st.markdown(f"PubChem Compound ID: [2733](https://pubchem.ncbi.nlm.nih.gov/compound/2733)")
 st.markdown(f"IUPAC Name: 5-chloro-3H-1,3-benzoxazol-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2733.jpg", caption=f"SMILES: O=c1[nH]c2cc(Cl)ccc2o1")
+st.image(f"compound_structures/compound_2733.jpg", width=400)
 
 st.write("---")
 

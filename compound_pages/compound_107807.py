@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="PERINDOPRIL", layout="wide")
-st.title("PERINDOPRIL")
+st.set_page_config(page_title="Perindopril", layout="wide")
+st.title("Perindopril")
 st.markdown(f"PubChem Compound ID: [107807](https://pubchem.ncbi.nlm.nih.gov/compound/107807)")
 st.markdown(f"IUPAC Name: (2S,3aS,7aS)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxopentan-2-yl]amino]propanoyl]-2,3,3a,4,5,6,7,7a-octahydroindole-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_107807.jpg", caption=f"SMILES: CCCC(NC(C)C(=O)N1C(C(=O)O)C[C@@H]2CCCC[C@@H]21)C(=O)OCC")
+st.image(f"compound_structures/compound_107807.jpg", width=400)
 
 st.write("---")
 

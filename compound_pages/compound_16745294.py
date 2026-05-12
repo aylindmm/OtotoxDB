@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="methyl-neobiosaminide B", layout="wide")
-st.title("methyl-neobiosaminide B")
+st.set_page_config(page_title="Methyl-neobiosaminide b", layout="wide")
+st.title("Methyl-neobiosaminide b")
 st.markdown(f"PubChem Compound ID: [16745294](https://pubchem.ncbi.nlm.nih.gov/compound/16745294)")
 st.markdown(f"IUPAC Name: (2S,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(3R,4R,5R)-3,5-dihydroxy-2-methoxyoxan-4-yl]oxyoxane-3,4-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16745294.jpg", caption=f"SMILES: COC1OC[C@@H](O)[C@@H](O[C@H]2O[C@@H](CN)[C@@H](O)[C@H](O)[C@H]2N)[C@H]1O")
+st.image(f"compound_structures/compound_16745294.jpg", width=400)
 
 st.write("---")
 

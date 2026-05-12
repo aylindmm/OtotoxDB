@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="zidovudine", layout="wide")
-st.title("zidovudine")
+st.set_page_config(page_title="Zidovudine", layout="wide")
+st.title("Zidovudine")
 st.markdown(f"PubChem Compound ID: [35370](https://pubchem.ncbi.nlm.nih.gov/compound/35370)")
 st.markdown(f"IUPAC Name: 1-[(2R,4S,5S)-4-azido-5-(hydroxymethyl)oxolan-2-yl]-5-methylpyrimidine-2,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_35370.jpg", caption=f"SMILES: Cc1cn([C@H]2C[C@H](N=[N+]=[N-])[C@@H](CO)O2)c(=O)[nH]c1=O")
+st.image(f"compound_structures/compound_35370.jpg", width=400)
 
 st.write("---")
 

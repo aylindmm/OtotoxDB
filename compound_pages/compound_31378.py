@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="fludrocortisone", layout="wide")
-st.title("fludrocortisone")
+st.set_page_config(page_title="Fludrocortisone", layout="wide")
+st.title("Fludrocortisone")
 st.markdown(f"PubChem Compound ID: [31378](https://pubchem.ncbi.nlm.nih.gov/compound/31378)")
 st.markdown(f"IUPAC Name: (8S,9R,10S,11S,13S,14S,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-1,2,6,7,8,11,12,14,15,16-decahydrocyclopenta[a]phenanthren-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_31378.jpg", caption=f"SMILES: C[C@]12CCC(=O)C=C1CC[C@H]1[C@@H]3CC[C@](O)(C(=O)CO)[C@@]3(C)C[C@H](O)[C@@]12F")
+st.image(f"compound_structures/compound_31378.jpg", width=400)
 
 st.write("---")
 

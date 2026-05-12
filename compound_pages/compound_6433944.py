@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-Pentenenitrile, (Z)-", layout="wide")
-st.title("2-Pentenenitrile, (Z)-")
+st.set_page_config(page_title="2-pentenenitrile, (z)-", layout="wide")
+st.title("2-pentenenitrile, (z)-")
 st.markdown(f"PubChem Compound ID: [6433944](https://pubchem.ncbi.nlm.nih.gov/compound/6433944)")
 st.markdown(f"IUPAC Name: (Z)-pent-2-enenitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6433944.jpg", caption=f"SMILES: CC/C=C\C#N")
+st.image(f"compound_structures/compound_6433944.jpg", width=400)
 
 st.write("---")
 

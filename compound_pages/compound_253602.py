@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="anisomycin", layout="wide")
-st.title("anisomycin")
+st.set_page_config(page_title="Anisomycin", layout="wide")
+st.title("Anisomycin")
 st.markdown(f"PubChem Compound ID: [253602](https://pubchem.ncbi.nlm.nih.gov/compound/253602)")
 st.markdown(f"IUPAC Name: [(2R,3S,4S)-4-hydroxy-2-[(4-methoxyphenyl)methyl]pyrrolidin-3-yl] acetate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_253602.jpg", caption=f"SMILES: COc1ccc(C[C@H]2NC[C@H](O)[C@H]2OC(C)=O)cc1")
+st.image(f"compound_structures/compound_253602.jpg", width=400)
 
 st.write("---")
 

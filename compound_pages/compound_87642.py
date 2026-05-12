@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="coenzyme A", layout="wide")
-st.title("coenzyme A")
+st.set_page_config(page_title="Coenzyme a", layout="wide")
+st.title("Coenzyme a")
 st.markdown(f"PubChem Compound ID: [87642](https://pubchem.ncbi.nlm.nih.gov/compound/87642)")
 st.markdown(f"IUPAC Name: [[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-4-hydroxy-3-phosphonooxyoxolan-2-yl]methoxy-hydroxyphosphoryl] [(3R)-3-hydroxy-2,2-dimethyl-4-oxo-4-[[3-oxo-3-(2-sulfanylethylamino)propyl]amino]butyl] hydrogen phosphate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_87642.jpg", caption=f"SMILES: CC(C)(COP(=O)(O)OP(=O)(O)OC[C@H]1O[C@@H](n2cnc3c(N)ncnc32)[C@H](O)[C@@H]1OP(=O)(O)O)C(O)C(=O)NCCC(=O)NCCS")
+st.image(f"compound_structures/compound_87642.jpg", width=400)
 
 st.write("---")
 

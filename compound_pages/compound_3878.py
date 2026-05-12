@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="lamotrigine", layout="wide")
-st.title("lamotrigine")
+st.set_page_config(page_title="Lamotrigine", layout="wide")
+st.title("Lamotrigine")
 st.markdown(f"PubChem Compound ID: [3878](https://pubchem.ncbi.nlm.nih.gov/compound/3878)")
 st.markdown(f"IUPAC Name: 6-(2,3-dichlorophenyl)-1,2,4-triazine-3,5-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3878.jpg", caption=f"SMILES: Nc1nnc(-c2cccc(Cl)c2Cl)c(N)n1")
+st.image(f"compound_structures/compound_3878.jpg", width=400)
 
 st.write("---")
 

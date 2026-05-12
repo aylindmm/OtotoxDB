@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CCPA", layout="wide")
-st.title("CCPA")
+st.set_page_config(page_title="Ccpa", layout="wide")
+st.title("Ccpa")
 st.markdown(f"PubChem Compound ID: [123807](https://pubchem.ncbi.nlm.nih.gov/compound/123807)")
 st.markdown(f"IUPAC Name: (2R,3R,4S,5R)-2-[2-chloro-6-(cyclopentylamino)purin-9-yl]-5-(hydroxymethyl)oxolane-3,4-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_123807.jpg", caption=f"SMILES: OC[C@H]1O[C@@H](n2cnc3c(NC4CCCC4)nc(Cl)nc32)[C@H](O)[C@@H]1O")
+st.image(f"compound_structures/compound_123807.jpg", width=400)
 
 st.write("---")
 

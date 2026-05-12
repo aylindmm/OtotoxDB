@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="prednisolone", layout="wide")
-st.title("prednisolone")
+st.set_page_config(page_title="Prednisolone", layout="wide")
+st.title("Prednisolone")
 st.markdown(f"PubChem Compound ID: [5755](https://pubchem.ncbi.nlm.nih.gov/compound/5755)")
 st.markdown(f"IUPAC Name: (8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5755.jpg", caption=f"SMILES: C[C@]12C=CC(=O)C=C1CC[C@@H]1[C@@H]2[C@@H](O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO")
+st.image(f"compound_structures/compound_5755.jpg", width=400)
 
 st.write("---")
 

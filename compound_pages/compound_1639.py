@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1H-1,2,4-triazol-5-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1639.jpg", caption=f"SMILES: Nc1nc[nH]n1")
+st.image(f"compound_structures/compound_1639.jpg", width=400)
 
 st.write("---")
 

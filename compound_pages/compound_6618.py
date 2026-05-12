@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Tetrabromobisphenol A", layout="wide")
-st.title("Tetrabromobisphenol A")
+st.set_page_config(page_title="Tetrabromobisphenol a", layout="wide")
+st.title("Tetrabromobisphenol a")
 st.markdown(f"PubChem Compound ID: [6618](https://pubchem.ncbi.nlm.nih.gov/compound/6618)")
 st.markdown(f"IUPAC Name: 2,6-dibromo-4-[2-(3,5-dibromo-4-hydroxyphenyl)propan-2-yl]phenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6618.jpg", caption=f"SMILES: CC(C)(c1cc(Br)c(O)c(Br)c1)c1cc(Br)c(O)c(Br)c1")
+st.image(f"compound_structures/compound_6618.jpg", width=400)
 
 st.write("---")
 

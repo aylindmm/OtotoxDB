@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Crotononitrile, (Z)-", layout="wide")
-st.title("Crotononitrile, (Z)-")
+st.set_page_config(page_title="Crotononitrile, (z)-", layout="wide")
+st.title("Crotononitrile, (z)-")
 st.markdown(f"PubChem Compound ID: [643774](https://pubchem.ncbi.nlm.nih.gov/compound/643774)")
 st.markdown(f"IUPAC Name: (Z)-but-2-enenitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_643774.jpg", caption=f"SMILES: C/C=C\C#N")
+st.image(f"compound_structures/compound_643774.jpg", width=400)
 
 st.write("---")
 

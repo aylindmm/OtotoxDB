@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="MTBA", layout="wide")
-st.title("MTBA")
+st.set_page_config(page_title="Mtba", layout="wide")
+st.title("Mtba")
 st.markdown(f"PubChem Compound ID: [154190](https://pubchem.ncbi.nlm.nih.gov/compound/154190)")
 st.markdown(f"IUPAC Name: 4-(2-methyliminohydrazinyl)benzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_154190.jpg", caption=f"SMILES: CN=NNc1ccc(C(=O)O)cc1")
+st.image(f"compound_structures/compound_154190.jpg", width=400)
 
 st.write("---")
 

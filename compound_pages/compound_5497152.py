@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2-hydroxy-3-phosphonooxypropyl) (Z)-octadec-9-enoate"
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5497152.jpg", caption=f"SMILES: CCCCCCCC/C=C\CCCCCCCC(=O)OCC(O)COP(=O)(O)O")
+st.image(f"compound_structures/compound_5497152.jpg", width=400)
 
 st.write("---")
 

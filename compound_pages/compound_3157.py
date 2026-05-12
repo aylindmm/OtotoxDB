@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="doxazosin", layout="wide")
-st.title("doxazosin")
+st.set_page_config(page_title="Doxazosin", layout="wide")
+st.title("Doxazosin")
 st.markdown(f"PubChem Compound ID: [3157](https://pubchem.ncbi.nlm.nih.gov/compound/3157)")
 st.markdown(f"IUPAC Name: [4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(2,3-dihydro-1,4-benzodioxin-3-yl)methanone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3157.jpg", caption=f"SMILES: COc1cc2nc(N3CCN(C(=O)C4COc5ccccc5O4)CC3)nc(N)c2cc1OC")
+st.image(f"compound_structures/compound_3157.jpg", width=400)
 
 st.write("---")
 

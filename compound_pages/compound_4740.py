@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="pentoxifylline", layout="wide")
-st.title("pentoxifylline")
+st.set_page_config(page_title="Pentoxifylline", layout="wide")
+st.title("Pentoxifylline")
 st.markdown(f"PubChem Compound ID: [4740](https://pubchem.ncbi.nlm.nih.gov/compound/4740)")
 st.markdown(f"IUPAC Name: 3,7-dimethyl-1-(5-oxohexyl)purine-2,6-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4740.jpg", caption=f"SMILES: CC(=O)CCCCn1c(=O)c2c(ncn2C)n(C)c1=O")
+st.image(f"compound_structures/compound_4740.jpg", width=400)
 
 st.write("---")
 

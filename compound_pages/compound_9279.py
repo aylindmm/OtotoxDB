@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="PROPANTHELINE BROMIDE", layout="wide")
-st.title("PROPANTHELINE BROMIDE")
+st.set_page_config(page_title="Propantheline bromide", layout="wide")
+st.title("Propantheline bromide")
 st.markdown(f"PubChem Compound ID: [9279](https://pubchem.ncbi.nlm.nih.gov/compound/9279)")
 st.markdown(f"IUPAC Name: methyl-di(propan-2-yl)-[2-(9H-xanthene-9-carbonyloxy)ethyl]azanium bromide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9279.jpg", caption=f"SMILES: CC(C)[N+](C)(CCOC(=O)C1c2ccccc2Oc2ccccc21)C(C)C")
+st.image(f"compound_structures/compound_9279.jpg", width=400)
 
 st.write("---")
 

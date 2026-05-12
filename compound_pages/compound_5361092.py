@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="butorphanol", layout="wide")
-st.title("butorphanol")
+st.set_page_config(page_title="Butorphanol", layout="wide")
+st.title("Butorphanol")
 st.markdown(f"PubChem Compound ID: [5361092](https://pubchem.ncbi.nlm.nih.gov/compound/5361092)")
 st.markdown(f"IUPAC Name: (1S,9R,10S)-17-(cyclobutylmethyl)-17-azatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3,5-triene-4,10-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5361092.jpg", caption=f"SMILES: Oc1ccc2c(c1)[C@@]13CCCC[C@@]1(O)[C@@H](C2)N(CC1CCC1)CC3")
+st.image(f"compound_structures/compound_5361092.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2R)-2-amino-3-sulfanylpropanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5862.jpg", caption=f"SMILES: NC(CS)C(=O)O")
+st.image(f"compound_structures/compound_5862.jpg", width=400)
 
 st.write("---")
 

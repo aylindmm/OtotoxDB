@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2,3,3-trimethyl-2H-benzo[g][1]benzofuran-4,5-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_262097.jpg", caption=f"SMILES: CC1OC2=C(C(=O)C(=O)c3ccccc32)C1(C)C")
+st.image(f"compound_structures/compound_262097.jpg", width=400)
 
 st.write("---")
 

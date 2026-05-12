@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sulfasalazine", layout="wide")
-st.title("sulfasalazine")
+st.set_page_config(page_title="Sulfasalazine", layout="wide")
+st.title("Sulfasalazine")
 st.markdown(f"PubChem Compound ID: [5339](https://pubchem.ncbi.nlm.nih.gov/compound/5339)")
 st.markdown(f"IUPAC Name: 2-hydroxy-5-[[4-(pyridin-2-ylsulfamoyl)phenyl]diazenyl]benzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5339.jpg", caption=f"SMILES: O=C(O)c1cc(N=Nc2ccc(S(=O)(=O)Nc3ccccn3)cc2)ccc1O")
+st.image(f"compound_structures/compound_5339.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: sodium (2S)-2-amino-3-[4-(4-hydroxy-3,5-diiodophenoxy)
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_23666112.jpg", caption=f"SMILES: NC(Cc1cc(I)c(Oc2cc(I)c(O)c(I)c2)c(I)c1)C(=O)O")
+st.image(f"compound_structures/compound_23666112.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-[4-[[4-methyl-6-(1-methylbenzimidazol-2-yl)-2-propyl
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_65999.jpg", caption=f"SMILES: CCCc1nc2c(C)cc(-c3nc4ccccc4n3C)cc2n1Cc1ccc(-c2ccccc2C(=O)O)cc1")
+st.image(f"compound_structures/compound_65999.jpg", width=400)
 
 st.write("---")
 

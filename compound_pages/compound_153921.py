@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="gadodiamide", layout="wide")
-st.title("gadodiamide")
+st.set_page_config(page_title="Gadodiamide", layout="wide")
+st.title("Gadodiamide")
 st.markdown(f"PubChem Compound ID: [153921](https://pubchem.ncbi.nlm.nih.gov/compound/153921)")
 st.markdown(f"IUPAC Name: 2-[bis[2-[carboxylatomethyl-[2-(methylamino)-2-oxoethyl]amino]ethyl]amino]acetate;gadolinium(3+)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_153921.jpg", caption=f"SMILES: CNC(=O)CN(CCN(CCN(CC(=O)[O-])CC(=O)NC)CC(=O)[O-])CC(=O)[O-].[Gd+3]")
+st.image(f"compound_structures/compound_153921.jpg", width=400)
 
 st.write("---")
 

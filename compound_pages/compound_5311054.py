@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="colistin", layout="wide")
-st.title("colistin")
+st.set_page_config(page_title="Colistin", layout="wide")
+st.title("Colistin")
 st.markdown(f"PubChem Compound ID: [5311054](https://pubchem.ncbi.nlm.nih.gov/compound/5311054)")
 st.markdown(f"IUPAC Name: N-[(2S)-4-amino-1-[[(2S,3R)-1-[[(2S)-4-amino-1-oxo-1-[[(3S,6S,9S,12S,15R,18S,21S)-6,9,18-tris(2-aminoethyl)-3-[(1R)-1-hydroxyethyl]-12,15-bis(2-methylpropyl)-2,5,8,11,14,17,20-heptaoxo-1,4,7,10,13,16,19-heptazacyclotricos-21-yl]amino]butan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxobutan-2-yl]-5-methylheptanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311054.jpg", caption=f"SMILES: CCC(C)CCCC(=O)NC(CCN)C(=O)NC(C(=O)NC(CCN)C(=O)NC1CCNC(=O)C([C@@H](C)O)NC(=O)C(CCN)NC(=O)C(CCN)NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(=O)C(CCN)NC1=O)[C@@H](C)O")
+st.image(f"compound_structures/compound_5311054.jpg", width=400)
 
 st.write("---")
 

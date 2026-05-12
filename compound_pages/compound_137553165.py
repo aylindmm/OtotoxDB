@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-[5-bromo-1-[(4-fluorophenyl)methyl]-4-methyl-2-oxo-3
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_137553165.jpg", caption=f"SMILES: Cc1c(Br)cn(Cc2ccc(F)cc2)c(=O)c1NC(=O)C1CCCCCC1")
+st.image(f"compound_structures/compound_137553165.jpg", width=400)
 
 st.write("---")
 

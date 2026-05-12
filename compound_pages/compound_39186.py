@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="diltiazem", layout="wide")
-st.title("diltiazem")
+st.set_page_config(page_title="Diltiazem", layout="wide")
+st.title("Diltiazem")
 st.markdown(f"PubChem Compound ID: [39186](https://pubchem.ncbi.nlm.nih.gov/compound/39186)")
 st.markdown(f"IUPAC Name: [(2S,3S)-5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3-dihydro-1,5-benzothiazepin-3-yl] acetate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_39186.jpg", caption=f"SMILES: COc1ccc([C@@H]2Sc3ccccc3N(CCN(C)C)C(=O)C2OC(C)=O)cc1")
+st.image(f"compound_structures/compound_39186.jpg", width=400)
 
 st.write("---")
 

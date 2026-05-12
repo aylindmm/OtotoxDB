@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="SODIUM SELENITE", layout="wide")
-st.title("SODIUM SELENITE")
+st.set_page_config(page_title="Sodium selenite", layout="wide")
+st.title("Sodium selenite")
 st.markdown(f"PubChem Compound ID: [24934](https://pubchem.ncbi.nlm.nih.gov/compound/24934)")
 st.markdown(f"IUPAC Name: disodium;selenite")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24934.jpg", caption=f"SMILES: O=[Se](O)O")
+st.image(f"compound_structures/compound_24934.jpg", width=400)
 
 st.write("---")
 

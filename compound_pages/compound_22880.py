@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="N-methyl-D-aspartic acid", layout="wide")
-st.title("N-methyl-D-aspartic acid")
+st.set_page_config(page_title="N-methyl-d-aspartic acid", layout="wide")
+st.title("N-methyl-d-aspartic acid")
 st.markdown(f"PubChem Compound ID: [22880](https://pubchem.ncbi.nlm.nih.gov/compound/22880)")
 st.markdown(f"IUPAC Name: (2R)-2-(methylamino)butanedioic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_22880.jpg", caption=f"SMILES: CNC(CC(=O)O)C(=O)O")
+st.image(f"compound_structures/compound_22880.jpg", width=400)
 
 st.write("---")
 

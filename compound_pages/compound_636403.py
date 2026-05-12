@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="carbenoxolone", layout="wide")
-st.title("carbenoxolone")
+st.set_page_config(page_title="Carbenoxolone", layout="wide")
+st.title("Carbenoxolone")
 st.markdown(f"PubChem Compound ID: [636403](https://pubchem.ncbi.nlm.nih.gov/compound/636403)")
 st.markdown(f"IUPAC Name: (2S,4aS,6aR,6aS,6bR,8aR,10S,12aS,14bR)-10-(3-carboxypropanoyloxy)-2,4a,6a,6b,9,9,12a-heptamethyl-13-oxo-3,4,5,6,6a,7,8,8a,10,11,12,14b-dodecahydro-1H-picene-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_636403.jpg", caption=f"SMILES: CC1(C)[C@@H](OC(=O)CCC(=O)O)CC[C@]2(C)C3C(=O)C=C4C5C[C@@](C)(C(=O)O)CC[C@]5(C)CC[C@@]4(C)[C@]3(C)CC[C@@H]12")
+st.image(f"compound_structures/compound_636403.jpg", width=400)
 
 st.write("---")
 

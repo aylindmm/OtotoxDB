@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sildenafil", layout="wide")
-st.title("sildenafil")
+st.set_page_config(page_title="Sildenafil", layout="wide")
+st.title("Sildenafil")
 st.markdown(f"PubChem Compound ID: [135398744](https://pubchem.ncbi.nlm.nih.gov/compound/135398744)")
 st.markdown(f"IUPAC Name: 5-[2-ethoxy-5-(4-methylpiperazin-1-yl)sulfonylphenyl]-1-methyl-3-propyl-6H-pyrazolo[4,5-d]pyrimidin-7-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135398744.jpg", caption=f"SMILES: CCCc1nn(C)c2c(=O)[nH]c(-c3cc(S(=O)(=O)N4CCN(C)CC4)ccc3OCC)nc12")
+st.image(f"compound_structures/compound_135398744.jpg", width=400)
 
 st.write("---")
 

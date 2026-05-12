@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dnqx", layout="wide")
-st.title("dnqx")
+st.set_page_config(page_title="Dnqx", layout="wide")
+st.title("Dnqx")
 st.markdown(f"PubChem Compound ID: [3899541](https://pubchem.ncbi.nlm.nih.gov/compound/3899541)")
 st.markdown(f"IUPAC Name: 6,7-dinitro-1,4-dihydroquinoxaline-2,3-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3899541.jpg", caption=f"SMILES: O=c1[nH]c2cc([N+](=O)[O-])c([N+](=O)[O-])cc2[nH]c1=O")
+st.image(f"compound_structures/compound_3899541.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-hydroxy-1-phenyl-3-pyrrolidin-1-yl-1,8-naphthyridin-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54680204.jpg", caption=f"SMILES: O=c1c(N2CCCC2)c(O)c2cccnc2n1-c1ccccc1")
+st.image(f"compound_structures/compound_54680204.jpg", width=400)
 
 st.write("---")
 

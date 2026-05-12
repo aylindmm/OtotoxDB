@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="efavirenz", layout="wide")
-st.title("efavirenz")
+st.set_page_config(page_title="Efavirenz", layout="wide")
+st.title("Efavirenz")
 st.markdown(f"PubChem Compound ID: [64139](https://pubchem.ncbi.nlm.nih.gov/compound/64139)")
 st.markdown(f"IUPAC Name: (4S)-6-chloro-4-(2-cyclopropylethynyl)-4-(trifluoromethyl)-1H-3,1-benzoxazin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_64139.jpg", caption=f"SMILES: O=C1Nc2ccc(Cl)cc2[C@@](C#CC2CC2)(C(F)(F)F)O1")
+st.image(f"compound_structures/compound_64139.jpg", width=400)
 
 st.write("---")
 

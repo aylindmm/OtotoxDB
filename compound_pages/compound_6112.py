@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="lipoic acid", layout="wide")
-st.title("lipoic acid")
+st.set_page_config(page_title="Lipoic acid", layout="wide")
+st.title("Lipoic acid")
 st.markdown(f"PubChem Compound ID: [6112](https://pubchem.ncbi.nlm.nih.gov/compound/6112)")
 st.markdown(f"IUPAC Name: 5-[(3R)-dithiolan-3-yl]pentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6112.jpg", caption=f"SMILES: O=C(O)CCCC[C@@H]1CCSS1")
+st.image(f"compound_structures/compound_6112.jpg", width=400)
 
 st.write("---")
 

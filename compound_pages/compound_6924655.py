@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-oxo-1H-quinoline-2-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6924655.jpg", caption=f"SMILES: O=C(O)c1cc(=O)c2ccccc2[nH]1")
+st.image(f"compound_structures/compound_6924655.jpg", width=400)
 
 st.write("---")
 

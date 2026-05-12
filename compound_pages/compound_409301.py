@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="METHYLMERCURY CHLORIDE", layout="wide")
-st.title("METHYLMERCURY CHLORIDE")
+st.set_page_config(page_title="Methylmercury chloride", layout="wide")
+st.title("Methylmercury chloride")
 st.markdown(f"PubChem Compound ID: [409301](https://pubchem.ncbi.nlm.nih.gov/compound/409301)")
 st.markdown(f"IUPAC Name: chloro(methyl)mercury")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_409301.jpg", caption=f"SMILES: [CH3][Hg][Cl]")
+st.image(f"compound_structures/compound_409301.jpg", width=400)
 
 st.write("---")
 

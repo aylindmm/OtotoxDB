@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5-(1,4-diazepan-1-ylsulfonyl)isoquinoline")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3547.jpg", caption=f"SMILES: O=S(=O)(c1cccc2cnccc12)N1CCCNCC1")
+st.image(f"compound_structures/compound_3547.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="genistein", layout="wide")
-st.title("genistein")
+st.set_page_config(page_title="Genistein", layout="wide")
+st.title("Genistein")
 st.markdown(f"PubChem Compound ID: [5280961](https://pubchem.ncbi.nlm.nih.gov/compound/5280961)")
 st.markdown(f"IUPAC Name: 5,7-dihydroxy-3-(4-hydroxyphenyl)chromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280961.jpg", caption=f"SMILES: O=c1c(-c2ccc(O)cc2)coc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_5280961.jpg", width=400)
 
 st.write("---")
 

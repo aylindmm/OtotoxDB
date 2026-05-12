@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 14,15-diazatetracyclo[7.6.1.02,7.013,16]hexadeca-1(15)
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8515.jpg", caption=f"SMILES: Oc1c2ccccc2c2c3c(cccc13)N=N2")
+st.image(f"compound_structures/compound_8515.jpg", width=400)
 
 st.write("---")
 

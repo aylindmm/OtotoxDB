@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CONCANAVALIN A", layout="wide")
-st.title("CONCANAVALIN A")
+st.set_page_config(page_title="Concanavalin a", layout="wide")
+st.title("Concanavalin a")
 st.markdown(f"PubChem Compound ID: [155486958](https://pubchem.ncbi.nlm.nih.gov/compound/155486958)")
 st.markdown(f"IUPAC Name: 1-[4-azido-5-(hydroxymethyl)oxolan-2-yl]-5-methylpyrimidine-2,4-dione;4-(dipropylsulfamoyl)benzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_155486958.jpg", caption=f"SMILES: CCCN(CCC)S(=O)(=O)c1ccc(C(=O)O)cc1.Cc1cn(C2CC(N=[N+]=[N-])C(CO)O2)c(=O)[nH]c1=O")
+st.image(f"compound_structures/compound_155486958.jpg", width=400)
 
 st.write("---")
 

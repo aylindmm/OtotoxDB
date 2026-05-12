@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ellipticine", layout="wide")
-st.title("ellipticine")
+st.set_page_config(page_title="Ellipticine", layout="wide")
+st.title("Ellipticine")
 st.markdown(f"PubChem Compound ID: [3213](https://pubchem.ncbi.nlm.nih.gov/compound/3213)")
 st.markdown(f"IUPAC Name: 5,11-dimethyl-6H-pyrido[4,3-b]carbazole")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3213.jpg", caption=f"SMILES: Cc1c2cc[nH]cc2c(C)c2c1nc1ccccc12")
+st.image(f"compound_structures/compound_3213.jpg", width=400)
 
 st.write("---")
 

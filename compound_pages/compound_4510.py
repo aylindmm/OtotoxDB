@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nitroglycerin", layout="wide")
-st.title("nitroglycerin")
+st.set_page_config(page_title="Nitroglycerin", layout="wide")
+st.title("Nitroglycerin")
 st.markdown(f"PubChem Compound ID: [4510](https://pubchem.ncbi.nlm.nih.gov/compound/4510)")
 st.markdown(f"IUPAC Name: 1,3-dinitrooxypropan-2-yl nitrate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4510.jpg", caption=f"SMILES: O=[N+]([O-])OCC(CO[N+](=O)[O-])O[N+](=O)[O-]")
+st.image(f"compound_structures/compound_4510.jpg", width=400)
 
 st.write("---")
 

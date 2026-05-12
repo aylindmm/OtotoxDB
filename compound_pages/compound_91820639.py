@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="KL1333", layout="wide")
-st.title("KL1333")
+st.set_page_config(page_title="Kl1333", layout="wide")
+st.title("Kl1333")
 st.markdown(f"PubChem Compound ID: [91820639](https://pubchem.ncbi.nlm.nih.gov/compound/91820639)")
 st.markdown(f"IUPAC Name: 2-propan-2-yl-3H-benzo[e]benzimidazole-4,5-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_91820639.jpg", caption=f"SMILES: C=C(C)c1nc2c(O)c(O)c3ccccc3c2[nH]1")
+st.image(f"compound_structures/compound_91820639.jpg", width=400)
 
 st.write("---")
 

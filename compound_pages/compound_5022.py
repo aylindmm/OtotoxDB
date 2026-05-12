@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="R-PIA", layout="wide")
-st.title("R-PIA")
+st.set_page_config(page_title="R-pia", layout="wide")
+st.title("R-pia")
 st.markdown(f"PubChem Compound ID: [5022](https://pubchem.ncbi.nlm.nih.gov/compound/5022)")
 st.markdown(f"IUPAC Name: 2-(hydroxymethyl)-5-[6-(1-phenylpropan-2-ylamino)purin-9-yl]oxolane-3,4-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5022.jpg", caption=f"SMILES: CC(Cc1ccccc1)Nc1ncnc2c1ncn2C1OC(CO)C(O)C1O")
+st.image(f"compound_structures/compound_5022.jpg", width=400)
 
 st.write("---")
 

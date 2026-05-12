@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="hydrochlorothiazide", layout="wide")
-st.title("hydrochlorothiazide")
+st.set_page_config(page_title="Hydrochlorothiazide", layout="wide")
+st.title("Hydrochlorothiazide")
 st.markdown(f"PubChem Compound ID: [3639](https://pubchem.ncbi.nlm.nih.gov/compound/3639)")
 st.markdown(f"IUPAC Name: 6-chloro-1,1-dioxo-3,4-dihydro-2H-1lambda6,2,4-benzothiadiazine-7-sulfonamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3639.jpg", caption=f"SMILES: NS(=O)(=O)c1cc2c(cc1Cl)NCNS2(=O)=O")
+st.image(f"compound_structures/compound_3639.jpg", width=400)
 
 st.write("---")
 

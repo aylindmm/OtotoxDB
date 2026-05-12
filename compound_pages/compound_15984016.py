@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="serofendic acid", layout="wide")
-st.title("serofendic acid")
+st.set_page_config(page_title="Serofendic acid", layout="wide")
+st.title("Serofendic acid")
 st.markdown(f"PubChem Compound ID: [15984016](https://pubchem.ncbi.nlm.nih.gov/compound/15984016)")
 st.markdown(f"IUPAC Name: (1S,4S,5R,9S,10S,12S,13S,14R)-14-hydroxy-5,9-dimethyl-13-(methylsulfinylmethyl)tetracyclo[10.2.2.01,10.04,9]hexadecane-5-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_15984016.jpg", caption=f"SMILES: CS(=O)C[C@H]1[C@H]2CC[C@@]3(CC[C@H]4[C@@](C)(CCC[C@@]4(C)C(=O)O)[C@@H]3C2)[C@@H]1O")
+st.image(f"compound_structures/compound_15984016.jpg", width=400)
 
 st.write("---")
 

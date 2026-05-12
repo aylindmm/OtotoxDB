@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="isoliquiritigenin", layout="wide")
-st.title("isoliquiritigenin")
+st.set_page_config(page_title="Isoliquiritigenin", layout="wide")
+st.title("Isoliquiritigenin")
 st.markdown(f"PubChem Compound ID: [638278](https://pubchem.ncbi.nlm.nih.gov/compound/638278)")
 st.markdown(f"IUPAC Name: (E)-1-(2,4-dihydroxyphenyl)-3-(4-hydroxyphenyl)prop-2-en-1-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_638278.jpg", caption=f"SMILES: O=C(C=Cc1ccc(O)cc1)c1ccc(O)cc1O")
+st.image(f"compound_structures/compound_638278.jpg", width=400)
 
 st.write("---")
 

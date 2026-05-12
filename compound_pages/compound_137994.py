@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: nan")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_137994.jpg", caption=f"SMILES: CC1(C)CC(O)CC(C)(C)N1[O]")
+st.image(f"compound_structures/compound_137994.jpg", width=400)
 
 st.write("---")
 

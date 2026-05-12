@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="FTI-277", layout="wide")
-st.title("FTI-277")
+st.set_page_config(page_title="Fti-277", layout="wide")
+st.title("Fti-277")
 st.markdown(f"PubChem Compound ID: [3005532](https://pubchem.ncbi.nlm.nih.gov/compound/3005532)")
 st.markdown(f"IUPAC Name: methyl (2S)-2-[[4-[[(2R)-2-amino-3-sulfanylpropyl]amino]-2-phenylbenzoyl]amino]-4-methylsulfanylbutanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3005532.jpg", caption=f"SMILES: COC(=O)C(CCSC)NC(=O)c1ccc(NC[C@@H](N)CS)cc1-c1ccccc1")
+st.image(f"compound_structures/compound_3005532.jpg", width=400)
 
 st.write("---")
 

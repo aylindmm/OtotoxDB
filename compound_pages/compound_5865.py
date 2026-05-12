@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="prednisone", layout="wide")
-st.title("prednisone")
+st.set_page_config(page_title="Prednisone", layout="wide")
+st.title("Prednisone")
 st.markdown(f"PubChem Compound ID: [5865](https://pubchem.ncbi.nlm.nih.gov/compound/5865)")
 st.markdown(f"IUPAC Name: (8S,9S,10R,13S,14S,17R)-17-hydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-6,7,8,9,12,14,15,16-octahydrocyclopenta[a]phenanthrene-3,11-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5865.jpg", caption=f"SMILES: C[C@]12C=CC(=O)C=C1CC[C@@H]1C2C(=O)C[C@@]2(C)[C@H]1CC[C@]2(O)C(=O)CO")
+st.image(f"compound_structures/compound_5865.jpg", width=400)
 
 st.write("---")
 

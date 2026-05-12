@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="bumetanide", layout="wide")
-st.title("bumetanide")
+st.set_page_config(page_title="Bumetanide", layout="wide")
+st.title("Bumetanide")
 st.markdown(f"PubChem Compound ID: [2471](https://pubchem.ncbi.nlm.nih.gov/compound/2471)")
 st.markdown(f"IUPAC Name: 3-(butylamino)-4-phenoxy-5-sulfamoylbenzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2471.jpg", caption=f"SMILES: CCCCNc1cc(C(=O)O)cc(S(N)(=O)=O)c1Oc1ccccc1")
+st.image(f"compound_structures/compound_2471.jpg", width=400)
 
 st.write("---")
 

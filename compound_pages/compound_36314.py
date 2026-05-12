@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="paclitaxel", layout="wide")
-st.title("paclitaxel")
+st.set_page_config(page_title="Paclitaxel", layout="wide")
+st.title("Paclitaxel")
 st.markdown(f"PubChem Compound ID: [36314](https://pubchem.ncbi.nlm.nih.gov/compound/36314)")
 st.markdown(f"IUPAC Name: [(1S,2S,3R,4S,7R,9S,10S,12R,15S)-4,12-diacetyloxy-15-[(2R,3S)-3-benzamido-2-hydroxy-3-phenylpropanoyl]oxy-1,9-dihydroxy-10,14,17,17-tetramethyl-11-oxo-6-oxatetracyclo[11.3.1.03,10.04,7]heptadec-13-en-2-yl] benzoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_36314.jpg", caption=f"SMILES: CC(=O)OC1=C2C(C)[C@@H](OC(=O)C(O)C(NC(=O)c3ccccc3)c3ccccc3)C[C@@](O)([C@@H](OC(=O)c3ccccc3)[C@@H]3[C@]4(OC(C)=O)CO[C@@H]4C[C@H](O)[C@@]3(C)C1=O)C2(C)C")
+st.image(f"compound_structures/compound_36314.jpg", width=400)
 
 st.write("---")
 

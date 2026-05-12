@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: [[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxo
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5957.jpg", caption=f"SMILES: Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_5957.jpg", width=400)
 
 st.write("---")
 

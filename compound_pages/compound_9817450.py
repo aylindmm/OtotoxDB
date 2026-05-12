@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: zinc (2S)-2-(3-aminopropanoylamino)-3-imidazol-1-id-4-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9817450.jpg", caption=f"SMILES: NCCC(=O)NC(Cc1c[n-]cn1)C(=O)[O-].[Zn+2]")
+st.image(f"compound_structures/compound_9817450.jpg", width=400)
 
 st.write("---")
 

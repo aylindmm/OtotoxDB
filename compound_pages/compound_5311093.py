@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="OLVANIL", layout="wide")
-st.title("OLVANIL")
+st.set_page_config(page_title="Olvanil", layout="wide")
+st.title("Olvanil")
 st.markdown(f"PubChem Compound ID: [5311093](https://pubchem.ncbi.nlm.nih.gov/compound/5311093)")
 st.markdown(f"IUPAC Name: (Z)-N-[(4-hydroxy-3-methoxyphenyl)methyl]octadec-9-enamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311093.jpg", caption=f"SMILES: CCCCCCCC/C=C\CCCCCCCC(=O)NCc1ccc(O)c(OC)c1")
+st.image(f"compound_structures/compound_5311093.jpg", width=400)
 
 st.write("---")
 

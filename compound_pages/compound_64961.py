@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="9H-Pyrido[3,4-B]indole", layout="wide")
-st.title("9H-Pyrido[3,4-B]indole")
+st.set_page_config(page_title="9h-pyrido[3,4-b]indole", layout="wide")
+st.title("9h-pyrido[3,4-b]indole")
 st.markdown(f"PubChem Compound ID: [64961](https://pubchem.ncbi.nlm.nih.gov/compound/64961)")
 st.markdown(f"IUPAC Name: 9H-pyrido[3,4-b]indole")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_64961.jpg", caption=f"SMILES: c1ccc2c(c1)[nH]c1cnccc12")
+st.image(f"compound_structures/compound_64961.jpg", width=400)
 
 st.write("---")
 

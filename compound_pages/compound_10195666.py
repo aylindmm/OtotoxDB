@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: manganese(2+);(4R,9R,14R,19R)-3,10,13,20,26-pentazatet
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10195666.jpg", caption=f"SMILES: [Mn+2].c1cc2nc(c1)CN[C@@H]1CCCC[C@H]1NCCN[C@@H]1CCCC[C@H]1NC2")
+st.image(f"compound_structures/compound_10195666.jpg", width=400)
 
 st.write("---")
 

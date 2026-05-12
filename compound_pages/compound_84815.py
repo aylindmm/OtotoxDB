@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="D-Methionine", layout="wide")
-st.title("D-Methionine")
+st.set_page_config(page_title="D-methionine", layout="wide")
+st.title("D-methionine")
 st.markdown(f"PubChem Compound ID: [84815](https://pubchem.ncbi.nlm.nih.gov/compound/84815)")
 st.markdown(f"IUPAC Name: (2R)-2-amino-4-methylsulfanylbutanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_84815.jpg", caption=f"SMILES: CSCCC(N)C(=O)O")
+st.image(f"compound_structures/compound_84815.jpg", width=400)
 
 st.write("---")
 

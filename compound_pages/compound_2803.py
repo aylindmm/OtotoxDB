@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="clonidine", layout="wide")
-st.title("clonidine")
+st.set_page_config(page_title="Clonidine", layout="wide")
+st.title("Clonidine")
 st.markdown(f"PubChem Compound ID: [2803](https://pubchem.ncbi.nlm.nih.gov/compound/2803)")
 st.markdown(f"IUPAC Name: N-(2,6-dichlorophenyl)-4,5-dihydro-1H-imidazol-2-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2803.jpg", caption=f"SMILES: Clc1cccc(Cl)c1NC1=NCCN1")
+st.image(f"compound_structures/compound_2803.jpg", width=400)
 
 st.write("---")
 

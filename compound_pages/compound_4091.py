@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="metformin", layout="wide")
-st.title("metformin")
+st.set_page_config(page_title="Metformin", layout="wide")
+st.title("Metformin")
 st.markdown(f"PubChem Compound ID: [4091](https://pubchem.ncbi.nlm.nih.gov/compound/4091)")
 st.markdown(f"IUPAC Name: 3-(diaminomethylidene)-1,1-dimethylguanidine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4091.jpg", caption=f"SMILES: CN(C)C(N)=NC(=N)N")
+st.image(f"compound_structures/compound_4091.jpg", width=400)
 
 st.write("---")
 

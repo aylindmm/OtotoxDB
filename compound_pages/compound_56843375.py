@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TERTOMOTIDE", layout="wide")
-st.title("TERTOMOTIDE")
+st.set_page_config(page_title="Tertomotide", layout="wide")
+st.title("Tertomotide")
 st.markdown(f"PubChem Compound ID: [56843375](https://pubchem.ncbi.nlm.nih.gov/compound/56843375)")
 st.markdown(f"IUPAC Name: (2S)-6-amino-2-[[(2S)-1-[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-carboxybutanoyl]amino]propanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]propanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-4-methylpentanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-3-phenylpropanoyl]amino]-3-methylpentanoyl]pyrrolidine-2-carbonyl]amino]hexanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_56843375.jpg", caption=f"SMILES: CC[C@H](C)C(NC(=O)C(Cc1ccccc1)NC(=O)C(CCCN=C(N)N)NC(=O)C(CC(C)C)NC(=O)C(CCCN=C(N)N)NC(=O)C(CO)NC(=O)C(NC(=O)C(CC(C)C)NC(=O)C(CC(C)C)NC(=O)C(C)NC(=O)C1CCCN1C(=O)C(CCCN=C(N)N)NC(=O)C(C)NC(=O)C(N)CCC(=O)O)[C@@H](C)O)C(=O)N1CCCC1C(=O)NC(CCCCN)C(=O)O")
+st.image(f"compound_structures/compound_56843375.jpg", width=400)
 
 st.write("---")
 

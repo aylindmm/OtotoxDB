@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TRIAMCINOLONE ACETONIDE", layout="wide")
-st.title("TRIAMCINOLONE ACETONIDE")
+st.set_page_config(page_title="Triamcinolone acetonide", layout="wide")
+st.title("Triamcinolone acetonide")
 st.markdown(f"PubChem Compound ID: [6436](https://pubchem.ncbi.nlm.nih.gov/compound/6436)")
 st.markdown(f"IUPAC Name: (1S,2S,4R,8S,9S,11S,12R,13S)-12-fluoro-11-hydroxy-8-(2-hydroxyacetyl)-6,6,9,13-tetramethyl-5,7-dioxapentacyclo[10.8.0.02,9.04,8.013,18]icosa-14,17-dien-16-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6436.jpg", caption=f"SMILES: CC1(C)O[C@@H]2C[C@H]3[C@@H]4CC=C5CC(=O)C=C[C@]5(C)[C@@]4(F)[C@@H](O)C[C@]3(C)[C@]2(C(=O)CO)O1")
+st.image(f"compound_structures/compound_6436.jpg", width=400)
 
 st.write("---")
 

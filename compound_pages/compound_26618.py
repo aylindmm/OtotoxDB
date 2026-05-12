@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="XIPAMIDE", layout="wide")
-st.title("XIPAMIDE")
+st.set_page_config(page_title="Xipamide", layout="wide")
+st.title("Xipamide")
 st.markdown(f"PubChem Compound ID: [26618](https://pubchem.ncbi.nlm.nih.gov/compound/26618)")
 st.markdown(f"IUPAC Name: 4-chloro-N-(2,6-dimethylphenyl)-2-hydroxy-5-sulfamoylbenzamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_26618.jpg", caption=f"SMILES: Cc1cccc(C)c1NC(=O)c1cc(S(N)(=O)=O)c(Cl)cc1O")
+st.image(f"compound_structures/compound_26618.jpg", width=400)
 
 st.write("---")
 

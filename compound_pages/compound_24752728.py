@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-benzyl-4-chloro-N-cyclohexylbenzamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24752728.jpg", caption=f"SMILES: O=C(c1ccc(Cl)cc1)N(Cc1ccccc1)C1CCCCC1")
+st.image(f"compound_structures/compound_24752728.jpg", width=400)
 
 st.write("---")
 

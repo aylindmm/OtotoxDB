@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tranylcypromine", layout="wide")
-st.title("tranylcypromine")
+st.set_page_config(page_title="Tranylcypromine", layout="wide")
+st.title("Tranylcypromine")
 st.markdown(f"PubChem Compound ID: [5530](https://pubchem.ncbi.nlm.nih.gov/compound/5530)")
 st.markdown(f"IUPAC Name: 2-phenylcyclopropan-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5530.jpg", caption=f"SMILES: NC1CC1c1ccccc1")
+st.image(f"compound_structures/compound_5530.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="riboflavin", layout="wide")
-st.title("riboflavin")
+st.set_page_config(page_title="Riboflavin", layout="wide")
+st.title("Riboflavin")
 st.markdown(f"PubChem Compound ID: [493570](https://pubchem.ncbi.nlm.nih.gov/compound/493570)")
 st.markdown(f"IUPAC Name: 7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentyl]benzo[g]pteridine-2,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_493570.jpg", caption=f"SMILES: Cc1cc2nc3c(=O)[nH]c(=O)nc-3n(C[C@H](O)[C@H](O)[C@H](O)CO)c2cc1C")
+st.image(f"compound_structures/compound_493570.jpg", width=400)
 
 st.write("---")
 

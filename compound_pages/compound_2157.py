@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="amiodarone", layout="wide")
-st.title("amiodarone")
+st.set_page_config(page_title="Amiodarone", layout="wide")
+st.title("Amiodarone")
 st.markdown(f"PubChem Compound ID: [2157](https://pubchem.ncbi.nlm.nih.gov/compound/2157)")
 st.markdown(f"IUPAC Name: (2-butyl-1-benzofuran-3-yl)-[4-[2-(diethylamino)ethoxy]-3,5-diiodophenyl]methanone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2157.jpg", caption=f"SMILES: CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1")
+st.image(f"compound_structures/compound_2157.jpg", width=400)
 
 st.write("---")
 

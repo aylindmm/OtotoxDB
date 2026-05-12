@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="mitomycin C", layout="wide")
-st.title("mitomycin C")
+st.set_page_config(page_title="Mitomycin c", layout="wide")
+st.title("Mitomycin c")
 st.markdown(f"PubChem Compound ID: [5746](https://pubchem.ncbi.nlm.nih.gov/compound/5746)")
 st.markdown(f"IUPAC Name: [(4S,6S,7R,8S)-11-amino-7-methoxy-12-methyl-10,13-dioxo-2,5-diazatetracyclo[7.4.0.02,7.04,6]trideca-1(9),11-dien-8-yl]methyl carbamate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5746.jpg", caption=f"SMILES: C=c1c(N)c(O)c2c(c1O)N1C[C@@H]3N[C@@H]3[C@]1(OC)C=2COC(N)=O")
+st.image(f"compound_structures/compound_5746.jpg", width=400)
 
 st.write("---")
 

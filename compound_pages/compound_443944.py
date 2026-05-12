@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="metrizamide", layout="wide")
-st.title("metrizamide")
+st.set_page_config(page_title="Metrizamide", layout="wide")
+st.title("Metrizamide")
 st.markdown(f"PubChem Compound ID: [443944](https://pubchem.ncbi.nlm.nih.gov/compound/443944)")
 st.markdown(f"IUPAC Name: 3-acetamido-5-[acetyl(methyl)amino]-2,4,6-triiodo-N-[(3R,4R,5S,6R)-2,4,5-trihydroxy-6-(hydroxymethyl)oxan-3-yl]benzamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_443944.jpg", caption=f"SMILES: CC(=O)Nc1c(I)c(C(=O)N[C@H]2C(O)O[C@H](CO)[C@@H](O)[C@@H]2O)c(I)c(N(C)C(C)=O)c1I")
+st.image(f"compound_structures/compound_443944.jpg", width=400)
 
 st.write("---")
 

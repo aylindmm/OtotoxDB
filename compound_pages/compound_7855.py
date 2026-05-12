@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ACRYLONITRILE", layout="wide")
-st.title("ACRYLONITRILE")
+st.set_page_config(page_title="Acrylonitrile", layout="wide")
+st.title("Acrylonitrile")
 st.markdown(f"PubChem Compound ID: [7855](https://pubchem.ncbi.nlm.nih.gov/compound/7855)")
 st.markdown(f"IUPAC Name: prop-2-enenitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_7855.jpg", caption=f"SMILES: C=CC#N")
+st.image(f"compound_structures/compound_7855.jpg", width=400)
 
 st.write("---")
 

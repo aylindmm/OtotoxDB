@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="VERAPAMIL", layout="wide")
-st.title("VERAPAMIL")
+st.set_page_config(page_title="Verapamil", layout="wide")
+st.title("Verapamil")
 st.markdown(f"PubChem Compound ID: [2520](https://pubchem.ncbi.nlm.nih.gov/compound/2520)")
 st.markdown(f"IUPAC Name: 2-(3,4-dimethoxyphenyl)-5-[2-(3,4-dimethoxyphenyl)ethyl-methylamino]-2-propan-2-ylpentanenitrile")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2520.jpg", caption=f"SMILES: COc1ccc(CCN(C)CCCC(C#N)(c2ccc(OC)c(OC)c2)C(C)C)cc1OC")
+st.image(f"compound_structures/compound_2520.jpg", width=400)
 
 st.write("---")
 

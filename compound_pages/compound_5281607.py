@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="chrysin", layout="wide")
-st.title("chrysin")
+st.set_page_config(page_title="Chrysin", layout="wide")
+st.title("Chrysin")
 st.markdown(f"PubChem Compound ID: [5281607](https://pubchem.ncbi.nlm.nih.gov/compound/5281607)")
 st.markdown(f"IUPAC Name: 5,7-dihydroxy-2-phenylchromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5281607.jpg", caption=f"SMILES: O=c1cc(-c2ccccc2)oc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_5281607.jpg", width=400)
 
 st.write("---")
 

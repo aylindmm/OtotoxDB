@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: hydroxy(dioxo)-lambda5-stibane;(2R,3R,4R,5S)-6-(methyl
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_64953.jpg", caption=f"SMILES: CNC[C@H](O)[C@@H](O)[C@H](O)[C@H](O)CO.[O]=[Sb](=[O])[OH]")
+st.image(f"compound_structures/compound_64953.jpg", width=400)
 
 st.write("---")
 

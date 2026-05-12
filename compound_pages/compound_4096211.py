@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="NVP-231", layout="wide")
-st.title("NVP-231")
+st.set_page_config(page_title="Nvp-231", layout="wide")
+st.title("Nvp-231")
 st.markdown(f"PubChem Compound ID: [4096211](https://pubchem.ncbi.nlm.nih.gov/compound/4096211)")
 st.markdown(f"IUPAC Name: N-(2-benzamido-1,3-benzothiazol-6-yl)adamantane-1-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4096211.jpg", caption=f"SMILES: O=C(Nc1nc2ccc(NC(=O)C34CC5CC(CC(C5)C3)C4)cc2s1)c1ccccc1")
+st.image(f"compound_structures/compound_4096211.jpg", width=400)
 
 st.write("---")
 

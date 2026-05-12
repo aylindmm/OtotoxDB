@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CHLORAMPHENICOL SODIUM SUCCINATE", layout="wide")
-st.title("CHLORAMPHENICOL SODIUM SUCCINATE")
+st.set_page_config(page_title="Chloramphenicol sodium succinate", layout="wide")
+st.title("Chloramphenicol sodium succinate")
 st.markdown(f"PubChem Compound ID: [656833](https://pubchem.ncbi.nlm.nih.gov/compound/656833)")
 st.markdown(f"IUPAC Name: sodium 4-[(2R,3R)-2-[(2,2-dichloroacetyl)amino]-3-hydroxy-3-(4-nitrophenyl)propoxy]-4-oxobutanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_656833.jpg", caption=f"SMILES: O=C(O)CCC(=O)OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)c1ccc([N+](=O)[O-])cc1")
+st.image(f"compound_structures/compound_656833.jpg", width=400)
 
 st.write("---")
 

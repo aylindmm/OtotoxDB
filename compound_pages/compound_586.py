@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="creatine", layout="wide")
-st.title("creatine")
+st.set_page_config(page_title="Creatine", layout="wide")
+st.title("Creatine")
 st.markdown(f"PubChem Compound ID: [586](https://pubchem.ncbi.nlm.nih.gov/compound/586)")
 st.markdown(f"IUPAC Name: 2-[carbamimidoyl(methyl)amino]acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_586.jpg", caption=f"SMILES: CN(CC(=O)O)C(=N)N")
+st.image(f"compound_structures/compound_586.jpg", width=400)
 
 st.write("---")
 

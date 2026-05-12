@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="chlorhexidine", layout="wide")
-st.title("chlorhexidine")
+st.set_page_config(page_title="Chlorhexidine", layout="wide")
+st.title("Chlorhexidine")
 st.markdown(f"PubChem Compound ID: [9552079](https://pubchem.ncbi.nlm.nih.gov/compound/9552079)")
 st.markdown(f"IUPAC Name: (1E)-2-[6-[[amino-[(E)-[amino-(4-chloroanilino)methylidene]amino]methylidene]amino]hexyl]-1-[amino-(4-chloroanilino)methylidene]guanidine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9552079.jpg", caption=f"SMILES: N=C(N=C(N)NCCCCCCN=C(N)N=C(N)Nc1ccc(Cl)cc1)Nc1ccc(Cl)cc1")
+st.image(f"compound_structures/compound_9552079.jpg", width=400)
 
 st.write("---")
 

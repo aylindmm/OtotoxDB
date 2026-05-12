@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="PAMIDRONIC ACID", layout="wide")
-st.title("PAMIDRONIC ACID")
+st.set_page_config(page_title="Pamidronic acid", layout="wide")
+st.title("Pamidronic acid")
 st.markdown(f"PubChem Compound ID: [4674](https://pubchem.ncbi.nlm.nih.gov/compound/4674)")
 st.markdown(f"IUPAC Name: (3-amino-1-hydroxy-1-phosphonopropyl)phosphonic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4674.jpg", caption=f"SMILES: NCCC(O)(P(=O)(O)O)P(=O)(O)O")
+st.image(f"compound_structures/compound_4674.jpg", width=400)
 
 st.write("---")
 

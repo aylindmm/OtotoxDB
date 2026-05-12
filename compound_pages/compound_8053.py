@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ISOAMYL NITRITE", layout="wide")
-st.title("ISOAMYL NITRITE")
+st.set_page_config(page_title="Isoamyl nitrite", layout="wide")
+st.title("Isoamyl nitrite")
 st.markdown(f"PubChem Compound ID: [8053](https://pubchem.ncbi.nlm.nih.gov/compound/8053)")
 st.markdown(f"IUPAC Name: 3-methylbutyl nitrite")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8053.jpg", caption=f"SMILES: CC(C)CCON=O")
+st.image(f"compound_structures/compound_8053.jpg", width=400)
 
 st.write("---")
 

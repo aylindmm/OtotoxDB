@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="azlocillin", layout="wide")
-st.title("azlocillin")
+st.set_page_config(page_title="Azlocillin", layout="wide")
+st.title("Azlocillin")
 st.markdown(f"PubChem Compound ID: [6479523](https://pubchem.ncbi.nlm.nih.gov/compound/6479523)")
 st.markdown(f"IUPAC Name: (2S,5R,6R)-3,3-dimethyl-7-oxo-6-[[(2R)-2-[(2-oxoimidazolidine-1-carbonyl)amino]-2-phenylacetyl]amino]-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6479523.jpg", caption=f"SMILES: CC1(C)S[C@@H]2C(NC(=O)C(NC(=O)N3CCNC3=O)c3ccccc3)C(=O)N2C1C(=O)O")
+st.image(f"compound_structures/compound_6479523.jpg", width=400)
 
 st.write("---")
 

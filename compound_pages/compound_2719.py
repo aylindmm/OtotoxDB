@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="chloroquine", layout="wide")
-st.title("chloroquine")
+st.set_page_config(page_title="Chloroquine", layout="wide")
+st.title("Chloroquine")
 st.markdown(f"PubChem Compound ID: [2719](https://pubchem.ncbi.nlm.nih.gov/compound/2719)")
 st.markdown(f"IUPAC Name: 4-N-(7-chloroquinolin-4-yl)-1-N,1-N-diethylpentane-1,4-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2719.jpg", caption=f"SMILES: CCN(CC)CCCC(C)Nc1ccnc2cc(Cl)ccc12")
+st.image(f"compound_structures/compound_2719.jpg", width=400)
 
 st.write("---")
 

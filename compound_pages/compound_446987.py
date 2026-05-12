@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="FOSFOMYCIN", layout="wide")
-st.title("FOSFOMYCIN")
+st.set_page_config(page_title="Fosfomycin", layout="wide")
+st.title("Fosfomycin")
 st.markdown(f"PubChem Compound ID: [446987](https://pubchem.ncbi.nlm.nih.gov/compound/446987)")
 st.markdown(f"IUPAC Name: [(2R,3S)-3-methyloxiran-2-yl]phosphonic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_446987.jpg", caption=f"SMILES: C[C@@H]1O[C@@H]1P(=O)(O)O")
+st.image(f"compound_structures/compound_446987.jpg", width=400)
 
 st.write("---")
 

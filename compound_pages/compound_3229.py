@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="enoxacin", layout="wide")
-st.title("enoxacin")
+st.set_page_config(page_title="Enoxacin", layout="wide")
+st.title("Enoxacin")
 st.markdown(f"PubChem Compound ID: [3229](https://pubchem.ncbi.nlm.nih.gov/compound/3229)")
 st.markdown(f"IUPAC Name: 1-ethyl-6-fluoro-4-oxo-7-piperazin-1-yl-1,8-naphthyridine-3-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3229.jpg", caption=f"SMILES: CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)nc21")
+st.image(f"compound_structures/compound_3229.jpg", width=400)
 
 st.write("---")
 

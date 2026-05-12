@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TOZADENANT", layout="wide")
-st.title("TOZADENANT")
+st.set_page_config(page_title="Tozadenant", layout="wide")
+st.title("Tozadenant")
 st.markdown(f"PubChem Compound ID: [11618368](https://pubchem.ncbi.nlm.nih.gov/compound/11618368)")
 st.markdown(f"IUPAC Name: 4-hydroxy-N-(4-methoxy-7-morpholin-4-yl-1,3-benzothiazol-2-yl)-4-methylpiperidine-1-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11618368.jpg", caption=f"SMILES: COc1ccc(N2CCOCC2)c2sc(NC(=O)N3CCC(C)(O)CC3)nc12")
+st.image(f"compound_structures/compound_11618368.jpg", width=400)
 
 st.write("---")
 

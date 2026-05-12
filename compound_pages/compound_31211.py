@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ZINGERONE", layout="wide")
-st.title("ZINGERONE")
+st.set_page_config(page_title="Zingerone", layout="wide")
+st.title("Zingerone")
 st.markdown(f"PubChem Compound ID: [31211](https://pubchem.ncbi.nlm.nih.gov/compound/31211)")
 st.markdown(f"IUPAC Name: 4-(4-hydroxy-3-methoxyphenyl)butan-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_31211.jpg", caption=f"SMILES: COc1cc(CCC(C)=O)ccc1O")
+st.image(f"compound_structures/compound_31211.jpg", width=400)
 
 st.write("---")
 

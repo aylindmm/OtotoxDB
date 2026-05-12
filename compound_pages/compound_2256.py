@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="atrazine", layout="wide")
-st.title("atrazine")
+st.set_page_config(page_title="Atrazine", layout="wide")
+st.title("Atrazine")
 st.markdown(f"PubChem Compound ID: [2256](https://pubchem.ncbi.nlm.nih.gov/compound/2256)")
 st.markdown(f"IUPAC Name: 6-chloro-4-N-ethyl-2-N-propan-2-yl-1,3,5-triazine-2,4-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2256.jpg", caption=f"SMILES: CCNc1nc(Cl)nc(NC(C)C)n1")
+st.image(f"compound_structures/compound_2256.jpg", width=400)
 
 st.write("---")
 

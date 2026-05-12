@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="orphenadrine", layout="wide")
-st.title("orphenadrine")
+st.set_page_config(page_title="Orphenadrine", layout="wide")
+st.title("Orphenadrine")
 st.markdown(f"PubChem Compound ID: [4601](https://pubchem.ncbi.nlm.nih.gov/compound/4601)")
 st.markdown(f"IUPAC Name: N,N-dimethyl-2-[(2-methylphenyl)-phenylmethoxy]ethanamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4601.jpg", caption=f"SMILES: Cc1ccccc1C(OCCN(C)C)c1ccccc1")
+st.image(f"compound_structures/compound_4601.jpg", width=400)
 
 st.write("---")
 

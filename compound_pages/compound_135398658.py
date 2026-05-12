@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="folic acid", layout="wide")
-st.title("folic acid")
+st.set_page_config(page_title="Folic acid", layout="wide")
+st.title("Folic acid")
 st.markdown(f"PubChem Compound ID: [135398658](https://pubchem.ncbi.nlm.nih.gov/compound/135398658)")
 st.markdown(f"IUPAC Name: (2S)-2-[[4-[(2-amino-4-oxo-3H-pteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135398658.jpg", caption=f"SMILES: Nc1nc(=O)c2nc(CNc3ccc(C(=O)NC(CCC(=O)O)C(=O)O)cc3)cnc2[nH]1")
+st.image(f"compound_structures/compound_135398658.jpg", width=400)
 
 st.write("---")
 

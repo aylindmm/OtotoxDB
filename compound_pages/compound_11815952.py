@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-methylbenzenecarbothioic S-acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11815952.jpg", caption=f"SMILES: Cc1ccc(C(=O)S)cc1")
+st.image(f"compound_structures/compound_11815952.jpg", width=400)
 
 st.write("---")
 

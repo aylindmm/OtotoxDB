@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="leukotriene C4", layout="wide")
-st.title("leukotriene C4")
+st.set_page_config(page_title="Leukotriene c4", layout="wide")
+st.title("Leukotriene c4")
 st.markdown(f"PubChem Compound ID: [5280493](https://pubchem.ncbi.nlm.nih.gov/compound/5280493)")
 st.markdown(f"IUPAC Name: (5S,6R,7E,9E,11Z,14Z)-6-[(2R)-2-[[(4S)-4-amino-4-carboxybutanoyl]amino]-3-(carboxymethylamino)-3-oxopropyl]sulfanyl-5-hydroxyicosa-7,9,11,14-tetraenoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280493.jpg", caption=f"SMILES: CCCCC/C=C\C/C=C\C=C\C=C\[C@@H](SCC(NC(=O)CCC(N)C(=O)O)C(=O)NCC(=O)O)[C@@H](O)CCCC(=O)O")
+st.image(f"compound_structures/compound_5280493.jpg", width=400)
 
 st.write("---")
 

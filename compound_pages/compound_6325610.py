@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 6,14-dimethyl-4,12-diazapentacyclo[8.6.1.12,5.013,17.0
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6325610.jpg", caption=f"SMILES: Cc1c(=O)c(=O)c2c3c[nH]c4c(C)c(=O)c(=O)c(c5c[nH]c1c52)c43")
+st.image(f"compound_structures/compound_6325610.jpg", width=400)
 
 st.write("---")
 

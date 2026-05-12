@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="EPOETIN ALFA", layout="wide")
-st.title("EPOETIN ALFA")
+st.set_page_config(page_title="Epoetin alfa", layout="wide")
+st.title("Epoetin alfa")
 st.markdown(f"PubChem Compound ID: [92043599](https://pubchem.ncbi.nlm.nih.gov/compound/92043599)")
 st.markdown(f"IUPAC Name: (4R,5S,6S,7R,9R,10R,11E,13E,16R)-10-[(2R,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy-6-[(2S,3R,4R,5S,6R)-5-[(2R,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-7-(2-hydroxyethyl)-5-methoxy-9,16-dimethyl-1-oxacyclohexadeca-11,13-dien-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_92043599.jpg", caption=f"SMILES: CO[C@@H]1[C@@H](O[C@@H]2O[C@H](C)[C@@H](O[C@H]3C[C@@](C)(O)[C@@H](O)[C@H](C)O3)[C@H](N(C)C)[C@H]2O)[C@@H](CCO)C[C@@H](C)[C@@H](O[C@H]2C[C@@](C)(O)[C@@H](O)[C@H](C)O2)/C=C/C=C/C[C@@H](C)OC(=O)C[C@H]1O")
+st.image(f"compound_structures/compound_92043599.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-[(2,4-dichlorophenyl)methyl]indazole-3-carbohydrazid
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9819086.jpg", caption=f"SMILES: NNC(=O)c1nn(Cc2ccc(Cl)cc2Cl)c2ccccc12")
+st.image(f"compound_structures/compound_9819086.jpg", width=400)
 
 st.write("---")
 

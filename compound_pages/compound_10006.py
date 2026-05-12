@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="HYDANTOIN", layout="wide")
-st.title("HYDANTOIN")
+st.set_page_config(page_title="Hydantoin", layout="wide")
+st.title("Hydantoin")
 st.markdown(f"PubChem Compound ID: [10006](https://pubchem.ncbi.nlm.nih.gov/compound/10006)")
 st.markdown(f"IUPAC Name: imidazolidine-2,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10006.jpg", caption=f"SMILES: O=c1[nH]cc(O)[nH]1")
+st.image(f"compound_structures/compound_10006.jpg", width=400)
 
 st.write("---")
 

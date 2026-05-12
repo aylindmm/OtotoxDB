@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5-(4-methoxyphenyl)-1,3-oxazole")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3270828.jpg", caption=f"SMILES: COc1ccc(-c2cnco2)cc1")
+st.image(f"compound_structures/compound_3270828.jpg", width=400)
 
 st.write("---")
 

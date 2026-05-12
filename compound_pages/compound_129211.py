@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TAMSULOSIN", layout="wide")
-st.title("TAMSULOSIN")
+st.set_page_config(page_title="Tamsulosin", layout="wide")
+st.title("Tamsulosin")
 st.markdown(f"PubChem Compound ID: [129211](https://pubchem.ncbi.nlm.nih.gov/compound/129211)")
 st.markdown(f"IUPAC Name: 5-[(2R)-2-[2-(2-ethoxyphenoxy)ethylamino]propyl]-2-methoxybenzenesulfonamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_129211.jpg", caption=f"SMILES: CCOc1ccccc1OCCN[C@H](C)Cc1ccc(OC)c(S(N)(=O)=O)c1")
+st.image(f"compound_structures/compound_129211.jpg", width=400)
 
 st.write("---")
 

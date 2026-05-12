@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: cobalt(2+) dichloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3032536.jpg", caption=f"SMILES: [Co+2]")
+st.image(f"compound_structures/compound_3032536.jpg", width=400)
 
 st.write("---")
 

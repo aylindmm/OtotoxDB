@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="carmustine", layout="wide")
-st.title("carmustine")
+st.set_page_config(page_title="Carmustine", layout="wide")
+st.title("Carmustine")
 st.markdown(f"PubChem Compound ID: [2578](https://pubchem.ncbi.nlm.nih.gov/compound/2578)")
 st.markdown(f"IUPAC Name: 1,3-bis(2-chloroethyl)-1-nitrosourea")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2578.jpg", caption=f"SMILES: O=NN(CCCl)C(=O)NCCCl")
+st.image(f"compound_structures/compound_2578.jpg", width=400)
 
 st.write("---")
 

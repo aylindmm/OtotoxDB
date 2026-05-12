@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="OX5XK1JD8C", layout="wide")
-st.title("OX5XK1JD8C")
+st.set_page_config(page_title="Ox5xk1jd8c", layout="wide")
+st.title("Ox5xk1jd8c")
 st.markdown(f"PubChem Compound ID: [10000860](https://pubchem.ncbi.nlm.nih.gov/compound/10000860)")
 st.markdown(f"IUPAC Name: [(1R,2R)-2-(aminomethyl)cyclobutyl]methanamine;(2S)-2-oxidopropanoate;platinum(2+)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10000860.jpg", caption=f"SMILES: CC([O-])C(=O)[O-].NC[C@@H]1CC[C@H]1CN.[Pt+2]")
+st.image(f"compound_structures/compound_10000860.jpg", width=400)
 
 st.write("---")
 

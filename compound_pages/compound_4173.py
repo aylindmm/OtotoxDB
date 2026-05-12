@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="metronidazole", layout="wide")
-st.title("metronidazole")
+st.set_page_config(page_title="Metronidazole", layout="wide")
+st.title("Metronidazole")
 st.markdown(f"PubChem Compound ID: [4173](https://pubchem.ncbi.nlm.nih.gov/compound/4173)")
 st.markdown(f"IUPAC Name: 2-(2-methyl-5-nitroimidazol-1-yl)ethanol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4173.jpg", caption=f"SMILES: Cc1ncc([N+](=O)[O-])n1CCO")
+st.image(f"compound_structures/compound_4173.jpg", width=400)
 
 st.write("---")
 

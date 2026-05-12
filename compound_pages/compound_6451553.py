@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Dipotassium N-acetyl-DL-aspartate", layout="wide")
-st.title("Dipotassium N-acetyl-DL-aspartate")
+st.set_page_config(page_title="Dipotassium n-acetyl-dl-aspartate", layout="wide")
+st.title("Dipotassium n-acetyl-dl-aspartate")
 st.markdown(f"PubChem Compound ID: [6451553](https://pubchem.ncbi.nlm.nih.gov/compound/6451553)")
 st.markdown(f"IUPAC Name: dipotassium;2-acetamidobutanedioate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6451553.jpg", caption=f"SMILES: CC(=O)NC(CC(=O)O)C(=O)O")
+st.image(f"compound_structures/compound_6451553.jpg", width=400)
 
 st.write("---")
 

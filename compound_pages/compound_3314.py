@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="eugenol", layout="wide")
-st.title("eugenol")
+st.set_page_config(page_title="Eugenol", layout="wide")
+st.title("Eugenol")
 st.markdown(f"PubChem Compound ID: [3314](https://pubchem.ncbi.nlm.nih.gov/compound/3314)")
 st.markdown(f"IUPAC Name: 2-methoxy-4-prop-2-enylphenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3314.jpg", caption=f"SMILES: C=CCc1ccc(O)c(OC)c1")
+st.image(f"compound_structures/compound_3314.jpg", width=400)
 
 st.write("---")
 

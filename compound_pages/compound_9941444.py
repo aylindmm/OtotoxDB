@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: [(3S,6S,9S,12R,15S,18S,20R)-9-(4-aminobutyl)-3-benzyl-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9941444.jpg", caption=f"SMILES: NCCCCC1NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(c2ccccc2)NC(=O)C2C[C@@H](OC(=O)NCCN)CN2C(=O)C(Cc2ccccc2)NC(=O)C(Cc2ccc(OCc3ccccc3)cc2)NC1=O")
+st.image(f"compound_structures/compound_9941444.jpg", width=400)
 
 st.write("---")
 

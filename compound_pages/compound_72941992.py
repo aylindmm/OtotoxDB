@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="AM111 peptide", layout="wide")
-st.title("AM111 peptide")
+st.set_page_config(page_title="Am111 peptide", layout="wide")
+st.title("Am111 peptide")
 st.markdown(f"PubChem Compound ID: [72941992](https://pubchem.ncbi.nlm.nih.gov/compound/72941992)")
 st.markdown(f"IUPAC Name: (3R)-3-amino-4-[[(2R)-5-amino-1-[[(2R)-1-[[(2R)-1-[(2R)-2-[[(2R)-1-[[(2R)-5-amino-1-[(2R)-2-[[(2R)-1-[[(2R)-1-[[(2R)-4-amino-1-[[(2R)-1-[[(2R,3S)-1-[[(2R,3S)-1-[(2R)-2-[[(2R)-1-[[(2R)-6-amino-1-[(2R)-2-[[(2R)-1-[(2R)-2-[(2R)-2-[[(2R)-1-[[(2R)-1-[[(2R)-1-[[(2R)-5-amino-1-[[(2R)-1-[[(2R)-1-[[(2R)-6-amino-1-[[(2R)-6-amino-1-[[(2R)-5-carbamimidamido-1-(carboxymethylamino)-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-hydroxy-1-oxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]carbamoyl]pyrrolidin-1-yl]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-oxobutanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_72941992.jpg", caption=f"SMILES: CC(C)CC(NC(=O)C(Cc1ccccc1)NC(=O)C1CCCN1C(=O)C(CCC(N)=O)NC(=O)C(NC(=O)C1CCCN1C(=O)C(CCCN=C(N)N)NC(=O)C(CO)NC(=O)C(CCC(N)=O)NC(=O)C(N)CC(=O)O)C(C)C)C(=O)NC(CC(N)=O)C(=O)NC(CC(C)C)C(=O)NC(C(=O)NC(C(=O)N1CCCC1C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)N1CCCC1C(=O)NC(CCCNC(=N)N)C(=O)N1CCCC1C(=O)N1CCCC1C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCC(N)=O)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCNC(=N)N)C(=O)NC(CCCCN)C(=O)NC(CCCCN)C(=O)NC(CCCNC(=N)N)C(=O)NCC(=O)O)[C@H](C)O)[C@H](C)O")
+st.image(f"compound_structures/compound_72941992.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: disodium;[2-[(8S,9R,10S,11S,13S,14S,16S,17R)-9-fluoro-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_65478.jpg", caption=f"SMILES: C[C@H]1C[C@H]2[C@@H]3CC=C4CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@]2(C)[C@@]1(O)C(=O)COP(=O)(O)O")
+st.image(f"compound_structures/compound_65478.jpg", width=400)
 
 st.write("---")
 

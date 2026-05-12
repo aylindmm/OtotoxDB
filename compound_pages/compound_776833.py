@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="quinoxaline-5-carboxylic acid", layout="wide")
-st.title("quinoxaline-5-carboxylic acid")
+st.set_page_config(page_title="Quinoxaline-5-carboxylic acid", layout="wide")
+st.title("Quinoxaline-5-carboxylic acid")
 st.markdown(f"PubChem Compound ID: [776833](https://pubchem.ncbi.nlm.nih.gov/compound/776833)")
 st.markdown(f"IUPAC Name: quinoxaline-5-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_776833.jpg", caption=f"SMILES: O=C(O)c1cccc2nccnc12")
+st.image(f"compound_structures/compound_776833.jpg", width=400)
 
 st.write("---")
 

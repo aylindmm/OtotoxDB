@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-(2-imino-4,5,6,7-tetrahydro-1,3-benzothiazol-3-yl)-1
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9929138.jpg", caption=f"SMILES: Cc1ccc(C(=O)Cn2c3c(sc2=N)CCCC3)cc1")
+st.image(f"compound_structures/compound_9929138.jpg", width=400)
 
 st.write("---")
 

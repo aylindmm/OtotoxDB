@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="propranolol", layout="wide")
-st.title("propranolol")
+st.set_page_config(page_title="Propranolol", layout="wide")
+st.title("Propranolol")
 st.markdown(f"PubChem Compound ID: [4946](https://pubchem.ncbi.nlm.nih.gov/compound/4946)")
 st.markdown(f"IUPAC Name: 1-naphthalen-1-yloxy-3-(propan-2-ylamino)propan-2-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4946.jpg", caption=f"SMILES: CC(C)NCC(O)COc1cccc2ccccc12")
+st.image(f"compound_structures/compound_4946.jpg", width=400)
 
 st.write("---")
 

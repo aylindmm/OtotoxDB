@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: tetraethylplumbane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6511.jpg", caption=f"SMILES: C[CH2][Pb]([CH2]C)([CH2]C)[CH2]C")
+st.image(f"compound_structures/compound_6511.jpg", width=400)
 
 st.write("---")
 

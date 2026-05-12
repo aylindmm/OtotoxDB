@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: copper sulfate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24462.jpg", caption=f"SMILES: [Cu+2]")
+st.image(f"compound_structures/compound_24462.jpg", width=400)
 
 st.write("---")
 

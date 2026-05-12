@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="vindesine", layout="wide")
-st.title("vindesine")
+st.set_page_config(page_title="Vindesine", layout="wide")
+st.title("Vindesine")
 st.markdown(f"PubChem Compound ID: [40839](https://pubchem.ncbi.nlm.nih.gov/compound/40839)")
 st.markdown(f"IUPAC Name: methyl (13S,15S,17S)-13-[(1R,9R,10S,11R,12R,19R)-10-carbamoyl-12-ethyl-10,11-dihydroxy-5-methoxy-8-methyl-8,16-diazapentacyclo[10.6.1.01,9.02,7.016,19]nonadeca-2,4,6,13-tetraen-4-yl]-17-ethyl-17-hydroxy-1,11-diazatetracyclo[13.3.1.04,12.05,10]nonadeca-4(12),5,7,9-tetraene-13-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_40839.jpg", caption=f"SMILES: CC[C@]1(O)C[C@H]2CN(CCc3c([nH]c4ccccc34)[C@@](C(=O)OC)(c3cc4c(cc3OC)N(C)[C@H]3[C@@](O)(C(N)=O)[C@H](O)[C@]5(CC)C=CCN6CC[C@]43[C@@H]65)C2)C1")
+st.image(f"compound_structures/compound_40839.jpg", width=400)
 
 st.write("---")
 

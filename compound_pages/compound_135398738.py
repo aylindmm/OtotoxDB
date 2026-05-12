@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dacarbazine", layout="wide")
-st.title("dacarbazine")
+st.set_page_config(page_title="Dacarbazine", layout="wide")
+st.title("Dacarbazine")
 st.markdown(f"PubChem Compound ID: [135398738](https://pubchem.ncbi.nlm.nih.gov/compound/135398738)")
 st.markdown(f"IUPAC Name: 4-[(E)-dimethylaminodiazenyl]-1H-imidazole-5-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135398738.jpg", caption=f"SMILES: CN(C)N=Nc1[nH]cnc1C(N)=O")
+st.image(f"compound_structures/compound_135398738.jpg", width=400)
 
 st.write("---")
 

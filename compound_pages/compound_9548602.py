@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-[methyl-[(E)-N'-phosphonocarbamimidoyl]amino]acetic 
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9548602.jpg", caption=f"SMILES: CN(CC(=O)O)C(=N)NP(=O)(O)O")
+st.image(f"compound_structures/compound_9548602.jpg", width=400)
 
 st.write("---")
 

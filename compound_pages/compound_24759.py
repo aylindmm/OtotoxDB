@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="RefChem:730020", layout="wide")
-st.title("RefChem:730020")
+st.set_page_config(page_title="Refchem:730020", layout="wide")
+st.title("Refchem:730020")
 st.markdown(f"PubChem Compound ID: [24759](https://pubchem.ncbi.nlm.nih.gov/compound/24759)")
 st.markdown(f"IUPAC Name: (2S,3S,4S,5R,6R)-6-[(2S,3R,5S,6R)-3-acetamido-2-[(2S,3S,4R,5R,6R)-6-[(2R,3R,5S,6R)-3-acetamido-2,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-2-carboxy-4,5-dihydroxyoxan-3-yl]oxy-5-hydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-3,4,5-trihydroxyoxane-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24759.jpg", caption=f"SMILES: CC(=O)N[C@@H]1C(O[C@@H]2OC(C(=O)O)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@@H](CO)O[C@H]1O[C@@H]1C(C(=O)O)O[C@@H](OC2[C@@H](NC(C)=O)[C@H](O)O[C@H](CO)[C@H]2O)[C@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_24759.jpg", width=400)
 
 st.write("---")
 

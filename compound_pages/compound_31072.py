@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: ethyl 3-methyl-2-sulfanylideneimidazole-1-carboxylate"
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_31072.jpg", caption=f"SMILES: CCOC(=O)n1ccn(C)c1=S")
+st.image(f"compound_structures/compound_31072.jpg", width=400)
 
 st.write("---")
 

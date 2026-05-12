@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-methylpyridin-1-ium-3-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5570.jpg", caption=f"SMILES: C[n+]1cccc(C(=O)[O-])c1")
+st.image(f"compound_structures/compound_5570.jpg", width=400)
 
 st.write("---")
 

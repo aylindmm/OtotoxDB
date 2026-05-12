@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="N-Butylscopolammonium bromide", layout="wide")
-st.title("N-Butylscopolammonium bromide")
+st.set_page_config(page_title="N-butylscopolammonium bromide", layout="wide")
+st.title("N-butylscopolammonium bromide")
 st.markdown(f"PubChem Compound ID: [6852391](https://pubchem.ncbi.nlm.nih.gov/compound/6852391)")
 st.markdown(f"IUPAC Name: [(1R,2R,4S,5S)-9-butyl-9-methyl-3-oxa-9-azoniatricyclo[3.3.1.02,4]nonan-7-yl] (2S)-3-hydroxy-2-phenylpropanoate bromide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6852391.jpg", caption=f"SMILES: CCCC[N+]1(C)[C@@H]2CC(OC(=O)C(CO)c3ccccc3)C[C@H]1[C@@H]1O[C@@H]12")
+st.image(f"compound_structures/compound_6852391.jpg", width=400)
 
 st.write("---")
 

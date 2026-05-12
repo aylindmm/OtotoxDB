@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DICHLOROMETHOTREXATE", layout="wide")
-st.title("DICHLOROMETHOTREXATE")
+st.set_page_config(page_title="Dichloromethotrexate", layout="wide")
+st.title("Dichloromethotrexate")
 st.markdown(f"PubChem Compound ID: [10713](https://pubchem.ncbi.nlm.nih.gov/compound/10713)")
 st.markdown(f"IUPAC Name: (2S)-2-[[3,5-dichloro-4-[(2,4-diaminopteridin-6-yl)methyl-methylamino]benzoyl]amino]pentanedioic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10713.jpg", caption=f"SMILES: CN(Cc1cnc2nc(N)nc(N)c2n1)c1c(Cl)cc(C(=O)NC(CCC(=O)O)C(=O)O)cc1Cl")
+st.image(f"compound_structures/compound_10713.jpg", width=400)
 
 st.write("---")
 

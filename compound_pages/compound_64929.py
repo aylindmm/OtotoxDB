@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-[4-(4-chlorobenzoyl)phenoxy]-2-methylpropanoic acid"
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_64929.jpg", caption=f"SMILES: CC(C)(Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1)C(=O)O")
+st.image(f"compound_structures/compound_64929.jpg", width=400)
 
 st.write("---")
 

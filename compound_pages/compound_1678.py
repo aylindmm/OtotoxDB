@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3-nitropropanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1678.jpg", caption=f"SMILES: O=C(O)CC[N+](=O)[O-]")
+st.image(f"compound_structures/compound_1678.jpg", width=400)
 
 st.write("---")
 

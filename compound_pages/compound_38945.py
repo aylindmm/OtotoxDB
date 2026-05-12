@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tocainide", layout="wide")
-st.title("tocainide")
+st.set_page_config(page_title="Tocainide", layout="wide")
+st.title("Tocainide")
 st.markdown(f"PubChem Compound ID: [38945](https://pubchem.ncbi.nlm.nih.gov/compound/38945)")
 st.markdown(f"IUPAC Name: 2-amino-N-(2,6-dimethylphenyl)propanamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_38945.jpg", caption=f"SMILES: Cc1cccc(C)c1NC(=O)C(C)N")
+st.image(f"compound_structures/compound_38945.jpg", width=400)
 
 st.write("---")
 

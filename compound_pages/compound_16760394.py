@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Z-DEVD-FMK", layout="wide")
-st.title("Z-DEVD-FMK")
+st.set_page_config(page_title="Z-devd-fmk", layout="wide")
+st.title("Z-devd-fmk")
 st.markdown(f"PubChem Compound ID: [16760394](https://pubchem.ncbi.nlm.nih.gov/compound/16760394)")
 st.markdown(f"IUPAC Name: methyl (4S)-5-[[(2S)-1-[[(3S)-5-fluoro-1-methoxy-1,4-dioxopentan-3-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-4-[[(2S)-4-methoxy-4-oxo-2-(phenylmethoxycarbonylamino)butanoyl]amino]-5-oxopentanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16760394.jpg", caption=f"SMILES: COC(=O)CCC(NC(=O)C(CC(=O)OC)NC(=O)OCc1ccccc1)C(=O)NC(C(=O)NC(CC(=O)OC)C(=O)CF)C(C)C")
+st.image(f"compound_structures/compound_16760394.jpg", width=400)
 
 st.write("---")
 

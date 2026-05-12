@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Vitamin E acid succinate", layout="wide")
-st.title("Vitamin E acid succinate")
+st.set_page_config(page_title="Vitamin e acid succinate", layout="wide")
+st.title("Vitamin e acid succinate")
 st.markdown(f"PubChem Compound ID: [425400](https://pubchem.ncbi.nlm.nih.gov/compound/425400)")
 st.markdown(f"IUPAC Name: 4-oxo-4-[[2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-3,4-dihydrochromen-6-yl]oxy]butanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_425400.jpg", caption=f"SMILES: Cc1c(C)c2c(c(C)c1OC(=O)CCC(=O)O)CCC(C)(CCCC(C)CCCC(C)CCCC(C)C)O2")
+st.image(f"compound_structures/compound_425400.jpg", width=400)
 
 st.write("---")
 

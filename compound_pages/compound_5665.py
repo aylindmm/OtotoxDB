@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="vigabatrin", layout="wide")
-st.title("vigabatrin")
+st.set_page_config(page_title="Vigabatrin", layout="wide")
+st.title("Vigabatrin")
 st.markdown(f"PubChem Compound ID: [5665](https://pubchem.ncbi.nlm.nih.gov/compound/5665)")
 st.markdown(f"IUPAC Name: 4-aminohex-5-enoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5665.jpg", caption=f"SMILES: C=CC(N)CCC(=O)O")
+st.image(f"compound_structures/compound_5665.jpg", width=400)
 
 st.write("---")
 

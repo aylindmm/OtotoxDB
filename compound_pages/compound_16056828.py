@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: cobalt(2+);[(2R,3S,4R,5S)-5-(5,6-dimethylbenzimidazol-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16056828.jpg", caption=f"SMILES: CC1=C2[N-][C@H]([C@H](CC(N)=O)[C@@]2(C)CCC(=O)NC[C@@H](C)OP(=O)([O-])O[C@H]2[C@@H](O)[C@@H](n3cnc4cc(C)c(C)cc43)O[C@@H]2CO)[C@]2(C)N=C(C(C)=C3N=C(C=C4N=C1[C@@H](CCC(N)=O)C4(C)C)[C@@H](CCC(N)=O)[C@]3(C)CC(N)=O)[C@@H](CCC(N)=O)[C@]2(C)CC(N)=O.[Co+2]")
+st.image(f"compound_structures/compound_16056828.jpg", width=400)
 
 st.write("---")
 

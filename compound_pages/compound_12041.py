@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ETHYL PYRUVATE", layout="wide")
-st.title("ETHYL PYRUVATE")
+st.set_page_config(page_title="Ethyl pyruvate", layout="wide")
+st.title("Ethyl pyruvate")
 st.markdown(f"PubChem Compound ID: [12041](https://pubchem.ncbi.nlm.nih.gov/compound/12041)")
 st.markdown(f"IUPAC Name: ethyl 2-oxopropanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_12041.jpg", caption=f"SMILES: CCOC(=O)C(C)=O")
+st.image(f"compound_structures/compound_12041.jpg", width=400)
 
 st.write("---")
 

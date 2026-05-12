@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-Oxazolidinone", layout="wide")
-st.title("2-Oxazolidinone")
+st.set_page_config(page_title="2-oxazolidinone", layout="wide")
+st.title("2-oxazolidinone")
 st.markdown(f"PubChem Compound ID: [73949](https://pubchem.ncbi.nlm.nih.gov/compound/73949)")
 st.markdown(f"IUPAC Name: 1,3-oxazolidin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_73949.jpg", caption=f"SMILES: O=C1NCCO1")
+st.image(f"compound_structures/compound_73949.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tacrolimus", layout="wide")
-st.title("tacrolimus")
+st.set_page_config(page_title="Tacrolimus", layout="wide")
+st.title("Tacrolimus")
 st.markdown(f"PubChem Compound ID: [445643](https://pubchem.ncbi.nlm.nih.gov/compound/445643)")
 st.markdown(f"IUPAC Name: (1R,9S,12S,13R,14S,17R,18E,21S,23S,24R,25S,27R)-1,14-dihydroxy-12-[(E)-1-[(1R,3R,4R)-4-hydroxy-3-methoxycyclohexyl]prop-1-en-2-yl]-23,25-dimethoxy-13,19,21,27-tetramethyl-17-prop-2-enyl-11,28-dioxa-4-azatricyclo[22.3.1.04,9]octacos-18-ene-2,3,10,16-tetrone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_445643.jpg", caption=f"SMILES: C=CCC1=CC(C)C[C@H](C)C[C@H](OC)[C@H]2O[C@@](O)(C(=O)C(=O)N3CCCCC3C(=O)O[C@H](C(C)=C[C@@H]3CC[C@@H](O)[C@H](OC)C3)[C@H](C)[C@@H](O)CC1=O)[C@H](C)C[C@@H]2OC")
+st.image(f"compound_structures/compound_445643.jpg", width=400)
 
 st.write("---")
 

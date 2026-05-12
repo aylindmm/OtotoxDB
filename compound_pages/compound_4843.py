@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="piracetam", layout="wide")
-st.title("piracetam")
+st.set_page_config(page_title="Piracetam", layout="wide")
+st.title("Piracetam")
 st.markdown(f"PubChem Compound ID: [4843](https://pubchem.ncbi.nlm.nih.gov/compound/4843)")
 st.markdown(f"IUPAC Name: 2-(2-oxopyrrolidin-1-yl)acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4843.jpg", caption=f"SMILES: NC(=O)CN1CCCC1=O")
+st.image(f"compound_structures/compound_4843.jpg", width=400)
 
 st.write("---")
 

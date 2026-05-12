@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="methadone", layout="wide")
-st.title("methadone")
+st.set_page_config(page_title="Methadone", layout="wide")
+st.title("Methadone")
 st.markdown(f"PubChem Compound ID: [4095](https://pubchem.ncbi.nlm.nih.gov/compound/4095)")
 st.markdown(f"IUPAC Name: 6-(dimethylamino)-4,4-diphenylheptan-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4095.jpg", caption=f"SMILES: CCC(=O)C(CC(C)N(C)C)(c1ccccc1)c1ccccc1")
+st.image(f"compound_structures/compound_4095.jpg", width=400)
 
 st.write("---")
 

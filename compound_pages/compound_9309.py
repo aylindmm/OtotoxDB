@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ALLYLBENZENE", layout="wide")
-st.title("ALLYLBENZENE")
+st.set_page_config(page_title="Allylbenzene", layout="wide")
+st.title("Allylbenzene")
 st.markdown(f"PubChem Compound ID: [9309](https://pubchem.ncbi.nlm.nih.gov/compound/9309)")
 st.markdown(f"IUPAC Name: prop-2-enylbenzene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9309.jpg", caption=f"SMILES: C=CCc1ccccc1")
+st.image(f"compound_structures/compound_9309.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="procarbazine", layout="wide")
-st.title("procarbazine")
+st.set_page_config(page_title="Procarbazine", layout="wide")
+st.title("Procarbazine")
 st.markdown(f"PubChem Compound ID: [4915](https://pubchem.ncbi.nlm.nih.gov/compound/4915)")
 st.markdown(f"IUPAC Name: 4-[(2-methylhydrazinyl)methyl]-N-propan-2-ylbenzamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4915.jpg", caption=f"SMILES: CNNCc1ccc(C(=O)NC(C)C)cc1")
+st.image(f"compound_structures/compound_4915.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluorooctan
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_74483.jpg", caption=f"SMILES: O=S(=O)(O)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)C(F)(F)F")
+st.image(f"compound_structures/compound_74483.jpg", width=400)
 
 st.write("---")
 

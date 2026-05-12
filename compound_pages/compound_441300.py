@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="abacavir", layout="wide")
-st.title("abacavir")
+st.set_page_config(page_title="Abacavir", layout="wide")
+st.title("Abacavir")
 st.markdown(f"PubChem Compound ID: [441300](https://pubchem.ncbi.nlm.nih.gov/compound/441300)")
 st.markdown(f"IUPAC Name: [(1S,4R)-4-[2-amino-6-(cyclopropylamino)purin-9-yl]cyclopent-2-en-1-yl]methanol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_441300.jpg", caption=f"SMILES: Nc1nc(NC2CC2)c2ncn([C@H]3C=C[C@@H](CO)C3)c2n1")
+st.image(f"compound_structures/compound_441300.jpg", width=400)
 
 st.write("---")
 

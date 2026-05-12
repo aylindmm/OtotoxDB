@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="benzethonium chloride", layout="wide")
-st.title("benzethonium chloride")
+st.set_page_config(page_title="Benzethonium chloride", layout="wide")
+st.title("Benzethonium chloride")
 st.markdown(f"PubChem Compound ID: [8478](https://pubchem.ncbi.nlm.nih.gov/compound/8478)")
 st.markdown(f"IUPAC Name: benzyl-dimethyl-[2-[2-[4-(2,4,4-trimethylpentan-2-yl)phenoxy]ethoxy]ethyl]azanium chloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8478.jpg", caption=f"SMILES: CC(C)(C)CC(C)(C)c1ccc(OCCOCC[N+](C)(C)Cc2ccccc2)cc1")
+st.image(f"compound_structures/compound_8478.jpg", width=400)
 
 st.write("---")
 

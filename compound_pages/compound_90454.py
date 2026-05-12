@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cinchonine", layout="wide")
-st.title("cinchonine")
+st.set_page_config(page_title="Cinchonine", layout="wide")
+st.title("Cinchonine")
 st.markdown(f"PubChem Compound ID: [90454](https://pubchem.ncbi.nlm.nih.gov/compound/90454)")
 st.markdown(f"IUPAC Name: (S)-[(2R,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-quinolin-4-ylmethanol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_90454.jpg", caption=f"SMILES: C=C[C@H]1CN2CC[C@H]1C[C@@H]2[C@@H](O)c1ccnc2ccccc12")
+st.image(f"compound_structures/compound_90454.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="atorvastatin", layout="wide")
-st.title("atorvastatin")
+st.set_page_config(page_title="Atorvastatin", layout="wide")
+st.title("Atorvastatin")
 st.markdown(f"PubChem Compound ID: [60823](https://pubchem.ncbi.nlm.nih.gov/compound/60823)")
 st.markdown(f"IUPAC Name: (3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_60823.jpg", caption=f"SMILES: CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(=O)O")
+st.image(f"compound_structures/compound_60823.jpg", width=400)
 
 st.write("---")
 

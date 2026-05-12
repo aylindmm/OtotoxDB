@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: N-[(3-chlorophenyl)methyl]spiro[1,4-dihydroquinoxaline
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135735917.jpg", caption=f"SMILES: Clc1cccc(CN=C2Nc3ccccc3NC23CCNCC3)c1")
+st.image(f"compound_structures/compound_135735917.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-(1,3-Dioxo-1,3-dihydro-2H-isoindol-2-yl)-3-(1H-indol-3-yl)propanoic acid", layout="wide")
-st.title("2-(1,3-Dioxo-1,3-dihydro-2H-isoindol-2-yl)-3-(1H-indol-3-yl)propanoic acid")
+st.set_page_config(page_title="2-(1,3-dioxo-1,3-dihydro-2h-isoindol-2-yl)-3-(1h-indol-3-yl)propanoic acid", layout="wide")
+st.title("2-(1,3-dioxo-1,3-dihydro-2h-isoindol-2-yl)-3-(1h-indol-3-yl)propanoic acid")
 st.markdown(f"PubChem Compound ID: [344265](https://pubchem.ncbi.nlm.nih.gov/compound/344265)")
 st.markdown(f"IUPAC Name: 2-(1,3-dioxoisoindol-2-yl)-3-(1H-indol-3-yl)propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_344265.jpg", caption=f"SMILES: O=C(O)C(Cc1c[nH]c2ccccc12)N1C(=O)c2ccccc2C1=O")
+st.image(f"compound_structures/compound_344265.jpg", width=400)
 
 st.write("---")
 

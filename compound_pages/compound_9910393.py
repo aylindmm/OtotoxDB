@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="MCC950", layout="wide")
-st.title("MCC950")
+st.set_page_config(page_title="Mcc950", layout="wide")
+st.title("Mcc950")
 st.markdown(f"PubChem Compound ID: [9910393](https://pubchem.ncbi.nlm.nih.gov/compound/9910393)")
 st.markdown(f"IUPAC Name: 1-(1,2,3,5,6,7-hexahydro-s-indacen-4-yl)-3-[4-(2-hydroxypropan-2-yl)furan-2-yl]sulfonylurea")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9910393.jpg", caption=f"SMILES: CC(C)(O)c1coc(S(=O)(=O)NC(=O)Nc2c3c(cc4c2CCC4)CCC3)c1")
+st.image(f"compound_structures/compound_9910393.jpg", width=400)
 
 st.write("---")
 

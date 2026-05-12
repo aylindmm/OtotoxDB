@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ifosfamide", layout="wide")
-st.title("ifosfamide")
+st.set_page_config(page_title="Ifosfamide", layout="wide")
+st.title("Ifosfamide")
 st.markdown(f"PubChem Compound ID: [3690](https://pubchem.ncbi.nlm.nih.gov/compound/3690)")
 st.markdown(f"IUPAC Name: N,3-bis(2-chloroethyl)-2-oxo-1,3,2lambda5-oxazaphosphinan-2-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3690.jpg", caption=f"SMILES: O=P1(NCCCl)OCCCN1CCCl")
+st.image(f"compound_structures/compound_3690.jpg", width=400)
 
 st.write("---")
 

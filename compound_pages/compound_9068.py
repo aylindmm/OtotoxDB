@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Cocarboxylase [INN:DCF:JAN]", layout="wide")
-st.title("Cocarboxylase [INN:DCF:JAN]")
+st.set_page_config(page_title="Cocarboxylase [inn:dcf:jan]", layout="wide")
+st.title("Cocarboxylase [inn:dcf:jan]")
 st.markdown(f"PubChem Compound ID: [9068](https://pubchem.ncbi.nlm.nih.gov/compound/9068)")
 st.markdown(f"IUPAC Name: 2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethyl phosphono hydrogen phosphate chloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9068.jpg", caption=f"SMILES: Cc1ncc(C[n+]2csc(CCOP(=O)(O)OP(=O)(O)O)c2C)c(N)n1")
+st.image(f"compound_structures/compound_9068.jpg", width=400)
 
 st.write("---")
 

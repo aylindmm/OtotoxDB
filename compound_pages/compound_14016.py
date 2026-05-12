@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TRIMETHYLTIN CHLORIDE", layout="wide")
-st.title("TRIMETHYLTIN CHLORIDE")
+st.set_page_config(page_title="Trimethyltin chloride", layout="wide")
+st.title("Trimethyltin chloride")
 st.markdown(f"PubChem Compound ID: [14016](https://pubchem.ncbi.nlm.nih.gov/compound/14016)")
 st.markdown(f"IUPAC Name: chloro(trimethyl)stannane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_14016.jpg", caption=f"SMILES: [CH3][Sn]([CH3])([CH3])[Cl]")
+st.image(f"compound_structures/compound_14016.jpg", width=400)
 
 st.write("---")
 

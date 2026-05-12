@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nalidixic acid", layout="wide")
-st.title("nalidixic acid")
+st.set_page_config(page_title="Nalidixic acid", layout="wide")
+st.title("Nalidixic acid")
 st.markdown(f"PubChem Compound ID: [4421](https://pubchem.ncbi.nlm.nih.gov/compound/4421)")
 st.markdown(f"IUPAC Name: 1-ethyl-7-methyl-4-oxo-1,8-naphthyridine-3-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4421.jpg", caption=f"SMILES: CCn1cc(C(=O)O)c(=O)c2ccc(C)nc21")
+st.image(f"compound_structures/compound_4421.jpg", width=400)
 
 st.write("---")
 

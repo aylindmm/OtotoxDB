@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sevoflurane", layout="wide")
-st.title("sevoflurane")
+st.set_page_config(page_title="Sevoflurane", layout="wide")
+st.title("Sevoflurane")
 st.markdown(f"PubChem Compound ID: [5206](https://pubchem.ncbi.nlm.nih.gov/compound/5206)")
 st.markdown(f"IUPAC Name: 1,1,1,3,3,3-hexafluoro-2-(fluoromethoxy)propane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5206.jpg", caption=f"SMILES: FCOC(C(F)(F)F)C(F)(F)F")
+st.image(f"compound_structures/compound_5206.jpg", width=400)
 
 st.write("---")
 

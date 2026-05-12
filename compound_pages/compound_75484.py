@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: methyl 2,3-dihydroxybenzoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_75484.jpg", caption=f"SMILES: COC(=O)c1cccc(O)c1O")
+st.image(f"compound_structures/compound_75484.jpg", width=400)
 
 st.write("---")
 

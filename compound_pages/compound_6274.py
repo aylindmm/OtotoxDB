@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6274.jpg", caption=f"SMILES: NC(Cc1c[nH]cn1)C(=O)O")
+st.image(f"compound_structures/compound_6274.jpg", width=400)
 
 st.write("---")
 

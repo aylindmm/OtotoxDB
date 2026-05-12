@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="OXCARBAZEPINE", layout="wide")
-st.title("OXCARBAZEPINE")
+st.set_page_config(page_title="Oxcarbazepine", layout="wide")
+st.title("Oxcarbazepine")
 st.markdown(f"PubChem Compound ID: [34312](https://pubchem.ncbi.nlm.nih.gov/compound/34312)")
 st.markdown(f"IUPAC Name: 5-oxo-6H-benzo[b][1]benzazepine-11-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_34312.jpg", caption=f"SMILES: NC(=O)N1c2ccccc2CC(=O)c2ccccc21")
+st.image(f"compound_structures/compound_34312.jpg", width=400)
 
 st.write("---")
 

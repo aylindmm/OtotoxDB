@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="acetic acid", layout="wide")
-st.title("acetic acid")
+st.set_page_config(page_title="Acetic acid", layout="wide")
+st.title("Acetic acid")
 st.markdown(f"PubChem Compound ID: [176](https://pubchem.ncbi.nlm.nih.gov/compound/176)")
 st.markdown(f"IUPAC Name: acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_176.jpg", caption=f"SMILES: CC(=O)O")
+st.image(f"compound_structures/compound_176.jpg", width=400)
 
 st.write("---")
 

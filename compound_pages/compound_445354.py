@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="retinol", layout="wide")
-st.title("retinol")
+st.set_page_config(page_title="Retinol", layout="wide")
+st.title("Retinol")
 st.markdown(f"PubChem Compound ID: [445354](https://pubchem.ncbi.nlm.nih.gov/compound/445354)")
 st.markdown(f"IUPAC Name: (2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraen-1-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_445354.jpg", caption=f"SMILES: CC(C=CC1=C(C)CCCC1(C)C)=CC=CC(C)=CCO")
+st.image(f"compound_structures/compound_445354.jpg", width=400)
 
 st.write("---")
 

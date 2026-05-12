@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nicotinamide", layout="wide")
-st.title("nicotinamide")
+st.set_page_config(page_title="Nicotinamide", layout="wide")
+st.title("Nicotinamide")
 st.markdown(f"PubChem Compound ID: [936](https://pubchem.ncbi.nlm.nih.gov/compound/936)")
 st.markdown(f"IUPAC Name: pyridine-3-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_936.jpg", caption=f"SMILES: NC(=O)c1cccnc1")
+st.image(f"compound_structures/compound_936.jpg", width=400)
 
 st.write("---")
 

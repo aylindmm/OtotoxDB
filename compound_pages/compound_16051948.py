@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="quinine sulfate", layout="wide")
-st.title("quinine sulfate")
+st.set_page_config(page_title="Quinine sulfate", layout="wide")
+st.title("Quinine sulfate")
 st.markdown(f"PubChem Compound ID: [16051948](https://pubchem.ncbi.nlm.nih.gov/compound/16051948)")
 st.markdown(f"IUPAC Name: bis((R)-[(2S,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-(6-methoxyquinolin-4-yl)methanol);sulfuric acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16051948.jpg", caption=f"SMILES: C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12.C=C[C@H]1CN2CC[C@H]1C[C@H]2[C@H](O)c1ccnc2ccc(OC)cc12")
+st.image(f"compound_structures/compound_16051948.jpg", width=400)
 
 st.write("---")
 

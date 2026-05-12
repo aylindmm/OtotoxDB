@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_62998.jpg", caption=f"SMILES: O=C(O)c1cn(C2CC2)c2cc(N3CCNCC3)c(F)cc2c1=O")
+st.image(f"compound_structures/compound_62998.jpg", width=400)
 
 st.write("---")
 

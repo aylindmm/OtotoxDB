@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ALUMINUM ACETATE", layout="wide")
-st.title("ALUMINUM ACETATE")
+st.set_page_config(page_title="Aluminum acetate", layout="wide")
+st.title("Aluminum acetate")
 st.markdown(f"PubChem Compound ID: [8757](https://pubchem.ncbi.nlm.nih.gov/compound/8757)")
 st.markdown(f"IUPAC Name: aluminum triacetate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_8757.jpg", caption=f"SMILES: [Al+3]")
+st.image(f"compound_structures/compound_8757.jpg", width=400)
 
 st.write("---")
 

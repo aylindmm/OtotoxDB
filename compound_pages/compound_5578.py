@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="trimethoprim", layout="wide")
-st.title("trimethoprim")
+st.set_page_config(page_title="Trimethoprim", layout="wide")
+st.title("Trimethoprim")
 st.markdown(f"PubChem Compound ID: [5578](https://pubchem.ncbi.nlm.nih.gov/compound/5578)")
 st.markdown(f"IUPAC Name: 5-[(3,4,5-trimethoxyphenyl)methyl]pyrimidine-2,4-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5578.jpg", caption=f"SMILES: COc1cc(Cc2cnc(N)nc2N)cc(OC)c1OC")
+st.image(f"compound_structures/compound_5578.jpg", width=400)
 
 st.write("---")
 

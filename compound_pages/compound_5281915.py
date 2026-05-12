@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Coenzyme Q10", layout="wide")
-st.title("Coenzyme Q10")
+st.set_page_config(page_title="Coenzyme q10", layout="wide")
+st.title("Coenzyme q10")
 st.markdown(f"PubChem Compound ID: [5281915](https://pubchem.ncbi.nlm.nih.gov/compound/5281915)")
 st.markdown(f"IUPAC Name: 2-[(2E,6E,10E,14E,18E,22E,26E,30E,34E)-3,7,11,15,19,23,27,31,35,39-decamethyltetraconta-2,6,10,14,18,22,26,30,34,38-decaenyl]-5,6-dimethoxy-3-methylcyclohexa-2,5-diene-1,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5281915.jpg", caption=f"SMILES: COc1c(O)c(C)c(C=CC(C)=CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)CCC=C(C)C)c(O)c1OC")
+st.image(f"compound_structures/compound_5281915.jpg", width=400)
 
 st.write("---")
 

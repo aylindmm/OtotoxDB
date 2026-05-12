@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="kaempferol", layout="wide")
-st.title("kaempferol")
+st.set_page_config(page_title="Kaempferol", layout="wide")
+st.title("Kaempferol")
 st.markdown(f"PubChem Compound ID: [5280863](https://pubchem.ncbi.nlm.nih.gov/compound/5280863)")
 st.markdown(f"IUPAC Name: 3,5,7-trihydroxy-2-(4-hydroxyphenyl)chromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280863.jpg", caption=f"SMILES: O=c1c(O)c(-c2ccc(O)cc2)oc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_5280863.jpg", width=400)
 
 st.write("---")
 

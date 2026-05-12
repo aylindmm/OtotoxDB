@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="FLUTICASONE PROPIONATE", layout="wide")
-st.title("FLUTICASONE PROPIONATE")
+st.set_page_config(page_title="Fluticasone propionate", layout="wide")
+st.title("Fluticasone propionate")
 st.markdown(f"PubChem Compound ID: [444036](https://pubchem.ncbi.nlm.nih.gov/compound/444036)")
 st.markdown(f"IUPAC Name: [(6S,8S,9R,10S,11S,13S,14S,16R,17R)-6,9-difluoro-17-(fluoromethylsulfanylcarbonyl)-11-hydroxy-10,13,16-trimethyl-3-oxo-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-17-yl] propanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_444036.jpg", caption=f"SMILES: CCC(=O)O[C@]1(C(=O)SCF)[C@H](C)C[C@H]2[C@@H]3C[C@H](F)C4=CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C")
+st.image(f"compound_structures/compound_444036.jpg", width=400)
 
 st.write("---")
 

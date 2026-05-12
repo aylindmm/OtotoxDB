@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="amitriptyline", layout="wide")
-st.title("amitriptyline")
+st.set_page_config(page_title="Amitriptyline", layout="wide")
+st.title("Amitriptyline")
 st.markdown(f"PubChem Compound ID: [2160](https://pubchem.ncbi.nlm.nih.gov/compound/2160)")
 st.markdown(f"IUPAC Name: N,N-dimethyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,11,13-hexaenylidene)propan-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2160.jpg", caption=f"SMILES: CN(C)CCC=C1c2ccccc2CCc2ccccc21")
+st.image(f"compound_structures/compound_2160.jpg", width=400)
 
 st.write("---")
 

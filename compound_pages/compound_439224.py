@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="L-Carnosine", layout="wide")
-st.title("L-Carnosine")
+st.set_page_config(page_title="L-carnosine", layout="wide")
+st.title("L-carnosine")
 st.markdown(f"PubChem Compound ID: [439224](https://pubchem.ncbi.nlm.nih.gov/compound/439224)")
 st.markdown(f"IUPAC Name: (2S)-2-(3-aminopropanoylamino)-3-(1H-imidazol-5-yl)propanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_439224.jpg", caption=f"SMILES: NCCC(=O)NC(Cc1c[nH]cn1)C(=O)O")
+st.image(f"compound_structures/compound_439224.jpg", width=400)
 
 st.write("---")
 

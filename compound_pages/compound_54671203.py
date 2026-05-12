@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DTXSID80992212", layout="wide")
-st.title("DTXSID80992212")
+st.set_page_config(page_title="Dtxsid80992212", layout="wide")
+st.title("Dtxsid80992212")
 st.markdown(f"PubChem Compound ID: [54671203](https://pubchem.ncbi.nlm.nih.gov/compound/54671203)")
 st.markdown(f"IUPAC Name: (4S,4aR,5S,5aR,6R,12aR)-4-(dimethylamino)-1,5,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54671203.jpg", caption=f"SMILES: CC1c2cccc(O)c2C(=O)C2C(=O)[C@]3(O)C(=O)C(C(N)=O)C(=O)C(N(C)C)[C@@H]3[C@@H](O)[C@@H]21")
+st.image(f"compound_structures/compound_54671203.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2S)-2-amino-4-methylsulfanylbutanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6137.jpg", caption=f"SMILES: CSCCC(N)C(=O)O")
+st.image(f"compound_structures/compound_6137.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TANNIC ACID", layout="wide")
-st.title("TANNIC ACID")
+st.set_page_config(page_title="Tannic acid", layout="wide")
+st.title("Tannic acid")
 st.markdown(f"PubChem Compound ID: [16129778](https://pubchem.ncbi.nlm.nih.gov/compound/16129778)")
 st.markdown(f"IUPAC Name: [2,3-dihydroxy-5-[[(2R,3R,4S,5R,6S)-3,4,5,6-tetrakis[[3,4-dihydroxy-5-(3,4,5-trihydroxybenzoyl)oxybenzoyl]oxy]oxan-2-yl]methoxycarbonyl]phenyl] 3,4,5-trihydroxybenzoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_16129778.jpg", caption=f"SMILES: O=C(OC[C@H]1O[C@@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@@H](OC(=O)c2cc(O)c(O)c(OC(=O)c3cc(O)c(O)c(O)c3)c2)[C@@H]1OC(=O)c1cc(O)c(O)c(OC(=O)c2cc(O)c(O)c(O)c2)c1)c1cc(O)c(O)c(OC(=O)c2cc(O)c(O)c(O)c2)c1")
+st.image(f"compound_structures/compound_16129778.jpg", width=400)
 
 st.write("---")
 

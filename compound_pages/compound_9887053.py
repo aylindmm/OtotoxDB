@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="oxaliplatin", layout="wide")
-st.title("oxaliplatin")
+st.set_page_config(page_title="Oxaliplatin", layout="wide")
+st.title("Oxaliplatin")
 st.markdown(f"PubChem Compound ID: [9887053](https://pubchem.ncbi.nlm.nih.gov/compound/9887053)")
 st.markdown(f"IUPAC Name: [(1R,2R)-2-azanidylcyclohexyl]azanide;oxalic acid;platinum(2+)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9887053.jpg", caption=f"SMILES: [NH-][C@@H]1CCCC[C@H]1[NH-].[Pt+2]")
+st.image(f"compound_structures/compound_9887053.jpg", width=400)
 
 st.write("---")
 

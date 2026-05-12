@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CHLOROGENIC ACID", layout="wide")
-st.title("CHLOROGENIC ACID")
+st.set_page_config(page_title="Chlorogenic acid", layout="wide")
+st.title("Chlorogenic acid")
 st.markdown(f"PubChem Compound ID: [1794427](https://pubchem.ncbi.nlm.nih.gov/compound/1794427)")
 st.markdown(f"IUPAC Name: (1S,3R,4R,5R)-3-[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxy-1,4,5-trihydroxycyclohexane-1-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1794427.jpg", caption=f"SMILES: O=C(C=Cc1ccc(O)c(O)c1)O[C@@H]1C[C@](O)(C(=O)O)C[C@@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_1794427.jpg", width=400)
 
 st.write("---")
 

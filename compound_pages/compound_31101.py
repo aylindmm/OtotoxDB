@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="bromocriptine", layout="wide")
-st.title("bromocriptine")
+st.set_page_config(page_title="Bromocriptine", layout="wide")
+st.title("Bromocriptine")
 st.markdown(f"PubChem Compound ID: [31101](https://pubchem.ncbi.nlm.nih.gov/compound/31101)")
 st.markdown(f"IUPAC Name: (6aR,9R)-5-bromo-N-[(1S,2S,4R,7S)-2-hydroxy-7-(2-methylpropyl)-5,8-dioxo-4-propan-2-yl-3-oxa-6,9-diazatricyclo[7.3.0.02,6]dodecan-4-yl]-7-methyl-6,6a,8,9-tetrahydro-4H-indolo[4,3-fg]quinoline-9-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_31101.jpg", caption=f"SMILES: CC(C)CC1C(=O)N2CCC[C@H]2[C@]2(O)O[C@](NC(=O)C3C=C4c5cccc6[nH]c(Br)c(c56)C[C@H]4N(C)C3)(C(C)C)C(=O)N12")
+st.image(f"compound_structures/compound_31101.jpg", width=400)
 
 st.write("---")
 

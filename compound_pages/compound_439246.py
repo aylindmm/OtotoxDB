@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="naringenin", layout="wide")
-st.title("naringenin")
+st.set_page_config(page_title="Naringenin", layout="wide")
+st.title("Naringenin")
 st.markdown(f"PubChem Compound ID: [439246](https://pubchem.ncbi.nlm.nih.gov/compound/439246)")
 st.markdown(f"IUPAC Name: (2S)-5,7-dihydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_439246.jpg", caption=f"SMILES: O=C1C[C@@H](c2ccc(O)cc2)Oc2cc(O)cc(O)c21")
+st.image(f"compound_structures/compound_439246.jpg", width=400)
 
 st.write("---")
 

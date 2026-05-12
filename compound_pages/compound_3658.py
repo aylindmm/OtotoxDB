@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="hydroxyzine", layout="wide")
-st.title("hydroxyzine")
+st.set_page_config(page_title="Hydroxyzine", layout="wide")
+st.title("Hydroxyzine")
 st.markdown(f"PubChem Compound ID: [3658](https://pubchem.ncbi.nlm.nih.gov/compound/3658)")
 st.markdown(f"IUPAC Name: 2-[2-[4-[(4-chlorophenyl)-phenylmethyl]piperazin-1-yl]ethoxy]ethanol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3658.jpg", caption=f"SMILES: OCCOCCN1CCN(C(c2ccccc2)c2ccc(Cl)cc2)CC1")
+st.image(f"compound_structures/compound_3658.jpg", width=400)
 
 st.write("---")
 

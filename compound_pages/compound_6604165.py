@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: disodium;azanylidyneoxidanium;iron(2+);pentacyanide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6604165.jpg", caption=f"SMILES: C#N.C#N.N#[O+].[C-]#N.[C-]#N.[C-]#N.[Fe+2]")
+st.image(f"compound_structures/compound_6604165.jpg", width=400)
 
 st.write("---")
 

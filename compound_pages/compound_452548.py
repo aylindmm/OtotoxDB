@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="teniposide", layout="wide")
-st.title("teniposide")
+st.set_page_config(page_title="Teniposide", layout="wide")
+st.title("Teniposide")
 st.markdown(f"PubChem Compound ID: [452548](https://pubchem.ncbi.nlm.nih.gov/compound/452548)")
 st.markdown(f"IUPAC Name: (5S,5aR,8aR,9R)-5-[[(2R,4aR,6R,7R,8R,8aS)-7,8-dihydroxy-2-thiophen-2-yl-4,4a,6,7,8,8a-hexahydropyrano[3,2-d][1,3]dioxin-6-yl]oxy]-9-(4-hydroxy-3,5-dimethoxyphenyl)-5a,6,8a,9-tetrahydro-5H-[2]benzofuro[6,5-f][1,3]benzodioxol-8-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_452548.jpg", caption=f"SMILES: COc1cc([C@@H]2c3cc4c(cc3[C@@H](O[C@@H]3O[C@@H]5CO[C@@H](c6cccs6)O[C@H]5[C@H](O)[C@H]3O)[C@H]3COC(=O)C23)OCO4)cc(OC)c1O")
+st.image(f"compound_structures/compound_452548.jpg", width=400)
 
 st.write("---")
 

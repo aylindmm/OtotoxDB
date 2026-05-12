@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ganciclovir", layout="wide")
-st.title("ganciclovir")
+st.set_page_config(page_title="Ganciclovir", layout="wide")
+st.title("Ganciclovir")
 st.markdown(f"PubChem Compound ID: [135398740](https://pubchem.ncbi.nlm.nih.gov/compound/135398740)")
 st.markdown(f"IUPAC Name: 2-amino-9-(1,3-dihydroxypropan-2-yloxymethyl)-1H-purin-6-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135398740.jpg", caption=f"SMILES: Nc1nc(=O)c2ncn(COC(CO)CO)c2[nH]1")
+st.image(f"compound_structures/compound_135398740.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="artemisinin", layout="wide")
-st.title("artemisinin")
+st.set_page_config(page_title="Artemisinin", layout="wide")
+st.title("Artemisinin")
 st.markdown(f"PubChem Compound ID: [68827](https://pubchem.ncbi.nlm.nih.gov/compound/68827)")
 st.markdown(f"IUPAC Name: (1R,4S,5R,8S,9R,12S,13R)-1,5,9-trimethyl-11,14,15,16-tetraoxatetracyclo[10.3.1.04,13.08,13]hexadecan-10-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_68827.jpg", caption=f"SMILES: CC1C(=O)O[C@@H]2O[C@@]3(C)CC[C@H]4[C@H](C)CC[C@@H]1[C@@]24OO3")
+st.image(f"compound_structures/compound_68827.jpg", width=400)
 
 st.write("---")
 

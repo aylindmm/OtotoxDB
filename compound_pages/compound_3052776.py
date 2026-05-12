@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="rasagiline", layout="wide")
-st.title("rasagiline")
+st.set_page_config(page_title="Rasagiline", layout="wide")
+st.title("Rasagiline")
 st.markdown(f"PubChem Compound ID: [3052776](https://pubchem.ncbi.nlm.nih.gov/compound/3052776)")
 st.markdown(f"IUPAC Name: (1R)-N-prop-2-ynyl-2,3-dihydro-1H-inden-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3052776.jpg", caption=f"SMILES: C#CCN[C@@H]1CCc2ccccc21")
+st.image(f"compound_structures/compound_3052776.jpg", width=400)
 
 st.write("---")
 

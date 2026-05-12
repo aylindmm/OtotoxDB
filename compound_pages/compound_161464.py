@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-(diaminomethylideneamino)butyl 4-hydroxy-3,5-dimetho
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_161464.jpg", caption=f"SMILES: COc1cc(C(=O)OCCCCN=C(N)N)cc(OC)c1O")
+st.image(f"compound_structures/compound_161464.jpg", width=400)
 
 st.write("---")
 

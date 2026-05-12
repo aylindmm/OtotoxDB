@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3-methyl-7H-purin-6-imine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_135398661.jpg", caption=f"SMILES: Cn1cnc(=N)c2[nH]cnc21")
+st.image(f"compound_structures/compound_135398661.jpg", width=400)
 
 st.write("---")
 

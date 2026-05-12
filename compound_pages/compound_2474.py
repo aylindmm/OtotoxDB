@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Bupivacaine [USAN:INN:BAN]", layout="wide")
-st.title("Bupivacaine [USAN:INN:BAN]")
+st.set_page_config(page_title="Bupivacaine [usan:inn:ban]", layout="wide")
+st.title("Bupivacaine [usan:inn:ban]")
 st.markdown(f"PubChem Compound ID: [2474](https://pubchem.ncbi.nlm.nih.gov/compound/2474)")
 st.markdown(f"IUPAC Name: 1-butyl-N-(2,6-dimethylphenyl)piperidine-2-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2474.jpg", caption=f"SMILES: CCCCN1CCCCC1C(=O)Nc1c(C)cccc1C")
+st.image(f"compound_structures/compound_2474.jpg", width=400)
 
 st.write("---")
 

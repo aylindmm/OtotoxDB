@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ribostamycin", layout="wide")
-st.title("ribostamycin")
+st.set_page_config(page_title="Ribostamycin", layout="wide")
+st.title("Ribostamycin")
 st.markdown(f"PubChem Compound ID: [33042](https://pubchem.ncbi.nlm.nih.gov/compound/33042)")
 st.markdown(f"IUPAC Name: (2R,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-2-[(2S,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-3-hydroxycyclohexyl]oxyoxane-3,4-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_33042.jpg", caption=f"SMILES: NC[C@H]1O[C@H](O[C@H]2[C@H](O[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)[C@@H](O)[C@H](N)C[C@@H]2N)[C@H](N)[C@@H](O)[C@@H]1O")
+st.image(f"compound_structures/compound_33042.jpg", width=400)
 
 st.write("---")
 

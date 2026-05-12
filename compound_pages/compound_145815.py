@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2R)-2,5-diamino-5-oxopentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_145815.jpg", caption=f"SMILES: NC(=O)CCC(N)C(=O)O")
+st.image(f"compound_structures/compound_145815.jpg", width=400)
 
 st.write("---")
 

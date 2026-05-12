@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="aspirin", layout="wide")
-st.title("aspirin")
+st.set_page_config(page_title="Aspirin", layout="wide")
+st.title("Aspirin")
 st.markdown(f"PubChem Compound ID: [2244](https://pubchem.ncbi.nlm.nih.gov/compound/2244)")
 st.markdown(f"IUPAC Name: 2-acetyloxybenzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2244.jpg", caption=f"SMILES: CC(=O)Oc1ccccc1C(=O)O")
+st.image(f"compound_structures/compound_2244.jpg", width=400)
 
 st.write("---")
 

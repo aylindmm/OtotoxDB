@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="VALPROIC ACID", layout="wide")
-st.title("VALPROIC ACID")
+st.set_page_config(page_title="Valproic acid", layout="wide")
+st.title("Valproic acid")
 st.markdown(f"PubChem Compound ID: [3121](https://pubchem.ncbi.nlm.nih.gov/compound/3121)")
 st.markdown(f"IUPAC Name: 2-propylpentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3121.jpg", caption=f"SMILES: CCCC(CCC)C(=O)O")
+st.image(f"compound_structures/compound_3121.jpg", width=400)
 
 st.write("---")
 

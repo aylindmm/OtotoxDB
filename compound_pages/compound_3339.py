@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="fenofibrate", layout="wide")
-st.title("fenofibrate")
+st.set_page_config(page_title="Fenofibrate", layout="wide")
+st.title("Fenofibrate")
 st.markdown(f"PubChem Compound ID: [3339](https://pubchem.ncbi.nlm.nih.gov/compound/3339)")
 st.markdown(f"IUPAC Name: propan-2-yl 2-[4-(4-chlorobenzoyl)phenoxy]-2-methylpropanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3339.jpg", caption=f"SMILES: CC(C)OC(=O)C(C)(C)Oc1ccc(C(=O)c2ccc(Cl)cc2)cc1")
+st.image(f"compound_structures/compound_3339.jpg", width=400)
 
 st.write("---")
 

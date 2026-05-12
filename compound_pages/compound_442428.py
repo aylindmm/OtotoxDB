@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="naringin", layout="wide")
-st.title("naringin")
+st.set_page_config(page_title="Naringin", layout="wide")
+st.title("Naringin")
 st.markdown(f"PubChem Compound ID: [442428](https://pubchem.ncbi.nlm.nih.gov/compound/442428)")
 st.markdown(f"IUPAC Name: (2S)-7-[(2S,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxy-5-hydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_442428.jpg", caption=f"SMILES: C[C@@H]1O[C@@H](O[C@H]2[C@H](Oc3cc(O)c4c(c3)O[C@H](c3ccc(O)cc3)CC4=O)O[C@H](CO)[C@@H](O)[C@@H]2O)[C@H](O)[C@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_442428.jpg", width=400)
 
 st.write("---")
 

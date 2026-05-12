@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dexamethasone palmitate", layout="wide")
-st.title("dexamethasone palmitate")
+st.set_page_config(page_title="Dexamethasone palmitate", layout="wide")
+st.title("Dexamethasone palmitate")
 st.markdown(f"PubChem Compound ID: [63044](https://pubchem.ncbi.nlm.nih.gov/compound/63044)")
 st.markdown(f"IUPAC Name: [2-[(8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-10,13,16-trimethyl-3-oxo-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-17-yl]-2-oxoethyl] hexadecanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_63044.jpg", caption=f"SMILES: CCCCCCCCCCCCCCCC(=O)OCC(=O)[C@@]1(O)[C@H](C)C[C@H]2[C@@H]3CC=C4CC(=O)C=C[C@]4(C)[C@@]3(F)[C@@H](O)C[C@@]21C")
+st.image(f"compound_structures/compound_63044.jpg", width=400)
 
 st.write("---")
 

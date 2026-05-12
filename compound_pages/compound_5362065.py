@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CEFIXIME", layout="wide")
-st.title("CEFIXIME")
+st.set_page_config(page_title="Cefixime", layout="wide")
+st.title("Cefixime")
 st.markdown(f"PubChem Compound ID: [5362065](https://pubchem.ncbi.nlm.nih.gov/compound/5362065)")
 st.markdown(f"IUPAC Name: (6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-(carboxymethoxyimino)acetyl]amino]-3-ethenyl-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5362065.jpg", caption=f"SMILES: C=CC1=C(C(=O)O)N2C(=O)C(=NC(=O)C(NOCC(=O)O)c3csc(N)n3)[C@H]2SC1")
+st.image(f"compound_structures/compound_5362065.jpg", width=400)
 
 st.write("---")
 

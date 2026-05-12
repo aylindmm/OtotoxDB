@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CEP-11004", layout="wide")
-st.title("CEP-11004")
+st.set_page_config(page_title="Cep-11004", layout="wide")
+st.title("Cep-11004")
 st.markdown(f"PubChem Compound ID: [155926077](https://pubchem.ncbi.nlm.nih.gov/compound/155926077)")
 st.markdown(f"IUPAC Name: methyl (15S,16S,18R)-16-hydroxy-15-methyl-3-oxo-10,23-bis(propan-2-ylsulfanylmethyl)-28-oxa-4,14,19-triazaoctacyclo[12.11.2.115,18.02,6.07,27.08,13.019,26.020,25]octacosa-1,6,8(13),9,11,20(25),21,23,26-nonaene-16-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_155926077.jpg", caption=f"SMILES: COC(=O)[C@]1(O)C[C@H]2O[C@]1(C)n1c3ccc(CSC(C)C)cc3c3c4c(c5c6cc(CSC(C)C)ccc6n2c5c31)C(=O)NC4")
+st.image(f"compound_structures/compound_155926077.jpg", width=400)
 
 st.write("---")
 

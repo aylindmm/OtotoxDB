@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="GERANIOL", layout="wide")
-st.title("GERANIOL")
+st.set_page_config(page_title="Geraniol", layout="wide")
+st.title("Geraniol")
 st.markdown(f"PubChem Compound ID: [637566](https://pubchem.ncbi.nlm.nih.gov/compound/637566)")
 st.markdown(f"IUPAC Name: (2E)-3,7-dimethylocta-2,6-dien-1-ol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_637566.jpg", caption=f"SMILES: CC(C)=CCCC(C)=CCO")
+st.image(f"compound_structures/compound_637566.jpg", width=400)
 
 st.write("---")
 

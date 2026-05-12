@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CALCIUM DOBESILATE", layout="wide")
-st.title("CALCIUM DOBESILATE")
+st.set_page_config(page_title="Calcium dobesilate", layout="wide")
+st.title("Calcium dobesilate")
 st.markdown(f"PubChem Compound ID: [29963](https://pubchem.ncbi.nlm.nih.gov/compound/29963)")
 st.markdown(f"IUPAC Name: calcium bis(2,5-dihydroxybenzenesulfonate)")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_29963.jpg", caption=f"SMILES: O=S(=O)(O)c1cc(O)ccc1O.O=S(=O)(O)c1cc(O)ccc1O")
+st.image(f"compound_structures/compound_29963.jpg", width=400)
 
 st.write("---")
 

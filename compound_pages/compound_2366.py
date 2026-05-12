@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="betahistine", layout="wide")
-st.title("betahistine")
+st.set_page_config(page_title="Betahistine", layout="wide")
+st.title("Betahistine")
 st.markdown(f"PubChem Compound ID: [2366](https://pubchem.ncbi.nlm.nih.gov/compound/2366)")
 st.markdown(f"IUPAC Name: N-methyl-2-pyridin-2-ylethanamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2366.jpg", caption=f"SMILES: CNCCc1ccccn1")
+st.image(f"compound_structures/compound_2366.jpg", width=400)
 
 st.write("---")
 

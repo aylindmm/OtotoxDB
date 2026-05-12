@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="P7C3-A20", layout="wide")
-st.title("P7C3-A20")
+st.set_page_config(page_title="P7c3-a20", layout="wide")
+st.title("P7c3-a20")
 st.markdown(f"PubChem Compound ID: [46853447](https://pubchem.ncbi.nlm.nih.gov/compound/46853447)")
 st.markdown(f"IUPAC Name: N-[3-(3,6-dibromocarbazol-9-yl)-2-fluoropropyl]-3-methoxyaniline")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_46853447.jpg", caption=f"SMILES: COc1cccc(NCC(F)Cn2c3ccc(Br)cc3c3cc(Br)ccc32)c1")
+st.image(f"compound_structures/compound_46853447.jpg", width=400)
 
 st.write("---")
 

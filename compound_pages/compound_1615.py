@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="MDMA", layout="wide")
-st.title("MDMA")
+st.set_page_config(page_title="Mdma", layout="wide")
+st.title("Mdma")
 st.markdown(f"PubChem Compound ID: [1615](https://pubchem.ncbi.nlm.nih.gov/compound/1615)")
 st.markdown(f"IUPAC Name: 1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1615.jpg", caption=f"SMILES: CNC(C)Cc1ccc2c(c1)OCO2")
+st.image(f"compound_structures/compound_1615.jpg", width=400)
 
 st.write("---")
 

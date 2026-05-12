@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="5R9F9NE9Z2", layout="wide")
-st.title("5R9F9NE9Z2")
+st.set_page_config(page_title="5r9f9ne9z2", layout="wide")
+st.title("5r9f9ne9z2")
 st.markdown(f"PubChem Compound ID: [155491322](https://pubchem.ncbi.nlm.nih.gov/compound/155491322)")
 st.markdown(f"IUPAC Name: platinum;bis(propan-2-amine);dichloride;dihydroxide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_155491322.jpg", caption=f"SMILES: CC(C)N.CC(C)N.[Pt]")
+st.image(f"compound_structures/compound_155491322.jpg", width=400)
 
 st.write("---")
 

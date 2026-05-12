@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="norfloxacin", layout="wide")
-st.title("norfloxacin")
+st.set_page_config(page_title="Norfloxacin", layout="wide")
+st.title("Norfloxacin")
 st.markdown(f"PubChem Compound ID: [4539](https://pubchem.ncbi.nlm.nih.gov/compound/4539)")
 st.markdown(f"IUPAC Name: 1-ethyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4539.jpg", caption=f"SMILES: CCn1cc(C(=O)O)c(=O)c2cc(F)c(N3CCNCC3)cc21")
+st.image(f"compound_structures/compound_4539.jpg", width=400)
 
 st.write("---")
 

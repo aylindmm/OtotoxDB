@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="vinpocetine", layout="wide")
-st.title("vinpocetine")
+st.set_page_config(page_title="Vinpocetine", layout="wide")
+st.title("Vinpocetine")
 st.markdown(f"PubChem Compound ID: [443955](https://pubchem.ncbi.nlm.nih.gov/compound/443955)")
 st.markdown(f"IUPAC Name: ethyl (15S,19S)-15-ethyl-1,11-diazapentacyclo[9.6.2.02,7.08,18.015,19]nonadeca-2,4,6,8(18),16-pentaene-17-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_443955.jpg", caption=f"SMILES: CCOC(=O)C1=C[C@]2(CC)CCCN3CCc4c(n1c1ccccc41)[C@@H]32")
+st.image(f"compound_structures/compound_443955.jpg", width=400)
 
 st.write("---")
 

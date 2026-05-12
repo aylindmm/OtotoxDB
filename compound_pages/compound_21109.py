@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TRIMETAZIDINE", layout="wide")
-st.title("TRIMETAZIDINE")
+st.set_page_config(page_title="Trimetazidine", layout="wide")
+st.title("Trimetazidine")
 st.markdown(f"PubChem Compound ID: [21109](https://pubchem.ncbi.nlm.nih.gov/compound/21109)")
 st.markdown(f"IUPAC Name: 1-[(2,3,4-trimethoxyphenyl)methyl]piperazine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_21109.jpg", caption=f"SMILES: COc1ccc(CN2CCNCC2)c(OC)c1OC")
+st.image(f"compound_structures/compound_21109.jpg", width=400)
 
 st.write("---")
 

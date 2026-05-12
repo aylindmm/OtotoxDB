@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="oseltamivir", layout="wide")
-st.title("oseltamivir")
+st.set_page_config(page_title="Oseltamivir", layout="wide")
+st.title("Oseltamivir")
 st.markdown(f"PubChem Compound ID: [65028](https://pubchem.ncbi.nlm.nih.gov/compound/65028)")
 st.markdown(f"IUPAC Name: ethyl (3R,4R,5S)-4-acetamido-5-amino-3-pentan-3-yloxycyclohexene-1-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_65028.jpg", caption=f"SMILES: CCOC(=O)C1=C[C@@H](OC(CC)CC)[C@H](NC(C)=O)[C@@H](N)C1")
+st.image(f"compound_structures/compound_65028.jpg", width=400)
 
 st.write("---")
 

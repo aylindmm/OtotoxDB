@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 5-(1H-indol-3-ylmethyl)-3-methyl-2-sulfanylideneimidaz
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2828334.jpg", caption=f"SMILES: Cn1c(O)c(Cc2c[nH]c3ccccc23)[nH]c1=S")
+st.image(f"compound_structures/compound_2828334.jpg", width=400)
 
 st.write("---")
 

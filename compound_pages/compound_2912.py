@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="cypermethrin", layout="wide")
-st.title("cypermethrin")
+st.set_page_config(page_title="Cypermethrin", layout="wide")
+st.title("Cypermethrin")
 st.markdown(f"PubChem Compound ID: [2912](https://pubchem.ncbi.nlm.nih.gov/compound/2912)")
 st.markdown(f"IUPAC Name: [cyano-(3-phenoxyphenyl)methyl] 3-(2,2-dichloroethenyl)-2,2-dimethylcyclopropane-1-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2912.jpg", caption=f"SMILES: CC1(C)C(C=C(Cl)Cl)C1C(=O)OC(C#N)c1cccc(Oc2ccccc2)c1")
+st.image(f"compound_structures/compound_2912.jpg", width=400)
 
 st.write("---")
 

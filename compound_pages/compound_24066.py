@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="zalcitabine", layout="wide")
-st.title("zalcitabine")
+st.set_page_config(page_title="Zalcitabine", layout="wide")
+st.title("Zalcitabine")
 st.markdown(f"PubChem Compound ID: [24066](https://pubchem.ncbi.nlm.nih.gov/compound/24066)")
 st.markdown(f"IUPAC Name: 4-amino-1-[(2R,5S)-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24066.jpg", caption=f"SMILES: Nc1ccn([C@H]2CC[C@@H](CO)O2)c(=O)n1")
+st.image(f"compound_structures/compound_24066.jpg", width=400)
 
 st.write("---")
 

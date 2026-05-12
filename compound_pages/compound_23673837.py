@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: sodium 1,4-bis(2-ethylhexoxy)-1,4-dioxobutane-2-sulfon
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_23673837.jpg", caption=f"SMILES: CCCCC(CC)COC(=O)CC(C(=O)OCC(CC)CCCC)S(=O)(=O)O")
+st.image(f"compound_structures/compound_23673837.jpg", width=400)
 
 st.write("---")
 

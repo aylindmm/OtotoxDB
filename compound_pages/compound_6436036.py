@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2Z)-2-(3-methyl-4-oxo-5-piperidin-1-yl-1,3-thiazolidi
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6436036.jpg", caption=f"SMILES: CN1C(=O)C(N2CCCCC2)SC1=CC(=O)O")
+st.image(f"compound_structures/compound_6436036.jpg", width=400)
 
 st.write("---")
 

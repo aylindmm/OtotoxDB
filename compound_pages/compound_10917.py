@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (3R)-3-hydroxy-4-(trimethylazaniumyl)butanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_10917.jpg", caption=f"SMILES: C[N+](C)(C)C[C@H](O)CC(=O)[O-]")
+st.image(f"compound_structures/compound_10917.jpg", width=400)
 
 st.write("---")
 

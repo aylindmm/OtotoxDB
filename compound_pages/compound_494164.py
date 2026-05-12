@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ARC", layout="wide")
-st.title("ARC")
+st.set_page_config(page_title="Arc", layout="wide")
+st.title("Arc")
 st.markdown(f"PubChem Compound ID: [494164](https://pubchem.ncbi.nlm.nih.gov/compound/494164)")
 st.markdown(f"IUPAC Name: 4-amino-7-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-6-hydrazinylpyrrolo[2,3-d]pyrimidine-5-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_494164.jpg", caption=f"SMILES: NNc1c(C(N)=O)c2c(N)ncnc2n1[C@@H]1O[C@H](CO)[C@@H](O)[C@H]1O")
+st.image(f"compound_structures/compound_494164.jpg", width=400)
 
 st.write("---")
 

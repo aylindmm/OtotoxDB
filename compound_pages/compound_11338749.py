@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 1-[3-[2-(1-benzothiophen-5-yl)ethoxy]propyl]azetidin-3
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11338749.jpg", caption=f"SMILES: OC1CN(CCCOCCc2ccc3sccc3c2)C1")
+st.image(f"compound_structures/compound_11338749.jpg", width=400)
 
 st.write("---")
 

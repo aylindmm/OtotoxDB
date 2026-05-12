@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="spironolactone", layout="wide")
-st.title("spironolactone")
+st.set_page_config(page_title="Spironolactone", layout="wide")
+st.title("Spironolactone")
 st.markdown(f"PubChem Compound ID: [5833](https://pubchem.ncbi.nlm.nih.gov/compound/5833)")
 st.markdown(f"IUPAC Name: S-[(7R,8R,9S,10R,13S,14S,17R)-10,13-dimethyl-3,5'-dioxospiro[2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthrene-17,2'-oxolane]-7-yl] ethanethioate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5833.jpg", caption=f"SMILES: CC(=O)S[C@@H]1C=C2CC(=O)CC[C@]2(C)[C@H]2CC[C@@]3(C)[C@@H](CC[C@@]34CCC(=O)O4)[C@H]12")
+st.image(f"compound_structures/compound_5833.jpg", width=400)
 
 st.write("---")
 

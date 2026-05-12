@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ebselen", layout="wide")
-st.title("ebselen")
+st.set_page_config(page_title="Ebselen", layout="wide")
+st.title("Ebselen")
 st.markdown(f"PubChem Compound ID: [3194](https://pubchem.ncbi.nlm.nih.gov/compound/3194)")
 st.markdown(f"IUPAC Name: 2-phenyl-1,2-benzoselenazol-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3194.jpg", caption=f"SMILES: O=c1c2ccccc2[se]n1-c1ccccc1")
+st.image(f"compound_structures/compound_3194.jpg", width=400)
 
 st.write("---")
 

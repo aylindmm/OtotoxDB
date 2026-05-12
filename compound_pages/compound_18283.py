@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="stavudine", layout="wide")
-st.title("stavudine")
+st.set_page_config(page_title="Stavudine", layout="wide")
+st.title("Stavudine")
 st.markdown(f"PubChem Compound ID: [18283](https://pubchem.ncbi.nlm.nih.gov/compound/18283)")
 st.markdown(f"IUPAC Name: 1-[(2R,5S)-5-(hydroxymethyl)-2,5-dihydrofuran-2-yl]-5-methylpyrimidine-2,4-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_18283.jpg", caption=f"SMILES: Cc1cn([C@H]2C=C[C@@H](CO)O2)c(=O)[nH]c1=O")
+st.image(f"compound_structures/compound_18283.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DALTROBAN", layout="wide")
-st.title("DALTROBAN")
+st.set_page_config(page_title="Daltroban", layout="wide")
+st.title("Daltroban")
 st.markdown(f"PubChem Compound ID: [54343](https://pubchem.ncbi.nlm.nih.gov/compound/54343)")
 st.markdown(f"IUPAC Name: 2-[4-[2-[(4-chlorophenyl)sulfonylamino]ethyl]phenyl]acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_54343.jpg", caption=f"SMILES: O=C(O)Cc1ccc(CCNS(=O)(=O)c2ccc(Cl)cc2)cc1")
+st.image(f"compound_structures/compound_54343.jpg", width=400)
 
 st.write("---")
 

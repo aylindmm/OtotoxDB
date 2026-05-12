@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-propylpentanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3549980.jpg", caption=f"SMILES: CCCC(CCC)C(=O)O")
+st.image(f"compound_structures/compound_3549980.jpg", width=400)
 
 st.write("---")
 

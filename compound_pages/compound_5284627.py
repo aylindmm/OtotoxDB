@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="topiramate", layout="wide")
-st.title("topiramate")
+st.set_page_config(page_title="Topiramate", layout="wide")
+st.title("Topiramate")
 st.markdown(f"PubChem Compound ID: [5284627](https://pubchem.ncbi.nlm.nih.gov/compound/5284627)")
 st.markdown(f"IUPAC Name: [(1R,2S,6S,9R)-4,4,11,11-tetramethyl-3,5,7,10,12-pentaoxatricyclo[7.3.0.02,6]dodecan-6-yl]methyl sulfamate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5284627.jpg", caption=f"SMILES: CC1(C)O[C@@H]2[C@@H](CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@H]23)O1")
+st.image(f"compound_structures/compound_5284627.jpg", width=400)
 
 st.write("---")
 

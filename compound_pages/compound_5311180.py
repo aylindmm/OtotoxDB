@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (6-carbamimidoylnaphthalen-2-yl) 4-(diaminomethylidene
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311180.jpg", caption=f"SMILES: N=C(N)Nc1ccc(C(=O)Oc2ccc3cc(C(=N)N)ccc3c2)cc1")
+st.image(f"compound_structures/compound_5311180.jpg", width=400)
 
 st.write("---")
 

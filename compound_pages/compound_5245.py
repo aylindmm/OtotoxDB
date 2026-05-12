@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (1-hydroxy-1-phosphono-2-pyridin-3-ylethyl)phosphonic 
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5245.jpg", caption=f"SMILES: O=P(O)(O)C(O)(Cc1cccnc1)P(=O)(O)O")
+st.image(f"compound_structures/compound_5245.jpg", width=400)
 
 st.write("---")
 

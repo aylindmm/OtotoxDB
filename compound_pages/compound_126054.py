@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="N-(2-Aminoethyl)-2-(4-(2-(4-((9-((2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)tetrahydrofuran-2-yl)-9H-purin-6-yl)amino)phenyl)acetamido)phenyl)acetamide", layout="wide")
-st.title("N-(2-Aminoethyl)-2-(4-(2-(4-((9-((2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)tetrahydrofuran-2-yl)-9H-purin-6-yl)amino)phenyl)acetamido)phenyl)acetamide")
+st.set_page_config(page_title="N-(2-aminoethyl)-2-(4-(2-(4-((9-((2r,3r,4s,5r)-3,4-dihydroxy-5-(hydroxymethyl)tetrahydrofuran-2-yl)-9h-purin-6-yl)amino)phenyl)acetamido)phenyl)acetamide", layout="wide")
+st.title("N-(2-aminoethyl)-2-(4-(2-(4-((9-((2r,3r,4s,5r)-3,4-dihydroxy-5-(hydroxymethyl)tetrahydrofuran-2-yl)-9h-purin-6-yl)amino)phenyl)acetamido)phenyl)acetamide")
 st.markdown(f"PubChem Compound ID: [126054](https://pubchem.ncbi.nlm.nih.gov/compound/126054)")
 st.markdown(f"IUPAC Name: N-(2-aminoethyl)-2-[4-[[2-[4-[[9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]purin-6-yl]amino]phenyl]acetyl]amino]phenyl]acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_126054.jpg", caption=f"SMILES: NCCNC(=O)Cc1ccc(NC(=O)Cc2ccc(Nc3ncnc4c3ncn4[C@@H]3O[C@H](CO)[C@@H](O)[C@H]3O)cc2)cc1")
+st.image(f"compound_structures/compound_126054.jpg", width=400)
 
 st.write("---")
 

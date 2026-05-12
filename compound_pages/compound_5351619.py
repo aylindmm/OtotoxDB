@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ERGOTHIONEINE", layout="wide")
-st.title("ERGOTHIONEINE")
+st.set_page_config(page_title="Ergothioneine", layout="wide")
+st.title("Ergothioneine")
 st.markdown(f"PubChem Compound ID: [5351619](https://pubchem.ncbi.nlm.nih.gov/compound/5351619)")
 st.markdown(f"IUPAC Name: (2S)-3-(2-sulfanylidene-1,3-dihydroimidazol-4-yl)-2-(trimethylazaniumyl)propanoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5351619.jpg", caption=f"SMILES: C[N+](C)(C)C(Cc1c[nH]c(=S)[nH]1)C(=O)[O-]")
+st.image(f"compound_structures/compound_5351619.jpg", width=400)
 
 st.write("---")
 

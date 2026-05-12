@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="acetaminophen", layout="wide")
-st.title("acetaminophen")
+st.set_page_config(page_title="Acetaminophen", layout="wide")
+st.title("Acetaminophen")
 st.markdown(f"PubChem Compound ID: [1983](https://pubchem.ncbi.nlm.nih.gov/compound/1983)")
 st.markdown(f"IUPAC Name: N-(4-hydroxyphenyl)acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1983.jpg", caption=f"SMILES: CC(=O)Nc1ccc(O)cc1")
+st.image(f"compound_structures/compound_1983.jpg", width=400)
 
 st.write("---")
 

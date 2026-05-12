@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ILOPROST", layout="wide")
-st.title("ILOPROST")
+st.set_page_config(page_title="Iloprost", layout="wide")
+st.title("Iloprost")
 st.markdown(f"PubChem Compound ID: [5311181](https://pubchem.ncbi.nlm.nih.gov/compound/5311181)")
 st.markdown(f"IUPAC Name: (5E)-5-[(3aS,4R,5R,6aS)-5-hydroxy-4-[(E,3S)-3-hydroxy-4-methyloct-1-en-6-ynyl]-3,3a,4,5,6,6a-hexahydro-1H-pentalen-2-ylidene]pentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5311181.jpg", caption=f"SMILES: CC#CCC(C)[C@H](O)/C=C/[C@@H]1[C@H]2CC(=CCCCC(=O)O)C[C@H]2C[C@H]1O")
+st.image(f"compound_structures/compound_5311181.jpg", width=400)
 
 st.write("---")
 

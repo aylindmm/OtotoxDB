@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="CLAVULANIC ACID", layout="wide")
-st.title("CLAVULANIC ACID")
+st.set_page_config(page_title="Clavulanic acid", layout="wide")
+st.title("Clavulanic acid")
 st.markdown(f"PubChem Compound ID: [5280980](https://pubchem.ncbi.nlm.nih.gov/compound/5280980)")
 st.markdown(f"IUPAC Name: (2R,3Z,5R)-3-(2-hydroxyethylidene)-7-oxo-4-oxa-1-azabicyclo[3.2.0]heptane-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280980.jpg", caption=f"SMILES: O=C(O)C1/C(=C/CO)O[C@@H]2CC(=O)N12")
+st.image(f"compound_structures/compound_5280980.jpg", width=400)
 
 st.write("---")
 

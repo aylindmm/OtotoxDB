@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="furosemide", layout="wide")
-st.title("furosemide")
+st.set_page_config(page_title="Furosemide", layout="wide")
+st.title("Furosemide")
 st.markdown(f"PubChem Compound ID: [3440](https://pubchem.ncbi.nlm.nih.gov/compound/3440)")
 st.markdown(f"IUPAC Name: 4-chloro-2-(furan-2-ylmethylamino)-5-sulfamoylbenzoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3440.jpg", caption=f"SMILES: NS(=O)(=O)c1cc(C(=O)O)c(NCc2ccco2)cc1Cl")
+st.image(f"compound_structures/compound_3440.jpg", width=400)
 
 st.write("---")
 

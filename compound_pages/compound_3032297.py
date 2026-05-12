@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nabam", layout="wide")
-st.title("nabam")
+st.set_page_config(page_title="Nabam", layout="wide")
+st.title("Nabam")
 st.markdown(f"PubChem Compound ID: [3032297](https://pubchem.ncbi.nlm.nih.gov/compound/3032297)")
 st.markdown(f"IUPAC Name: disodium;N-[2-(sulfidocarbothioylamino)ethyl]carbamodithioate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3032297.jpg", caption=f"SMILES: S=C(S)NCCNC(=S)S")
+st.image(f"compound_structures/compound_3032297.jpg", width=400)
 
 st.write("---")
 

@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-[4-[[4-chloro-3-(trifluoromethyl)phenyl]carbamoylami
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_11167602.jpg", caption=f"SMILES: CNC(=O)c1cc(Oc2ccc(NC(=O)Nc3ccc(Cl)c(C(F)(F)F)c3)c(F)c2)ccn1")
+st.image(f"compound_structures/compound_11167602.jpg", width=400)
 
 st.write("---")
 

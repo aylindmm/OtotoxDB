@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="methyl salicylate", layout="wide")
-st.title("methyl salicylate")
+st.set_page_config(page_title="Methyl salicylate", layout="wide")
+st.title("Methyl salicylate")
 st.markdown(f"PubChem Compound ID: [4133](https://pubchem.ncbi.nlm.nih.gov/compound/4133)")
 st.markdown(f"IUPAC Name: methyl 2-hydroxybenzoate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4133.jpg", caption=f"SMILES: COC(=O)c1ccccc1O")
+st.image(f"compound_structures/compound_4133.jpg", width=400)
 
 st.write("---")
 

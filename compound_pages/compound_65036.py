@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 3-prop-2-enylsulfinylsulfanylprop-1-ene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_65036.jpg", caption=f"SMILES: C=CCSS(=O)CC=C")
+st.image(f"compound_structures/compound_65036.jpg", width=400)
 
 st.write("---")
 

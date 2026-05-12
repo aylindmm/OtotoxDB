@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-[(2,6-dioxocyclohexyl)methyl]cyclohexane-1,3-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2748618.jpg", caption=f"SMILES: O=C1CCCC(=O)C1CC1C(=O)CCCC1=O")
+st.image(f"compound_structures/compound_2748618.jpg", width=400)
 
 st.write("---")
 

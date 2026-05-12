@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="quercetin", layout="wide")
-st.title("quercetin")
+st.set_page_config(page_title="Quercetin", layout="wide")
+st.title("Quercetin")
 st.markdown(f"PubChem Compound ID: [5280343](https://pubchem.ncbi.nlm.nih.gov/compound/5280343)")
 st.markdown(f"IUPAC Name: 2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxychromen-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5280343.jpg", caption=f"SMILES: O=c1c(O)c(-c2ccc(O)c(O)c2)oc2cc(O)cc(O)c12")
+st.image(f"compound_structures/compound_5280343.jpg", width=400)
 
 st.write("---")
 

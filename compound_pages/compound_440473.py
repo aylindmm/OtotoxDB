@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (2S)-2-amino-3-(3-hydroxy-4-oxo-1-pyridinyl)propanoic 
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_440473.jpg", caption=f"SMILES: NC(Cn1ccc(=O)c(O)c1)C(=O)O")
+st.image(f"compound_structures/compound_440473.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="geneticin", layout="wide")
-st.title("geneticin")
+st.set_page_config(page_title="Geneticin", layout="wide")
+st.title("Geneticin")
 st.markdown(f"PubChem Compound ID: [123865](https://pubchem.ncbi.nlm.nih.gov/compound/123865)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2S,3R,4R,5S,6R)-3-amino-4,5-dihydroxy-6-[(1R)-1-hydroxyethyl]oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_123865.jpg", caption=f"SMILES: CN[C@@H]1[C@@H](O)[C@@H](O[C@@H]2[C@@H](O)[C@H](O[C@H]3O[C@H]([C@@H](C)O)[C@@H](O)[C@H](O)[C@H]3N)[C@@H](N)C[C@H]2N)OC[C@]1(C)O")
+st.image(f"compound_structures/compound_123865.jpg", width=400)
 
 st.write("---")
 

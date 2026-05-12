@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="nevirapine", layout="wide")
-st.title("nevirapine")
+st.set_page_config(page_title="Nevirapine", layout="wide")
+st.title("Nevirapine")
 st.markdown(f"PubChem Compound ID: [4463](https://pubchem.ncbi.nlm.nih.gov/compound/4463)")
 st.markdown(f"IUPAC Name: 2-cyclopropyl-7-methyl-2,4,9,15-tetrazatricyclo[9.4.0.03,8]pentadeca-1(11),3,5,7,12,14-hexaen-10-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4463.jpg", caption=f"SMILES: Cc1ccnc2c1NC(=O)c1cccnc1N2C1CC1")
+st.image(f"compound_structures/compound_4463.jpg", width=400)
 
 st.write("---")
 

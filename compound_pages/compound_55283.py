@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="itraconazole", layout="wide")
-st.title("itraconazole")
+st.set_page_config(page_title="Itraconazole", layout="wide")
+st.title("Itraconazole")
 st.markdown(f"PubChem Compound ID: [55283](https://pubchem.ncbi.nlm.nih.gov/compound/55283)")
 st.markdown(f"IUPAC Name: 2-butan-2-yl-4-[4-[4-[4-[[(2R,4S)-2-(2,4-dichlorophenyl)-2-(1,2,4-triazol-1-ylmethyl)-1,3-dioxolan-4-yl]methoxy]phenyl]piperazin-1-yl]phenyl]-1,2,4-triazol-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_55283.jpg", caption=f"SMILES: CCC(C)n1ncn(-c2ccc(N3CCN(c4ccc(OC[C@H]5CO[C@](Cn6cncn6)(c6ccc(Cl)cc6Cl)O5)cc4)CC3)cc2)c1=O")
+st.image(f"compound_structures/compound_55283.jpg", width=400)
 
 st.write("---")
 

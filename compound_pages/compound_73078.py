@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tetrandrine", layout="wide")
-st.title("tetrandrine")
+st.set_page_config(page_title="Tetrandrine", layout="wide")
+st.title("Tetrandrine")
 st.markdown(f"PubChem Compound ID: [73078](https://pubchem.ncbi.nlm.nih.gov/compound/73078)")
 st.markdown(f"IUPAC Name: (1S,14S)-9,20,21,25-tetramethoxy-15,30-dimethyl-7,23-dioxa-15,30-diazaheptacyclo[22.6.2.23,6.18,12.114,18.027,31.022,33]hexatriaconta-3(36),4,6(35),8,10,12(34),18,20,22(33),24,26,31-dodecaene")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_73078.jpg", caption=f"SMILES: COc1ccc2cc1Oc1ccc(cc1)C[C@H]1c3cc(c(OC)cc3CCN1C)Oc1c(OC)c(OC)cc3c1[C@H](C2)N(C)CC3")
+st.image(f"compound_structures/compound_73078.jpg", width=400)
 
 st.write("---")
 

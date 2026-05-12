@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="artemin", layout="wide")
-st.title("artemin")
+st.set_page_config(page_title="Artemin", layout="wide")
+st.title("Artemin")
 st.markdown(f"PubChem Compound ID: [3678270](https://pubchem.ncbi.nlm.nih.gov/compound/3678270)")
 st.markdown(f"IUPAC Name: 6,9a-dihydroxy-3,5a-dimethyl-9-methylidene-3,3a,4,5,6,7,8,9b-octahydrobenzo[g][1]benzofuran-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3678270.jpg", caption=f"SMILES: C=C1CCC(O)C2(C)CCC3C(C)C(=O)OC3C12O")
+st.image(f"compound_structures/compound_3678270.jpg", width=400)
 
 st.write("---")
 

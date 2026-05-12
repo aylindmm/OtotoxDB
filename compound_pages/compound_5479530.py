@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ceftriaxone", layout="wide")
-st.title("ceftriaxone")
+st.set_page_config(page_title="Ceftriaxone", layout="wide")
+st.title("Ceftriaxone")
 st.markdown(f"PubChem Compound ID: [5479530](https://pubchem.ncbi.nlm.nih.gov/compound/5479530)")
 st.markdown(f"IUPAC Name: (6R,7R)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-3-[(2-methyl-5,6-dioxo-1H-1,2,4-triazin-3-yl)sulfanylmethyl]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5479530.jpg", caption=f"SMILES: CON=C(C(=O)NC1C(=O)N2C(C(=O)O)=C(CSc3nc(=O)c(=O)[nH]n3C)CS[C@H]12)c1csc(N)n1")
+st.image(f"compound_structures/compound_5479530.jpg", width=400)
 
 st.write("---")
 

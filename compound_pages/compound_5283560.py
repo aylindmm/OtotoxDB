@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sphingosine-1-phosphate", layout="wide")
-st.title("sphingosine-1-phosphate")
+st.set_page_config(page_title="Sphingosine-1-phosphate", layout="wide")
+st.title("Sphingosine-1-phosphate")
 st.markdown(f"PubChem Compound ID: [5283560](https://pubchem.ncbi.nlm.nih.gov/compound/5283560)")
 st.markdown(f"IUPAC Name: [(E,2S,3R)-2-amino-3-hydroxyoctadec-4-enyl] dihydrogen phosphate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5283560.jpg", caption=f"SMILES: CCCCCCCCCCCCC/C=C/[C@@H](O)[C@@H](N)COP(=O)(O)O")
+st.image(f"compound_structures/compound_5283560.jpg", width=400)
 
 st.write("---")
 

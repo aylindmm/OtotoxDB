@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="kn-93", layout="wide")
-st.title("kn-93")
+st.set_page_config(page_title="Kn-93", layout="wide")
+st.title("Kn-93")
 st.markdown(f"PubChem Compound ID: [5312122](https://pubchem.ncbi.nlm.nih.gov/compound/5312122)")
 st.markdown(f"IUPAC Name: N-[2-[[[(E)-3-(4-chlorophenyl)prop-2-enyl]-methylamino]methyl]phenyl]-N-(2-hydroxyethyl)-4-methoxybenzenesulfonamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5312122.jpg", caption=f"SMILES: COc1ccc(S(=O)(=O)N(CCO)c2ccccc2CN(C)C/C=C/c2ccc(Cl)cc2)cc1")
+st.image(f"compound_structures/compound_5312122.jpg", width=400)
 
 st.write("---")
 

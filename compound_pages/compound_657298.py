@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="propylthiouracil", layout="wide")
-st.title("propylthiouracil")
+st.set_page_config(page_title="Propylthiouracil", layout="wide")
+st.title("Propylthiouracil")
 st.markdown(f"PubChem Compound ID: [657298](https://pubchem.ncbi.nlm.nih.gov/compound/657298)")
 st.markdown(f"IUPAC Name: 6-propyl-2-sulfanylidene-1H-pyrimidin-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_657298.jpg", caption=f"SMILES: CCCc1cc(=O)[nH]c(=S)[nH]1")
+st.image(f"compound_structures/compound_657298.jpg", width=400)
 
 st.write("---")
 

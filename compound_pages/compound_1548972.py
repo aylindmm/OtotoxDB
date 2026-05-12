@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="fluvastatin", layout="wide")
-st.title("fluvastatin")
+st.set_page_config(page_title="Fluvastatin", layout="wide")
+st.title("Fluvastatin")
 st.markdown(f"PubChem Compound ID: [1548972](https://pubchem.ncbi.nlm.nih.gov/compound/1548972)")
 st.markdown(f"IUPAC Name: (E,3S,5R)-7-[3-(4-fluorophenyl)-1-propan-2-ylindol-2-yl]-3,5-dihydroxyhept-6-enoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1548972.jpg", caption=f"SMILES: CC(C)n1c(/C=C/[C@H](O)C[C@H](O)CC(=O)O)c(-c2ccc(F)cc2)c2ccccc21")
+st.image(f"compound_structures/compound_1548972.jpg", width=400)
 
 st.write("---")
 

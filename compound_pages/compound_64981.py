@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: (3R,4R)-4-[(3,4-dimethoxyphenyl)methyl]-3-[(4-hydroxy-
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_64981.jpg", caption=f"SMILES: COc1cc(CC2C(=O)OC[C@@H]2Cc2ccc(OC)c(OC)c2)ccc1O")
+st.image(f"compound_structures/compound_64981.jpg", width=400)
 
 st.write("---")
 

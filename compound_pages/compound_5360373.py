@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="bleomycin", layout="wide")
-st.title("bleomycin")
+st.set_page_config(page_title="Bleomycin", layout="wide")
+st.title("Bleomycin")
 st.markdown(f"PubChem Compound ID: [5360373](https://pubchem.ncbi.nlm.nih.gov/compound/5360373)")
 st.markdown(f"IUPAC Name: 3-[[2-[2-[2-[[(2S,3R)-2-[[(2S,3S,4R)-4-[[(2S,3R)-2-[[6-amino-2-[(1S)-3-amino-1-[[(2S)-2,3-diamino-3-oxopropyl]amino]-3-oxopropyl]-5-methylpyrimidine-4-carbonyl]amino]-3-[3-[4-carbamoyloxy-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-(1H-imidazol-5-yl)propanoyl]amino]-3-hydroxy-2-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]ethyl]-1,3-thiazol-4-yl]-1,3-thiazole-4-carbonyl]amino]propyl-dimethylsulfanium")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5360373.jpg", caption=f"SMILES: Cc1c(N)nc([C@H](CC(N)=O)NCC(N)C(N)=O)nc1C(=O)NC(C(=O)N[C@H](C)[C@@H](O)C(C)C(=O)NC(C(=O)NCCc1nc(-c2nc(C(=O)NCCC[S+](C)C)cs2)cs1)[C@@H](C)O)[C@@H](OC1OC(CO)C(O)C(O)C1OC1OC(CO)C(O)C(OC(N)=O)C1O)c1c[nH]cn1")
+st.image(f"compound_structures/compound_5360373.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tiopronin", layout="wide")
-st.title("tiopronin")
+st.set_page_config(page_title="Tiopronin", layout="wide")
+st.title("Tiopronin")
 st.markdown(f"PubChem Compound ID: [5483](https://pubchem.ncbi.nlm.nih.gov/compound/5483)")
 st.markdown(f"IUPAC Name: 2-(2-sulfanylpropanoylamino)acetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5483.jpg", caption=f"SMILES: CC(S)C(=O)NCC(=O)O")
+st.image(f"compound_structures/compound_5483.jpg", width=400)
 
 st.write("---")
 

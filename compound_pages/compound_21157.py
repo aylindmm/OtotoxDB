@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-Amino-4-(S-butylsulfonimidoyl)butanoic acid", layout="wide")
-st.title("2-Amino-4-(S-butylsulfonimidoyl)butanoic acid")
+st.set_page_config(page_title="2-amino-4-(s-butylsulfonimidoyl)butanoic acid", layout="wide")
+st.title("2-amino-4-(s-butylsulfonimidoyl)butanoic acid")
 st.markdown(f"PubChem Compound ID: [21157](https://pubchem.ncbi.nlm.nih.gov/compound/21157)")
 st.markdown(f"IUPAC Name: 2-amino-4-(butylsulfonimidoyl)butanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_21157.jpg", caption=f"SMILES: CCCCS(=N)(=O)CCC(N)C(=O)O")
+st.image(f"compound_structures/compound_21157.jpg", width=400)
 
 st.write("---")
 

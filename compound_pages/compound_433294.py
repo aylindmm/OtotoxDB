@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="LITHIUM CHLORIDE", layout="wide")
-st.title("LITHIUM CHLORIDE")
+st.set_page_config(page_title="Lithium chloride", layout="wide")
+st.title("Lithium chloride")
 st.markdown(f"PubChem Compound ID: [433294](https://pubchem.ncbi.nlm.nih.gov/compound/433294)")
 st.markdown(f"IUPAC Name: lithium chloride")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_433294.jpg", caption=f"SMILES: [Li+]")
+st.image(f"compound_structures/compound_433294.jpg", width=400)
 
 st.write("---")
 

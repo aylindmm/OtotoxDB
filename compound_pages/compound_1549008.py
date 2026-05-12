@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="terbinafine", layout="wide")
-st.title("terbinafine")
+st.set_page_config(page_title="Terbinafine", layout="wide")
+st.title("Terbinafine")
 st.markdown(f"PubChem Compound ID: [1549008](https://pubchem.ncbi.nlm.nih.gov/compound/1549008)")
 st.markdown(f"IUPAC Name: (E)-N,6,6-trimethyl-N-(naphthalen-1-ylmethyl)hept-2-en-4-yn-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1549008.jpg", caption=f"SMILES: CN(C/C=C/C#CC(C)(C)C)Cc1cccc2ccccc12")
+st.image(f"compound_structures/compound_1549008.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="baclofen", layout="wide")
-st.title("baclofen")
+st.set_page_config(page_title="Baclofen", layout="wide")
+st.title("Baclofen")
 st.markdown(f"PubChem Compound ID: [2284](https://pubchem.ncbi.nlm.nih.gov/compound/2284)")
 st.markdown(f"IUPAC Name: 4-amino-3-(4-chlorophenyl)butanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2284.jpg", caption=f"SMILES: NCC(CC(=O)O)c1ccc(Cl)cc1")
+st.image(f"compound_structures/compound_2284.jpg", width=400)
 
 st.write("---")
 

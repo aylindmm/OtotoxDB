@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="4-Aminoantipyrine", layout="wide")
-st.title("4-Aminoantipyrine")
+st.set_page_config(page_title="4-aminoantipyrine", layout="wide")
+st.title("4-aminoantipyrine")
 st.markdown(f"PubChem Compound ID: [2151](https://pubchem.ncbi.nlm.nih.gov/compound/2151)")
 st.markdown(f"IUPAC Name: 4-amino-1,5-dimethyl-2-phenylpyrazol-3-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2151.jpg", caption=f"SMILES: Cc1c(N)c(=O)n(-c2ccccc2)n1C")
+st.image(f"compound_structures/compound_2151.jpg", width=400)
 
 st.write("---")
 

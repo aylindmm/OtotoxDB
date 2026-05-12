@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="trichostatin A", layout="wide")
-st.title("trichostatin A")
+st.set_page_config(page_title="Trichostatin a", layout="wide")
+st.title("Trichostatin a")
 st.markdown(f"PubChem Compound ID: [444732](https://pubchem.ncbi.nlm.nih.gov/compound/444732)")
 st.markdown(f"IUPAC Name: (2E,4E,6R)-7-[4-(dimethylamino)phenyl]-N-hydroxy-4,6-dimethyl-7-oxohepta-2,4-dienamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_444732.jpg", caption=f"SMILES: CC(=CC(C)C=CC(O)=NO)C(=O)c1ccc(N(C)C)cc1")
+st.image(f"compound_structures/compound_444732.jpg", width=400)
 
 st.write("---")
 

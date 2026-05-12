@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Melanotan II", layout="wide")
-st.title("Melanotan II")
+st.set_page_config(page_title="Melanotan ii", layout="wide")
+st.title("Melanotan ii")
 st.markdown(f"PubChem Compound ID: [92432](https://pubchem.ncbi.nlm.nih.gov/compound/92432)")
 st.markdown(f"IUPAC Name: (3S,6S,9R,12S,15S,23S)-15-[[(2S)-2-acetamidohexanoyl]amino]-9-benzyl-6-[3-(diaminomethylideneamino)propyl]-12-(1H-imidazol-5-ylmethyl)-3-(1H-indol-3-ylmethyl)-2,5,8,11,14,17-hexaoxo-1,4,7,10,13,18-hexazacyclotricosane-23-carboxamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_92432.jpg", caption=f"SMILES: CCCCC(NC(C)=O)C(=O)NC1CC(=O)NCCCCC(C(N)=O)NC(=O)C(Cc2c[nH]c3ccccc23)NC(=O)C(CCCN=C(N)N)NC(=O)C(Cc2ccccc2)NC(=O)C(Cc2c[nH]cn2)NC1=O")
+st.image(f"compound_structures/compound_92432.jpg", width=400)
 
 st.write("---")
 

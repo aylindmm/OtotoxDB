@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="glutathione", layout="wide")
-st.title("glutathione")
+st.set_page_config(page_title="Glutathione", layout="wide")
+st.title("Glutathione")
 st.markdown(f"PubChem Compound ID: [124886](https://pubchem.ncbi.nlm.nih.gov/compound/124886)")
 st.markdown(f"IUPAC Name: (2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-1-oxo-3-sulfanylpropan-2-yl]amino]-5-oxopentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_124886.jpg", caption=f"SMILES: NC(CCC(=O)NC(CS)C(=O)NCC(=O)O)C(=O)O")
+st.image(f"compound_structures/compound_124886.jpg", width=400)
 
 st.write("---")
 

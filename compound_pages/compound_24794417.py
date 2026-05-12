@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: [(4R)-4-amino-4-carboxybutyl]-hydroxyphosphinate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_24794417.jpg", caption=f"SMILES: NC(CCCP(=O)(O)O)C(=O)O")
+st.image(f"compound_structures/compound_24794417.jpg", width=400)
 
 st.write("---")
 

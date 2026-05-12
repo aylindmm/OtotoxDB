@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="isoniazid", layout="wide")
-st.title("isoniazid")
+st.set_page_config(page_title="Isoniazid", layout="wide")
+st.title("Isoniazid")
 st.markdown(f"PubChem Compound ID: [3767](https://pubchem.ncbi.nlm.nih.gov/compound/3767)")
 st.markdown(f"IUPAC Name: pyridine-4-carbohydrazide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3767.jpg", caption=f"SMILES: NNC(=O)c1ccncc1")
+st.image(f"compound_structures/compound_3767.jpg", width=400)
 
 st.write("---")
 

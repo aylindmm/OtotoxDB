@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="5-Fluorocytosine", layout="wide")
-st.title("5-Fluorocytosine")
+st.set_page_config(page_title="5-fluorocytosine", layout="wide")
+st.title("5-fluorocytosine")
 st.markdown(f"PubChem Compound ID: [3366](https://pubchem.ncbi.nlm.nih.gov/compound/3366)")
 st.markdown(f"IUPAC Name: 6-amino-5-fluoro-1H-pyrimidin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3366.jpg", caption=f"SMILES: Nc1[nH]c(=O)ncc1F")
+st.image(f"compound_structures/compound_3366.jpg", width=400)
 
 st.write("---")
 

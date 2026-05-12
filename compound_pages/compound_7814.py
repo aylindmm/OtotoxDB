@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="p-Phenylenediamine", layout="wide")
-st.title("p-Phenylenediamine")
+st.set_page_config(page_title="P-phenylenediamine", layout="wide")
+st.title("P-phenylenediamine")
 st.markdown(f"PubChem Compound ID: [7814](https://pubchem.ncbi.nlm.nih.gov/compound/7814)")
 st.markdown(f"IUPAC Name: benzene-1,4-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_7814.jpg", caption=f"SMILES: Nc1ccc(N)cc1")
+st.image(f"compound_structures/compound_7814.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="thioctic acid", layout="wide")
-st.title("thioctic acid")
+st.set_page_config(page_title="Thioctic acid", layout="wide")
+st.title("Thioctic acid")
 st.markdown(f"PubChem Compound ID: [864](https://pubchem.ncbi.nlm.nih.gov/compound/864)")
 st.markdown(f"IUPAC Name: 5-(dithiolan-3-yl)pentanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_864.jpg", caption=f"SMILES: O=C(O)CCCCC1CCSS1")
+st.image(f"compound_structures/compound_864.jpg", width=400)
 
 st.write("---")
 

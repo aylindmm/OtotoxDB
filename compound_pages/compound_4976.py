@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="protriptyline", layout="wide")
-st.title("protriptyline")
+st.set_page_config(page_title="Protriptyline", layout="wide")
+st.title("Protriptyline")
 st.markdown(f"PubChem Compound ID: [4976](https://pubchem.ncbi.nlm.nih.gov/compound/4976)")
 st.markdown(f"IUPAC Name: N-methyl-3-(2-tricyclo[9.4.0.03,8]pentadeca-1(15),3,5,7,9,11,13-heptaenyl)propan-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_4976.jpg", caption=f"SMILES: CNCCCC1c2ccccc2C=Cc2ccccc21")
+st.image(f"compound_structures/compound_4976.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="licochalcone a", layout="wide")
-st.title("licochalcone a")
+st.set_page_config(page_title="Licochalcone a", layout="wide")
+st.title("Licochalcone a")
 st.markdown(f"PubChem Compound ID: [5318998](https://pubchem.ncbi.nlm.nih.gov/compound/5318998)")
 st.markdown(f"IUPAC Name: (E)-3-[4-hydroxy-2-methoxy-5-(2-methylbut-3-en-2-yl)phenyl]-1-(4-hydroxyphenyl)prop-2-en-1-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5318998.jpg", caption=f"SMILES: C=CC(C)(C)c1cc(C=CC(=O)c2ccc(O)cc2)c(OC)cc1O")
+st.image(f"compound_structures/compound_5318998.jpg", width=400)
 
 st.write("---")
 

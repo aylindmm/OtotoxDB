@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="celastrol", layout="wide")
-st.title("celastrol")
+st.set_page_config(page_title="Celastrol", layout="wide")
+st.title("Celastrol")
 st.markdown(f"PubChem Compound ID: [122724](https://pubchem.ncbi.nlm.nih.gov/compound/122724)")
 st.markdown(f"IUPAC Name: (2R,4aS,6aR,6aS,14aS,14bR)-10-hydroxy-2,4a,6a,6a,9,14a-hexamethyl-11-oxo-1,3,4,5,6,13,14,14b-octahydropicene-2-carboxylic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_122724.jpg", caption=f"SMILES: C=c1c(O)c(O)cc2c1=CC=C1[C@@]2(C)CC[C@@]2(C)[C@@H]3C[C@](C)(C(=O)O)CC[C@]3(C)CC[C@]12C")
+st.image(f"compound_structures/compound_122724.jpg", width=400)
 
 st.write("---")
 

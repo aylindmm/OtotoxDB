@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 2-aminooxyacetic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_286.jpg", caption=f"SMILES: NOCC(=O)O")
+st.image(f"compound_structures/compound_286.jpg", width=400)
 
 st.write("---")
 

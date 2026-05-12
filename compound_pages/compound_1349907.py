@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="methimazole", layout="wide")
-st.title("methimazole")
+st.set_page_config(page_title="Methimazole", layout="wide")
+st.title("Methimazole")
 st.markdown(f"PubChem Compound ID: [1349907](https://pubchem.ncbi.nlm.nih.gov/compound/1349907)")
 st.markdown(f"IUPAC Name: 3-methyl-1H-imidazole-2-thione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1349907.jpg", caption=f"SMILES: Cn1cc[nH]c1=S")
+st.image(f"compound_structures/compound_1349907.jpg", width=400)
 
 st.write("---")
 

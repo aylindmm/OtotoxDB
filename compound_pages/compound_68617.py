@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="sertraline", layout="wide")
-st.title("sertraline")
+st.set_page_config(page_title="Sertraline", layout="wide")
+st.title("Sertraline")
 st.markdown(f"PubChem Compound ID: [68617](https://pubchem.ncbi.nlm.nih.gov/compound/68617)")
 st.markdown(f"IUPAC Name: (1S,4S)-4-(3,4-dichlorophenyl)-N-methyl-1,2,3,4-tetrahydronaphthalen-1-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_68617.jpg", caption=f"SMILES: CN[C@H]1CC[C@@H](c2ccc(Cl)c(Cl)c2)c2ccccc21")
+st.image(f"compound_structures/compound_68617.jpg", width=400)
 
 st.write("---")
 

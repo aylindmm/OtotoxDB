@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: bromo(triethyl)stannane")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_17701.jpg", caption=f"SMILES: C[CH2][Sn]([Br])([CH2]C)[CH2]C")
+st.image(f"compound_structures/compound_17701.jpg", width=400)
 
 st.write("---")
 

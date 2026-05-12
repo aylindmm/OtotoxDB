@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="emodin", layout="wide")
-st.title("emodin")
+st.set_page_config(page_title="Emodin", layout="wide")
+st.title("Emodin")
 st.markdown(f"PubChem Compound ID: [3220](https://pubchem.ncbi.nlm.nih.gov/compound/3220)")
 st.markdown(f"IUPAC Name: 1,3,8-trihydroxy-6-methylanthracene-9,10-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_3220.jpg", caption=f"SMILES: Cc1cc(O)c2c(c1)C(=O)c1cc(O)cc(O)c1C2=O")
+st.image(f"compound_structures/compound_3220.jpg", width=400)
 
 st.write("---")
 

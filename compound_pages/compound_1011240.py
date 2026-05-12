@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-(4-chlorophenoxy)-N-{4-[2-(4-chlorophenoxy)acetamido]cyclohexyl}acetamide", layout="wide")
-st.title("2-(4-chlorophenoxy)-N-{4-[2-(4-chlorophenoxy)acetamido]cyclohexyl}acetamide")
+st.set_page_config(page_title="2-(4-chlorophenoxy)-n-{4-[2-(4-chlorophenoxy)acetamido]cyclohexyl}acetamide", layout="wide")
+st.title("2-(4-chlorophenoxy)-n-{4-[2-(4-chlorophenoxy)acetamido]cyclohexyl}acetamide")
 st.markdown(f"PubChem Compound ID: [1011240](https://pubchem.ncbi.nlm.nih.gov/compound/1011240)")
 st.markdown(f"IUPAC Name: 2-(4-chlorophenoxy)-N-[4-[[2-(4-chlorophenoxy)acetyl]amino]cyclohexyl]acetamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1011240.jpg", caption=f"SMILES: O=C(COc1ccc(Cl)cc1)NC1CCC(NC(=O)COc2ccc(Cl)cc2)CC1")
+st.image(f"compound_structures/compound_1011240.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="dexlansoprazole", layout="wide")
-st.title("dexlansoprazole")
+st.set_page_config(page_title="Dexlansoprazole", layout="wide")
+st.title("Dexlansoprazole")
 st.markdown(f"PubChem Compound ID: [9578005](https://pubchem.ncbi.nlm.nih.gov/compound/9578005)")
 st.markdown(f"IUPAC Name: 2-[(R)-[3-methyl-4-(2,2,2-trifluoroethoxy)-2-pyridinyl]methylsulfinyl]-1H-benzimidazole")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_9578005.jpg", caption=f"SMILES: Cc1c(OCC(F)(F)F)ccnc1C[S@@](=O)c1nc2ccccc2[nH]1")
+st.image(f"compound_structures/compound_9578005.jpg", width=400)
 
 st.write("---")
 

@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="deferiprone", layout="wide")
-st.title("deferiprone")
+st.set_page_config(page_title="Deferiprone", layout="wide")
+st.title("Deferiprone")
 st.markdown(f"PubChem Compound ID: [2972](https://pubchem.ncbi.nlm.nih.gov/compound/2972)")
 st.markdown(f"IUPAC Name: 3-hydroxy-1,2-dimethylpyridin-4-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2972.jpg", caption=f"SMILES: Cc1c(O)c(=O)ccn1C")
+st.image(f"compound_structures/compound_2972.jpg", width=400)
 
 st.write("---")
 

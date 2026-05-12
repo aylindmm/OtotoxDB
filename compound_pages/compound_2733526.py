@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="tamoxifen", layout="wide")
-st.title("tamoxifen")
+st.set_page_config(page_title="Tamoxifen", layout="wide")
+st.title("Tamoxifen")
 st.markdown(f"PubChem Compound ID: [2733526](https://pubchem.ncbi.nlm.nih.gov/compound/2733526)")
 st.markdown(f"IUPAC Name: 2-[4-[(Z)-1,2-diphenylbut-1-enyl]phenoxy]-N,N-dimethylethanamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_2733526.jpg", caption=f"SMILES: CCC(=C(c1ccccc1)c1ccc(OCCN(C)C)cc1)c1ccccc1")
+st.image(f"compound_structures/compound_2733526.jpg", width=400)
 
 st.write("---")
 

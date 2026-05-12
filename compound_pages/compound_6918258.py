@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="TRK-710", layout="wide")
-st.title("TRK-710")
+st.set_page_config(page_title="Trk-710", layout="wide")
+st.title("Trk-710")
 st.markdown(f"PubChem Compound ID: [6918258](https://pubchem.ncbi.nlm.nih.gov/compound/6918258)")
 st.markdown(f"IUPAC Name: bis((2S)-4-acetyl-2-methyl-5-oxo-2H-furan-3-olate);platinum(2+);trans-(1R,2R)-cyclohexane-1,2-diamine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6918258.jpg", caption=f"SMILES: CC(=O)C1=C([O-])[C@H](C)OC1=O.CC(=O)C1=C([O-])[C@H](C)OC1=O.N[C@@H]1CCCC[C@H]1N.[Pt+2]")
+st.image(f"compound_structures/compound_6918258.jpg", width=400)
 
 st.write("---")
 

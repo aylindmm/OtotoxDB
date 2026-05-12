@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="rolipram", layout="wide")
-st.title("rolipram")
+st.set_page_config(page_title="Rolipram", layout="wide")
+st.title("Rolipram")
 st.markdown(f"PubChem Compound ID: [5092](https://pubchem.ncbi.nlm.nih.gov/compound/5092)")
 st.markdown(f"IUPAC Name: 4-(3-cyclopentyloxy-4-methoxyphenyl)pyrrolidin-2-one")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5092.jpg", caption=f"SMILES: COc1ccc(C2CNC(=O)C2)cc1OC1CCCC1")
+st.image(f"compound_structures/compound_5092.jpg", width=400)
 
 st.write("---")
 

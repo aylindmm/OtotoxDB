@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="netilmicin", layout="wide")
-st.title("netilmicin")
+st.set_page_config(page_title="Netilmicin", layout="wide")
+st.title("Netilmicin")
 st.markdown(f"PubChem Compound ID: [441306](https://pubchem.ncbi.nlm.nih.gov/compound/441306)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4-amino-3-[[(2S,3R)-3-amino-6-(aminomethyl)-3,4-dihydro-2H-pyran-2-yl]oxy]-6-(ethylamino)-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_441306.jpg", caption=f"SMILES: CCN[C@@H]1C[C@H](N)[C@@H](O[C@H]2OC(CN)=CC[C@H]2N)[C@H](O)[C@H]1O[C@H]1OC[C@](C)(O)[C@H](NC)[C@H]1O")
+st.image(f"compound_structures/compound_441306.jpg", width=400)
 
 st.write("---")
 

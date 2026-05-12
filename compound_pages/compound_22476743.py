@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-Oxothiazolidine-4-carboxylate", layout="wide")
-st.title("2-Oxothiazolidine-4-carboxylate")
+st.set_page_config(page_title="2-oxothiazolidine-4-carboxylate", layout="wide")
+st.title("2-oxothiazolidine-4-carboxylate")
 st.markdown(f"PubChem Compound ID: [22476743](https://pubchem.ncbi.nlm.nih.gov/compound/22476743)")
 st.markdown(f"IUPAC Name: 2-oxo-1,3-thiazolidine-4-carboxylate")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_22476743.jpg", caption=f"SMILES: O=C1NC(C(=O)O)CS1")
+st.image(f"compound_structures/compound_22476743.jpg", width=400)
 
 st.write("---")
 

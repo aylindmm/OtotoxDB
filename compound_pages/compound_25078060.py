@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="APELIN-13", layout="wide")
-st.title("APELIN-13")
+st.set_page_config(page_title="Apelin-13", layout="wide")
+st.title("Apelin-13")
 st.markdown(f"PubChem Compound ID: [25078060](https://pubchem.ncbi.nlm.nih.gov/compound/25078060)")
 st.markdown(f"IUPAC Name: (2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-1-[2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-5-(diaminomethylideneamino)-2-[[(2S)-1-[(2S)-5-(diaminomethylideneamino)-2-[[(2S)-2,5-diamino-5-oxopentanoyl]amino]pentanoyl]pyrrolidine-2-carbonyl]amino]pentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]-3-(1H-imidazol-5-yl)propanoyl]amino]hexanoyl]amino]acetyl]pyrrolidine-2-carbonyl]amino]-4-methylsulfanylbutanoyl]pyrrolidine-2-carbonyl]amino]-3-phenylpropanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_25078060.jpg", caption=f"SMILES: CSCCC(NC(=O)C1CCCN1C(=O)CNC(=O)C(CCCCN)NC(=O)C(Cc1c[nH]cn1)NC(=O)C(CO)NC(=O)C(CC(C)C)NC(=O)C(CCCN=C(N)N)NC(=O)C1CCCN1C(=O)C(CCCN=C(N)N)NC(=O)C(N)CCC(N)=O)C(=O)N1CCCC1C(=O)NC(Cc1ccccc1)C(=O)O")
+st.image(f"compound_structures/compound_25078060.jpg", width=400)
 
 st.write("---")
 

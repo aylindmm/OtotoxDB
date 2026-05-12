@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 4-nonylphenol")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_1752.jpg", caption=f"SMILES: CCCCCCCCCc1ccc(O)cc1")
+st.image(f"compound_structures/compound_1752.jpg", width=400)
 
 st.write("---")
 

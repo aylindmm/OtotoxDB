@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="MAGNESIUM", layout="wide")
-st.title("MAGNESIUM")
+st.set_page_config(page_title="Magnesium", layout="wide")
+st.title("Magnesium")
 st.markdown(f"PubChem Compound ID: [5462224](https://pubchem.ncbi.nlm.nih.gov/compound/5462224)")
 st.markdown(f"IUPAC Name: magnesium")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5462224.jpg", caption=f"SMILES: [Mg]")
+st.image(f"compound_structures/compound_5462224.jpg", width=400)
 
 st.write("---")
 

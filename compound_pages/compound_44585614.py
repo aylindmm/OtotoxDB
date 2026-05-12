@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: 6-methyl-N-[2-[(2S,5S,8S,11S,14S,17S,20S,23S)-8,11,14,
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_44585614.jpg", caption=f"SMILES: CCC(C)CCCCC(=O)NCCC1NC(=O)C(CC(C)C)NC(=O)C(CCN)NC(=O)C(CC(C)C)NC(=O)C(CCN)NC(=O)C(CCN)NC(=O)C(CCN)NC(=O)C([C@@H](C)O)NC1=O")
+st.image(f"compound_structures/compound_44585614.jpg", width=400)
 
 st.write("---")
 

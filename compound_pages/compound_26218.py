@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: oxido(dioxo)vanadium")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_26218.jpg", caption=f"SMILES: [O]=[V](=[O])[OH]")
+st.image(f"compound_structures/compound_26218.jpg", width=400)
 
 st.write("---")
 

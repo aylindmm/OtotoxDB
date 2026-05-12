@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="curcumin", layout="wide")
-st.title("curcumin")
+st.set_page_config(page_title="Curcumin", layout="wide")
+st.title("Curcumin")
 st.markdown(f"PubChem Compound ID: [969516](https://pubchem.ncbi.nlm.nih.gov/compound/969516)")
 st.markdown(f"IUPAC Name: (1E,6E)-1,7-bis(4-hydroxy-3-methoxyphenyl)hepta-1,6-diene-3,5-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_969516.jpg", caption=f"SMILES: COc1cc(C=CC(=O)CC(=O)C=Cc2ccc(O)c(OC)c2)ccc1O")
+st.image(f"compound_structures/compound_969516.jpg", width=400)
 
 st.write("---")
 

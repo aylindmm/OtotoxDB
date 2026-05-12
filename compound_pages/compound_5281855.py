@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ellagic acid", layout="wide")
-st.title("ellagic acid")
+st.set_page_config(page_title="Ellagic acid", layout="wide")
+st.title("Ellagic acid")
 st.markdown(f"PubChem Compound ID: [5281855](https://pubchem.ncbi.nlm.nih.gov/compound/5281855)")
 st.markdown(f"IUPAC Name: 6,7,13,14-tetrahydroxy-2,9-dioxatetracyclo[6.6.2.04,16.011,15]hexadeca-1(15),4,6,8(16),11,13-hexaene-3,10-dione")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5281855.jpg", caption=f"SMILES: O=c1c(O)cc2c(O)oc3c(=O)c(O)cc4c(O)oc1c2c43")
+st.image(f"compound_structures/compound_5281855.jpg", width=400)
 
 st.write("---")
 

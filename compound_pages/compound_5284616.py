@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="rapamycin", layout="wide")
-st.title("rapamycin")
+st.set_page_config(page_title="Rapamycin", layout="wide")
+st.title("Rapamycin")
 st.markdown(f"PubChem Compound ID: [5284616](https://pubchem.ncbi.nlm.nih.gov/compound/5284616)")
 st.markdown(f"IUPAC Name: (1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,3R,4R)-4-hydroxy-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5284616.jpg", caption=f"SMILES: COC1C(=O)C(C)C[C@H](C)/C=C\C=C\C=C(/C)[C@@H](OC)C[C@@H]2CC[C@@H](C)[C@@](O)(O2)C(=O)C(=O)N2CCCCC2C(=O)O[C@H]([C@H](C)C[C@@H]2CC[C@@H](O)[C@H](OC)C2)CC(=O)C(C)=CC(C)[C@H]1O")
+st.image(f"compound_structures/compound_5284616.jpg", width=400)
 
 st.write("---")
 

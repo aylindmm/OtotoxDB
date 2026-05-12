@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="DTXSID001017373", layout="wide")
-st.title("DTXSID001017373")
+st.set_page_config(page_title="Dtxsid001017373", layout="wide")
+st.title("Dtxsid001017373")
 st.markdown(f"PubChem Compound ID: [124219522](https://pubchem.ncbi.nlm.nih.gov/compound/124219522)")
 st.markdown(f"IUPAC Name: 6,7-dimethoxy-2-(4-methyl-1,4-diazepan-1-yl)-N-(1-phenylpiperidin-4-yl)quinazolin-4-amine")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_124219522.jpg", caption=f"SMILES: COc1cc2nc(N3CCCN(C)CC3)nc(NC3CCN(c4ccccc4)CC3)c2cc1OC")
+st.image(f"compound_structures/compound_124219522.jpg", width=400)
 
 st.write("---")
 

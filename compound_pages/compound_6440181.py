@@ -9,7 +9,7 @@ st.markdown(f"IUPAC Name: disodium;4-[(Z)-[tert-butyl(oxido)azaniumylidene]methy
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6440181.jpg", caption=f"SMILES: CC(C)(C)[N+]([O-])=Cc1ccc(S(=O)(=O)O)cc1S(=O)(=O)O")
+st.image(f"compound_structures/compound_6440181.jpg", width=400)
 
 st.write("---")
 

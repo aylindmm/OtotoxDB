@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Prevantics Swab", layout="wide")
-st.title("Prevantics Swab")
+st.set_page_config(page_title="Prevantics swab", layout="wide")
+st.title("Prevantics swab")
 st.markdown(f"PubChem Compound ID: [44144774](https://pubchem.ncbi.nlm.nih.gov/compound/44144774)")
 st.markdown(f"IUPAC Name: (1E)-2-[6-[[amino-[(E)-[amino-(4-chloroanilino)methylidene]amino]methylidene]amino]hexyl]-1-[amino-(4-chloroanilino)methylidene]guanidine;(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoic acid;propan-2-ol;(3R,4S,5R)-3,4,5,6-tetrahydroxyhexanoic acid")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_44144774.jpg", caption=f"SMILES: CC(C)O.N=C(N=C(N)NCCCCCCN=C(N)N=C(N)Nc1ccc(Cl)cc1)Nc1ccc(Cl)cc1.O=C(O)C(O)C(O)C(O)[C@H](O)CO.O=C(O)C[C@@H](O)[C@H](O)[C@H](O)CO")
+st.image(f"compound_structures/compound_44144774.jpg", width=400)
 
 st.write("---")
 

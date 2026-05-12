@@ -2,14 +2,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="salubrinal", layout="wide")
-st.title("salubrinal")
+st.set_page_config(page_title="Salubrinal", layout="wide")
+st.title("Salubrinal")
 st.markdown(f"PubChem Compound ID: [5717801](https://pubchem.ncbi.nlm.nih.gov/compound/5717801)")
 st.markdown(f"IUPAC Name: (E)-3-phenyl-N-[2,2,2-trichloro-1-(quinolin-8-ylcarbamothioylamino)ethyl]prop-2-enamide")
 
 
 # 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_5717801.jpg", caption=f"SMILES: O=C(/C=C/c1ccccc1)NC(NC(=S)Nc1cccc2cccnc12)C(Cl)(Cl)Cl")
+st.image(f"compound_structures/compound_5717801.jpg", width=400)
 
 st.write("---")
 
