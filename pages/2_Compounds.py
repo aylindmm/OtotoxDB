@@ -22,7 +22,7 @@ def load_data():
 df = load_data()
 df['link_to_compound_page'] = df['PubChem_CID']
 df['PubChem_CID'] = df['PubChem_CID'].apply(lambda x: f"https://pubchem.ncbi.nlm.nih.gov/compound/{x}" if pd.notnull(x) else x)
-df['link_to_compound_page'] = df.apply(lambda row: f"compound_pages/compound_{row['PubChem_CID'].split('/')[-1]}", axis=1)
+df['link_to_compound_page'] = df.apply(lambda row: f"compound_{row['PubChem_CID'].split('/')[-1]}", axis=1)
 
 
 # Split dietary sources into list
