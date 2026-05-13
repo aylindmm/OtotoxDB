@@ -53,7 +53,7 @@ st.subheader("Targets")
 @st.cache_data
 def load_data():
     targets_info = pd.read_csv("data/target_info.tsv", sep='\t')
-    return sources
+    return targets_info
 
 target_info = load_data()
 
