@@ -13,7 +13,7 @@ articles_page = st.Page("pages/3_Articles.py", title="Articles")
 with st.sidebar:
     st.page_link(main_page, label="Home", icon="🏠")
     st.page_link(compounds_page, label="Compounds")
-    st.page_link(articles_page, label="Articles", icon="📰")
+    st.page_link(articles_page, label="Articles")
 
 df = pd.read_csv("data/compounds.tsv", sep="\t")
 
@@ -32,8 +32,8 @@ for index, row in df.iterrows():
 pg = st.navigation({
     "Main Menu": [
         st.Page("pages/1_Home.py", title="Home", icon="🏠"),
-        st.Page("pages/2_Compounds.py", title="Compounds", icon="🧪"),
-        st.Page("pages/3_Articles.py", title="Articles", icon="📄")
+        st.Page("pages/2_Compounds.py", title="Compounds"),
+        st.Page("pages/3_Articles.py", title="Articles")
     ],
     "Compounds": compound_pages  # This adds them to the nav bar
 }, position="top")
