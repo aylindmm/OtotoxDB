@@ -12,7 +12,7 @@ compounds_page = st.Page("pages/2_Compounds.py", title="Compounds")
 # Sidebar navigation (matches the left panel in your image)
 with st.sidebar:
     st.page_link(main_page, label="Home", icon="🏠")
-    st.page_link(compounds_page, label="Compounds", icon="🧪")
+    st.page_link(compounds_page, label="Compounds")
     #st.page_link(articles_page, label="Articles", icon="📰")
 
 df = pd.read_csv("data/compounds.tsv", sep="\t")
@@ -24,7 +24,7 @@ for index, row in df.iterrows():
     cid = row['PubChem_CID']
     name = row['name']
     # Ensure these .py files actually exist in your 'compounds' folder!
-    page = st.Page(f"compound_pages/compound_{cid}.py", title=f"{name}", icon="🧪")
+    page = st.Page(f"compound_pages/compound_{cid}.py", title=f"{name}")
     compound_pages.append(page)
 
 # 2. Define your main app structure

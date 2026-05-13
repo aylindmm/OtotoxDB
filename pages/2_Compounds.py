@@ -3,7 +3,7 @@ import base64
 import pandas as pd
 
 # Show the page title and description.
-st.set_page_config(page_title="Compounds", page_icon="🥗")
+st.set_page_config(page_title="Compounds")
 st.title("Compounds")
 st.write(
     """
