@@ -24,16 +24,6 @@ sources = load_data()
 
 df_filtered = sources[(sources["PubChem_CID"] == 102248350) ]
 
-# Convert dataframe to CSV
-csv = df_filtered.to_csv(index=False, sep='\t').encode('utf-8')
-
-st.download_button(
-    label="Download data as TSV",
-    data=csv,
-    file_name='articles.tsv',
-    mime='text/tsv',
-)
-
 
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
 
