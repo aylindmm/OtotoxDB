@@ -74,7 +74,7 @@ else:
 
         if not source_df.empty:
             st.dataframe(
-                source_df[["variable", "value"]].rename(columns={"Variable": "Binding type", "value": "value"}),
+                source_df[["variable", "value"]].rename(columns={"Variable": "Binding type", "value": "Value (nM)"}),
                 use_container_width=True,
                 hide_index=True,
             )
