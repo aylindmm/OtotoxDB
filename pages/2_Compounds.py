@@ -40,7 +40,7 @@ citation_number = st.slider("Literature score", -2, 20, (0, 10))
 df_filtered = df[df['score'].between(citation_number[0], citation_number[1]) ]
 
 
-df_filtered = df_filtered[['PubChem_CID', 'name', 'link_to_image', 'score', 'References', 'link_to_compound_page' ,'class']]
+df_filtered = df_filtered[['PubChem_CID', 'name', 'link_to_image', 'score', 'link_to_compound_page' ,'class']]
 
 # Include downoad button for the filtered data
 csv = df_filtered[['name', 'PubChem_CID','score' ,'References']].to_csv(index=False, sep='\t').encode('utf-8')

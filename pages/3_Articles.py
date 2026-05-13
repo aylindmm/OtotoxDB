@@ -15,7 +15,7 @@ All articles found in PubMed and referenced in the database. You can filter by p
 # reruns (e.g. if the user interacts with the widgets).
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/articles.tsv", sep="\t")
+    df = pd.read_csv("data/sources.tsv", sep="\t")
     return df
 
 
