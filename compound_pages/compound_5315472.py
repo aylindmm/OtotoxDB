@@ -69,7 +69,8 @@ else:
     for variable in tar_filtered['Target.Name'].unique():
         st.markdown(f"**{variable}**")
         source_df = tar_filtered[tar_filtered['Target.Name'] == variable]
-        st.markdown(f"Uniprot ID: " [source_df['prot_name'][0]](source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'][0]))
+        st.markdown(f"Uniprot ID: [{source_df['prot_name'].iloc[0]}]({source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].iloc[0]})")
+
 
         if not source_df.empty:
             st.dataframe(
