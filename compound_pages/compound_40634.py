@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_40634.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [40634](https://pubchem.ncbi.nlm.nih.gov/compound/40634)")
 st.markdown(f"IUPAC Name: 6-hydroxy-2,5,7,8-tetramethyl-3,4-dihydrochromene-2-carboxylic acid")
 st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

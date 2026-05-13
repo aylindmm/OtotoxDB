@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_494164.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [494164](https://pubchem.ncbi.nlm.nih.gov/compound/494164)")
 st.markdown(f"IUPAC Name: 4-amino-7-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-6-hydrazinylpyrrolo[2,3-d]pyrimidine-5-carboxamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

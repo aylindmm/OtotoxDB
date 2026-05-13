@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_24847750.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24847750](https://pubchem.ncbi.nlm.nih.gov/compound/24847750)")
 st.markdown(f"IUPAC Name: (1R,6S,8R)-6-tert-butyl-3-azapentacyclo[11.8.1.03,8.09,22.016,21]docosa-9,11,13(22),16,18,20-hexaen-6-ol")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

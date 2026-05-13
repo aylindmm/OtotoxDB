@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_93405.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [93405](https://pubchem.ncbi.nlm.nih.gov/compound/93405)")
 st.markdown(f"IUPAC Name: 2-[[2-[2-[3-(3,5-ditert-butyl-4-hydroxyphenyl)propanoyloxy]ethylamino]-2-oxoacetyl]amino]ethyl 3-(3,5-ditert-butyl-4-hydroxyphenyl)propanoate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

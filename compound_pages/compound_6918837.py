@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6918837.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6918837](https://pubchem.ncbi.nlm.nih.gov/compound/6918837)")
 st.markdown(f"IUPAC Name: (E)-N-hydroxy-3-[4-[[2-(2-methyl-1H-indol-3-yl)ethylamino]methyl]phenyl]prop-2-enamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

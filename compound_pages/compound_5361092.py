@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5361092.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5361092](https://pubchem.ncbi.nlm.nih.gov/compound/5361092)")
 st.markdown(f"IUPAC Name: (1S,9R,10S)-17-(cyclobutylmethyl)-17-azatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3,5-triene-4,10-diol")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

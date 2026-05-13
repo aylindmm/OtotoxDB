@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1566236.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1566236](https://pubchem.ncbi.nlm.nih.gov/compound/1566236)")
 st.markdown(f"IUPAC Name: (E)-N-[4-[(3-methoxypyrazin-2-yl)sulfamoyl]phenyl]-3-(5-nitrothiophen-2-yl)prop-2-enamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

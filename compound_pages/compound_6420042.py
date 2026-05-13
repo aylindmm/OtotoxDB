@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6420042.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6420042](https://pubchem.ncbi.nlm.nih.gov/compound/6420042)")
 st.markdown(f"IUPAC Name: (Z)-but-2-enedioic acid;(1S,9R)-1-methyl-16-azatetracyclo[7.6.1.02,7.010,15]hexadeca-2,4,6,10,12,14-hexaene")
 st.markdown(f"Score: -0.0941492938802959")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

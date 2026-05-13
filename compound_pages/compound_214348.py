@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_214348.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [214348](https://pubchem.ncbi.nlm.nih.gov/compound/214348)")
 st.markdown(f"IUPAC Name: 4-[3,5-bis(2-hydroxyphenyl)-1,2,4-triazol-1-yl]benzoic acid")
 st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

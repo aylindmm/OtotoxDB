@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_36462.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [36462](https://pubchem.ncbi.nlm.nih.gov/compound/36462)")
 st.markdown(f"IUPAC Name: (5S,5aR,8aR,9R)-5-[[(2R,4aR,6R,7R,8R,8aS)-7,8-dihydroxy-2-methyl-4,4a,6,7,8,8a-hexahydropyrano[3,2-d][1,3]dioxin-6-yl]oxy]-9-(4-hydroxy-3,5-dimethoxyphenyl)-5a,6,8a,9-tetrahydro-5H-[2]benzofuro[6,5-f][1,3]benzodioxol-8-one")
 st.markdown(f"Score: 0.107599193006052")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

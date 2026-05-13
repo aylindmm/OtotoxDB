@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_9068.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9068](https://pubchem.ncbi.nlm.nih.gov/compound/9068)")
 st.markdown(f"IUPAC Name: 2-[3-[(4-amino-2-methylpyrimidin-5-yl)methyl]-4-methyl-1,3-thiazol-3-ium-5-yl]ethyl phosphono hydrogen phosphate chloride")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

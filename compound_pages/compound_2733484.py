@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_2733484.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2733484](https://pubchem.ncbi.nlm.nih.gov/compound/2733484)")
 st.markdown(f"IUPAC Name: N-[2-(4-chlorophenyl)ethyl]-7,8-dihydroxy-1,3,4,5-tetrahydro-2-benzazepine-2-carbothioamide")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

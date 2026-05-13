@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6508724.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6508724](https://pubchem.ncbi.nlm.nih.gov/compound/6508724)")
 st.markdown(f"IUPAC Name: 3-[4-[(E)-2-[4-(dibutylamino)phenyl]ethenyl]pyridin-1-ium-1-yl]propyl-triethylazanium dibromide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

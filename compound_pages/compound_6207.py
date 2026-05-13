@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6207.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6207](https://pubchem.ncbi.nlm.nih.gov/compound/6207)")
 st.markdown(f"IUPAC Name: 2-[2-[2-[2-[bis(carboxymethyl)amino]ethoxy]ethoxy]ethyl-(carboxymethyl)amino]acetic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

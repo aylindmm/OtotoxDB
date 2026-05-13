@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_72344.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72344](https://pubchem.ncbi.nlm.nih.gov/compound/72344)")
 st.markdown(f"IUPAC Name: 2-(3,4-dimethoxyphenyl)-5,6,7,8-tetramethoxychromen-4-one")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

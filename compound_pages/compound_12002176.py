@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_12002176.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [12002176](https://pubchem.ncbi.nlm.nih.gov/compound/12002176)")
 st.markdown(f"IUPAC Name: (2S)-4-amino-N-[(1R,2S,3R,4R,5S)-5-amino-4-[(2R,3R,4R,5S,6R)-3-amino-6-(aminomethyl)-4,5-dihydroxyoxan-2-yl]oxy-3-[(2S,3R,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-2-hydroxycyclohexyl]-2-hydroxybutanamide")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

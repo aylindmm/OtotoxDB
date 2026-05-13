@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_18542136.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [18542136](https://pubchem.ncbi.nlm.nih.gov/compound/18542136)")
 st.markdown(f"IUPAC Name: 2-(2,4-dihydroxyphenyl)-3,5,7-trihydroxychromen-4-one;dihydrate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

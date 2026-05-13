@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_446598.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [446598](https://pubchem.ncbi.nlm.nih.gov/compound/446598)")
 st.markdown(f"IUPAC Name: (2S,4R)-N-[(1S,2S)-2-chloro-1-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-methylsulfanyloxan-2-yl]propyl]-1-methyl-4-propylpyrrolidine-2-carboxamide")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

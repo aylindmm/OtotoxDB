@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_91667931.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [91667931](https://pubchem.ncbi.nlm.nih.gov/compound/91667931)")
 st.markdown(f"IUPAC Name: 4-methyl-1-(1H-pyrazol-4-ylmethyl)-5-[[4-[[6-(2,2,2-trifluoroethyl)thieno[2,3-d]pyrimidin-4-yl]amino]piperidin-1-yl]methyl]indole-2-carbonitrile")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

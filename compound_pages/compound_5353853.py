@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5353853.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5353853](https://pubchem.ncbi.nlm.nih.gov/compound/5353853)")
 st.markdown(f"IUPAC Name: (Z)-1-(2,4-dichlorophenyl)-N-[(2,4-dichlorophenyl)methoxy]-2-imidazol-1-ylethanimine")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

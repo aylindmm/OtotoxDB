@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5351619.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5351619](https://pubchem.ncbi.nlm.nih.gov/compound/5351619)")
 st.markdown(f"IUPAC Name: (2S)-3-(2-sulfanylidene-1,3-dihydroimidazol-4-yl)-2-(trimethylazaniumyl)propanoate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

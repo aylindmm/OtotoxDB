@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3009.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3009](https://pubchem.ncbi.nlm.nih.gov/compound/3009)")
 st.markdown(f"IUPAC Name: 2,5-diamino-2-(difluoromethyl)pentanoic acid")
 st.markdown(f"Score: 0.161398789509079")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5281807.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281807](https://pubchem.ncbi.nlm.nih.gov/compound/5281807)")
 st.markdown(f"IUPAC Name: 7-hydroxy-3-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

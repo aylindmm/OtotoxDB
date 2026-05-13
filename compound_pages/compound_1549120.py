@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1549120.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1549120](https://pubchem.ncbi.nlm.nih.gov/compound/1549120)")
 st.markdown(f"IUPAC Name: 2-[(5Z)-5-[(E)-2-methyl-3-phenylprop-2-enylidene]-4-oxo-2-sulfanylidene-1,3-thiazolidin-3-yl]acetic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

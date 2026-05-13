@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_18283.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [18283](https://pubchem.ncbi.nlm.nih.gov/compound/18283)")
 st.markdown(f"IUPAC Name: 1-[(2R,5S)-5-(hydroxymethyl)-2,5-dihydrofuran-2-yl]-5-methylpyrimidine-2,4-dione")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

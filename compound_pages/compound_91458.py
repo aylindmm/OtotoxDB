@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_91458.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [91458](https://pubchem.ncbi.nlm.nih.gov/compound/91458)")
 st.markdown(f"IUPAC Name: (2S,3R,4S,5S,6R)-2-[[(1S,4aR,5S,7aS)-5-hydroxy-7-(hydroxymethyl)-1,4a,5,7a-tetrahydrocyclopenta[c]pyran-1-yl]oxy]-6-(hydroxymethyl)oxane-3,4,5-triol")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

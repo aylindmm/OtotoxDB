@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_134828258.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [134828258](https://pubchem.ncbi.nlm.nih.gov/compound/134828258)")
 st.markdown(f"IUPAC Name: [2-[(1-hydroxy-2,2,6,6-tetramethylpiperidin-4-yl)amino]-2-oxoethyl]-triphenylphosphanium chloride")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_115358.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [115358](https://pubchem.ncbi.nlm.nih.gov/compound/115358)")
 st.markdown(f"IUPAC Name: 4-N-[2,6-dimethoxy-4-methyl-5-[3-(trifluoromethyl)phenoxy]quinolin-8-yl]pentane-1,4-diamine")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

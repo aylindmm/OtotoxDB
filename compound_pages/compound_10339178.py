@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_10339178.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [10339178](https://pubchem.ncbi.nlm.nih.gov/compound/10339178)")
 st.markdown(f"IUPAC Name: azane;cyclobutane-1,1-dicarboxylate;platinum(2+)")
 st.markdown(f"Score: 3.16072629455279")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

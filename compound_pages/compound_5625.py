@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5625.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5625](https://pubchem.ncbi.nlm.nih.gov/compound/5625)")
 st.markdown(f"IUPAC Name: N-[2-[4-[3-(propan-2-ylamino)-2-pyridinyl]piperazine-1-carbonyl]-1H-indol-5-yl]methanesulfonamide")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4091.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4091](https://pubchem.ncbi.nlm.nih.gov/compound/4091)")
 st.markdown(f"IUPAC Name: 3-(diaminomethylidene)-1,1-dimethylguanidine")
 st.markdown(f"Score: -0.174848688634835")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

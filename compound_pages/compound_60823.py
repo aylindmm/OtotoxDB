@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_60823.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60823](https://pubchem.ncbi.nlm.nih.gov/compound/60823)")
 st.markdown(f"IUPAC Name: (3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-propan-2-ylpyrrol-1-yl]-3,5-dihydroxyheptanoic acid")
 st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

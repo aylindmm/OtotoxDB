@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_123974.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [123974](https://pubchem.ncbi.nlm.nih.gov/compound/123974)")
 st.markdown(f"IUPAC Name: azane;cyclohexanamine;platinum(4+);diacetate;dichloride")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

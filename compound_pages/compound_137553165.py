@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_137553165.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [137553165](https://pubchem.ncbi.nlm.nih.gov/compound/137553165)")
 st.markdown(f"IUPAC Name: N-[5-bromo-1-[(4-fluorophenyl)methyl]-4-methyl-2-oxo-3-pyridinyl]cycloheptanecarboxamide")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

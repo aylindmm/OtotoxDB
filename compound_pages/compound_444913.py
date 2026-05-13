@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_444913.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [444913](https://pubchem.ncbi.nlm.nih.gov/compound/444913)")
 st.markdown(f"IUPAC Name: (1S,3R,5R,6S,8R,10R,11S,13R,15R,16S,18R,20R,21S,23R,25R,26S,28R,30R,31R,32R,33R,34R,35R,36R,37R,38R,39R,40R,41R,42R)-5,10,15,20,25,30-hexakis(hydroxymethyl)-2,4,7,9,12,14,17,19,22,24,27,29-dodecaoxaheptacyclo[26.2.2.23,6.28,11.213,16.218,21.223,26]dotetracontane-31,32,33,34,35,36,37,38,39,40,41,42-dodecol")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

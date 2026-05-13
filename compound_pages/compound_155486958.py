@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_155486958.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [155486958](https://pubchem.ncbi.nlm.nih.gov/compound/155486958)")
 st.markdown(f"IUPAC Name: 1-[4-azido-5-(hydroxymethyl)oxolan-2-yl]-5-methylpyrimidine-2,4-dione;4-(dipropylsulfamoyl)benzoic acid")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

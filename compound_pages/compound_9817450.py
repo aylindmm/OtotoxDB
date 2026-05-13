@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_9817450.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9817450](https://pubchem.ncbi.nlm.nih.gov/compound/9817450)")
 st.markdown(f"IUPAC Name: zinc (2S)-2-(3-aminopropanoylamino)-3-imidazol-1-id-4-ylpropanoate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

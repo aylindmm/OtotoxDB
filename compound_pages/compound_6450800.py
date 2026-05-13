@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6450800.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6450800](https://pubchem.ncbi.nlm.nih.gov/compound/6450800)")
 st.markdown(f"IUPAC Name: 2-(dibutylamino)-1-[(9Z)-2,7-dichloro-9-[(4-chlorophenyl)methylidene]fluoren-4-yl]ethanol;(4S,5R,8S,9R,10S,12R,13R)-10-methoxy-1,5,9-trimethyl-11,14,15,16-tetraoxatetracyclo[10.3.1.04,13.08,13]hexadecane")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

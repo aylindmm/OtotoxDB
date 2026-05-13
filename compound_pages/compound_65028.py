@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_65028.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [65028](https://pubchem.ncbi.nlm.nih.gov/compound/65028)")
 st.markdown(f"IUPAC Name: ethyl (3R,4R,5S)-4-acetamido-5-amino-3-pentan-3-yloxycyclohexene-1-carboxylate")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

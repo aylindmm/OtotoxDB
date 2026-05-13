@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6251.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6251](https://pubchem.ncbi.nlm.nih.gov/compound/6251)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-hexane-1,2,3,4,5,6-hexol")
 st.markdown(f"Score: -0.107599193006052")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

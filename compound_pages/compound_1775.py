@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1775.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1775](https://pubchem.ncbi.nlm.nih.gov/compound/1775)")
 st.markdown(f"IUPAC Name: 5,5-diphenylimidazolidine-2,4-dione")
 st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

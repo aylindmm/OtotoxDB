@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5870.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5870](https://pubchem.ncbi.nlm.nih.gov/compound/5870)")
 st.markdown(f"IUPAC Name: (8R,9S,13S,14S)-3-hydroxy-13-methyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-17-one")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

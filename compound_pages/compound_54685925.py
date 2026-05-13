@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_54685925.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54685925](https://pubchem.ncbi.nlm.nih.gov/compound/54685925)")
 st.markdown(f"IUPAC Name: (4S,4aS,5aR,12aR)-4,7-bis(dimethylamino)-1,10,11,12a-tetrahydroxy-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide;hydrochloride")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

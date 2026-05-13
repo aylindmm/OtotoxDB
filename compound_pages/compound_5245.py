@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5245.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5245](https://pubchem.ncbi.nlm.nih.gov/compound/5245)")
 st.markdown(f"IUPAC Name: (1-hydroxy-1-phosphono-2-pyridin-3-ylethyl)phosphonic acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

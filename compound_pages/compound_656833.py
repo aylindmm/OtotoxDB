@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_656833.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [656833](https://pubchem.ncbi.nlm.nih.gov/compound/656833)")
 st.markdown(f"IUPAC Name: sodium 4-[(2R,3R)-2-[(2,2-dichloroacetyl)amino]-3-hydroxy-3-(4-nitrophenyl)propoxy]-4-oxobutanoate")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3033.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3033](https://pubchem.ncbi.nlm.nih.gov/compound/3033)")
 st.markdown(f"IUPAC Name: 2-[2-(2,6-dichloroanilino)phenyl]acetic acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

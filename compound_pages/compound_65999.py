@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_65999.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [65999](https://pubchem.ncbi.nlm.nih.gov/compound/65999)")
 st.markdown(f"IUPAC Name: 2-[4-[[4-methyl-6-(1-methylbenzimidazol-2-yl)-2-propylbenzimidazol-1-yl]methyl]phenyl]benzoic acid")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

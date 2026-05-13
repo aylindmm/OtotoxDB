@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_57504987.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [57504987](https://pubchem.ncbi.nlm.nih.gov/compound/57504987)")
 st.markdown(f"IUPAC Name: 4-(4-cyclopropylimidazol-1-yl)-N-[3-(4-cyclopropyl-1,2,4-triazol-3-yl)phenyl]pyridine-2-carboxamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

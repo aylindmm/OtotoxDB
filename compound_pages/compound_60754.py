@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_60754.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60754](https://pubchem.ncbi.nlm.nih.gov/compound/60754)")
 st.markdown(f"IUPAC Name: 2-[bis[2-[carboxylatomethyl-[2-(methylamino)-2-oxoethyl]amino]ethyl]amino]acetate;gadolinium(3+);hydrate")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

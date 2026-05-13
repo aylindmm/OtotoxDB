@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1175.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1175](https://pubchem.ncbi.nlm.nih.gov/compound/1175)")
 st.markdown(f"IUPAC Name: 7,9-dihydro-3H-purine-2,6,8-trione")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

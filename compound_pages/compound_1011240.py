@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1011240.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1011240](https://pubchem.ncbi.nlm.nih.gov/compound/1011240)")
 st.markdown(f"IUPAC Name: 2-(4-chlorophenoxy)-N-[4-[[2-(4-chlorophenoxy)acetyl]amino]cyclohexyl]acetamide")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5665.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5665](https://pubchem.ncbi.nlm.nih.gov/compound/5665)")
 st.markdown(f"IUPAC Name: 4-aminohex-5-enoic acid")
 st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

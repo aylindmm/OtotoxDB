@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_9796440.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9796440](https://pubchem.ncbi.nlm.nih.gov/compound/9796440)")
 st.markdown(f"IUPAC Name: azane;2-oxidoacetate;platinum(2+)")
 st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

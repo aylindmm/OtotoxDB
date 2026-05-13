@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_776833.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [776833](https://pubchem.ncbi.nlm.nih.gov/compound/776833)")
 st.markdown(f"IUPAC Name: quinoxaline-5-carboxylic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

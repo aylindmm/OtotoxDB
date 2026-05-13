@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4674.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4674](https://pubchem.ncbi.nlm.nih.gov/compound/4674)")
 st.markdown(f"IUPAC Name: (3-amino-1-hydroxy-1-phosphonopropyl)phosphonic acid")
 st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

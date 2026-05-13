@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_108143.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [108143](https://pubchem.ncbi.nlm.nih.gov/compound/108143)")
 st.markdown(f"IUPAC Name: 4-[(5,5,8,8-tetramethyl-6,7-dihydronaphthalen-2-yl)carbamoyl]benzoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

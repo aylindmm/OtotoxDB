@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3386.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3386](https://pubchem.ncbi.nlm.nih.gov/compound/3386)")
 st.markdown(f"IUPAC Name: N-methyl-3-phenyl-3-[4-(trifluoromethyl)phenoxy]propan-1-amine")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

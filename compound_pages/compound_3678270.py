@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3678270.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3678270](https://pubchem.ncbi.nlm.nih.gov/compound/3678270)")
 st.markdown(f"IUPAC Name: 6,9a-dihydroxy-3,5a-dimethyl-9-methylidene-3,3a,4,5,6,7,8,9b-octahydrobenzo[g][1]benzofuran-2-one")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

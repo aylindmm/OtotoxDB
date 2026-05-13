@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_446987.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [446987](https://pubchem.ncbi.nlm.nih.gov/compound/446987)")
 st.markdown(f"IUPAC Name: [(2R,3S)-3-methyloxiran-2-yl]phosphonic acid")
 st.markdown(f"Score: -0.188298587760592")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

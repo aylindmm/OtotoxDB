@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3672.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3672](https://pubchem.ncbi.nlm.nih.gov/compound/3672)")
 st.markdown(f"IUPAC Name: 2-[4-(2-methylpropyl)phenyl]propanoic acid")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

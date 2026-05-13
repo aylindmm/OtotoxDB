@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_11764719.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11764719](https://pubchem.ncbi.nlm.nih.gov/compound/11764719)")
 st.markdown(f"IUPAC Name: (2S)-6-amino-2-[[(2S)-2-[[(2R)-2-amino-5-(diaminomethylideneamino)pentanoyl]amino]-3-(4-hydroxy-2,6-dimethylphenyl)propanoyl]amino]-N-[(2S)-1-amino-1-oxo-3-phenylpropan-2-yl]hexanamide")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

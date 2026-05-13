@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_91558.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [91558](https://pubchem.ncbi.nlm.nih.gov/compound/91558)")
 st.markdown(f"IUPAC Name: (R)-[(2S,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-(6-methoxyquinolin-4-yl)methanol;hydrochloride")
 st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

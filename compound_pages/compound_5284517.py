@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5284517.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5284517](https://pubchem.ncbi.nlm.nih.gov/compound/5284517)")
 st.markdown(f"IUPAC Name: 2-amino-N-[(1S,2R,3R,4S,5S,6R)-4-amino-3-[(2R,3R,6S)-3-amino-6-[(1S)-1-aminoethyl]oxan-2-yl]oxy-2,5-dihydroxy-6-methoxycyclohexyl]-N-methylacetamide")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5460326.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5460326](https://pubchem.ncbi.nlm.nih.gov/compound/5460326)")
 st.markdown(f"IUPAC Name: 5-(dithiolan-3-yl)pentanoate")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

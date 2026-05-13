@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3000502.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3000502](https://pubchem.ncbi.nlm.nih.gov/compound/3000502)")
 st.markdown(f"IUPAC Name: (3S)-3,6-diamino-N-[[(2S,5S,8E,11S,15S)-15-amino-11-[(6R)-2-amino-1,4,5,6-tetrahydropyrimidin-6-yl]-8-[(carbamoylamino)methylidene]-2-(hydroxymethyl)-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]hexanamide;(3S)-3,6-diamino-N-[[(2S,5S,8E,11S,15S)-15-amino-11-[(6R)-2-amino-1,4,5,6-tetrahydropyrimidin-6-yl]-8-[(carbamoylamino)methylidene]-2-methyl-3,6,9,12,16-pentaoxo-1,4,7,10,13-pentazacyclohexadec-5-yl]methyl]hexanamide")
 st.markdown(f"Score: 0.228648285137861")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

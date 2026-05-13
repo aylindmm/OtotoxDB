@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5311010.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311010](https://pubchem.ncbi.nlm.nih.gov/compound/5311010)")
 st.markdown(f"IUPAC Name: (2S)-N-[(2S)-5-amino-1-[(2-amino-2-oxoethyl)amino]-1-oxopentan-2-yl]-1-[(4R,7S,10S,13S,16R)-7-(2-amino-2-oxoethyl)-13-[(2S)-butan-2-yl]-16-[(4-ethoxyphenyl)methyl]-10-[(1R)-1-hydroxyethyl]-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carbonyl]pyrrolidine-2-carboxamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

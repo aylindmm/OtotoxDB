@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6038.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6038](https://pubchem.ncbi.nlm.nih.gov/compound/6038)")
 st.markdown(f"IUPAC Name: 1H-quinolin-2-one")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

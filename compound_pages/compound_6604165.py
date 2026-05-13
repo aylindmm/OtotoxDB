@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6604165.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6604165](https://pubchem.ncbi.nlm.nih.gov/compound/6604165)")
 st.markdown(f"IUPAC Name: disodium;azanylidyneoxidanium;iron(2+);pentacyanide")
 st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5280493.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280493](https://pubchem.ncbi.nlm.nih.gov/compound/5280493)")
 st.markdown(f"IUPAC Name: (5S,6R,7E,9E,11Z,14Z)-6-[(2R)-2-[[(4S)-4-amino-4-carboxybutanoyl]amino]-3-(carboxymethylamino)-3-oxopropyl]sulfanyl-5-hydroxyicosa-7,9,11,14-tetraenoic acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_440473.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [440473](https://pubchem.ncbi.nlm.nih.gov/compound/440473)")
 st.markdown(f"IUPAC Name: (2S)-2-amino-3-(3-hydroxy-4-oxo-1-pyridinyl)propanoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

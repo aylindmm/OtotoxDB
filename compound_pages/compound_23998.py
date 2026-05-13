@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_23998.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23998](https://pubchem.ncbi.nlm.nih.gov/compound/23998)")
 st.markdown(f"IUPAC Name: fermium")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

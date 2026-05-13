@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_11618368.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11618368](https://pubchem.ncbi.nlm.nih.gov/compound/11618368)")
 st.markdown(f"IUPAC Name: 4-hydroxy-N-(4-methoxy-7-morpholin-4-yl-1,3-benzothiazol-2-yl)-4-methylpiperidine-1-carboxamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

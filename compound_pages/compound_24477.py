@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_24477.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24477](https://pubchem.ncbi.nlm.nih.gov/compound/24477)")
 st.markdown(f"IUPAC Name: disodium;dioxido-oxo-sulfanylidene-lambda6-sulfane")
 st.markdown(f"Score: -1.04909213180901")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

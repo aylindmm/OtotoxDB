@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_16138723.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16138723](https://pubchem.ncbi.nlm.nih.gov/compound/16138723)")
 st.markdown(f"IUPAC Name: (2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-acetamidopropanoyl]amino]-4-methylsulfanylbutanoyl]amino]-3-methylbutanoyl]amino]-3-hydroxypropanoyl]amino]-4-carboxybutanoyl]amino]-3-phenylpropanoyl]amino]-4-methylpentanoyl]amino]-6-aminohexanoyl]amino]-5-amino-5-oxopentanoyl]amino]propanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]-3-methylpentanoyl]amino]-4-carboxybutanoyl]amino]-4-amino-4-oxobutanoyl]amino]-4-carboxybutanoyl]amino]-4-carboxybutanoyl]amino]-5-amino-5-oxopentanoyl]amino]-4-carboxybutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-methylbutanoyl]amino]-5-amino-5-oxopentanoyl]amino]-3-hydroxybutanoyl]amino]-3-methylbutanoyl]amino]-6-aminohexanoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

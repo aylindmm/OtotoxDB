@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_56842206.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [56842206](https://pubchem.ncbi.nlm.nih.gov/compound/56842206)")
 st.markdown(f"IUPAC Name: (2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-4-methylpentanoyl]amino]-3-methylbutanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]acetyl]amino]-4-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-4-carboxybutanoyl]amino]-3-hydroxybutanoyl]amino]-4-methylpentanoyl]amino]-4-oxobutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-carboxybutanoyl]amino]acetyl]amino]-3-methylbutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxybutanoyl]amino]-3-methylbutanoyl]amino]-3-phenylpropanoyl]amino]propanoyl]pyrrolidine-2-carbonyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-4-carboxybutanoyl]amino]propanoyl]amino]-3-phenylpropanoyl]amino]-5-carbamimidamidopentanoyl]amino]propanoyl]amino]-4-methylpentanoyl]pyrrolidine-2-carbonyl]pyrrolidine-2-carbonyl]amino]-5-carbamimidamidopentanoyl]amino]-4-carboxybutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

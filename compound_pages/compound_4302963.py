@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4302963.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4302963](https://pubchem.ncbi.nlm.nih.gov/compound/4302963)")
 st.markdown(f"IUPAC Name: [6-iodo-2-methyl-1-(2-morpholin-4-ylethyl)indol-3-yl]-(4-methoxyphenyl)methanone")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

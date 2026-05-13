@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_122724.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [122724](https://pubchem.ncbi.nlm.nih.gov/compound/122724)")
 st.markdown(f"IUPAC Name: (2R,4aS,6aR,6aS,14aS,14bR)-10-hydroxy-2,4a,6a,6a,9,14a-hexamethyl-11-oxo-1,3,4,5,6,13,14,14b-octahydropicene-2-carboxylic acid")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_7809.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7809](https://pubchem.ncbi.nlm.nih.gov/compound/7809)")
 st.markdown(f"IUPAC Name: 1,4-xylene")
 st.markdown(f"Score: 0.0806993947545393")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

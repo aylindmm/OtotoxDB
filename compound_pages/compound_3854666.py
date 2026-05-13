@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3854666.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3854666](https://pubchem.ncbi.nlm.nih.gov/compound/3854666)")
 st.markdown(f"IUPAC Name: 1-(2-bromophenyl)-3-(2-hydroxy-4-nitrophenyl)urea")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

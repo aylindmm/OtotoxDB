@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5282381.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5282381](https://pubchem.ncbi.nlm.nih.gov/compound/5282381)")
 st.markdown(f"IUPAC Name: methyl 7-[(1R,2R,3R)-3-hydroxy-2-[(E)-4-hydroxy-4-methyloct-1-enyl]-5-oxocyclopentyl]heptanoate")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_68617.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [68617](https://pubchem.ncbi.nlm.nih.gov/compound/68617)")
 st.markdown(f"IUPAC Name: (1S,4S)-4-(3,4-dichlorophenyl)-N-methyl-1,2,3,4-tetrahydronaphthalen-1-amine")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

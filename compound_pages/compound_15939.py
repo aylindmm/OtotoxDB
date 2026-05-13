@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_15939.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [15939](https://pubchem.ncbi.nlm.nih.gov/compound/15939)")
 st.markdown(f"IUPAC Name: 1-methyl-4-(1-methylpyridin-1-ium-4-yl)pyridin-1-ium")
 st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

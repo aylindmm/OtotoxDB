@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5284569.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5284569](https://pubchem.ncbi.nlm.nih.gov/compound/5284569)")
 st.markdown(f"IUPAC Name: (4R,4aR,7aR,12bS)-9-methoxy-3-methyl-1,2,4,4a,5,6,7a,13-octahydro-4,12-methanobenzofuro[3,2-e]isoquinolin-7-one")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

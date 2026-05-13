@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_65632.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [65632](https://pubchem.ncbi.nlm.nih.gov/compound/65632)")
 st.markdown(f"IUPAC Name: 2-[2-oxo-2-[(2-oxothiolan-3-yl)amino]ethyl]sulfanylacetic acid")
 st.markdown(f"Score: -0.0672494956287828")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_72199289.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72199289](https://pubchem.ncbi.nlm.nih.gov/compound/72199289)")
 st.markdown(f"IUPAC Name: methyl 3-[4-(4-carbamimidoylbenzoyl)piperazine-1-carbonyl]-5-[(4-carbamimidoylpiperazin-1-yl)methyl]benzoate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

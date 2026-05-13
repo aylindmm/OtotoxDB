@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_9552079.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9552079](https://pubchem.ncbi.nlm.nih.gov/compound/9552079)")
 st.markdown(f"IUPAC Name: (1E)-2-[6-[[amino-[(E)-[amino-(4-chloroanilino)methylidene]amino]methylidene]amino]hexyl]-1-[amino-(4-chloroanilino)methylidene]guanidine")
 st.markdown(f"Score: 0.0672494956287828")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

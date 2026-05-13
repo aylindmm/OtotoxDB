@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_10195666.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [10195666](https://pubchem.ncbi.nlm.nih.gov/compound/10195666)")
 st.markdown(f"IUPAC Name: manganese(2+);(4R,9R,14R,19R)-3,10,13,20,26-pentazatetracyclo[20.3.1.04,9.014,19]hexacosa-1(26),22,24-triene;dichloride")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

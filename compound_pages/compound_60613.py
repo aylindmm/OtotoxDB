@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_60613.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60613](https://pubchem.ncbi.nlm.nih.gov/compound/60613)")
 st.markdown(f"IUPAC Name: [(2S)-1-(4-amino-2-oxopyrimidin-1-yl)-3-hydroxypropan-2-yl]oxymethylphosphonic acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

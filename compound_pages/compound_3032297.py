@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3032297.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3032297](https://pubchem.ncbi.nlm.nih.gov/compound/3032297)")
 st.markdown(f"IUPAC Name: disodium;N-[2-(sulfidocarbothioylamino)ethyl]carbamodithioate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

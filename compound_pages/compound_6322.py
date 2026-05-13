@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6322.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6322](https://pubchem.ncbi.nlm.nih.gov/compound/6322)")
 st.markdown(f"IUPAC Name: (2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid")
 st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

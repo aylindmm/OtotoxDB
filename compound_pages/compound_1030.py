@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1030.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1030](https://pubchem.ncbi.nlm.nih.gov/compound/1030)")
 st.markdown(f"IUPAC Name: propane-1,2-diol")
 st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

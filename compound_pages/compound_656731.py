@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_656731.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [656731](https://pubchem.ncbi.nlm.nih.gov/compound/656731)")
 st.markdown(f"IUPAC Name: N-(6-cyano-3-hydroxy-2,2-dimethyl-3,4-dihydrochromen-4-yl)-N-methylethanesulfonamide")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

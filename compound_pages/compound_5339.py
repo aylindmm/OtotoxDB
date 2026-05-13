@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5339.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5339](https://pubchem.ncbi.nlm.nih.gov/compound/5339)")
 st.markdown(f"IUPAC Name: 2-hydroxy-5-[[4-(pyridin-2-ylsulfamoyl)phenyl]diazenyl]benzoic acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6434235.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6434235](https://pubchem.ncbi.nlm.nih.gov/compound/6434235)")
 st.markdown(f"IUPAC Name: (2S,4S,5R,6R)-5-acetamido-6-[3-[(2S,3R,4R,5S,6R)-5-[(2S,3R,4R,5R,6R)-3-acetamido-5-hydroxy-6-(hydroxymethyl)-4-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-2-[(2R,3S,4R,5R,6R)-4,5-dihydroxy-2-(hydroxymethyl)-6-[(E)-3-hydroxy-2-(octadecanoylamino)octadec-4-enoxy]oxan-3-yl]oxy-3-hydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-1,2-dihydroxypropyl]-2,4-dihydroxyoxane-2-carboxylic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

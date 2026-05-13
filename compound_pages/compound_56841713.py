@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_56841713.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [56841713](https://pubchem.ncbi.nlm.nih.gov/compound/56841713)")
 st.markdown(f"IUPAC Name: (4S)-4-[[(2S)-2-[[2-[[(2S)-4-amino-2-[[2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[(2-aminoacetyl)amino]-3-hydroxypropanoyl]amino]-4-methylpentanoyl]amino]-4-methylsulfanylbutanoyl]pyrrolidine-2-carbonyl]amino]-4-methylpentanoyl]pyrrolidine-2-carbonyl]amino]-3-carboxypropanoyl]amino]acetyl]amino]-4-oxobutanoyl]amino]acetyl]amino]-4-methylpentanoyl]amino]-5-[[(2S)-1-[[2-[[(2S)-4-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[(2S)-2-[[(2S)-1-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-4-amino-1-[[2-[(2S)-2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-5-amino-1-[[2-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[2-[(2S)-2-[[(2S)-1-[(2S)-2-[[(1S)-1-carboxy-2-phenylethyl]carbamoyl]pyrrolidin-1-yl]-4-methylsulfanyl-1-oxobutan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-1-oxohexan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-2-oxoethyl]amino]-2-oxoethyl]amino]-1,5-dioxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-1,4-dioxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-2-oxoethyl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-5-oxopentanoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

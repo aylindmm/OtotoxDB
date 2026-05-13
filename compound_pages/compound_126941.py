@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_126941.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [126941](https://pubchem.ncbi.nlm.nih.gov/compound/126941)")
 st.markdown(f"IUPAC Name: (2S)-2-[[4-[(2,4-diaminopteridin-6-yl)methyl-methylamino]benzoyl]amino]pentanedioic acid")
 st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

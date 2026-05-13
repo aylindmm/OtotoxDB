@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_16747683.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16747683](https://pubchem.ncbi.nlm.nih.gov/compound/16747683)")
 st.markdown(f"IUPAC Name: 4-(2-methyl-3-propan-2-ylimidazol-4-yl)-N-(4-methylsulfonylphenyl)pyrimidin-2-amine")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

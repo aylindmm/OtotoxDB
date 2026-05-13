@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4497.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4497](https://pubchem.ncbi.nlm.nih.gov/compound/4497)")
 st.markdown(f"IUPAC Name: 3-O-(2-methoxyethyl) 5-O-propan-2-yl 2,6-dimethyl-4-(3-nitrophenyl)-1,4-dihydropyridine-3,5-dicarboxylate")
 st.markdown(f"Score: -0.0672494956287828")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_2449.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2449](https://pubchem.ncbi.nlm.nih.gov/compound/2449)")
 st.markdown(f"IUPAC Name: 7-phenyl-7-(2,4,5-trimethyl-3,6-dioxocyclohexa-1,4-dien-1-yl)heptanoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

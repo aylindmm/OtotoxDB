@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_180081.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [180081](https://pubchem.ncbi.nlm.nih.gov/compound/180081)")
 st.markdown(f"IUPAC Name: (1S,9R)-1-methyl-16-azatetracyclo[7.6.1.02,7.010,15]hexadeca-2,4,6,10,12,14-hexaene")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

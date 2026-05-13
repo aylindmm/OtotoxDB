@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_64927.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [64927](https://pubchem.ncbi.nlm.nih.gov/compound/64927)")
 st.markdown(f"IUPAC Name: 4-N-(7-chloroquinolin-4-yl)-1-N,1-N-diethylpentane-1,4-diamine;phosphoric acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

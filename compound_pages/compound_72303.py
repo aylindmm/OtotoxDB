@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_72303.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72303](https://pubchem.ncbi.nlm.nih.gov/compound/72303)")
 st.markdown(f"IUPAC Name: 2-(4-hydroxy-3-prop-2-enylphenyl)-4-prop-2-enylphenol")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

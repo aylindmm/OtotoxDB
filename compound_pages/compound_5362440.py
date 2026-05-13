@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5362440.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5362440](https://pubchem.ncbi.nlm.nih.gov/compound/5362440)")
 st.markdown(f"IUPAC Name: (2S)-1-[(2S,4R)-4-benzyl-2-hydroxy-5-[[(1S,2R)-2-hydroxy-2,3-dihydro-1H-inden-1-yl]amino]-5-oxopentyl]-N-tert-butyl-4-(pyridin-3-ylmethyl)piperazine-2-carboxamide")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

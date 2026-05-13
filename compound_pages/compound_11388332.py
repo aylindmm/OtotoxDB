@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_11388332.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11388332](https://pubchem.ncbi.nlm.nih.gov/compound/11388332)")
 st.markdown(f"IUPAC Name: 10-(4,5-dimethoxy-2-methyl-3,6-dioxocyclohexa-1,4-dien-1-yl)decyl-triphenylphosphanium")
 st.markdown(f"Score: -0.0672494956287828")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

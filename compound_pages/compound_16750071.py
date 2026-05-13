@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_16750071.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16750071](https://pubchem.ncbi.nlm.nih.gov/compound/16750071)")
 st.markdown(f"IUPAC Name: 3-[(4-amino-1-tert-butylpyrazolo[3,4-d]pyrimidin-3-yl)methyl]phenol")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

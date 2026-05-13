@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_679.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [679](https://pubchem.ncbi.nlm.nih.gov/compound/679)")
 st.markdown(f"IUPAC Name: methylsulfinylmethane")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

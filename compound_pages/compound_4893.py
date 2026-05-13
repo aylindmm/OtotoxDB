@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4893.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4893](https://pubchem.ncbi.nlm.nih.gov/compound/4893)")
 st.markdown(f"IUPAC Name: [4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(furan-2-yl)methanone")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

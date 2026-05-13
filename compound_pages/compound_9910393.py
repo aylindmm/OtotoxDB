@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_9910393.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9910393](https://pubchem.ncbi.nlm.nih.gov/compound/9910393)")
 st.markdown(f"IUPAC Name: 1-(1,2,3,5,6,7-hexahydro-s-indacen-4-yl)-3-[4-(2-hydroxypropan-2-yl)furan-2-yl]sulfonylurea")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3032536.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3032536](https://pubchem.ncbi.nlm.nih.gov/compound/3032536)")
 st.markdown(f"IUPAC Name: cobalt(2+) dichloride")
 st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

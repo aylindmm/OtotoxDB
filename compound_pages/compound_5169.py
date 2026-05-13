@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5169.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5169](https://pubchem.ncbi.nlm.nih.gov/compound/5169)")
 st.markdown(f"IUPAC Name: 4-[4-(4-fluorophenyl)-5-pyridin-4-yl-1H-imidazol-2-yl]phenol")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

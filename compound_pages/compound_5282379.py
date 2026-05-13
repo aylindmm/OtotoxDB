@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5282379.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5282379](https://pubchem.ncbi.nlm.nih.gov/compound/5282379)")
 st.markdown(f"IUPAC Name: (2Z,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid")
 st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

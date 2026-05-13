@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_7802604.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7802604](https://pubchem.ncbi.nlm.nih.gov/compound/7802604)")
 st.markdown(f"IUPAC Name: 1-[2-(1-benzyl-2,5-dimethylpyrrol-3-yl)-2-oxoethyl]-5-(trifluoromethyl)pyridin-2-one")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

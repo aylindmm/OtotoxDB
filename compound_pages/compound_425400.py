@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_425400.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [425400](https://pubchem.ncbi.nlm.nih.gov/compound/425400)")
 st.markdown(f"IUPAC Name: 4-oxo-4-[[2,5,7,8-tetramethyl-2-(4,8,12-trimethyltridecyl)-3,4-dihydrochromen-6-yl]oxy]butanoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

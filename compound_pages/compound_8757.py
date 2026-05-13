@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_8757.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8757](https://pubchem.ncbi.nlm.nih.gov/compound/8757)")
 st.markdown(f"IUPAC Name: aluminum triacetate")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

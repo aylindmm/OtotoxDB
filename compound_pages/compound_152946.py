@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_152946.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [152946](https://pubchem.ncbi.nlm.nih.gov/compound/152946)")
 st.markdown(f"IUPAC Name: 7-[(4aS,7aS)-1,2,3,4,4a,5,7,7a-octahydropyrrolo[3,4-b]pyridin-6-yl]-1-cyclopropyl-6-fluoro-8-methoxy-4-oxoquinoline-3-carboxylic acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

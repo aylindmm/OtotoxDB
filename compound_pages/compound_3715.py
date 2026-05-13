@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3715.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3715](https://pubchem.ncbi.nlm.nih.gov/compound/3715)")
 st.markdown(f"IUPAC Name: 2-[1-(4-chlorobenzoyl)-5-methoxy-2-methylindol-3-yl]acetic acid")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

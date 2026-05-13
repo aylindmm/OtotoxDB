@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_150311.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [150311](https://pubchem.ncbi.nlm.nih.gov/compound/150311)")
 st.markdown(f"IUPAC Name: (3R,4S)-1-(4-fluorophenyl)-3-[(3S)-3-(4-fluorophenyl)-3-hydroxypropyl]-4-(4-hydroxyphenyl)azetidin-2-one")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

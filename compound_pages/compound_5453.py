@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5453.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5453](https://pubchem.ncbi.nlm.nih.gov/compound/5453)")
 st.markdown(f"IUPAC Name: tris(aziridin-1-yl)-sulfanylidene-lambda5-phosphane")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

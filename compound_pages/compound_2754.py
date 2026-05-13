@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_2754.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2754](https://pubchem.ncbi.nlm.nih.gov/compound/2754)")
 st.markdown(f"IUPAC Name: 6-[4-(1-cyclohexyltetrazol-5-yl)butoxy]-3,4-dihydro-1H-quinolin-2-one")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1548972.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1548972](https://pubchem.ncbi.nlm.nih.gov/compound/1548972)")
 st.markdown(f"IUPAC Name: (E,3S,5R)-7-[3-(4-fluorophenyl)-1-propan-2-ylindol-2-yl]-3,5-dihydroxyhept-6-enoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

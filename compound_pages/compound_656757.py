@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_656757.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [656757](https://pubchem.ncbi.nlm.nih.gov/compound/656757)")
 st.markdown(f"IUPAC Name: (3R)-3-(5-chloro-2-methoxyphenyl)-3-fluoro-6-(trifluoromethyl)-1H-indol-2-one")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

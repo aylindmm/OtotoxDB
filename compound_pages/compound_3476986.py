@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3476986.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3476986](https://pubchem.ncbi.nlm.nih.gov/compound/3476986)")
 st.markdown(f"IUPAC Name: 3a-hydroxy-6-methyl-1-phenyl-2,3-dihydropyrrolo[2,3-b]quinolin-4-one")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

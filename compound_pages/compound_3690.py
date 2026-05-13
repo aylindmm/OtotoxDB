@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3690.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3690](https://pubchem.ncbi.nlm.nih.gov/compound/3690)")
 st.markdown(f"IUPAC Name: N,3-bis(2-chloroethyl)-2-oxo-1,3,2lambda5-oxazaphosphinan-2-amine")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3108.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3108](https://pubchem.ncbi.nlm.nih.gov/compound/3108)")
 st.markdown(f"IUPAC Name: 2-[[2-[bis(2-hydroxyethyl)amino]-4,8-di(piperidin-1-yl)pyrimido[5,4-d]pyrimidin-6-yl]-(2-hydroxyethyl)amino]ethanol")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

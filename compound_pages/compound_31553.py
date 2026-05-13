@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_31553.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [31553](https://pubchem.ncbi.nlm.nih.gov/compound/31553)")
 st.markdown(f"IUPAC Name: (2R,3R)-3,5,7-trihydroxy-2-[(2R,3R)-3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-2,3-dihydro-1,4-benzodioxin-6-yl]-2,3-dihydrochromen-4-one")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

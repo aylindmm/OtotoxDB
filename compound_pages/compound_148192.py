@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_148192.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [148192](https://pubchem.ncbi.nlm.nih.gov/compound/148192)")
 st.markdown(f"IUPAC Name: methyl N-[(2S)-1-[2-[(2S,3S)-2-hydroxy-3-[[(2S)-2-(methoxycarbonylamino)-3,3-dimethylbutanoyl]amino]-4-phenylbutyl]-2-[(4-pyridin-2-ylphenyl)methyl]hydrazinyl]-3,3-dimethyl-1-oxobutan-2-yl]carbamate")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

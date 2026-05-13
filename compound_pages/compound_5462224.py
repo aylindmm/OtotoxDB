@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5462224.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5462224](https://pubchem.ncbi.nlm.nih.gov/compound/5462224)")
 st.markdown(f"IUPAC Name: magnesium")
 st.markdown(f"Score: -0.107599193006052")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

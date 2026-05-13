@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5291.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5291](https://pubchem.ncbi.nlm.nih.gov/compound/5291)")
 st.markdown(f"IUPAC Name: 4-[(4-methylpiperazin-1-yl)methyl]-N-[4-methyl-3-[(4-pyridin-3-ylpyrimidin-2-yl)amino]phenyl]benzamide")
 st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

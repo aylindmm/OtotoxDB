@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_387447.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [387447](https://pubchem.ncbi.nlm.nih.gov/compound/387447)")
 st.markdown(f"IUPAC Name: [(1R)-3-methyl-1-[[(2S)-3-phenyl-2-(pyrazine-2-carbonylamino)propanoyl]amino]butyl]boronic acid")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

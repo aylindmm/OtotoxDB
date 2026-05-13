@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_131801108.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [131801108](https://pubchem.ncbi.nlm.nih.gov/compound/131801108)")
 st.markdown(f"IUPAC Name: N-[(3R)-1-azabicyclo[2.2.2]octan-3-yl]-6-chloro-4-methyl-3-oxo-1,4-benzoxazine-8-carboxamide;benzenesulfonic acid")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

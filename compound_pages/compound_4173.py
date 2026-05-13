@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4173.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4173](https://pubchem.ncbi.nlm.nih.gov/compound/4173)")
 st.markdown(f"IUPAC Name: 2-(2-methyl-5-nitroimidazol-1-yl)ethanol")
 st.markdown(f"Score: 0.107599193006052")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_155167581.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [155167581](https://pubchem.ncbi.nlm.nih.gov/compound/155167581)")
 st.markdown(f"IUPAC Name: N-[[6-[(cyclohexylmethylamino)methyl]imidazo[1,2-a]pyridin-2-yl]methyl]-4-oxopyrido[1,2-a]pyrimidine-2-carboxamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

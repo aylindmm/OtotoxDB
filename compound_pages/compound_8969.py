@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_8969.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8969](https://pubchem.ncbi.nlm.nih.gov/compound/8969)")
 st.markdown(f"IUPAC Name: methyl (1S,15R,18S,19R,20S)-18-hydroxy-1,3,11,12,14,15,16,17,18,19,20,21-dodecahydroyohimban-19-carboxylate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

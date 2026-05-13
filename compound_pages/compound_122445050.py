@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_122445050.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [122445050](https://pubchem.ncbi.nlm.nih.gov/compound/122445050)")
 st.markdown(f"IUPAC Name: (1R,8S)-4-[(4-chlorophenyl)carbamoylamino]-11-methyl-5-thia-11-azatricyclo[6.2.1.02,6]undeca-2(6),3-diene-3-carboxamide")
 st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

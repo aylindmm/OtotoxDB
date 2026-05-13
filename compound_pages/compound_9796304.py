@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_9796304.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9796304](https://pubchem.ncbi.nlm.nih.gov/compound/9796304)")
 st.markdown(f"IUPAC Name: (Z)-2-hydroxyoctadec-9-enoic acid")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

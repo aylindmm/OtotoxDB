@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4095.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4095](https://pubchem.ncbi.nlm.nih.gov/compound/4095)")
 st.markdown(f"IUPAC Name: 6-(dimethylamino)-4,4-diphenylheptan-3-one")
 st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

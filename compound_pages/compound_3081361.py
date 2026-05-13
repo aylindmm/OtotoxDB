@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3081361.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3081361](https://pubchem.ncbi.nlm.nih.gov/compound/3081361)")
 st.markdown(f"IUPAC Name: N-(4-bromo-2-fluorophenyl)-6-methoxy-7-[(1-methylpiperidin-4-yl)methoxy]quinazolin-4-amine")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

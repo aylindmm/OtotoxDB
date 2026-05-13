@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1615.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1615](https://pubchem.ncbi.nlm.nih.gov/compound/1615)")
 st.markdown(f"IUPAC Name: 1-(1,3-benzodioxol-5-yl)-N-methylpropan-2-amine")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

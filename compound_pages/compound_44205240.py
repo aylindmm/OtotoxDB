@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_44205240.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [44205240](https://pubchem.ncbi.nlm.nih.gov/compound/44205240)")
 st.markdown(f"IUPAC Name: 2-[1-ethylsulfonyl-3-[4-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)pyrazol-1-yl]azetidin-3-yl]acetonitrile")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

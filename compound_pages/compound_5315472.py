@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_5315472.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5315472](https://pubchem.ncbi.nlm.nih.gov/compound/5315472)")
 st.markdown(f"IUPAC Name: (1E,6E)-1,7-bis(4-hydroxyphenyl)hepta-1,6-diene-3,5-dione")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

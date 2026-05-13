@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_60825.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60825](https://pubchem.ncbi.nlm.nih.gov/compound/60825)")
 st.markdown(f"IUPAC Name: 4-amino-1-[(2R,5S)-2-(hydroxymethyl)-1,3-oxathiolan-5-yl]pyrimidin-2-one")
 st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

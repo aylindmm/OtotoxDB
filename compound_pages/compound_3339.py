@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3339.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3339](https://pubchem.ncbi.nlm.nih.gov/compound/3339)")
 st.markdown(f"IUPAC Name: propan-2-yl 2-[4-(4-chlorobenzoyl)phenoxy]-2-methylpropanoate")
 st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

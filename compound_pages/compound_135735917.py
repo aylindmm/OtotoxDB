@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_135735917.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135735917](https://pubchem.ncbi.nlm.nih.gov/compound/135735917)")
 st.markdown(f"IUPAC Name: N-[(3-chlorophenyl)methyl]spiro[1,4-dihydroquinoxaline-3,4'-piperidine]-2-imine")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4096211.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4096211](https://pubchem.ncbi.nlm.nih.gov/compound/4096211)")
 st.markdown(f"IUPAC Name: N-(2-benzamido-1,3-benzothiazol-6-yl)adamantane-1-carboxamide")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_23663982.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23663982](https://pubchem.ncbi.nlm.nih.gov/compound/23663982)")
 st.markdown(f"IUPAC Name: sodium (4bS,8R,8aR)-8-carboxy-4b,8-dimethyl-2-propan-2-yl-5,6,7,8a,9,10-hexahydrophenanthrene-3-sulfonate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

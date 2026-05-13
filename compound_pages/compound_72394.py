@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_72394.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72394](https://pubchem.ncbi.nlm.nih.gov/compound/72394)")
 st.markdown(f"IUPAC Name: (2R,3S,4S,5S,6R)-2-[(2S,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(2R,3S,4R,5S)-5-[(1R,2R,3S,5R,6S)-3,5-diamino-2-[(2S,3R,5S,6R)-3-amino-5-hydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-hydroxycyclohexyl]oxy-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl]oxy-4-hydroxyoxan-3-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

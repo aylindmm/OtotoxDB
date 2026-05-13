@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_121513887.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [121513887](https://pubchem.ncbi.nlm.nih.gov/compound/121513887)")
 st.markdown(f"IUPAC Name: trans-(1R,2S)-2-(3,5-difluoro-2-phenylmethoxyphenyl)cyclopropan-1-amine;hydrochloride")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

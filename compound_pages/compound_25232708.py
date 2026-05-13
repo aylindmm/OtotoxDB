@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_25232708.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [25232708](https://pubchem.ncbi.nlm.nih.gov/compound/25232708)")
 st.markdown(f"IUPAC Name: N-[2-[3-(piperazin-1-ylmethyl)imidazo[2,1-b][1,3]thiazol-6-yl]phenyl]quinoxaline-2-carboxamide;hydrochloride")
 st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

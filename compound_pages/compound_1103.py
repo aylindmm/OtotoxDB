@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_1103.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1103](https://pubchem.ncbi.nlm.nih.gov/compound/1103)")
 st.markdown(f"IUPAC Name: N,N'-bis(3-aminopropyl)butane-1,4-diamine")
 st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

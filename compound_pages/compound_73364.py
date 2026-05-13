@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_73364.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [73364](https://pubchem.ncbi.nlm.nih.gov/compound/73364)")
 st.markdown(f"IUPAC Name: benzyl N-[(2S)-4-methyl-1-oxo-1-[[(2S)-1-oxohexan-2-yl]amino]pentan-2-yl]carbamate")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

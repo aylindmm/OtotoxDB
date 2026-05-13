@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_3052776.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3052776](https://pubchem.ncbi.nlm.nih.gov/compound/3052776)")
 st.markdown(f"IUPAC Name: (1R)-N-prop-2-ynyl-2,3-dihydro-1H-inden-1-amine")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

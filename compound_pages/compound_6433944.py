@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6433944.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6433944](https://pubchem.ncbi.nlm.nih.gov/compound/6433944)")
 st.markdown(f"IUPAC Name: (Z)-pent-2-enenitrile")
 st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

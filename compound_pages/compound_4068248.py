@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_4068248.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4068248](https://pubchem.ncbi.nlm.nih.gov/compound/4068248)")
 st.markdown(f"IUPAC Name: ethyl 3-amino-4-(cyclohexylamino)benzoate")
 st.markdown(f"Score: -0.134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):

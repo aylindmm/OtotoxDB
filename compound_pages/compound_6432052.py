@@ -9,6 +9,7 @@ st.image(f"compound_structures/compound_6432052.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6432052](https://pubchem.ncbi.nlm.nih.gov/compound/6432052)")
 st.markdown(f"IUPAC Name: iron(2+);bis(iron(3+));tetrakis(oxygen(2-))")
 st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 
@@ -72,7 +73,6 @@ for variable in tar_filtered['Target.Name'].unique():
         use_container_width=True,
         hide_index=True,
     )
-
 
 
 if st.button("Back"):
