@@ -1,0 +1,8 @@
+[theme]
+primaryColor = "#6d735b"
+backgroundColor = "#f2f2ed"
+secondaryBackgroundColor = "#e5e5de"
+textColor = "#31333F"
+# This is the secret for the rounded look:
+borderRadius = "1.25rem" 
+font = "sans serif"
