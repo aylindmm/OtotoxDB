@@ -51,7 +51,6 @@ st.download_button(
     mime='text/csv',
 )
 
-
 # Display the data as a table using `st.dataframe`.
 st.dataframe(
     df_filtered,
