@@ -18,16 +18,16 @@ Target.Name	prot_name	UniProt..SwissProt..Primary.ID.of.Target.Chain	name	compou
 5-hydroxytryptamine receptor 1D	5HT1D	P28221	['bromocriptine', 'Yohimbine', 'MDMA', 'RUTIN', 'prazosin', 'quercetin', 'venlafaxine']	7
 5-hydroxytryptamine receptor 1E	5HT1E	P28566	['Yohimbine', 'venlafaxine', 'MDMA']	3
 5-hydroxytryptamine receptor 1F	5HT1F	P30939	['Yohimbine', 'venlafaxine']	2
-5-hydroxytryptamine receptor 2B	5HT2B	P41595	['Agomelatine', 'bromocriptine', 'CYPROHEPTADINE', 'propranolol', 'Yohimbine', 'Melatonin', 'mianserin', 'MDMA', 'tranylcypromine', 'Sorafenib', 'trazodone', 'paroxetine', 'chlorpromazine', 'fluoxetine', 'venlafaxine']	15
-5-hydroxytryptamine receptor 2C	5HT2C	P28335	['Agomelatine', 'bromocriptine', 'CYPROHEPTADINE', 'propranolol', 'venlafaxine', 'Melatonin', 'Yohimbine', 'imipramine', 'tranylcypromine', 'Sorafenib', 'trazodone', 'paroxetine', 'bupropion', 'chlorpromazine', 'fluoxetine', 'amitriptyline']	16
+5-hydroxytryptamine receptor 2B	5HT2B	P41595	['Agomelatine', 'bromocriptine', 'CYPROHEPTADINE', 'Yohimbine', 'propranolol', 'Melatonin', 'mianserin', 'MDMA', 'Sorafenib', 'tranylcypromine', 'trazodone', 'paroxetine', 'chlorpromazine', 'fluoxetine', 'venlafaxine']	15
+5-hydroxytryptamine receptor 2C	5HT2C	P28335	['Agomelatine', 'bromocriptine', 'CYPROHEPTADINE', 'venlafaxine', 'Yohimbine', 'Melatonin', 'propranolol', 'imipramine', 'Sorafenib', 'tranylcypromine', 'trazodone', 'paroxetine', 'bupropion', 'chlorpromazine', 'fluoxetine', 'amitriptyline']	16
 5-hydroxytryptamine receptor 3A	5HT3A	P46098	['RUTIN', 'quercetin', 'MDMA']	3
-5-hydroxytryptamine receptor 6	5HT6R	P50406	['bromocriptine', 'CYPROHEPTADINE', 'propranolol', 'venlafaxine', 'imipramine', 'MDMA', 'Sorafenib', 'RUTIN', 'rasagiline', 'tamoxifen', 'chlorpromazine', 'quercetin', 'amitriptyline']	13
-5-hydroxytryptamine receptor 7	5HT7R	P34969	['CYPROHEPTADINE', 'dopamine', 'propranolol', 'Yohimbine', 'mianserin', 'Baicalin', 'imipramine', 'MDMA', 'TAMSULOSIN', 'Sorafenib', 'RUTIN', 'prazosin', 'chlorpromazine', 'quercetin', 'venlafaxine']	15
-6-phosphogluconate dehydrogenase, decarboxylating	6PGD	P52209	['methotrexate', '(-)-Epicatechin', '(-)-Epigallocatechin gallate', 'furosemide']	4
+5-hydroxytryptamine receptor 6	5HT6R	P50406	['bromocriptine', 'CYPROHEPTADINE', 'venlafaxine', 'propranolol', 'imipramine', 'MDMA', 'Sorafenib', 'RUTIN', 'rasagiline', 'tamoxifen', 'chlorpromazine', 'quercetin', 'amitriptyline']	13
+5-hydroxytryptamine receptor 7	5HT7R	P34969	['CYPROHEPTADINE', 'dopamine', 'Yohimbine', 'propranolol', 'mianserin', 'Baicalin', 'imipramine', 'MDMA', 'TAMSULOSIN', 'Sorafenib', 'RUTIN', 'prazosin', 'chlorpromazine', 'quercetin', 'venlafaxine']	15
+6-phosphogluconate dehydrogenase, decarboxylating	6PGD	P52209	['(-)-Epicatechin', '(-)-Epigallocatechin gallate', 'methotrexate', 'furosemide']	4
 7-dehydrocholesterol reductase	DHCR7	Q9UBM7	['tamoxifen', 'doxorubicin']	2
 72 kDa type IV collagenase	MMP2	P08253	['Ilomastat']	1
-A disintegrin and metalloproteinase with thrombospondin motifs 4	ATS4	O75173	['piceatannol', '(-)-Epigallocatechin gallate', 'luteolin', 'Ilomastat']	4
-A disintegrin and metalloproteinase with thrombospondin motifs 5	ATS5	Q9UNA0	['piceatannol', '(-)-Epigallocatechin gallate', 'luteolin', 'Ilomastat']	4
+A disintegrin and metalloproteinase with thrombospondin motifs 4	ATS4	O75173	['(-)-Epigallocatechin gallate', 'luteolin', 'piceatannol', 'Ilomastat']	4
+A disintegrin and metalloproteinase with thrombospondin motifs 5	ATS5	Q9UNA0	['(-)-Epigallocatechin gallate', 'luteolin', 'piceatannol', 'Ilomastat']	4
 ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1	CD38	P28907	['luteolin', 'piceatannol', 'resveratrol', 'quercetin', 'Cianidanol']	5
 ADP-ribosylation factor 1	ARF1	P84077	['QS11']	1
 ALK tyrosine kinase receptor	ALK	Q9UM73	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'quercetin']	8
@@ -67,10 +67,10 @@ Aldo-keto reductase family 1 member C2	AK1C2	P52895	['diazepam', 'NAPROXEN', 'Ca
 Aldo-keto reductase family 1 member C3	AK1C3	P42330	['indomethacin', '58560-75-1', 'Caffeic acid phenethyl ester', 'diazepam', 'NAPROXEN', 'berberine chloride']	6
 Alkaline phosphatase, germ cell type	PPBN	P10696	['Mangiferin', '(-)-Epicatechin', 'Cianidanol', 'curcumin']	4
 Alkaline phosphatase, tissue-nonspecific isozyme	PPBT	P05186	['Mangiferin', 'theophylline', '(-)-Epicatechin', 'curcumin', 'Cianidanol']	5
-Alpha-1A adrenergic receptor	ADA1A	P35348	['bromocriptine', 'doxazosin', 'imipramine', 'clonidine', 'bupropion', 'fluvoxamine', 'fluoxetine', 'propranolol', 'Yohimbine', 'RUTIN', 'trazodone', 'chlorpromazine', 'quercetin', 'venlafaxine', 'amitriptyline', 'brimonidine', 'MDMA', 'TAMSULOSIN', 'paroxetine', 'prazosin', 'terazosin', 'alfuzosin']	22
+Alpha-1A adrenergic receptor	ADA1A	P35348	['bromocriptine', 'doxazosin', 'imipramine', 'clonidine', 'bupropion', 'fluvoxamine', 'fluoxetine', 'Yohimbine', 'propranolol', 'RUTIN', 'trazodone', 'chlorpromazine', 'quercetin', 'venlafaxine', 'amitriptyline', 'brimonidine', 'MDMA', 'TAMSULOSIN', 'paroxetine', 'prazosin', 'terazosin', 'alfuzosin']	22
 Alpha-1D adrenergic receptor	ADA1D	P25100	['terazosin', 'bromocriptine', 'Yohimbine', 'alfuzosin', 'doxazosin', 'clonidine', 'TAMSULOSIN', 'prazosin', 'DEXMEDETOMIDINE']	9
 Alpha-2A adrenergic receptor	ADA2A	P08913	['amitriptyline']	1
-Alpha-amylase 1A	AMY1A	P0DUB6	['luteolin', 'kaempferol', '(-)-Epigallocatechin gallate', 'genistein', 'hesperetin', '(-)-Epicatechin', 'naringenin', 'quercetin', 'Cianidanol']	9
+Alpha-amylase 1A	AMY1A	P0DUB6	['quercetin', '(-)-Epigallocatechin gallate', 'luteolin']	3
 Alpha-ketoglutarate-dependent dioxygenase FTO	FTO	Q9C0B1	['emodin', 'Tacrine', 'Amonafide', 'AMILORIDE']	4
 Alpha-synuclein	SYUA	P37840	['curcumin']	1
 Amiloride-sensitive sodium channel subunit alpha	SCNNA	P37088	['AMILORIDE', 'Benzamil']	2
@@ -88,12 +88,12 @@ Apelin receptor	APJ	P35414	['APELIN-13', 'HELENALIN', 'disulfiram']	3
 Apoptotic protease-activating factor 1	APAF	O14727	['Tanshinone IIA', 'CEFIXIME', 'benzethonium chloride', 'doxorubicin']	4
 Arachidonate 5-lipoxygenase-activating protein	AL5AP	P20292	['acetaminophen']	1
 Arginase-1	ARGI1	P05089	['piceatannol']	1
-Aromatase	CP19A	P11511	['5-Fluorouracil', 'Lumefantrine', 'Ursolic acid', 'genistein', 'naringin', 'Sorafenib', 'resveratrol', 'Galangin', 'naringenin', 'linolenic acid', 'isoliquiritigenin', 'quercetin', 'chrysin', 'apigenin']	14
+Aromatase	CP19A	P11511	['5-Fluorouracil', 'Lumefantrine', 'Ursolic acid', 'genistein', 'Galangin', 'resveratrol', 'Sorafenib', 'naringin', 'naringenin', 'linolenic acid', 'isoliquiritigenin', 'quercetin', 'chrysin', 'apigenin']	14
 Aryl hydrocarbon receptor	AHR	P35869	['RefChem:910044', 'kynurenic acid', 'kaempferol', 'Necrostatin-1']	4
 Atypical kinase COQ8A, mitochondrial	COQ8A	Q8NI60	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Atypical kinase COQ8B, mitochondrial	COQ8B	Q96D53	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Aurora kinase A	AURKA	O14965	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'ellagic acid', 'doxorubicin', 'oxycodone', '129-56-6']	11
-Aurora kinase B	AURKB	Q96GD4	['Lapatinib', 'Canertinib', 'SB-203580', 'luteolin', 'kaempferol', 'Baicalin', 'KW-2449', 'oxycodone', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Galangin', 'ellagic acid', 'Pexidartinib', 'quercetin', 'apigenin']	16
+Aurora kinase B	AURKB	Q96GD4	['Lapatinib', 'Canertinib', 'SB-203580', 'luteolin', 'kaempferol', 'KW-2449', 'Baicalin', 'oxycodone', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Galangin', 'ellagic acid', 'Pexidartinib', 'quercetin', 'apigenin']	16
 Aurora kinase C	AURKC	Q9UQB9	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', '129-56-6']	8
 B-cell CLL/lymphoma 9 protein	BCL9	O00512	['quercetin']	1
 BMP-2-inducible protein kinase	BMP2K	Q9NSY1	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Baricitinib', 'Imatinib', 'Sorafenib', 'Vandetanib', '129-56-6']	9
@@ -177,7 +177,7 @@ Cholecystokinin receptor type A	CCKAR	P32238	['propranolol']	1
 Cholecystokinin receptor type A/Gastrin/cholecystokinin type B receptor	CCKAR	P32238	['diazepam']	1
 Cholesteryl ester transfer protein	CETP	P11597	['Ursolic acid']	1
 Choline O-acetyltransferase	CLAT	P28329	['coenzyme A']	1
-Cholinesterase	CHLE	P06276	['9H-Pyrido[3,4-B]indole', 'luteolin', 'curcumin', 'pentoxifylline', 'trolox', 'ferulic acid', 'apigenin', 'kaempferol', 'Dieckol', 'RUTIN', 'E6 berbamine', 'quercetin', 'rasagiline', 'berberine chloride', '58560-75-1', '4-Aminoantipyrine', 'resveratrol', 'Galangin', 'DIZOCILPINE', 'selegiline', 'Tacrine', 'BERBAMINE', 'thioctic acid']	23
+Cholinesterase	CHLE	P06276	['9H-Pyrido[3,4-B]indole', 'luteolin', 'curcumin', 'pentoxifylline', 'trolox', 'ferulic acid', 'apigenin', 'kaempferol', 'Dieckol', 'RUTIN', 'E6 berbamine', 'quercetin', 'berberine chloride', 'rasagiline', '58560-75-1', 'Galangin', '4-Aminoantipyrine', 'resveratrol', 'DIZOCILPINE', 'selegiline', 'Tacrine', 'BERBAMINE', 'thioctic acid']	23
 Chymase	CMA1	P23946	['Bortezomib']	1
 Chymotrypsin-C	CTRC	Q99895	['quercetin']	1
 Chymotrypsinogen B	A0A2R8YG87	A0A2R8YG87	['quercetin']	1
@@ -230,24 +230,24 @@ Cystic fibrosis transmembrane conductance regulator	CFTR	P13569	['apigenin', 'Iv
 Cystine/glutamate transporter	XCT	Q9UPY5	['L-cysteine']	1
 Cytidine deaminase	CDD	P32320	['cytarabine']	1
 Cytochrome P450 1A1	CP1A1	P04798	['luteolin', 'kaempferol', 'ellipticine', 'Melatonin', 'hesperetin', 'Galangin', 'emodin', 'resveratrol', 'acetaminophen', 'naringenin', 'Pterostilbene', 'formononetin', 'quercetin', 'chrysin', 'apigenin', 'Pifithrin-alpha']	16
-Cytochrome P450 1A2	CP1A2	P05177	['luteolin', 'Telmisartan', 'ceftriaxone', 'Ibrutinib', 'acetaminophen', 'curcumin', 'Ivacaftor', 'chrysin', 'apigenin', 'kaempferol', 'triamcinolone', 'norfloxacin', 'propranolol', 'amodiaquine', 'naphthalene', 'naringenin', 'VERAPAMIL', 'chlorpromazine', 'quercetin', 'isoniazid', 'lansoprazole', 'nifedipine', 'nimodipine', 'Ivermectin B1a', 'ritonavir', 'ifidancitinib', 'Baicalin', 'hesperetin', 'Galangin', 'emodin', 'paroxetine', 'riluzole', 'simvastatin', 'Bedaquiline', 'Tacrine', 'flunarizine', 'cyclosporin A', 'orphenadrine', 'Melatonin', 'ciprofloxacin', 'sertraline', 'linezolid', 'tamoxifen']	43
-Cytochrome P450 1B1	CP1B1	Q16678	['luteolin', 'erythromycin', 'Pterostilbene', 'chrysin', 'fluoxetine', 'apigenin', 'kaempferol', 'estrone', 'naringenin', 'estradiol', 'quercetin', 'berberine chloride', 'hesperetin', 'Galangin', 'emodin', 'resveratrol', 'Melatonin', 'formononetin', 'Pifithrin-alpha']	19
+Cytochrome P450 1A2	CP1A2	P05177	['luteolin', 'Telmisartan', 'ceftriaxone', 'Ibrutinib', 'acetaminophen', 'curcumin', 'Ivacaftor', 'chrysin', 'apigenin', 'kaempferol', 'triamcinolone', 'norfloxacin', 'propranolol', 'amodiaquine', 'naphthalene', 'naringenin', 'VERAPAMIL', 'chlorpromazine', 'quercetin', 'isoniazid', 'lansoprazole', 'nifedipine', 'nimodipine', 'ifidancitinib', 'ritonavir', 'Ivermectin B1a', 'Baicalin', 'hesperetin', 'Galangin', 'emodin', 'paroxetine', 'riluzole', 'simvastatin', 'Bedaquiline', 'Tacrine', 'flunarizine', 'cyclosporin A', 'orphenadrine', 'Melatonin', 'ciprofloxacin', 'sertraline', 'linezolid', 'tamoxifen']	43
+Cytochrome P450 1B1	CP1B1	Q16678	['luteolin', 'erythromycin', 'Pterostilbene', 'chrysin', 'fluoxetine', 'apigenin', 'kaempferol', 'estrone', 'naringenin', 'estradiol', 'quercetin', 'berberine chloride', 'hesperetin', 'Galangin', 'resveratrol', 'emodin', 'Melatonin', 'formononetin', 'Pifithrin-alpha']	19
 Cytochrome P450 26A1	CP26A	O43174	['Tamibarotene']	1
 Cytochrome P450 2A6	CP2A6	P11509	['tranylcypromine', 'naphthalene', 'VALPROIC ACID', 'chrysin', 'isoniazid']	5
 Cytochrome P450 2C19	CP2CJ	P33261	['Telmisartan', 'ceftriaxone', 'Ibrutinib', 'Ivacaftor', 'fluoxetine', 'MEPHENYTOIN', 'norfloxacin', 'propranolol', 'triamcinolone', 'amodiaquine', 'Voriconazole', 'tranylcypromine', 'VERAPAMIL', 'chlorpromazine', 'quercetin', 'isoniazid', 'lansoprazole', 'nifedipine', 'nimodipine', 'Ivermectin B1a', 'ritonavir', 'paroxetine', 'riluzole', 'simvastatin', 'flunarizine', 'cyclosporin A', 'orphenadrine', 'ciprofloxacin', 'sertraline', 'Prilosec', 'tamoxifen']	31
-Cytochrome P450 2C9	CP2C9	P11712	['phenytoin', 'Telmisartan', 'ceftriaxone', 'Ibrutinib', 'curcumin', 'Ivacaftor', 'fluvoxamine', 'chrysin', 'kaempferol', 'triamcinolone', 'norfloxacin', 'propranolol', 'amodiaquine', '1-aminobenzotriazole', 'Voriconazole', 'VERAPAMIL', 'chlorpromazine', 'quercetin', 'lansoprazole', 'nifedipine', 'nimodipine', 'Ivermectin B1a', '58560-75-1', 'ritonavir', 'paroxetine', 'riluzole', 'simvastatin', 'progesterone', 'Bedaquiline', 'flunarizine', 'cyclosporin A', 'silibinin', 'orphenadrine', 'ciprofloxacin', 'sertraline', 'linezolid', 'Prilosec', 'tamoxifen']	38
+Cytochrome P450 2C9	CP2C9	P11712	['phenytoin', 'Telmisartan', 'ceftriaxone', 'Ibrutinib', 'curcumin', 'Ivacaftor', 'fluvoxamine', 'chrysin', 'kaempferol', 'triamcinolone', 'norfloxacin', 'propranolol', 'amodiaquine', '1-aminobenzotriazole', 'Voriconazole', 'VERAPAMIL', 'quercetin', 'chlorpromazine', 'lansoprazole', 'nifedipine', 'nimodipine', 'Ivermectin B1a', '58560-75-1', 'ritonavir', 'paroxetine', 'riluzole', 'simvastatin', 'progesterone', 'Bedaquiline', 'flunarizine', 'cyclosporin A', 'silibinin', 'orphenadrine', 'ciprofloxacin', 'sertraline', 'linezolid', 'Prilosec', 'tamoxifen']	38
 Cytochrome P450 2D6	CP2D6	P10635	['dextromethorphan', 'Tenofovir']	2
 Cytochrome P450 2E1	CP2E1	P05181	['Diethyldithiocarbamate', 'Ivacaftor']	2
-Cytochrome P450 3A4	CP3A4	P08684	['Tamibarotene', 'bromocriptine', 'Tenofovir', 'Telmisartan', 'carbamazepine', 'etoposide', 'ceftriaxone', 'Ibrutinib', 'erythromycin', 'acetaminophen', 'diltiazem', 'curcumin', 'Ivacaftor', 'chloroquine', 'methimazole', 'diclofenac', 'vinblastine', 'fluoxetine', 'chrysin', 'triamcinolone', 'norfloxacin', 'propranolol', 'amodiaquine', 'itraconazole', '1-aminobenzotriazole', 'Imatinib', 'Voriconazole', 'RUTIN', 'digoxin', 'Amitrole', 'VERAPAMIL', 'chlorpromazine', 'quercetin', 'isoniazid', 'Tiliroside', 'lansoprazole', 'nifedipine', 'theophylline', 'nimodipine', 'Lapatinib', 'Ivermectin B1a', 'ritonavir', 'azithromycin', 'ifidancitinib', 'nalidixic acid', 'hydrocortisone', 'atorvastatin', 'resveratrol', 'paroxetine', 'riluzole', 'simvastatin', 'cimetidine', 'dexamethasone', 'chloramphenicol', 'L-histidine', 'Bedaquiline', 'Tacrine', 'D-glutamine', 'L-arginine', 'flunarizine', 'cyclosporin A', 'Vorinostat', 'Lopinavir', 'silibinin', 'orphenadrine', 'indinavir', 'Belinostat', 'artemisinin', 'clarithromycin', 'Sorafenib', 'ciprofloxacin', 'sertraline', 'Prilosec', 'tamoxifen', 'tacrolimus']	75
+Cytochrome P450 3A4	CP3A4	P08684	['Tamibarotene', 'bromocriptine', 'Tenofovir', 'Telmisartan', 'carbamazepine', 'etoposide', 'ceftriaxone', 'Ibrutinib', 'erythromycin', 'diltiazem', 'acetaminophen', 'curcumin', 'Ivacaftor', 'chloroquine', 'methimazole', 'diclofenac', 'vinblastine', 'fluoxetine', 'chrysin', 'triamcinolone', 'norfloxacin', 'propranolol', 'amodiaquine', 'itraconazole', '1-aminobenzotriazole', 'Imatinib', 'Voriconazole', 'RUTIN', 'digoxin', 'Amitrole', 'VERAPAMIL', 'chlorpromazine', 'quercetin', 'isoniazid', 'Tiliroside', 'lansoprazole', 'Lapatinib', 'theophylline', 'nifedipine', 'nimodipine', 'Ivermectin B1a', 'ritonavir', 'azithromycin', 'ifidancitinib', 'nalidixic acid', 'hydrocortisone', 'atorvastatin', 'resveratrol', 'paroxetine', 'riluzole', 'simvastatin', 'cimetidine', 'chloramphenicol', 'dexamethasone', 'L-histidine', 'Bedaquiline', 'Tacrine', 'D-glutamine', 'cyclosporin A', 'L-arginine', 'flunarizine', 'Lopinavir', 'indinavir', 'silibinin', 'orphenadrine', 'Vorinostat', 'Belinostat', 'artemisinin', 'clarithromycin', 'Sorafenib', 'ciprofloxacin', 'sertraline', 'Prilosec', 'tamoxifen', 'tacrolimus']	75
 Cytochrome b-245 heavy chain	CY24B	P04839	['ebselen']	1
 Cytochrome c oxidase subunit 2	COX2	P00403	['diclofenac', 'indomethacin']	2
 Cytoplasmic tyrosine-protein kinase BMX	BMX	P51813	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'genistein', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib']	9
 Cytosolic endo-beta-N-acetylglucosaminidase	ENASE	Q8NFI3	['dexlansoprazole', 'Prilosec', 'lansoprazole']	3
 Cytosolic phospholipase A2 gamma	PA24C	Q9UP65	['indomethacin']	1
-D(1A) dopamine receptor	DRD1	P21728	['amitriptyline', 'dopamine']	2
+D(1A) dopamine receptor	DRD1	P21728	['dopamine', 'amitriptyline']	2
 D(1B) dopamine receptor	DRD5	P21918	['amitriptyline']	1
 D(2) dopamine receptor	DRD2	P14416	['bromocriptine', 'carbamazepine', 'imipramine', 'bupropion', 'cocaine', 'fluoxetine', 'propranolol', 'Yohimbine', '(-)-Butaclamol', 'tranylcypromine', 'trazodone', 'chlorpromazine', 'venlafaxine', 'amitriptyline', 'CYPROHEPTADINE', 'MDMA', 'TAMSULOSIN', 'paroxetine', 'methadone', 'fentanyl', 'selegiline', 'dopamine', 'hydroxyzine']	23
-D(3) dopamine receptor	DRD3	P35462	['amitriptyline', 'chlorpromazine', 'dopamine']	3
+D(3) dopamine receptor	DRD3	P35462	['chlorpromazine', 'dopamine', 'amitriptyline']	3
 D(4) dopamine receptor	DRD4	P21917	['bromocriptine', 'dopamine', 'methadone', 'fentanyl', 'prazosin', 'chlorpromazine', 'quercetin']	7
 D-amino-acid oxidase	OXDA	P14920	['Esomeprazole', 'ceftriaxone']	2
 DNA dC->dU-editing enzyme APOBEC-3A	ABC3A	P31941	['cefotetan', 'TRIMETAZIDINE']	2
@@ -259,20 +259,20 @@ DNA polymerase eta	POLH	Q9Y253	['luteolin', 'kaempferol', 'genistein', 'ellagic 
 DNA repair protein RAD51 homolog 1	RAD51	Q06609	['DACTINOMYCIN', 'doxorubicin']	2
 DNA topoisomerase 2-alpha	TOP2A	P11388	['Epirubicin', 'doxorubicin', 'etoposide']	3
 DNA topoisomerase 2-alpha/2-beta	TOP2A	P11388	['teniposide', 'etoposide', 'ciprofloxacin', 'doxorubicin', 'LEVOFLOXACIN']	5
-DNA topoisomerase 2-beta	TOP2B	Q02880	['norfloxacin', 'nalidixic acid', 'etoposide', 'ciprofloxacin', 'ofloxacin', 'doxorubicin', 'LEVOFLOXACIN']	7
+DNA topoisomerase 2-beta	TOP2B	Q02880	['norfloxacin', 'nalidixic acid', 'etoposide', 'ofloxacin', 'ciprofloxacin', 'doxorubicin', 'LEVOFLOXACIN']	7
 DNA-(apurinic or apyrimidinic site) endonuclease	APEX1	P27695	['Tanshinone IIA']	1
 DNA-dependent protein kinase catalytic subunit	PRKDC	P78527	['Schisandrin B', 'suramin']	2
 Death-associated protein kinase 1	DAPK1	P53355	['Lapatinib', 'Canertinib', 'SB-203580', 'luteolin', 'kaempferol', 'chrysin', 'KW-2449', 'genistein', 'Imatinib', 'Sorafenib', 'Vandetanib', 'quercetin', 'Cianidanol', 'apigenin']	14
 Death-associated protein kinase 2	DAPK2	Q9UIK4	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', '129-56-6']	8
 Death-associated protein kinase 3	DAPK3	O43293	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', '129-56-6']	8
 Dehydrogenase/reductase SDR family member 9	DHRS9	Q9BPW9	['indomethacin', 'trolox']	2
-Delta-type opioid receptor	OPRD	P41143	['flunarizine', 'benzethonium chloride', 'nalmefene', 'NALDEMEDINE', 'propranolol', 'codeine', 'Methylnaltrexone', 'butorphanol', 'Tramadol', 'methadone', 'fentanyl', 'SUFENTANIL', 'oxycodone']	13
+Delta-type opioid receptor	OPRD	P41143	['flunarizine', 'nalmefene', 'benzethonium chloride', 'NALDEMEDINE', 'propranolol', 'codeine', 'Methylnaltrexone', 'butorphanol', 'Tramadol', 'methadone', 'fentanyl', 'SUFENTANIL', 'oxycodone']	13
 Deoxycytidine kinase	DCK	P27707	['zalcitabine']	1
 Dihydrofolate reductase	DYR	P00374	['metformin', '58560-75-1', 'PHENFORMIN', 'trimethoprim', 'methotrexate', 'NAPROXEN', 'riluzole', 'diclofenac']	8
 Dihydroorotate dehydrogenase (quinone), mitochondrial	PYRD	Q02127	['piperine', 'leflunomide', 'cyclosporin A']	3
 Dimer of Protein farnesyltransferase subunit beta	FNTB	P49356	['FTI-277']	1
 Dipeptidyl peptidase 3	DPP3	Q9NY33	['luteolin', 'kaempferol', 'genistein', 'Galangin', 'quercetin', 'chrysin', 'apigenin']	7
-Dipeptidyl peptidase 4	DPP4	P27487	['metformin', 'luteolin', 'Gallic acid', 'kaempferol', 'licochalcone a', 'Baicalin', '(-)-Epigallocatechin gallate', 'genistein', 'hesperetin', 'caffeic acid', 'resveratrol', 'naringenin', 'quercetin', 'apigenin']	14
+Dipeptidyl peptidase 4	DPP4	P27487	['metformin', 'kaempferol', 'Gallic acid', 'luteolin', 'licochalcone a', 'Baicalin', '(-)-Epigallocatechin gallate', 'genistein', 'hesperetin', 'caffeic acid', 'resveratrol', 'naringenin', 'quercetin', 'apigenin']	14
 Discoidin domain-containing receptor 2	DDR2	Q16832	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'DACTINOMYCIN']	8
 Discoidin domain-containing receptor 2 [A642S]	DDR2	Q16832	['Sorafenib', 'Vandetanib', 'SB-203580', 'Imatinib']	4
 Disintegrin and metalloproteinase domain-containing protein 12	ADA12	O43184	['Ilomastat']	1
@@ -287,7 +287,7 @@ Dual specificity mitogen-activated protein kinase kinase 2	MP2K2	P36507	['Lapati
 Dual specificity mitogen-activated protein kinase kinase 3	MP2K3	P46734	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Dual specificity mitogen-activated protein kinase kinase 4	MP2K4	P45985	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'genistein', 'Imatinib', 'Sorafenib', 'Vandetanib']	8
 Dual specificity mitogen-activated protein kinase kinase 5	MP2K5	Q13163	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Dual specificity mitogen-activated protein kinase kinase 6	MP2K6	P52564	['Lapatinib', 'Canertinib', 'SB-203580', 'ETHACRYNIC ACID', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	8
+Dual specificity mitogen-activated protein kinase kinase 6	MP2K6	P52564	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'ETHACRYNIC ACID', 'Imatinib', 'Sorafenib', 'Vandetanib']	8
 Dual specificity protein kinase CLK1	CLK1	P49759	['Lapatinib', 'Canertinib', 'SB-203580', 'chlorhexidine', 'KW-2449', '(-)-Epigallocatechin gallate', 'Imatinib', 'Sorafenib', 'Vandetanib', 'curcumin', 'kenpaullone']	11
 Dual specificity protein kinase CLK1 [R432A]	CLK1	P49759	['Imatinib']	1
 Dual specificity protein kinase CLK2	CLK2	P49760	['Lapatinib', 'Canertinib', 'SB-203580', 'chlorhexidine', 'KW-2449', '(-)-Epigallocatechin gallate', 'Imatinib', 'Sorafenib', 'Vandetanib', 'curcumin', '129-56-6']	11
@@ -395,7 +395,7 @@ Glycine receptor subunit alpha-2	GLRA2	P23416	['Ginkgolide A']	1
 Glycogen phosphorylase, liver form	PYGL	P06737	['quercetin']	1
 Glycogen synthase kinase-3	GSK3B	P49841	['SB 216763']	1
 Glycogen synthase kinase-3 alpha	GSK3A	P49840	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'SB 216763', 'Vandetanib']	8
-Glycogen synthase kinase-3 beta	GSK3B	P49841	['Canertinib', 'luteolin', 'lithium ion', 'Vandetanib', 'curcumin', 'chrysin', 'apigenin', 'chlorhexidine', 'kaempferol', 'hesperidin', 'Imatinib', 'RUTIN', 'naringenin', 'quercetin', 'kenpaullone', 'SU9516', 'ZINC', 'Lapatinib', '(-)-Epigallocatechin gallate', 'genistein', 'hesperetin', 'ellagic acid', 'Tacrine', 'SB-203580', 'KW-2449', 'naringin', 'Sorafenib', 'SB 216763', 'LITHIUM CHLORIDE', 'adenosine', 'ribavirin', 'epalrestat']	32
+Glycogen synthase kinase-3 beta	GSK3B	P49841	['Canertinib', 'luteolin', 'lithium ion', 'Vandetanib', 'curcumin', 'chrysin', 'apigenin', 'chlorhexidine', 'kaempferol', 'hesperidin', 'Imatinib', 'RUTIN', 'naringenin', 'quercetin', 'kenpaullone', 'SU9516', 'Lapatinib', 'ZINC', '(-)-Epigallocatechin gallate', 'genistein', 'hesperetin', 'ellagic acid', 'Tacrine', 'SB-203580', 'KW-2449', 'naringin', 'Sorafenib', 'SB 216763', 'LITHIUM CHLORIDE', 'adenosine', 'ribavirin', 'epalrestat']	32
 Growth factor receptor-bound protein 2	GRB2	P62993	['DACTINOMYCIN']	1
 Growth hormone-releasing hormone receptor	GHRHR	Q02643	['docetaxel']	1
 Guanine deaminase	GUAD	Q9Y2T3	['uric acid']	1
@@ -432,20 +432,20 @@ Histone acetyltransferase KAT5	KAT5	Q92993	['(-)-Epigallocatechin gallate', 'cur
 Histone acetyltransferase p300	EP300	Q09472	['(-)-Epigallocatechin gallate', 'curcumin', 'coenzyme A']	3
 Histone deacetylase	HDAC1	Q13547	['Vorinostat', 'Belinostat', 'Panobinostat', 'N-Acetyl-L-cysteine', 'caffeic acid', 'Vandetanib', 'curcumin', 'VALPROIC ACID', 'trichostatin A', 'CHLOROGENIC ACID']	10
 Histone deacetylase (HDAC1 and HDAC2)	HDAC1	Q13547	['Vorinostat', 'Belinostat']	2
-Histone deacetylase 1	HDAC1	Q13547	['Lapatinib', 'Vorinostat', 'Belinostat', 'lovastatin', 'atorvastatin', 'Imatinib', 'Bortezomib', 'Panobinostat', 'curcumin', 'VALPROIC ACID', 'trichostatin A']	11
+Histone deacetylase 1	HDAC1	Q13547	['Lapatinib', 'Vorinostat', 'Belinostat', 'Panobinostat', 'lovastatin', 'Imatinib', 'atorvastatin', 'Bortezomib', 'curcumin', 'VALPROIC ACID', 'trichostatin A']	11
 Histone deacetylase 1/11/4/6/8	HDAC1	Q13547	['Vorinostat']	1
 Histone deacetylase 1/2/3	HDAC1	Q13547	['trichostatin A']	1
 Histone deacetylase 1/2/3/8	HDAC1	Q13547	['Panobinostat', 'Vorinostat', 'Belinostat']	3
 Histone deacetylase 11	HDA11	Q96DB2	['trichostatin A', 'Panobinostat', 'Vorinostat', 'Belinostat']	4
-Histone deacetylase 2	HDAC2	Q92769	['Vorinostat', 'Belinostat', 'lovastatin', 'atorvastatin', 'ebselen', 'Bortezomib', 'Panobinostat', 'curcumin', 'VALPROIC ACID', 'trichostatin A']	10
-Histone deacetylase 3	HDAC3	O15379	['Lapatinib', 'Vorinostat', 'Belinostat', 'Bortezomib', 'Panobinostat', 'VALPROIC ACID', 'trichostatin A']	7
+Histone deacetylase 2	HDAC2	Q92769	['Vorinostat', 'Belinostat', 'Panobinostat', 'ebselen', 'lovastatin', 'atorvastatin', 'Bortezomib', 'curcumin', 'VALPROIC ACID', 'trichostatin A']	10
+Histone deacetylase 3	HDAC3	O15379	['Lapatinib', 'Vorinostat', 'Belinostat', 'Panobinostat', 'Bortezomib', 'VALPROIC ACID', 'trichostatin A']	7
 Histone deacetylase 3/Nuclear receptor corepressor 2 (HDAC3/NCoR2)	HDAC3	O15379	['trichostatin A', 'Panobinostat', 'Vorinostat']	3
 Histone deacetylase 4	HDAC4	P56524	['Vorinostat', 'Belinostat', 'Panobinostat', 'VALPROIC ACID', 'trichostatin A']	5
 Histone deacetylase 4 [653-1084,H976Y]	HDAC4	P56524	['Vorinostat', 'Belinostat']	2
 Histone deacetylase 5	HDAC5	Q9UQL6	['Vorinostat', 'Belinostat', 'Panobinostat', 'ebselen', 'VALPROIC ACID', 'trichostatin A']	6
-Histone deacetylase 6	HDAC6	Q9UBN7	['Lapatinib', 'Vorinostat', 'Belinostat', 'lovastatin', 'ebselen', 'Imatinib', 'atorvastatin', 'Bortezomib', 'Panobinostat', 'VALPROIC ACID', 'trichostatin A']	11
+Histone deacetylase 6	HDAC6	Q9UBN7	['Lapatinib', 'Vorinostat', 'Belinostat', 'Panobinostat', 'ebselen', 'Imatinib', 'lovastatin', 'atorvastatin', 'Bortezomib', 'VALPROIC ACID', 'trichostatin A']	11
 Histone deacetylase 7	HDAC7	Q8WUI4	['Vorinostat', 'Belinostat', 'Panobinostat', 'VALPROIC ACID', 'trichostatin A']	5
-Histone deacetylase 8	HDAC8	Q9BY41	['Tamibarotene', 'Lapatinib', 'Vorinostat', 'Belinostat', 'Bortezomib', 'Panobinostat', 'curcumin', 'VALPROIC ACID', 'trichostatin A']	9
+Histone deacetylase 8	HDAC8	Q9BY41	['Tamibarotene', 'Lapatinib', 'Vorinostat', 'Belinostat', 'Panobinostat', 'Bortezomib', 'curcumin', 'VALPROIC ACID', 'trichostatin A']	9
 Histone deacetylase 9	HDAC9	Q9UKV0	['Vorinostat', 'Belinostat', 'Panobinostat', 'ebselen', 'VALPROIC ACID', 'trichostatin A']	6
 Histone-lysine N-methyltransferase EHMT1	EHMT1	Q9H9B1	['Diethyldithiocarbamate', 'glutathione', 'ebselen', '1255580-76-7', 'disulfiram']	5
 Histone-lysine N-methyltransferase EHMT2	EHMT2	Q96KQ7	['1255580-76-7']	1
@@ -457,7 +457,7 @@ Homeodomain-interacting protein kinase 3	HIPK3	Q9H422	['Lapatinib', 'Canertinib'
 Homeodomain-interacting protein kinase 4	HIPK4	Q8NE63	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Hormonally up-regulated neu tumor-associated kinase	HUNK	P57058	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Hyaluronidase-1	HYAL1	Q12794	['rosmarinic acid', 'ferulic acid', 'caffeic acid']	3
-Hypoxia-inducible factor 1-alpha	HIF1A	Q16665	"['alvespimycin', 'Ursolic acid', ""2,2'-BIPYRIDINE"", 'deferoxamine']"	4
+Hypoxia-inducible factor 1-alpha	HIF1A	Q16665	"['Ursolic acid', 'alvespimycin', ""2,2'-BIPYRIDINE"", 'deferoxamine']"	4
 Importin subunit alpha-1	IMA1	P52292	['methotrexate']	1
 Indoleamine 2,3-dioxygenase 1	I23O1	P14902	['mitomycin C', '9H-Pyrido[3,4-B]indole', 'Tanshinone IIA', 'ebselen', 'Phenelzine', 'beta-Lapachone', 'oxiconazole', 'Necrostatin-1']	8
 Induced myeloid leukemia cell differentiation protein Mcl-1	MCL1	Q07820	['rosmarinic acid', 'ellagic acid', 'Prilosec']	3
@@ -527,7 +527,7 @@ MAP kinase-interacting serine/threonine-protein kinase 2	MKNK2	Q9HBH9	['Lapatini
 MAP/microtubule affinity-regulating kinase 3	MARK3	P27448	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 MAP/microtubule affinity-regulating kinase 4	MARK4	Q96L34	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Macrophage colony-stimulating factor 1 receptor	CSF1R	P07333	['Pexidartinib']	1
-Macrophage metalloelastase	MMP12	P39900	['piceatannol', 'quercetin', 'luteolin', 'Ilomastat']	4
+Macrophage metalloelastase	MMP12	P39900	['quercetin', 'luteolin', 'piceatannol', 'Ilomastat']	4
 Macrophage migration inhibitory factor	MIF	P14174	['sulforaphane', 'ebselen', 'ellagic acid', 'isoniazid', 'Napqi']	5
 Major prion protein	PRIO	P04156	['chloroquine', 'chlorpromazine', 'carbamazepine', 'imipramine']	4
 Malate dehydrogenase, cytoplasmic	MDHC	P40925	['Delavirdine']	1
@@ -561,7 +561,7 @@ Mineralocorticoid receptor	MCR	P08235	['ALDOSTERONE', 'hydrocortisone', 'FLUTICA
 Misshapen-like kinase 1	MINK1	Q8N4C8	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Mitogen-activated protein kinase 1	MK01	P28482	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', '167869-21-8', '2097416-76-5', 'kenpaullone', '129-56-6']	11
 Mitogen-activated protein kinase 1/3	MK01	P28482	['2097416-76-5']	1
-Mitogen-activated protein kinase 10	MK10	P53779	['Lapatinib', 'Cynaroside', 'Canertinib', 'SB-203580', 'luteolin', 'kaempferol', 'KW-2449', 'Imatinib', 'Sorafenib', '(-)-Epicatechin', 'Vandetanib', 'quercetin', 'chrysin', 'apigenin', '129-56-6']	15
+Mitogen-activated protein kinase 10	MK10	P53779	['Lapatinib', 'Cynaroside', 'Canertinib', 'SB-203580', 'luteolin', 'kaempferol', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', '(-)-Epicatechin', 'quercetin', 'chrysin', 'apigenin', '129-56-6']	15
 Mitogen-activated protein kinase 10/8/9	MK10	P53779	['129-56-6']	1
 Mitogen-activated protein kinase 11	MK11	Q15759	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Mitogen-activated protein kinase 11/12/13/14	MK14	Q16539	['SB-203580', 'Imatinib']	2
@@ -599,7 +599,7 @@ Monocarboxylate transporter 4	MOT4	O15427	['phloretin']	1
 Monoglyceride lipase	MGLL	Q99685	['disulfiram']	1
 Mothers against decapentaplegic homolog 3	SMAD3	P84022	['ellagic acid']	1
 Motilin receptor	MTLR	O43193	['erythromycin']	1
-Mu-type opioid receptor	OPRM	P35372	['Tacrine', 'flunarizine', 'nalmefene', 'NALDEMEDINE', 'propranolol', 'codeine', 'Methylnaltrexone', 'HYDROCODONE', 'Tramadol', 'butorphanol', '8-Cyclopentyl-1,3-dipropylxanthine', 'RUTIN', 'methadone', 'fentanyl', 'SUFENTANIL', 'quercetin', 'oxycodone']	17
+Mu-type opioid receptor	OPRM	P35372	['flunarizine', 'Tacrine', 'nalmefene', 'NALDEMEDINE', 'propranolol', 'codeine', 'Methylnaltrexone', 'HYDROCODONE', 'Tramadol', 'butorphanol', '8-Cyclopentyl-1,3-dipropylxanthine', 'RUTIN', 'methadone', 'fentanyl', 'SUFENTANIL', 'quercetin', 'oxycodone']	17
 Multidrug and toxin extrusion protein 1	S47A1	Q96FL8	['metformin', 'Telmisartan', 'pantoprazole', 'imipramine', 'clonidine', 'erythromycin', 'amantadine', 'losartan', 'enalapril', 'diclofenac', 'disopyramide', 'chlorhexidine', 'indomethacin', 'Imatinib', 'tubocurarine', 'ritonavir', 'dipyridamole', '5-azacytidine', 'prazosin', 'lidocaine', 'cimetidine', 'dexamethasone', 'LEVOFLOXACIN', 'carvedilol', 'Tacrine', 'cetirizine', 'indinavir', 'orphenadrine', 'spironolactone', 'furosemide']	30
 Multidrug and toxin extrusion protein 2	S47A2	Q86VL8	['Tacrine', 'chlorhexidine', 'ritonavir', 'indinavir', 'orphenadrine', 'pantoprazole', 'imipramine', 'Imatinib', 'dipyridamole', 'prazosin', 'tubocurarine', 'cimetidine', 'disopyramide']	13
 Multidrug resistance-associated protein 1	MRP1	P33527	['VERAPAMIL']	1
@@ -615,7 +615,7 @@ Myoglobin	MYG	P02144	['acetaminophen']	1
 Myosin light chain kinase 2, skeletal/cardiac muscle	MYLK2	Q9H1R3	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Myosin light chain kinase 3	MYLK3	Q32MK0	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Myosin light chain kinase family member 4	MYLK4	Q86YV6	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Myosin light chain kinase, smooth muscle	MYLK	Q15746	['nifedipine', 'Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'piceatannol', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Fasudil']	10
+Myosin light chain kinase, smooth muscle	MYLK	Q15746	['Lapatinib', 'nifedipine', 'Canertinib', 'SB-203580', 'KW-2449', 'piceatannol', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Fasudil']	10
 Myosin-IIIa	MYO3A	Q8NEV4	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Myosin-IIIb	MYO3B	Q8WXR4	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Myotonin-protein kinase	DMPK	Q09013	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ximelegatran', 'Fasudil']	9
@@ -624,7 +624,7 @@ N6-adenosine-methyltransferase catalytic subunit	MTA70	Q86U44	['STM2457']	1
 NACHT, LRR and PYD domains-containing protein 3	NLRP3	Q96P20	['isoliquiritigenin', 'curcumin', 'MCC950', 'apigenin']	4
 NAD kinase	NADK	O95544	['(-)-Epigallocatechin gallate']	1
 NAD(P)H dehydrogenase [quinone] 1	NQO1	P15559	['beta-Lapachone']	1
-NAD-dependent protein deacetylase sirtuin-1	SIR1	Q96EB6	['resveratrol', 'Panobinostat', 'nicotinamide', 'suramin']	4
+NAD-dependent protein deacetylase sirtuin-1	SIR1	Q96EB6	['resveratrol', 'suramin', 'nicotinamide', 'Panobinostat']	4
 NAD-dependent protein deacetylase sirtuin-2	SIR2	Q8IXJ6	['Panobinostat', 'idebenone', 'resveratrol', 'nicotinamide', 'lamivudine', 'kenpaullone', 'suramin']	7
 NAD-dependent protein deacetylase sirtuin-3, mitochondrial	SIR3	Q9NTG7	['Honokiol']	1
 NADH-ubiquinone oxidoreductase chain 4	NU4M	P03905	['rotenone']	1
@@ -671,7 +671,7 @@ P-selectin	LYAM3	P16109	['Gallic acid']	1
 P2X purinoceptor 1	P2RX1	P51575	['Adenosine triphosphate']	1
 P2X purinoceptor 2	P2RX2	Q9UBL9	['Adenosine triphosphate']	1
 P2X purinoceptor 3	P2RX3	P56373	['Adenosine triphosphate', 'progesterone', 'suramin']	3
-P2X purinoceptor 4	P2RX4	Q99571	['paroxetine', 'Adenosine triphosphate', 'carbamazepine', 'OXCARBAZEPINE']	4
+P2X purinoceptor 4	P2RX4	Q99571	['Adenosine triphosphate', 'paroxetine', 'carbamazepine', 'OXCARBAZEPINE']	4
 P2Y purinoceptor 11	P2Y11	Q96G91	['Adenosine triphosphate', 'suramin']	2
 P2Y purinoceptor 12	P2Y12	Q9H244	['emodin', 'Adenosine triphosphate', 'Salvianolic acid B', 'doxorubicin']	4
 P2Y purinoceptor 2	P2RY2	P41231	['Adenosine triphosphate', 'suramin']	2
@@ -684,11 +684,11 @@ Peptidyl-prolyl cis-trans isomerase B	PPIB	P23284	['cyclosporin A']	1
 Peptidyl-prolyl cis-trans isomerase D	PPID	Q08752	['cyclosporin A']	1
 Peptidyl-prolyl cis-trans isomerase FKBP14	FKB14	Q9NWM8	['cycloheximide']	1
 Peptidyl-prolyl cis-trans isomerase FKBP1A	FKB1A	P62942	['tacrolimus', 'cycloheximide', 'rapamycin', 'cyclosporin A']	4
-Peptidyl-prolyl cis-trans isomerase FKBP1B	FKB1B	P68106	['tacrolimus', 'rapamycin', 'cyclosporin A']	3
+Peptidyl-prolyl cis-trans isomerase FKBP1B	FKB1B	P68106	['cyclosporin A', 'rapamycin', 'tacrolimus']	3
 Peptidyl-prolyl cis-trans isomerase FKBP3	FKBP3	Q00688	['cycloheximide']	1
 Peptidyl-prolyl cis-trans isomerase FKBP4	FKBP4	Q02790	['tacrolimus', 'cycloheximide', 'rapamycin', 'cyclosporin A']	4
 Peptidyl-prolyl cis-trans isomerase FKBP5	FKBP5	Q13451	['tacrolimus', 'rapamycin']	2
-Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1	PIN1	Q13526	['Retinoic acid', '(-)-Epigallocatechin gallate', 'cycloheximide']	3
+Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1	PIN1	Q13526	['(-)-Epigallocatechin gallate', 'Retinoic acid', 'cycloheximide']	3
 Peptidyl-prolyl cis-trans isomerase NIMA-interacting 4	PIN4	Q9Y237	['cycloheximide']	1
 Perilipin-1	PLIN1	O60240	['nifedipine', 'mecysteine', 'chlorhexidine', 'ETHACRYNIC ACID', 'SUFENTANIL', 'ebselen', 'curcumin', 'thiethylperazine', 'disulfiram']	9
 Perilipin-5	PLIN5	Q00G26	['nifedipine', 'mecysteine', 'chlorhexidine', 'ETHACRYNIC ACID', 'SUFENTANIL', 'ebselen', 'curcumin', 'thiethylperazine', 'disulfiram']	9
@@ -812,7 +812,7 @@ Rho-associated protein kinase 2	ROCK2	O75116	['Lapatinib', '9H-Pyrido[3,4-B]indo
 Rho-related GTP-binding protein RhoC	RHOC	P08134	['atorvastatin']	1
 Rhodopsin kinase GRK1	GRK1	Q15835	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'paroxetine']	8
 Rhodopsin kinase GRK7	GRK7	Q8WTQ7	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Ribosomal protein S6 kinase alpha-1	KS6A1	Q15418	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'SB 216763', 'Vandetanib', 'Ibrutinib']	9
+Ribosomal protein S6 kinase alpha-1	KS6A1	Q15418	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Vandetanib', 'Sorafenib', 'SB 216763', 'Ibrutinib']	9
 Ribosomal protein S6 kinase alpha-2	KS6A2	Q15349	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', '129-56-6']	8
 Ribosomal protein S6 kinase alpha-3	KS6A3	P51812	['Lapatinib', 'Canertinib', 'SB-203580', 'luteolin', 'kaempferol', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	9
 Ribosomal protein S6 kinase alpha-4	KS6A4	O75676	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
@@ -842,7 +842,7 @@ Serine/threonine-protein kinase 3	STK3	Q13188	['Lapatinib', 'Canertinib', 'SB-20
 Serine/threonine-protein kinase 32A	ST32A	Q8WU08	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase 32B	ST32B	Q9NY57	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase 32C	ST32C	Q86UX6	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Serine/threonine-protein kinase 33	STK33	Q9BYT3	['Lapatinib', 'Cynaroside', 'Canertinib', 'SB-203580', 'KW-2449', 'piceatannol', 'Imatinib', 'Sorafenib', 'resveratrol', 'Vandetanib', 'curcumin', 'quercetin', 'phloretin', 'SU9516', 'Fasudil']	15
+Serine/threonine-protein kinase 33	STK33	Q9BYT3	['Lapatinib', 'Cynaroside', 'Canertinib', 'SB-203580', 'KW-2449', 'piceatannol', 'Imatinib', 'Sorafenib', 'Vandetanib', 'resveratrol', 'curcumin', 'quercetin', 'phloretin', 'SU9516', 'Fasudil']	15
 Serine/threonine-protein kinase 35	STK35	Q8TDR2	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase 36	STK36	Q9NRP7	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase 38	STK38	Q15208	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
@@ -855,7 +855,7 @@ Serine/threonine-protein kinase BRSK1	BRSK1	Q8TDC3	['Lapatinib', 'Canertinib', '
 Serine/threonine-protein kinase BRSK2	BRSK2	Q8IWQ3	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase Chk1	CHK1	O14757	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase Chk2	CHK2	O96017	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Serine/threonine-protein kinase D1	KPCD1	Q15139	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'AMILORIDE', 'Vandetanib']	8
+Serine/threonine-protein kinase D1	KPCD1	Q15139	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'AMILORIDE']	8
 Serine/threonine-protein kinase D2	KPCD2	Q9BZL6	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase D3	KPCD3	O94806	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase DCLK1	DCLK1	O15075	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
@@ -884,7 +884,7 @@ Serine/threonine-protein kinase OSR1	OXSR1	O95747	['Lapatinib', 'Canertinib', 'S
 Serine/threonine-protein kinase PAK 4	PAK4	O96013	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase PAK 5	PAK5	Q9P286	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Serine/threonine-protein kinase PAK 6	PAK6	Q9NQU5	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Serine/threonine-protein kinase PLK1	PLK1	P53350	['Lapatinib', 'Thymoquinone', 'Canertinib', 'SB-203580', 'Baicalin', 'KW-2449', 'Imatinib', 'Sorafenib', 'AMILORIDE', 'Vandetanib', 'ellagic acid', 'quercetin', 'kenpaullone']	13
+Serine/threonine-protein kinase PLK1	PLK1	P53350	['Lapatinib', 'Thymoquinone', 'Canertinib', 'SB-203580', 'KW-2449', 'Baicalin', 'Imatinib', 'Sorafenib', 'Vandetanib', 'AMILORIDE', 'ellagic acid', 'quercetin', 'kenpaullone']	13
 Serine/threonine-protein kinase PLK2	PLK2	Q9NYY3	['Lapatinib', 'Thymoquinone', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	8
 Serine/threonine-protein kinase PLK3	PLK3	Q9H4B4	['Lapatinib', 'Thymoquinone', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	8
 Serine/threonine-protein kinase PLK4	PLK4	O00444	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'ellagic acid', '129-56-6']	9
@@ -931,7 +931,7 @@ Sodium channel protein type 7 subunit alpha	SCN7A	Q01118	['amitriptyline']	1
 Sodium channel protein type 8 subunit alpha	SCN8A	Q9UQD0	['TETRODOTOXIN']	1
 Sodium channel protein type 9 subunit alpha	SCN9A	Q15858	['riluzole', 'amitriptyline']	2
 Sodium-dependent dopamine transporter	SC6A3	Q01959	['fluvoxamine', 'dopamine', 'venlafaxine', 'protriptyline', 'MDMA', 'imipramine', 'Phenelzine', 'tranylcypromine', 'trazodone', 'bupropion', 'paroxetine', 'sertraline', 'cocaine', 'fluoxetine', 'amitriptyline']	15
-Sodium-dependent noradrenaline transporter	SC6A2	P23975	['imipramine', 'clonidine', 'Phenelzine', 'bupropion', 'cocaine', 'fluvoxamine', 'fluoxetine', 'Yohimbine', 'tranylcypromine', 'RUTIN', 'trazodone', 'quercetin', 'venlafaxine', 'amitriptyline', 'CYPROHEPTADINE', 'protriptyline', 'Tramadol', 'MDMA', 'paroxetine', 'Tacrine', 'dopamine', 'sertraline']	22
+Sodium-dependent noradrenaline transporter	SC6A2	P23975	['imipramine', 'clonidine', 'Phenelzine', 'bupropion', 'fluvoxamine', 'cocaine', 'fluoxetine', 'Yohimbine', 'tranylcypromine', 'RUTIN', 'trazodone', 'quercetin', 'venlafaxine', 'amitriptyline', 'CYPROHEPTADINE', 'protriptyline', 'Tramadol', 'MDMA', 'paroxetine', 'Tacrine', 'dopamine', 'sertraline']	22
 Sodium-dependent serotonin transporter	SC6A4	P31645	['Escitalopram', 'imipramine', 'Phenelzine', 'bupropion', 'cocaine', 'fluvoxamine', 'fluoxetine', 'Yohimbine', 'tranylcypromine', 'RUTIN', 'trazodone', 'chlorpromazine', 'quercetin', 'venlafaxine', 'amitriptyline', 'CYPROHEPTADINE', 'protriptyline', 'Tramadol', 'MDMA', 'paroxetine', 'dopamine', 'sertraline']	22
 Sodium/bile acid cotransporter	NTCP	Q14973	['rosiglitazone', 'cyclosporin A', 'ritonavir', 'propranolol', 'curcumin', 'Ezetimibe', 'furosemide']	7
 Sodium/glucose cotransporter 1	SC5A1	P13866	['Phlorizin']	1
@@ -941,14 +941,14 @@ Sodium/nucleoside cotransporter 1	S28A1	O00337	['Phlorizin', 'adenosine']	2
 Sodium/nucleoside cotransporter 2	S28A2	O43868	['Phlorizin', 'adenosine']	2
 Solute carrier family 12 member 2	S12A2	P55011	['bumetanide']	1
 Solute carrier family 12 member 5	S12A5	Q9H2X9	['bumetanide']	1
-Solute carrier family 15 member 1	S15A1	P46059	['oseltamivir', 'penicillin g', 'ceftriaxone', 'amoxicillin', 'CEFIXIME', 'ampicillin', 'piperacillin', 'ceftazidime', 'enalapril']	9
+Solute carrier family 15 member 1	S15A1	P46059	['ceftriaxone', 'penicillin g', 'oseltamivir', 'amoxicillin', 'CEFIXIME', 'ampicillin', 'piperacillin', 'ceftazidime', 'enalapril']	9
 Solute carrier family 15 member 2	S15A2	Q16348	['amoxicillin', 'CEFIXIME', 'ampicillin', 'penicillin g']	4
-Solute carrier family 22 member 1	S22A1	O15245	['metformin', 'luteolin', 'PHENFORMIN', 'pantoprazole', 'Tetraethylammonium', 'trimethoprim', 'Quinine', 'agmatine', 'imipramine', 'clonidine', 'diltiazem', 'amantadine', 'SUFENTANIL', 'dextromethorphan', 'disopyramide', 'apigenin', 'chlorhexidine', 'propranolol', 'Imatinib', 'AMILORIDE', 'phenoxybenzamine', 'estradiol', 'VERAPAMIL', 'chlorpromazine', 'amitriptyline', 'ritonavir', 'Methylnaltrexone', 'memantine', 'Tramadol', 'dipyridamole', 'fentanyl', 'prazosin', 'cimetidine', 'progesterone', 'carvedilol', 'Tacrine', 'terazosin', 'indinavir', 'orphenadrine', 'codeine', 'alfuzosin', 'HYDROCODONE', 'oxycodone']	43
+Solute carrier family 22 member 1	S22A1	O15245	['metformin', 'luteolin', 'PHENFORMIN', 'Tetraethylammonium', 'Quinine', 'pantoprazole', 'trimethoprim', 'agmatine', 'imipramine', 'clonidine', 'diltiazem', 'amantadine', 'SUFENTANIL', 'dextromethorphan', 'disopyramide', 'apigenin', 'chlorhexidine', 'propranolol', 'Imatinib', 'AMILORIDE', 'phenoxybenzamine', 'estradiol', 'VERAPAMIL', 'chlorpromazine', 'amitriptyline', 'ritonavir', 'Methylnaltrexone', 'memantine', 'Tramadol', 'dipyridamole', 'fentanyl', 'prazosin', 'cimetidine', 'progesterone', 'carvedilol', 'Tacrine', 'terazosin', 'indinavir', 'orphenadrine', 'codeine', 'alfuzosin', 'HYDROCODONE', 'oxycodone']	43
 Solute carrier family 22 member 11	S22AB	Q9NSA0	['cimetidine', 'pravastatin', 'probenecid', 'ceftriaxone']	4
 Solute carrier family 22 member 16	S22AG	Q86VW1	['L-carnitine']	1
-Solute carrier family 22 member 2	S22A2	O15244	['metformin', 'luteolin', 'PHENFORMIN', 'pantoprazole', 'Tetraethylammonium', 'Quinine', 'imipramine', 'amantadine', 'disopyramide', 'apigenin', 'chlorhexidine', 'Imatinib', 'phenoxybenzamine', 'tubocurarine', 'estradiol', 'ritonavir', 'dipyridamole', 'prazosin', 'cimetidine', 'progesterone', 'carvedilol', 'Tacrine', 'indinavir', 'orphenadrine']	24
-Solute carrier family 22 member 3	S22A3	O75751	['chlorhexidine', 'ritonavir', 'indinavir', 'pantoprazole', 'Tetraethylammonium', 'imipramine', 'clonidine', 'Imatinib', 'prazosin', 'phenoxybenzamine', 'estradiol', 'progesterone']	12
-Solute carrier family 22 member 6	S22A6	Q4U2R8	['salicylic acid', 'indomethacin', '58560-75-1', 'Cilastatin', 'pravastatin', 'ceftriaxone', 'Cidofovir', 'NAPROXEN', 'ellagic acid', 'probenecid', 'cimetidine', 'diclofenac']	12
+Solute carrier family 22 member 2	S22A2	O15244	['metformin', 'luteolin', 'PHENFORMIN', 'Quinine', 'pantoprazole', 'Tetraethylammonium', 'imipramine', 'amantadine', 'disopyramide', 'apigenin', 'chlorhexidine', 'Imatinib', 'phenoxybenzamine', 'tubocurarine', 'estradiol', 'ritonavir', 'dipyridamole', 'prazosin', 'cimetidine', 'progesterone', 'carvedilol', 'Tacrine', 'indinavir', 'orphenadrine']	24
+Solute carrier family 22 member 3	S22A3	O75751	['chlorhexidine', 'ritonavir', 'indinavir', 'Tetraethylammonium', 'pantoprazole', 'imipramine', 'clonidine', 'Imatinib', 'phenoxybenzamine', 'prazosin', 'estradiol', 'progesterone']	12
+Solute carrier family 22 member 6	S22A6	Q4U2R8	['salicylic acid', 'indomethacin', 'Cilastatin', '58560-75-1', 'pravastatin', 'ceftriaxone', 'Cidofovir', 'NAPROXEN', 'ellagic acid', 'probenecid', 'cimetidine', 'diclofenac']	12
 Solute carrier family 22 member 7	S22A7	Q9Y694	['pravastatin', 'probenecid']	2
 Solute carrier family 22 member 8	S22A8	Q8TCC7	['salicylic acid', 'indomethacin', '58560-75-1', 'Cilastatin', 'pravastatin', 'ceftriaxone', 'penicillin g', 'uric acid', 'probenecid', 'cimetidine']	10
 Solute carrier family 28 member 3	S28A3	Q9HAS3	['Phlorizin', 'phloretin', 'adenosine']	3
@@ -979,7 +979,7 @@ Telomerase reverse transcriptase	TERT	O14746	['doxorubicin', '(-)-Epigallocatech
 Testis-specific serine/threonine-protein kinase 1	TSSK1	Q9BXA7	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Thromboxane-A synthase	THAS	P24557	['indomethacin']	1
 Thymidine kinase 2, mitochondrial	KITM	O00142	['cytarabine']	1
-Thymidine kinase, cytosolic	KITH	P04183	['cytarabine', 'zidovudine', 'stavudine']	3
+Thymidine kinase, cytosolic	KITH	P04183	['zidovudine', 'cytarabine', 'stavudine']	3
 Thymidylate synthase	TYSY	P04818	['methotrexate']	1
 Thyroid hormone receptor alpha	THA	P10827	['thyroxine', 'amiodarone']	2
 Thyroid hormone receptor beta	THB	P10828	['thyroxine', 'amiodarone']	2
@@ -989,7 +989,7 @@ Toll-like receptor 4	TLR4	O00206	['methotrexate', 'carvedilol']	2
 Trace amine-associated receptor 1	TAAR1	Q96RJ0	['betahistine', 'dopamine']	2
 Transient receptor potential cation channel subfamily M member 2	TRPM2	O94759	['PJ34', '2-Aminoethyl diphenylborinate']	2
 Transient receptor potential cation channel subfamily M member 6	TRPM6	Q9BX84	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Transient receptor potential cation channel subfamily V member 1	TRPV1	Q8NER1	['capsazepine', 'OLVANIL', 'AMG-517', 'GERANIOL', 'piperine', '2-Aminoethyl diphenylborinate', 'Capsaicin', 'Pterostilbene']	8
+Transient receptor potential cation channel subfamily V member 1	TRPV1	Q8NER1	['capsazepine', 'OLVANIL', 'AMG-517', 'GERANIOL', 'piperine', '2-Aminoethyl diphenylborinate', 'Pterostilbene', 'Capsaicin']	8
 Translocator protein	TSPO	P30536	['diazepam', 'P7C3-A20', 'lorazepam']	3
 Transmembrane prolyl 4-hydroxylase	P4HTM	Q9NXG6	"[""2,2'-BIPYRIDINE""]"	1
 Transthyretin	TTHY	P02766	['resveratrol', 'piceatannol', 'Pterostilbene']	3
@@ -1015,7 +1015,7 @@ Tyrosine-protein kinase ABL1 [201-500,Y253F]	ABL1	P00519	['Imatinib']	1
 Tyrosine-protein kinase ABL1 [201-500]	ABL1	P00519	['Imatinib']	1
 Tyrosine-protein kinase ABL1/ABL2	ABL1	P00519	['genistein', 'Imatinib']	2
 Tyrosine-protein kinase ABL2	ABL2	P42684	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
-Tyrosine-protein kinase BTK	BTK	Q06187	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib']	8
+Tyrosine-protein kinase BTK	BTK	Q06187	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Ibrutinib', 'Sorafenib', 'Vandetanib']	8
 Tyrosine-protein kinase Blk	BLK	P51451	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib']	8
 Tyrosine-protein kinase CSK	CSK	P41240	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'genistein', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib']	9
 Tyrosine-protein kinase FRK	FRK	P42685	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib']	8
@@ -1032,7 +1032,7 @@ Tyrosine-protein kinase SYK	KSYK	P43405	['Lapatinib', 'Canertinib', 'SB-203580',
 Tyrosine-protein kinase Srms	SRMS	Q9H3Y6	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Tyrosine-protein kinase TXK	TXK	P42681	['Ibrutinib']	1
 Tyrosine-protein kinase Tec	TEC	P42680	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib']	8
-Tyrosine-protein kinase Yes	YES	P07947	['Lapatinib', 'Canertinib', 'SB-203580', 'luteolin', 'kaempferol', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib', 'quercetin']	11
+Tyrosine-protein kinase Yes	YES	P07947	['Lapatinib', 'Canertinib', 'luteolin', 'kaempferol', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Ibrutinib', 'quercetin']	11
 Tyrosine-protein kinase ZAP-70	ZAP70	P43403	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Tyrosine-protein kinase receptor TYRO3	TYRO3	Q06418	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
 Tyrosine-protein kinase receptor Tie-1	TIE1	P35590	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib']	7
@@ -1060,7 +1060,7 @@ Urokinase-type plasminogen activator	UROK	P00749	['AMILORIDE', 'quercetin']	2
 V-type proton ATPase subunit B, brain isoform	VATB2	P21281	['enoxacin']	1
 Vascular cell adhesion protein 1	VCAM1	P19320	['probucol']	1
 Vascular endothelial growth factor receptor 1	VGFR1	P17948	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Regorafenib']	8
-Vascular endothelial growth factor receptor 2	VGFR2	P35968	['Lapatinib', 'Canertinib', 'SB-203580', 'Vorinostat', 'KW-2449', 'neomycin', 'Imatinib', 'Sorafenib', 'Vandetanib', 'ellagic acid', 'Regorafenib', 'Pexidartinib', 'quercetin', 'kenpaullone', 'SU9516']	15
+Vascular endothelial growth factor receptor 2	VGFR2	P35968	['Lapatinib', 'Canertinib', 'SB-203580', 'Vorinostat', 'KW-2449', 'neomycin', 'Imatinib', 'Sorafenib', 'Vandetanib', 'Regorafenib', 'ellagic acid', 'Pexidartinib', 'quercetin', 'kenpaullone', 'SU9516']	15
 Vascular endothelial growth factor receptor 3	VGFR3	P35916	['Lapatinib', 'Canertinib', 'SB-203580', 'KW-2449', 'Imatinib', 'Sorafenib', 'Vandetanib', 'ellagic acid', 'Regorafenib']	9
 Vitamin D3 receptor	VDR	P11473	['trichostatin A', 'curcumin']	2
 Vitamin K-dependent protein C	PROC	P04070	['AMILORIDE']	1
