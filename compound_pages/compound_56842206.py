@@ -4,12 +4,11 @@ import pandas as pd
 
 st.set_page_config(page_title="Gc-1008", layout="wide")
 st.title("Gc-1008")
+# Display the image in Streamlit
+st.image(f"compound_structures/compound_56842206.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [56842206](https://pubchem.ncbi.nlm.nih.gov/compound/56842206)")
 st.markdown(f"IUPAC Name: (2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S,3R)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-5-amino-2-[[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-methylsulfanylbutanoyl]amino]-4-methylpentanoyl]amino]-3-methylbutanoyl]amino]propanoyl]amino]propanoyl]amino]-3-methylpentanoyl]amino]-5-oxopentanoyl]amino]-3-hydroxypropanoyl]amino]propanoyl]amino]acetyl]amino]-4-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-4-carboxybutanoyl]amino]-3-hydroxybutanoyl]amino]-4-methylpentanoyl]amino]-4-oxobutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-carboxybutanoyl]amino]acetyl]amino]-3-methylbutanoyl]amino]-3-(4-hydroxyphenyl)propanoyl]amino]-3-hydroxybutanoyl]amino]-3-methylbutanoyl]amino]-3-phenylpropanoyl]amino]propanoyl]pyrrolidine-2-carbonyl]amino]-3-hydroxybutanoyl]amino]-4-oxobutanoyl]amino]-4-carboxybutanoyl]amino]propanoyl]amino]-3-phenylpropanoyl]amino]-5-carbamimidamidopentanoyl]amino]propanoyl]amino]-4-methylpentanoyl]pyrrolidine-2-carbonyl]pyrrolidine-2-carbonyl]amino]-5-carbamimidamidopentanoyl]amino]-4-carboxybutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-3-hydroxypropanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoic acid")
-
-
-# 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_56842206.jpg", width=400)
+st.markdown(f"Score: -0.0134498991257566")
 
 st.write("---")
 
@@ -38,8 +37,16 @@ st.download_button(
 
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
 
+variable_labels = {
+    "ototoxic_drugs": "Ototoxic Reports",
+    "otoprotective_drugs": "Otoprotective Reports",
+}
+
+
 for variable in df_filtered['variable'].unique():
-    st.markdown(f"**{variable}**")
+
+    label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+    st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
     st.dataframe(
         source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),

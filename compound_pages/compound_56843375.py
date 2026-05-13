@@ -4,12 +4,11 @@ import pandas as pd
 
 st.set_page_config(page_title="Tertomotide", layout="wide")
 st.title("Tertomotide")
+# Display the image in Streamlit
+st.image(f"compound_structures/compound_56843375.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [56843375](https://pubchem.ncbi.nlm.nih.gov/compound/56843375)")
 st.markdown(f"IUPAC Name: (2S)-6-amino-2-[[(2S)-1-[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-carboxybutanoyl]amino]propanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]propanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-4-methylpentanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-3-phenylpropanoyl]amino]-3-methylpentanoyl]pyrrolidine-2-carbonyl]amino]hexanoic acid")
-
-
-# 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_56843375.jpg", width=400)
+st.markdown(f"Score: -0.0403496973772697")
 
 st.write("---")
 
@@ -38,8 +37,16 @@ st.download_button(
 
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
 
+variable_labels = {
+    "ototoxic_drugs": "Ototoxic Reports",
+    "otoprotective_drugs": "Otoprotective Reports",
+}
+
+
 for variable in df_filtered['variable'].unique():
-    st.markdown(f"**{variable}**")
+
+    label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+    st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
     st.dataframe(
         source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),

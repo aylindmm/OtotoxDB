@@ -4,12 +4,11 @@ import pandas as pd
 
 st.set_page_config(page_title="Ceramide, monosialosyl tetraglycosyl", layout="wide")
 st.title("Ceramide, monosialosyl tetraglycosyl")
+# Display the image in Streamlit
+st.image(f"compound_structures/compound_6434235.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6434235](https://pubchem.ncbi.nlm.nih.gov/compound/6434235)")
 st.markdown(f"IUPAC Name: (2S,4S,5R,6R)-5-acetamido-6-[3-[(2S,3R,4R,5S,6R)-5-[(2S,3R,4R,5R,6R)-3-acetamido-5-hydroxy-6-(hydroxymethyl)-4-[(2R,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxan-2-yl]oxy-2-[(2R,3S,4R,5R,6R)-4,5-dihydroxy-2-(hydroxymethyl)-6-[(E)-3-hydroxy-2-(octadecanoylamino)octadec-4-enoxy]oxan-3-yl]oxy-3-hydroxy-6-(hydroxymethyl)oxan-4-yl]oxy-1,2-dihydroxypropyl]-2,4-dihydroxyoxane-2-carboxylic acid")
-
-
-# 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_6434235.jpg", width=400)
+st.markdown(f"Score: -0.0134498991257566")
 
 st.write("---")
 
@@ -38,8 +37,16 @@ st.download_button(
 
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
 
+variable_labels = {
+    "ototoxic_drugs": "Ototoxic Reports",
+    "otoprotective_drugs": "Otoprotective Reports",
+}
+
+
 for variable in df_filtered['variable'].unique():
-    st.markdown(f"**{variable}**")
+
+    label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+    st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
     st.dataframe(
         source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),

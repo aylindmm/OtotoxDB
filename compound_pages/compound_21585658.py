@@ -4,12 +4,11 @@ import pandas as pd
 
 st.set_page_config(page_title="Daptomycin", layout="wide")
 st.title("Daptomycin")
+# Display the image in Streamlit
+st.image(f"compound_structures/compound_21585658.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [21585658](https://pubchem.ncbi.nlm.nih.gov/compound/21585658)")
 st.markdown(f"IUPAC Name: (3S)-3-[[(2R)-4-amino-2-[[(2S)-2-(decanoylamino)-3-(1H-indol-3-yl)propanoyl]amino]-4-oxobutanoyl]amino]-4-[[(3S,6S,9R,15S,18R,21S,24S,30S,31R)-3-[2-(2-aminophenyl)-2-oxoethyl]-24-(3-aminopropyl)-15,21-bis(carboxymethyl)-6-[(2R)-1-carboxypropan-2-yl]-9-(hydroxymethyl)-18,31-dimethyl-2,5,8,11,14,17,20,23,26,29-decaoxo-1-oxa-4,7,10,13,16,19,22,25,28-nonazacyclohentriacont-30-yl]amino]-4-oxobutanoic acid")
-
-
-# 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_21585658.jpg", width=400)
+st.markdown(f"Score: 0.0134498991257566")
 
 st.write("---")
 
@@ -38,8 +37,16 @@ st.download_button(
 
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
 
+variable_labels = {
+    "ototoxic_drugs": "Ototoxic Reports",
+    "otoprotective_drugs": "Otoprotective Reports",
+}
+
+
 for variable in df_filtered['variable'].unique():
-    st.markdown(f"**{variable}**")
+
+    label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+    st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
     st.dataframe(
         source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),

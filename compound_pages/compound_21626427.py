@@ -4,12 +4,11 @@ import pandas as pd
 
 st.set_page_config(page_title="Chiisanoside", layout="wide")
 st.title("Chiisanoside")
+# Display the image in Streamlit
+st.image(f"compound_structures/compound_21626427.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [21626427](https://pubchem.ncbi.nlm.nih.gov/compound/21626427)")
 st.markdown(f"IUPAC Name: [(2S,3R,4S,5S,6R)-6-[[(2R,3R,4R,5S,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxymethyl]-3,4,5-trihydroxyoxan-2-yl] (1R,2R,5S,8R,9R,10R,12R,16R,17S,18S,21S)-16-hydroxy-1,2,17-trimethyl-14-oxo-8,18-bis(prop-1-en-2-yl)-13-oxapentacyclo[10.8.1.02,10.05,9.017,21]henicosane-5-carboxylate")
-
-
-# 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_21626427.jpg", width=400)
+st.markdown(f"Score: -0.0134498991257566")
 
 st.write("---")
 
@@ -38,8 +37,16 @@ st.download_button(
 
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
 
+variable_labels = {
+    "ototoxic_drugs": "Ototoxic Reports",
+    "otoprotective_drugs": "Otoprotective Reports",
+}
+
+
 for variable in df_filtered['variable'].unique():
-    st.markdown(f"**{variable}**")
+
+    label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+    st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
     st.dataframe(
         source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),

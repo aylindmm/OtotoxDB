@@ -4,12 +4,11 @@ import pandas as pd
 
 st.set_page_config(page_title="Streptomycin", layout="wide")
 st.title("Streptomycin")
+# Display the image in Streamlit
+st.image(f"compound_structures/compound_19649.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [19649](https://pubchem.ncbi.nlm.nih.gov/compound/19649)")
 st.markdown(f"IUPAC Name: 2-[(1R,2R,3S,4R,5R,6S)-3-(diaminomethylideneamino)-4-[(2R,3R,4R,5S)-3-[(2S,3S,4S,5R,6S)-4,5-dihydroxy-6-(hydroxymethyl)-3-(methylamino)oxan-2-yl]oxy-4-formyl-4-hydroxy-5-methyloxolan-2-yl]oxy-2,5,6-trihydroxycyclohexyl]guanidine")
-
-
-# 4. Display the image in Streamlit
-st.image(f"compound_structures/compound_19649.jpg", width=400)
+st.markdown(f"Score: 1.97713517148621")
 
 st.write("---")
 
@@ -38,8 +37,16 @@ st.download_button(
 
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
 
+variable_labels = {
+    "ototoxic_drugs": "Ototoxic Reports",
+    "otoprotective_drugs": "Otoprotective Reports",
+}
+
+
 for variable in df_filtered['variable'].unique():
-    st.markdown(f"**{variable}**")
+
+    label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+    st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
     st.dataframe(
         source_df[["PMID", "Title"]].rename(columns={"PMID": "PubMed ID", "Title": "Title"}),
