@@ -49,6 +49,32 @@ for variable in df_filtered['variable'].unique():
     )
 
 
+st.subheader("Targets")
+@st.cache_data
+def load_data():
+    targets_info = pd.read_csv("data/target_info.tsv", sep='\t')
+    return sources
+
+target_info = load_data()
+
+tar_filtered = target_info[(target_info["PubChem_CID"] == 107663) ]
+
+tar_filtered['UniProt..SwissProt..Primary.ID.of.Target.Chain'] = tar_filtered['UniProt..SwissProt..Primary.ID.of.Target.Chain'].apply(lambda x: f"https://www.uniprot.org/uniprotkb/{x}/")  
+tar_filtered = tar_filtered.loc[:,('Target.Name', 'prot_name','UniProt..SwissProt..Primary.ID.of.Target.Chain', "variable", 'value') ]
+
+for variable in tar_filtered['Target.Name'].unique():
+
+    st.markdown(f"**{variable}**")
+    source_df = tar_filtered[tar_filtered['Target.Name'] == variable]
+    st.markdown(f"Uniprot ID: [source_df['prot_name'][0]](source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'][0])")
+    st.dataframe(
+        source_df[["variable", "value"]].rename(columns={"Variable": "Binding type", "value": "value"}),
+        use_container_width=True,
+        hide_index=True,
+    )
+
+
+
 if st.button("Back"):
     st.switch_page("pages/1_Home.py")
 
