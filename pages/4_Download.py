@@ -5,11 +5,7 @@ import streamlit as st
 # Show the page title and description.
 st.set_page_config(page_title="Download")
 st.title("Data Download")
-st.write(
-    """
-Click here to download the data:.
-"""
-)
+
 #st.cache_data.clear()
 # Load the data from a CSV. We're caching this so it doesn't reload every time the app
 # reruns (e.g. if the user interacts with the widgets).
@@ -29,4 +25,10 @@ st.download_button(
     data=csv,
     file_name='articles.csv',
     mime='text/csv',
+)
+
+st.write(
+    """
+    The file contains the following columns:
+"""
 )
