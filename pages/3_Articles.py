@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 
 # Show the page title and description.
-st.set_page_config(page_title="Articles", page_icon="🥗")
+st.set_page_config(page_title="Articles")
 st.title("Articles")
 st.write(
     """
@@ -29,7 +29,7 @@ pub_types = st.multiselect(
 )
 
 # Show a slider widget with the years using `st.slider`.
-years = st.slider("Years",2000, 2026, (2000, 2026))
+years = st.slider("Years",1950, 2026, (1950, 2026))
 
 df = df[["PMID", "Year", "Title", "PublicationTypes", "DOI"]]
 
@@ -39,7 +39,7 @@ df_filtered = df_filtered.sort_values(by="Year", ascending=False)
 
 # Convert the PMID column to string to link to PubMed.
 df_filtered['PMID'] = df_filtered['PMID'].apply(lambda x: f"https://pubmed.ncbi.nlm.nih.gov/{x}/")  
-df_filtered['DOI'] = df_filtered['DOI'].apply(lambda x: f"https://doi.org/{x}/" if pd.notnull(x) else x)
+df_filtered['DOI'] = df_filtered['DOI'].apply(lambda x: f"https://doi.org/{x}" if pd.notnull(x) else x)
 
 # Convert dataframe to CSV
 csv = df.to_csv(index=False).encode('utf-8')
