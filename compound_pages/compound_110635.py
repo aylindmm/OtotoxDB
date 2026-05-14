@@ -68,18 +68,17 @@ else:
     for variable in tar_filtered['Target.Name'].unique():
         source_df = tar_filtered[tar_filtered['Target.Name'] == variable]
         uniid = source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].iloc[0]
-        st.markdown(["{variable}"](target_{uniid}/))
-        source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'] = source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].apply(lambda x: f"https://www.uniprot.org/uniprotkb/{x}/") 
+        st.markdown(f"[{variable}](https://some-base-url/target_{uniid}/)")
+        source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'] = source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].apply(lambda x: f"https://www.uniprot.org/uniprotkb/{x}/")
 
         st.markdown(f"Uniprot ID: [{source_df['prot_name'].iloc[0]}]({source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].iloc[0]})")
 
+        st.dataframe(
+            source_df[["variable", "value"]].rename(columns={"variable": "Binding type", "value": "Value (nM)"}),
+            use_container_width=True,
+            hide_index=True,
+        )
 
-        if not source_df.empty:
-            st.dataframe(
-                source_df[["variable", "value"]].rename(columns={"Variable": "Binding type", "value": "Value (nM)"}),
-                use_container_width=True,
-                hide_index=True,
-            )
 if st.button("Back"):
     st.switch_page("pages/1_Home.py")
 
