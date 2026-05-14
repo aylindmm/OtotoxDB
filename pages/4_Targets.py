@@ -42,9 +42,11 @@ df_filtered["name"] = df_filtered["name"].apply(lambda x: ", ".join(ast.literal_
 st.dataframe(
     df_filtered,
     use_container_width=True,
-    column_config={"UniProt..SwissProt..Primary.ID.of.Target.Chain": st.column_config.LinkColumn("UniProt ID", display_text="https://www.uniprot.org/uniprotkb/(.*?)/"),
+    column_config={"Target.Name": st.column_config.TextColumn(label="Target Name"),
+                   "UniProt..SwissProt..Primary.ID.of.Target.Chain": st.column_config.LinkColumn("UniProt ID", display_text="https://www.uniprot.org/uniprotkb/(.*?)/"),
                   "name": st.column_config.ListColumn(label="Compounds"),
                   "prot_name": st.column_config.TextColumn(label="Symbol"),
+                  "compound_count": st.column_config.NumberColumn(label="Compounds"),
                   "link_to_page": st.column_config.LinkColumn("Details", 
                                                                       display_text=":material/open_in_new:") },               
     hide_index=True
