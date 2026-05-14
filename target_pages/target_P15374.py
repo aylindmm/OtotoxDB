@@ -28,7 +28,6 @@ if tar_filtered.empty:
     st.info("No compound information available for this target.")
 else:
     for variable in tar_filtered['PubChem_CID'].unique():
-        st.markdown(f"**{variable}**")
         source_df = tar_filtered[tar_filtered['PubChem_CID'] == variable]
 
         compound_name = compounds[compounds['PubChem_CID'] == variable]['name'].iloc[0]
