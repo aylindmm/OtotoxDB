@@ -33,30 +33,48 @@ variable_labels = {
     "otoprotective_drugs": "Otoprotective Reports",
 }
 
+import ast
+df_filtered["dose"] = df_filtered["dose"].apply(lambda x: ", ".join(ast.literal_eval(x)) if isinstance(x, str) else ", ".join(x))
+df_filtered["administration_route"] = df_filtered["administration_route"].apply(lambda x: ", ".join(ast.literal_eval(x)) if isinstance(x, str) else ", ".join(x))
+
 
 for variable in df_filtered['variable'].unique():
 
-    label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
-    st.markdown(f"**{label}**")
-    source_df = df_filtered[df_filtered['variable'] == variable]
+    if variable == "ototoxic_drugs":
 
-    import ast
-    df_filtered["dose"] = df_filtered["dose"].apply(lambda x: ", ".join(ast.literal_eval(x)) if isinstance(x, str) else ", ".join(x))
-    df_filtered["administration_route"] = df_filtered["administration_route"].apply(lambda x: ", ".join(ast.literal_eval(x)) if isinstance(x, str) else ", ".join(x))
+        label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+        st.markdown(f"**{label}**")
+        source_df = df_filtered[df_filtered['variable'] == variable]
 
-    st.dataframe(
-        source_df[["PMID", "Year","Title", "dose", "administration_route"]].rename(columns={"PMID": "PubMed ID", 
-                                                                                        "Title": "Title", 
-                                                                                        "Year": "Year",
-                                                                                        "dose": "Dose",
-                                                                                        "administration_route": "Administration route"}),
-        use_container_width=True,
-        column_config={
-            "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
-            "Title": st.column_config.TextColumn("Title"),
-        },
-        hide_index=True,
-    )
+        st.dataframe(
+            source_df[["PMID", "Year","Title", "dose", "administration_route"]].rename(columns={"PMID": "PubMed ID", 
+                                                                                            "Title": "Title", 
+                                                                                            "Year": "Year",
+                                                                                            "dose": "Dose",
+                                                                                            "administration_route": "Administration route"}),
+            use_container_width=True,
+            column_config={
+                "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+                "Title": st.column_config.TextColumn("Title"),
+                "Dose": st.column_config.ListColumn(),
+                "Administration route": st.column_config.ListColumn()},
+            hide_index=True,
+        )
+    if variable == "otoprotective_drugs":
+        label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
+        st.markdown(f"**{label}**")
+        source_df = df_filtered[df_filtered['variable'] == variable]
+        st.dataframe(
+            source_df[["PMID", "Year","Title"]].rename(columns={"PMID": "PubMed ID", 
+                                                                                            "Title": "Title", 
+                                                                                            "Year": "Year"}),
+            use_container_width=True,
+            column_config={
+                "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
+                "Title": st.column_config.TextColumn("Title"),
+            },
+            hide_index=True,
+        )
 
 
 st.subheader("Targets")
