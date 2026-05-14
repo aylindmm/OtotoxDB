@@ -8,7 +8,7 @@ st.title("Ibrutinib")
 st.image(f"compound_structures/compound_24821094.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24821094](https://pubchem.ncbi.nlm.nih.gov/compound/24821094)")
 st.markdown(f"IUPAC Name: 1-[(3R)-3-[4-amino-3-(4-phenoxyphenyl)pyrazolo[3,4-d]pyrimidin-1-yl]piperidin-1-yl]prop-2-en-1-one")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

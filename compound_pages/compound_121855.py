@@ -8,7 +8,7 @@ st.title("Calpain inhibitor ii")
 st.image(f"compound_structures/compound_121855.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [121855](https://pubchem.ncbi.nlm.nih.gov/compound/121855)")
 st.markdown(f"IUPAC Name: (2S)-2-acetamido-4-methyl-N-[(2S)-4-methyl-1-[[(2S)-4-methylsulfanyl-1-oxobutan-2-yl]amino]-1-oxopentan-2-yl]pentanamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

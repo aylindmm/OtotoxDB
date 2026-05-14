@@ -8,7 +8,7 @@ st.title("Pifithrin-alpha")
 st.image(f"compound_structures/compound_9929138.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9929138](https://pubchem.ncbi.nlm.nih.gov/compound/9929138)")
 st.markdown(f"IUPAC Name: 2-(2-imino-4,5,6,7-tetrahydro-1,3-benzothiazol-3-yl)-1-(4-methylphenyl)ethanone;hydrobromide")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

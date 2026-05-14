@@ -8,7 +8,7 @@ st.title("Dapt")
 st.image(f"compound_structures/compound_5311272.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311272](https://pubchem.ncbi.nlm.nih.gov/compound/5311272)")
 st.markdown(f"IUPAC Name: tert-butyl (2S)-2-[[(2S)-2-[[2-(3,5-difluorophenyl)acetyl]amino]propanoyl]amino]-2-phenylacetate")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

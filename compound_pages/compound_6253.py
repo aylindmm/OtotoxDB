@@ -8,8 +8,8 @@ st.title("Cytarabine")
 st.image(f"compound_structures/compound_6253.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6253](https://pubchem.ncbi.nlm.nih.gov/compound/6253)")
 st.markdown(f"IUPAC Name: 4-amino-1-[(2R,3S,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]pyrimidin-2-one")
-st.markdown(f"Score: 0.0268997982515131")
-st.markdown(f"Classification: ototoxic")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

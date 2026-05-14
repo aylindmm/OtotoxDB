@@ -8,8 +8,8 @@ st.title("Imipramine")
 st.image(f"compound_structures/compound_3696.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3696](https://pubchem.ncbi.nlm.nih.gov/compound/3696)")
 st.markdown(f"IUPAC Name: 3-(5,6-dihydrobenzo[b][1]benzazepin-11-yl)-N,N-dimethylpropan-1-amine")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0757958564931784")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

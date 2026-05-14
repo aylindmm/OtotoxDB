@@ -8,7 +8,7 @@ st.title("Mecysteine")
 st.image(f"compound_structures/compound_29145.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [29145](https://pubchem.ncbi.nlm.nih.gov/compound/29145)")
 st.markdown(f"IUPAC Name: methyl (2R)-2-amino-3-sulfanylpropanoate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Dexlansoprazole")
 st.image(f"compound_structures/compound_9578005.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9578005](https://pubchem.ncbi.nlm.nih.gov/compound/9578005)")
 st.markdown(f"IUPAC Name: 2-[(R)-[3-methyl-4-(2,2,2-trifluoroethoxy)-2-pyridinyl]methylsulfinyl]-1H-benzimidazole")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

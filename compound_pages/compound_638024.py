@@ -8,7 +8,7 @@ st.title("Piperine")
 st.image(f"compound_structures/compound_638024.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [638024](https://pubchem.ncbi.nlm.nih.gov/compound/638024)")
 st.markdown(f"IUPAC Name: (2E,4E)-5-(1,3-benzodioxol-5-yl)-1-piperidin-1-ylpenta-2,4-dien-1-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

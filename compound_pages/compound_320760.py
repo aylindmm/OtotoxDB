@@ -8,7 +8,7 @@ st.title("Cyclodextrin")
 st.image(f"compound_structures/compound_320760.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [320760](https://pubchem.ncbi.nlm.nih.gov/compound/320760)")
 st.markdown(f"IUPAC Name: 5,10,15,20,25,30-hexakis(hydroxymethyl)-2,4,7,9,12,14,17,19,22,24,27,29-dodecaoxaheptacyclo[26.2.2.23,6.28,11.213,16.218,21.223,26]dotetracontane-31,32,33,34,35,36,37,38,39,40,41,42-dodecol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0589523328280276")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

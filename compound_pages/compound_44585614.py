@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Colimycine", layout="wide")
-st.title("Colimycine")
+st.set_page_config(page_title="Colistin methane sulfonate", layout="wide")
+st.title("Colistin methane sulfonate")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_44585614.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [44585614](https://pubchem.ncbi.nlm.nih.gov/compound/44585614)")
 st.markdown(f"IUPAC Name: 6-methyl-N-[2-[(2S,5S,8S,11S,14S,17S,20S,23S)-8,11,14,20-tetrakis(2-aminoethyl)-5-[(1R)-1-hydroxyethyl]-17,23-bis(2-methylpropyl)-3,6,9,12,15,18,21,24-octaoxo-1,4,7,10,13,16,19,22-octazacyclotetracos-2-yl]ethyl]octanamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

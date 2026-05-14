@@ -8,7 +8,7 @@ st.title("Sch-37224")
 st.image(f"compound_structures/compound_54680204.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54680204](https://pubchem.ncbi.nlm.nih.gov/compound/54680204)")
 st.markdown(f"IUPAC Name: 4-hydroxy-1-phenyl-3-pyrrolidin-1-yl-1,8-naphthyridin-2-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

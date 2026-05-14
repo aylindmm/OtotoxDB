@@ -8,7 +8,7 @@ st.title("Acetaminophen")
 st.image(f"compound_structures/compound_1983.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1983](https://pubchem.ncbi.nlm.nih.gov/compound/1983)")
 st.markdown(f"IUPAC Name: N-(4-hydroxyphenyl)acetamide")
-st.markdown(f"Score: 0.107599193006052")
+st.markdown(f"Score: 0.151591712986357")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

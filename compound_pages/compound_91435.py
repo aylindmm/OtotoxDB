@@ -8,7 +8,7 @@ st.title("Lactate")
 st.image(f"compound_structures/compound_91435.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [91435](https://pubchem.ncbi.nlm.nih.gov/compound/91435)")
 st.markdown(f"IUPAC Name: 2-hydroxypropanoate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

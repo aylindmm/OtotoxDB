@@ -8,8 +8,8 @@ st.title("Gadolinium")
 st.image(f"compound_structures/compound_23982.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23982](https://pubchem.ncbi.nlm.nih.gov/compound/23982)")
 st.markdown(f"IUPAC Name: gadolinium")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Mechlorethamine")
 st.image(f"compound_structures/compound_4033.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4033](https://pubchem.ncbi.nlm.nih.gov/compound/4033)")
 st.markdown(f"IUPAC Name: 2-chloro-N-(2-chloroethyl)-N-methylethanamine")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

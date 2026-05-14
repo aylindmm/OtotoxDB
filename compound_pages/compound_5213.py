@@ -8,7 +8,7 @@ st.title("Silymarin")
 st.image(f"compound_structures/compound_5213.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5213](https://pubchem.ncbi.nlm.nih.gov/compound/5213)")
 st.markdown(f"IUPAC Name: 3,5,7-trihydroxy-2-[3-(4-hydroxy-3-methoxyphenyl)-2-(hydroxymethyl)-2,3-dihydro-1,4-benzodioxin-6-yl]-2,3-dihydrochromen-4-one")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

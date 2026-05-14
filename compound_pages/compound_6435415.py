@@ -8,7 +8,7 @@ st.title("Cilastatin")
 st.image(f"compound_structures/compound_6435415.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6435415](https://pubchem.ncbi.nlm.nih.gov/compound/6435415)")
 st.markdown(f"IUPAC Name: (Z)-7-[(2R)-2-amino-2-carboxyethyl]sulfanyl-2-[[(1S)-2,2-dimethylcyclopropanecarbonyl]amino]hept-2-enoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

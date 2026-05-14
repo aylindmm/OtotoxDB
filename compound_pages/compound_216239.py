@@ -8,7 +8,7 @@ st.title("Sorafenib")
 st.image(f"compound_structures/compound_216239.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [216239](https://pubchem.ncbi.nlm.nih.gov/compound/216239)")
 st.markdown(f"IUPAC Name: 4-[4-[[4-chloro-3-(trifluoromethyl)phenyl]carbamoylamino]phenoxy]-N-methylpyridine-2-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

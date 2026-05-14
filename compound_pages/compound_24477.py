@@ -8,7 +8,7 @@ st.title("Sodium thiosulfate")
 st.image(f"compound_structures/compound_24477.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24477](https://pubchem.ncbi.nlm.nih.gov/compound/24477)")
 st.markdown(f"IUPAC Name: disodium;dioxido-oxo-sulfanylidene-lambda6-sulfane")
-st.markdown(f"Score: -1.04909213180901")
+st.markdown(f"Score: -1.0274549435742")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Mercuric chloride")
 st.image(f"compound_structures/compound_24085.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24085](https://pubchem.ncbi.nlm.nih.gov/compound/24085)")
 st.markdown(f"IUPAC Name: dichloromercury")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

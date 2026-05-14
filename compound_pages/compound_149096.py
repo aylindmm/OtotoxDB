@@ -8,7 +8,7 @@ st.title("Levofloxacin")
 st.image(f"compound_structures/compound_149096.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [149096](https://pubchem.ncbi.nlm.nih.gov/compound/149096)")
 st.markdown(f"IUPAC Name: (2S)-7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

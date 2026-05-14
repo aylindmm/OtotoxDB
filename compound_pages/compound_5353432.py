@@ -8,7 +8,7 @@ st.title("Bay 11-7085")
 st.image(f"compound_structures/compound_5353432.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5353432](https://pubchem.ncbi.nlm.nih.gov/compound/5353432)")
 st.markdown(f"IUPAC Name: (E)-3-(4-tert-butylphenyl)sulfonylprop-2-enenitrile")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Dopamine")
 st.image(f"compound_structures/compound_681.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [681](https://pubchem.ncbi.nlm.nih.gov/compound/681)")
 st.markdown(f"IUPAC Name: 4-(2-aminoethyl)benzene-1,2-diol")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

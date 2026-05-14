@@ -8,7 +8,7 @@ st.title("N-(2-aminoethyl)-2-(4-(2-(4-((9-((2r,3r,4s,5r)-3,4-dihydroxy-5-(hydrox
 st.image(f"compound_structures/compound_126054.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [126054](https://pubchem.ncbi.nlm.nih.gov/compound/126054)")
 st.markdown(f"IUPAC Name: N-(2-aminoethyl)-2-[4-[[2-[4-[[9-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]purin-6-yl]amino]phenyl]acetyl]amino]phenyl]acetamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

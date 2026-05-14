@@ -8,7 +8,7 @@ st.title("Diallyl disulfide")
 st.image(f"compound_structures/compound_16590.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16590](https://pubchem.ncbi.nlm.nih.gov/compound/16590)")
 st.markdown(f"IUPAC Name: 3-(prop-2-enyldisulfanyl)prop-1-ene")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

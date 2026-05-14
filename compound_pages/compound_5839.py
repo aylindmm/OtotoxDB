@@ -8,8 +8,8 @@ st.title("Aldosterone")
 st.image(f"compound_structures/compound_5839.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5839](https://pubchem.ncbi.nlm.nih.gov/compound/5839)")
 st.markdown(f"IUPAC Name: (8S,9S,10R,11S,13R,14S,17S)-11-hydroxy-17-(2-hydroxyacetyl)-10-methyl-3-oxo-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthrene-13-carbaldehyde")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

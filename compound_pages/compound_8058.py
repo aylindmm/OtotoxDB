@@ -8,7 +8,7 @@ st.title("Hexane")
 st.image(f"compound_structures/compound_8058.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8058](https://pubchem.ncbi.nlm.nih.gov/compound/8058)")
 st.markdown(f"IUPAC Name: hexane")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

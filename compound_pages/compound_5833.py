@@ -8,8 +8,8 @@ st.title("Spironolactone")
 st.image(f"compound_structures/compound_5833.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5833](https://pubchem.ncbi.nlm.nih.gov/compound/5833)")
 st.markdown(f"IUPAC Name: S-[(7R,8R,9S,10R,13S,14S,17R)-10,13-dimethyl-3,5'-dioxospiro[2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthrene-17,2'-oxolane]-7-yl] ethanethioate")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: -0.0084217618325753")
+st.markdown(f"Classification: otoprotective")
 
 st.write("---")
 

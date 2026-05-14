@@ -8,7 +8,7 @@ st.title("Isoliquiritigenin")
 st.image(f"compound_structures/compound_638278.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [638278](https://pubchem.ncbi.nlm.nih.gov/compound/638278)")
 st.markdown(f"IUPAC Name: (E)-1-(2,4-dihydroxyphenyl)-3-(4-hydroxyphenyl)prop-2-en-1-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

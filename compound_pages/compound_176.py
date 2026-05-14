@@ -8,7 +8,7 @@ st.title("Acetic acid")
 st.image(f"compound_structures/compound_176.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [176](https://pubchem.ncbi.nlm.nih.gov/compound/176)")
 st.markdown(f"IUPAC Name: acetic acid")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

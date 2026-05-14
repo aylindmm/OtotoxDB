@@ -8,7 +8,7 @@ st.title("Bupivacaine [usan:inn:ban]")
 st.image(f"compound_structures/compound_2474.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2474](https://pubchem.ncbi.nlm.nih.gov/compound/2474)")
 st.markdown(f"IUPAC Name: 1-butyl-N-(2,6-dimethylphenyl)piperidine-2-carboxamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.117904665656055")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Ccpa")
 st.image(f"compound_structures/compound_123807.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [123807](https://pubchem.ncbi.nlm.nih.gov/compound/123807)")
 st.markdown(f"IUPAC Name: (2R,3R,4S,5R)-2-[2-chloro-6-(cyclopentylamino)purin-9-yl]-5-(hydroxymethyl)oxolane-3,4-diol")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Aminoguanidine")
 st.image(f"compound_structures/compound_2146.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2146](https://pubchem.ncbi.nlm.nih.gov/compound/2146)")
 st.markdown(f"IUPAC Name: 2-aminoguanidine")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

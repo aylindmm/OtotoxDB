@@ -8,7 +8,7 @@ st.title("Memantine")
 st.image(f"compound_structures/compound_4054.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4054](https://pubchem.ncbi.nlm.nih.gov/compound/4054)")
 st.markdown(f"IUPAC Name: 3,5-dimethyladamantan-1-amine")
-st.markdown(f"Score: -0.0806993947545393")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

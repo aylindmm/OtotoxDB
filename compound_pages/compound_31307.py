@@ -8,7 +8,7 @@ st.title("Triamcinolone")
 st.image(f"compound_structures/compound_31307.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [31307](https://pubchem.ncbi.nlm.nih.gov/compound/31307)")
 st.markdown(f"IUPAC Name: (8S,9R,10S,11S,13S,14S,16R,17S)-9-fluoro-11,16,17-trihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-3-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

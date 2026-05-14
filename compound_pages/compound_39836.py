@@ -8,7 +8,7 @@ st.title("L-name")
 st.image(f"compound_structures/compound_39836.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [39836](https://pubchem.ncbi.nlm.nih.gov/compound/39836)")
 st.markdown(f"IUPAC Name: methyl (2S)-2-amino-5-[[amino(nitramido)methylidene]amino]pentanoate")
-st.markdown(f"Score: -0.161398789509079")
+st.markdown(f"Score: -0.0589523328280276")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

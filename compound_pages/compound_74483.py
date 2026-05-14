@@ -8,7 +8,7 @@ st.title("Perfluorooctanesulfonic acid")
 st.image(f"compound_structures/compound_74483.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [74483](https://pubchem.ncbi.nlm.nih.gov/compound/74483)")
 st.markdown(f"IUPAC Name: 1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluorooctane-1-sulfonic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

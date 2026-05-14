@@ -8,7 +8,7 @@ st.title("Cromolyn sodium")
 st.image(f"compound_structures/compound_27503.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [27503](https://pubchem.ncbi.nlm.nih.gov/compound/27503)")
 st.markdown(f"IUPAC Name: disodium;5-[3-(2-carboxylato-4-oxochromen-5-yl)oxy-2-hydroxypropoxy]-4-oxochromene-2-carboxylate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

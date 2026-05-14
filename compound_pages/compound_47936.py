@@ -8,7 +8,7 @@ st.title("Forskolin")
 st.image(f"compound_structures/compound_47936.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [47936](https://pubchem.ncbi.nlm.nih.gov/compound/47936)")
 st.markdown(f"IUPAC Name: [(3R,4aR,5S,6S,6aS,10S,10aR,10bS)-3-ethenyl-6,10,10b-trihydroxy-3,4a,7,7,10a-pentamethyl-1-oxo-5,6,6a,8,9,10-hexahydro-2H-benzo[f]chromen-5-yl] acetate")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

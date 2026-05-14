@@ -8,7 +8,7 @@ st.title("Glucantime")
 st.image(f"compound_structures/compound_64953.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [64953](https://pubchem.ncbi.nlm.nih.gov/compound/64953)")
 st.markdown(f"IUPAC Name: hydroxy(dioxo)-lambda5-stibane;(2R,3R,4R,5S)-6-(methylamino)hexane-1,2,3,4,5-pentol")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

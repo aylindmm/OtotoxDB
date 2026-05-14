@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Refchem:722994", layout="wide")
-st.title("Refchem:722994")
+st.set_page_config(page_title="Hmr1556", layout="wide")
+st.title("Hmr1556")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_656731.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [656731](https://pubchem.ncbi.nlm.nih.gov/compound/656731)")
 st.markdown(f"IUPAC Name: N-(6-cyano-3-hydroxy-2,2-dimethyl-3,4-dihydrochromen-4-yl)-N-methylethanesulfonamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

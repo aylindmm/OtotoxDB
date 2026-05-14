@@ -8,7 +8,7 @@ st.title("Crotononitrile")
 st.image(f"compound_structures/compound_637921.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [637921](https://pubchem.ncbi.nlm.nih.gov/compound/637921)")
 st.markdown(f"IUPAC Name: (E)-but-2-enenitrile")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

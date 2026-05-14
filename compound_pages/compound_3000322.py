@@ -8,8 +8,8 @@ st.title("Scopace")
 st.image(f"compound_structures/compound_3000322.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3000322](https://pubchem.ncbi.nlm.nih.gov/compound/3000322)")
 st.markdown(f"IUPAC Name: [(1S,2S,4R,5R)-9-methyl-3-oxa-9-azatricyclo[3.3.1.02,4]nonan-7-yl] (2S)-3-hydroxy-2-phenylpropanoate")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0421088091628769")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

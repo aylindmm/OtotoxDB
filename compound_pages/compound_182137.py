@@ -8,8 +8,8 @@ st.title("Esketamine")
 st.image(f"compound_structures/compound_182137.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [182137](https://pubchem.ncbi.nlm.nih.gov/compound/182137)")
 st.markdown(f"IUPAC Name: (2S)-2-(2-chlorophenyl)-2-(methylamino)cyclohexan-1-one")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0842176183257537")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

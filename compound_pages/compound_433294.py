@@ -8,7 +8,7 @@ st.title("Lithium chloride")
 st.image(f"compound_structures/compound_433294.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [433294](https://pubchem.ncbi.nlm.nih.gov/compound/433294)")
 st.markdown(f"IUPAC Name: lithium chloride")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Refchem:53344")
 st.image(f"compound_structures/compound_132598553.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [132598553](https://pubchem.ncbi.nlm.nih.gov/compound/132598553)")
 st.markdown(f"IUPAC Name: azaniumylboranuide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

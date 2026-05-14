@@ -8,8 +8,8 @@ st.title("Theophylline")
 st.image(f"compound_structures/compound_2153.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2153](https://pubchem.ncbi.nlm.nih.gov/compound/2153)")
 st.markdown(f"IUPAC Name: 1,3-dimethyl-7H-purine-2,6-dione")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0336870473303015")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Deferoxamine")
 st.image(f"compound_structures/compound_2973.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2973](https://pubchem.ncbi.nlm.nih.gov/compound/2973)")
 st.markdown(f"IUPAC Name: N-[5-[[4-[5-[acetyl(hydroxy)amino]pentylamino]-4-oxobutanoyl]-hydroxyamino]pentyl]-N'-(5-aminopentyl)-N'-hydroxybutanediamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.126326427488631")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Caffeic acid phenethyl ester")
 st.image(f"compound_structures/compound_5281787.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281787](https://pubchem.ncbi.nlm.nih.gov/compound/5281787)")
 st.markdown(f"IUPAC Name: 2-phenylethyl (E)-3-(3,4-dihydroxyphenyl)prop-2-enoate")
-st.markdown(f"Score: -0.0672494956287828")
+st.markdown(f"Score: -0.0505305709954523")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

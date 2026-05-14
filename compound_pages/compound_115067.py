@@ -8,7 +8,7 @@ st.title("Gastrodin")
 st.image(f"compound_structures/compound_115067.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [115067](https://pubchem.ncbi.nlm.nih.gov/compound/115067)")
 st.markdown(f"IUPAC Name: (2R,3S,4S,5R,6S)-2-(hydroxymethyl)-6-[4-(hydroxymethyl)phenoxy]oxane-3,4,5-triol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

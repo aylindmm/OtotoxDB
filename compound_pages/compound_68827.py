@@ -8,8 +8,8 @@ st.title("Artemisinin")
 st.image(f"compound_structures/compound_68827.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [68827](https://pubchem.ncbi.nlm.nih.gov/compound/68827)")
 st.markdown(f"IUPAC Name: (1R,4S,5R,8S,9R,12S,13R)-1,5,9-trimethyl-11,14,15,16-tetraoxatetracyclo[10.3.1.04,13.08,13]hexadecan-10-one")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0168435236651507")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

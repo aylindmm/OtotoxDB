@@ -8,7 +8,7 @@ st.title("79032-48-7")
 st.image(f"compound_structures/compound_6603945.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6603945](https://pubchem.ncbi.nlm.nih.gov/compound/6603945)")
 st.markdown(f"IUPAC Name: (2S)-2-acetamido-3-methyl-3-nitrososulfanylbutanoic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("3,3'-iminodipropionitrile")
 st.image(f"compound_structures/compound_8149.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8149](https://pubchem.ncbi.nlm.nih.gov/compound/8149)")
 st.markdown(f"IUPAC Name: 3-(2-cyanoethylamino)propanenitrile")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.353713996968166")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

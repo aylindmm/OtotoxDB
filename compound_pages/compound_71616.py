@@ -8,7 +8,7 @@ st.title("Voriconazole")
 st.image(f"compound_structures/compound_71616.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [71616](https://pubchem.ncbi.nlm.nih.gov/compound/71616)")
 st.markdown(f"IUPAC Name: (2R,3S)-2-(2,4-difluorophenyl)-3-(5-fluoropyrimidin-4-yl)-1-(1,2,4-triazol-1-yl)butan-2-ol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

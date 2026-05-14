@@ -8,7 +8,7 @@ st.title("D-methionine")
 st.image(f"compound_structures/compound_84815.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [84815](https://pubchem.ncbi.nlm.nih.gov/compound/84815)")
 st.markdown(f"IUPAC Name: (2R)-2-amino-4-methylsulfanylbutanoic acid")
-st.markdown(f"Score: -0.511096166778749")
+st.markdown(f"Score: -0.724271517601482")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

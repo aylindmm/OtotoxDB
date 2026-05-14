@@ -8,8 +8,8 @@ st.title("Adenosine")
 st.image(f"compound_structures/compound_60961.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60961](https://pubchem.ncbi.nlm.nih.gov/compound/60961)")
 st.markdown(f"IUPAC Name: (2R,3R,4S,5R)-2-(6-aminopurin-9-yl)-5-(hydroxymethyl)oxolane-3,4-diol")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

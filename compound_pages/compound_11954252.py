@@ -8,7 +8,7 @@ st.title("Tobramycin sulfate")
 st.image(f"compound_structures/compound_11954252.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11954252](https://pubchem.ncbi.nlm.nih.gov/compound/11954252)")
 st.markdown(f"IUPAC Name: bis((2S,3R,4S,5S,6R)-4-amino-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,5S,6R)-3-amino-6-(aminomethyl)-5-hydroxyoxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol);sulfuric acid")
-st.markdown(f"Score: 0.0672494956287828")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

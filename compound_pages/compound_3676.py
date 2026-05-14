@@ -8,7 +8,7 @@ st.title("Lidocaine")
 st.image(f"compound_structures/compound_3676.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3676](https://pubchem.ncbi.nlm.nih.gov/compound/3676)")
 st.markdown(f"IUPAC Name: 2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.21896580764696")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

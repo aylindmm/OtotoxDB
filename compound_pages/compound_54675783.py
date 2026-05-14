@@ -8,8 +8,8 @@ st.title("Minocycline")
 st.image(f"compound_structures/compound_54675783.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54675783](https://pubchem.ncbi.nlm.nih.gov/compound/54675783)")
 st.markdown(f"IUPAC Name: (4S,4aS,5aR,12aR)-4,7-bis(dimethylamino)-1,10,11,12a-tetrahydroxy-3,12-dioxo-4a,5,5a,6-tetrahydro-4H-tetracene-2-carboxamide")
-st.markdown(f"Score: -0.134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0336870473303015")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

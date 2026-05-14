@@ -8,7 +8,7 @@ st.title("Fasudil")
 st.image(f"compound_structures/compound_3547.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3547](https://pubchem.ncbi.nlm.nih.gov/compound/3547)")
 st.markdown(f"IUPAC Name: 5-(1,4-diazepan-1-ylsulfonyl)isoquinoline")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Abacavir")
 st.image(f"compound_structures/compound_441300.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [441300](https://pubchem.ncbi.nlm.nih.gov/compound/441300)")
 st.markdown(f"IUPAC Name: [(1S,4R)-4-[2-amino-6-(cyclopropylamino)purin-9-yl]cyclopent-2-en-1-yl]methanol")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

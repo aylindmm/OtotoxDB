@@ -8,7 +8,7 @@ st.title("Leonurine")
 st.image(f"compound_structures/compound_161464.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [161464](https://pubchem.ncbi.nlm.nih.gov/compound/161464)")
 st.markdown(f"IUPAC Name: 4-(diaminomethylideneamino)butyl 4-hydroxy-3,5-dimethoxybenzoate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

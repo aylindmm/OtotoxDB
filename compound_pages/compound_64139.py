@@ -8,7 +8,7 @@ st.title("Efavirenz")
 st.image(f"compound_structures/compound_64139.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [64139](https://pubchem.ncbi.nlm.nih.gov/compound/64139)")
 st.markdown(f"IUPAC Name: (4S)-6-chloro-4-(2-cyclopropylethynyl)-4-(trifluoromethyl)-1H-3,1-benzoxazin-2-one")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.101061141990905")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

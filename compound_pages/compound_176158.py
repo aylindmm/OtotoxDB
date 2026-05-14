@@ -8,7 +8,7 @@ st.title("Sb 216763")
 st.image(f"compound_structures/compound_176158.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [176158](https://pubchem.ncbi.nlm.nih.gov/compound/176158)")
 st.markdown(f"IUPAC Name: 3-(2,4-dichlorophenyl)-4-(1-methylindol-3-yl)pyrrole-2,5-dione")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Am111 peptide")
 st.image(f"compound_structures/compound_72941992.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72941992](https://pubchem.ncbi.nlm.nih.gov/compound/72941992)")
 st.markdown(f"IUPAC Name: (3R)-3-amino-4-[[(2R)-5-amino-1-[[(2R)-1-[[(2R)-1-[(2R)-2-[[(2R)-1-[[(2R)-5-amino-1-[(2R)-2-[[(2R)-1-[[(2R)-1-[[(2R)-4-amino-1-[[(2R)-1-[[(2R,3S)-1-[[(2R,3S)-1-[(2R)-2-[[(2R)-1-[[(2R)-6-amino-1-[(2R)-2-[[(2R)-1-[(2R)-2-[(2R)-2-[[(2R)-1-[[(2R)-1-[[(2R)-1-[[(2R)-5-amino-1-[[(2R)-1-[[(2R)-1-[[(2R)-6-amino-1-[[(2R)-6-amino-1-[[(2R)-5-carbamimidamido-1-(carboxymethylamino)-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-1-oxohexan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-hydroxy-1-oxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]carbamoyl]pyrrolidin-1-yl]-1,5-dioxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]carbamoyl]pyrrolidin-1-yl]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-oxobutanoic acid")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

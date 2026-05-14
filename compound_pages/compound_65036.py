@@ -8,7 +8,7 @@ st.title("Allicin")
 st.image(f"compound_structures/compound_65036.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [65036](https://pubchem.ncbi.nlm.nih.gov/compound/65036)")
 st.markdown(f"IUPAC Name: 3-prop-2-enylsulfinylsulfanylprop-1-ene")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

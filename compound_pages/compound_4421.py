@@ -8,7 +8,7 @@ st.title("Nalidixic acid")
 st.image(f"compound_structures/compound_4421.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4421](https://pubchem.ncbi.nlm.nih.gov/compound/4421)")
 st.markdown(f"IUPAC Name: 1-ethyl-7-methyl-4-oxo-1,8-naphthyridine-3-carboxylic acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

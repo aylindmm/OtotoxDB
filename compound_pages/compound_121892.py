@@ -8,7 +8,7 @@ st.title("Retigabine")
 st.image(f"compound_structures/compound_121892.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [121892](https://pubchem.ncbi.nlm.nih.gov/compound/121892)")
 st.markdown(f"IUPAC Name: ethyl N-[2-amino-4-[(4-fluorophenyl)methylamino]phenyl]carbamate")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

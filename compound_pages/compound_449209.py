@@ -8,7 +8,7 @@ st.title("Compound 19")
 st.image(f"compound_structures/compound_449209.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [449209](https://pubchem.ncbi.nlm.nih.gov/compound/449209)")
 st.markdown(f"IUPAC Name: (2S,3R)-3-(4-hydroxyphenyl)-2-[4-[(2R)-2-pyrrolidin-1-ylpropoxy]phenyl]-2,3-dihydro-1,4-benzoxathiin-6-ol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

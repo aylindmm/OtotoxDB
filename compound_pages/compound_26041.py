@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Zinc pyrithione", layout="wide")
-st.title("Zinc pyrithione")
+st.set_page_config(page_title="Dtxsid7026314", layout="wide")
+st.title("Dtxsid7026314")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_26041.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [26041](https://pubchem.ncbi.nlm.nih.gov/compound/26041)")
 st.markdown(f"IUPAC Name: zinc bis(1-oxidopyridin-1-ium-2-thiolate)")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Ciprofloxacin")
 st.image(f"compound_structures/compound_2764.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2764](https://pubchem.ncbi.nlm.nih.gov/compound/2764)")
 st.markdown(f"IUPAC Name: 1-cyclopropyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid")
-st.markdown(f"Score: 0.121049092131809")
+st.markdown(f"Score: 0.176856998484083")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

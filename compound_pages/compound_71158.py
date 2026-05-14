@@ -8,7 +8,7 @@ st.title("Acamprosate")
 st.image(f"compound_structures/compound_71158.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [71158](https://pubchem.ncbi.nlm.nih.gov/compound/71158)")
 st.markdown(f"IUPAC Name: 3-acetamidopropane-1-sulfonic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

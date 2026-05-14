@@ -8,7 +8,7 @@ st.title("Ethylbenzene")
 st.image(f"compound_structures/compound_7500.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7500](https://pubchem.ncbi.nlm.nih.gov/compound/7500)")
 st.markdown(f"IUPAC Name: ethylbenzene")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.117904665656055")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

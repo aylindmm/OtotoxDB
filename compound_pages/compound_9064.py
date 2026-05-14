@@ -8,7 +8,7 @@ st.title("Cianidanol")
 st.image(f"compound_structures/compound_9064.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9064](https://pubchem.ncbi.nlm.nih.gov/compound/9064)")
 st.markdown(f"IUPAC Name: (2R,3S)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-chromene-3,5,7-triol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

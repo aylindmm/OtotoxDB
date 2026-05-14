@@ -8,8 +8,8 @@ st.title("Adenosine triphosphate")
 st.image(f"compound_structures/compound_5957.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5957](https://pubchem.ncbi.nlm.nih.gov/compound/5957)")
 st.markdown(f"IUPAC Name: [[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxyoxolan-2-yl]methoxy-hydroxyphosphoryl] phosphono hydrogen phosphate")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

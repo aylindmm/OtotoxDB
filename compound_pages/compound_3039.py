@@ -8,7 +8,7 @@ st.title("Dichlorvos")
 st.image(f"compound_structures/compound_3039.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3039](https://pubchem.ncbi.nlm.nih.gov/compound/3039)")
 st.markdown(f"IUPAC Name: 2,2-dichloroethenyl dimethyl phosphate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

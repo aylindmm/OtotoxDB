@@ -8,7 +8,7 @@ st.title("Fursultiamine")
 st.image(f"compound_structures/compound_3002119.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3002119](https://pubchem.ncbi.nlm.nih.gov/compound/3002119)")
 st.markdown(f"IUPAC Name: N-[(4-amino-2-methylpyrimidin-5-yl)methyl]-N-[(E)-5-hydroxy-3-(oxolan-2-ylmethyldisulfanyl)pent-2-en-2-yl]formamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

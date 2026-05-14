@@ -8,7 +8,7 @@ st.title("Dexpanthenol")
 st.image(f"compound_structures/compound_131204.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [131204](https://pubchem.ncbi.nlm.nih.gov/compound/131204)")
 st.markdown(f"IUPAC Name: (2R)-2,4-dihydroxy-N-(3-hydroxypropyl)-3,3-dimethylbutanamide")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

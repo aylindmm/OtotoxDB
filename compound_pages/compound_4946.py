@@ -8,7 +8,7 @@ st.title("Propranolol")
 st.image(f"compound_structures/compound_4946.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4946](https://pubchem.ncbi.nlm.nih.gov/compound/4946)")
 st.markdown(f"IUPAC Name: 1-naphthalen-1-yloxy-3-(propan-2-ylamino)propan-2-ol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

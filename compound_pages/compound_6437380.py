@@ -8,7 +8,7 @@ st.title("Lumefantrine")
 st.image(f"compound_structures/compound_6437380.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6437380](https://pubchem.ncbi.nlm.nih.gov/compound/6437380)")
 st.markdown(f"IUPAC Name: 2-(dibutylamino)-1-[(9Z)-2,7-dichloro-9-[(4-chlorophenyl)methylidene]fluoren-4-yl]ethanol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

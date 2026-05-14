@@ -8,7 +8,7 @@ st.title("Enrofloxacin")
 st.image(f"compound_structures/compound_71188.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [71188](https://pubchem.ncbi.nlm.nih.gov/compound/71188)")
 st.markdown(f"IUPAC Name: 1-cyclopropyl-7-(4-ethylpiperazin-1-yl)-6-fluoro-4-oxoquinoline-3-carboxylic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

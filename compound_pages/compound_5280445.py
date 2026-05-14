@@ -8,7 +8,7 @@ st.title("Luteolin")
 st.image(f"compound_structures/compound_5280445.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280445](https://pubchem.ncbi.nlm.nih.gov/compound/5280445)")
 st.markdown(f"IUPAC Name: 2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromen-4-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

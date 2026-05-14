@@ -8,7 +8,7 @@ st.title("Naldemedine")
 st.image(f"compound_structures/compound_54732242.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54732242](https://pubchem.ncbi.nlm.nih.gov/compound/54732242)")
 st.markdown(f"IUPAC Name: (4R,4aS,7aR,12bS)-3-(cyclopropylmethyl)-4a,7,9-trihydroxy-N-[2-(3-phenyl-1,2,4-oxadiazol-5-yl)propan-2-yl]-1,2,4,5,7a,13-hexahydro-4,12-methanobenzofuro[3,2-e]isoquinoline-6-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

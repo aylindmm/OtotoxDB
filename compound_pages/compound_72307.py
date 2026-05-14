@@ -8,7 +8,7 @@ st.title("Sesamin")
 st.image(f"compound_structures/compound_72307.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72307](https://pubchem.ncbi.nlm.nih.gov/compound/72307)")
 st.markdown(f"IUPAC Name: 5-[(3S,3aR,6S,6aR)-3-(1,3-benzodioxol-5-yl)-1,3,3a,4,6,6a-hexahydrofuro[3,4-c]furan-6-yl]-1,3-benzodioxole")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Ampicillin")
 st.image(f"compound_structures/compound_6249.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6249](https://pubchem.ncbi.nlm.nih.gov/compound/6249)")
 st.markdown(f"IUPAC Name: (2S,5R,6R)-6-[[(2R)-2-amino-2-phenylacetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

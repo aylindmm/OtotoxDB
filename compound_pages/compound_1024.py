@@ -8,7 +8,7 @@ st.title("Pyrroloquinoline quinone")
 st.image(f"compound_structures/compound_1024.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1024](https://pubchem.ncbi.nlm.nih.gov/compound/1024)")
 st.markdown(f"IUPAC Name: 4,5-dioxo-1H-pyrrolo[2,3-f]quinoline-2,7,9-tricarboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

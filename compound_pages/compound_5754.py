@@ -8,8 +8,8 @@ st.title("Hydrocortisone")
 st.image(f"compound_structures/compound_5754.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5754](https://pubchem.ncbi.nlm.nih.gov/compound/5754)")
 st.markdown(f"IUPAC Name: (8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-2,6,7,8,9,11,12,14,15,16-decahydro-1H-cyclopenta[a]phenanthren-3-one")
-st.markdown(f"Score: -0.0403496973772697")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0252652854977261")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

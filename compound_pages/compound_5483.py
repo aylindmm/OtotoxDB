@@ -8,7 +8,7 @@ st.title("Tiopronin")
 st.image(f"compound_structures/compound_5483.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5483](https://pubchem.ncbi.nlm.nih.gov/compound/5483)")
 st.markdown(f"IUPAC Name: 2-(2-sulfanylpropanoylamino)acetic acid")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

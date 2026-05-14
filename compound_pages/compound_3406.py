@@ -8,7 +8,7 @@ st.title("4-methylpyrazole")
 st.image(f"compound_structures/compound_3406.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3406](https://pubchem.ncbi.nlm.nih.gov/compound/3406)")
 st.markdown(f"IUPAC Name: 4-methyl-1H-pyrazole")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

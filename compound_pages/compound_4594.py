@@ -8,8 +8,8 @@ st.title("Prilosec")
 st.image(f"compound_structures/compound_4594.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4594](https://pubchem.ncbi.nlm.nih.gov/compound/4594)")
 st.markdown(f"IUPAC Name: 6-methoxy-2-[(4-methoxy-3,5-dimethyl-2-pyridinyl)methylsulfinyl]-1H-benzimidazole")
-st.markdown(f"Score: 0.0134498991257566")
-st.markdown(f"Classification: ototoxic")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

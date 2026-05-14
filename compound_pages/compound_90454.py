@@ -8,7 +8,7 @@ st.title("Cinchonine")
 st.image(f"compound_structures/compound_90454.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [90454](https://pubchem.ncbi.nlm.nih.gov/compound/90454)")
 st.markdown(f"IUPAC Name: (S)-[(2R,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-quinolin-4-ylmethanol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

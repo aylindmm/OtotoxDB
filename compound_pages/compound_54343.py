@@ -8,7 +8,7 @@ st.title("Daltroban")
 st.image(f"compound_structures/compound_54343.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54343](https://pubchem.ncbi.nlm.nih.gov/compound/54343)")
 st.markdown(f"IUPAC Name: 2-[4-[2-[(4-chlorophenyl)sulfonylamino]ethyl]phenyl]acetic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

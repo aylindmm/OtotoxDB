@@ -8,7 +8,7 @@ st.title("Selenium")
 st.image(f"compound_structures/compound_6326970.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6326970](https://pubchem.ncbi.nlm.nih.gov/compound/6326970)")
 st.markdown(f"IUPAC Name: selenium")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

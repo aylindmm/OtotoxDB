@@ -8,7 +8,7 @@ st.title("Zidovudine")
 st.image(f"compound_structures/compound_35370.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [35370](https://pubchem.ncbi.nlm.nih.gov/compound/35370)")
 st.markdown(f"IUPAC Name: 1-[(2R,4S,5S)-4-azido-5-(hydroxymethyl)oxolan-2-yl]-5-methylpyrimidine-2,4-dione")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0589523328280276")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

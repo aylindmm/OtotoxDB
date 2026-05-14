@@ -8,7 +8,7 @@ st.title("870773-76-5")
 st.image(f"compound_structures/compound_11530459.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11530459](https://pubchem.ncbi.nlm.nih.gov/compound/11530459)")
 st.markdown(f"IUPAC Name: 4-[4-(2-butoxyethoxy)-5-methyl-1,3-thiazol-2-yl]-2-fluorobenzoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

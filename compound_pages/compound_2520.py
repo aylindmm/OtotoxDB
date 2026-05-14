@@ -8,8 +8,8 @@ st.title("Verapamil")
 st.image(f"compound_structures/compound_2520.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2520](https://pubchem.ncbi.nlm.nih.gov/compound/2520)")
 st.markdown(f"IUPAC Name: 2-(3,4-dimethoxyphenyl)-5-[2-(3,4-dimethoxyphenyl)ethyl-methylamino]-2-propan-2-ylpentanenitrile")
-st.markdown(f"Score: -0.0403496973772697")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Sodium arsanilate")
 st.image(f"compound_structures/compound_23670523.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23670523](https://pubchem.ncbi.nlm.nih.gov/compound/23670523)")
 st.markdown(f"IUPAC Name: sodium (4-aminophenyl)-hydroxyarsinate")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.10948290382348")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

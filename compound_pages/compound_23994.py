@@ -8,7 +8,7 @@ st.title("Zinc")
 st.image(f"compound_structures/compound_23994.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23994](https://pubchem.ncbi.nlm.nih.gov/compound/23994)")
 st.markdown(f"IUPAC Name: zinc")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

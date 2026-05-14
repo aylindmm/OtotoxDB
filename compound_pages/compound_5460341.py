@@ -8,7 +8,7 @@ st.title("Calcium")
 st.image(f"compound_structures/compound_5460341.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5460341](https://pubchem.ncbi.nlm.nih.gov/compound/5460341)")
 st.markdown(f"IUPAC Name: calcium")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0421088091628769")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

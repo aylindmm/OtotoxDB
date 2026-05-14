@@ -2,8 +2,8 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Dichlorocobalt", layout="wide")
-st.title("Dichlorocobalt")
+st.set_page_config(page_title="Cobalt dichloride", layout="wide")
+st.title("Cobalt dichloride")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_3032536.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3032536](https://pubchem.ncbi.nlm.nih.gov/compound/3032536)")

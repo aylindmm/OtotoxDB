@@ -8,7 +8,7 @@ st.title("945714-67-0")
 st.image(f"compound_structures/compound_24752728.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24752728](https://pubchem.ncbi.nlm.nih.gov/compound/24752728)")
 st.markdown(f"IUPAC Name: N-benzyl-4-chloro-N-cyclohexylbenzamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

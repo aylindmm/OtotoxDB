@@ -8,7 +8,7 @@ st.title("Mesna")
 st.image(f"compound_structures/compound_23662354.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23662354](https://pubchem.ncbi.nlm.nih.gov/compound/23662354)")
 st.markdown(f"IUPAC Name: sodium 2-sulfanylethanesulfonate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

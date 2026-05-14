@@ -8,7 +8,7 @@ st.title("Ferrous cation")
 st.image(f"compound_structures/compound_27284.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [27284](https://pubchem.ncbi.nlm.nih.gov/compound/27284)")
 st.markdown(f"IUPAC Name: iron(2+)")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

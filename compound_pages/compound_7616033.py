@@ -8,7 +8,7 @@ st.title("941987-60-6")
 st.image(f"compound_structures/compound_7616033.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7616033](https://pubchem.ncbi.nlm.nih.gov/compound/7616033)")
 st.markdown(f"IUPAC Name: 1-(4-ethylphenyl)-3-(1H-indol-3-yl)urea")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

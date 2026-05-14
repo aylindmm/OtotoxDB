@@ -8,7 +8,7 @@ st.title("Thioctic acid")
 st.image(f"compound_structures/compound_864.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [864](https://pubchem.ncbi.nlm.nih.gov/compound/864)")
 st.markdown(f"IUPAC Name: 5-(dithiolan-3-yl)pentanoic acid")
-st.markdown(f"Score: -0.134498991257566")
+st.markdown(f"Score: -0.101061141990905")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,8 +8,8 @@ st.title("Betahistine")
 st.image(f"compound_structures/compound_2366.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2366](https://pubchem.ncbi.nlm.nih.gov/compound/2366)")
 st.markdown(f"IUPAC Name: N-methyl-2-pyridin-2-ylethanamine")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

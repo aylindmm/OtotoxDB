@@ -8,8 +8,8 @@ st.title("Pentonium")
 st.image(f"compound_structures/compound_3014024.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3014024](https://pubchem.ncbi.nlm.nih.gov/compound/3014024)")
 st.markdown(f"IUPAC Name: benzyl-dimethyl-tridecylazanium chloride")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0252652854977261")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

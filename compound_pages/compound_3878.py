@@ -8,7 +8,7 @@ st.title("Lamotrigine")
 st.image(f"compound_structures/compound_3878.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3878](https://pubchem.ncbi.nlm.nih.gov/compound/3878)")
 st.markdown(f"IUPAC Name: 6-(2,3-dichlorophenyl)-1,2,4-triazine-3,5-diamine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.151591712986357")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

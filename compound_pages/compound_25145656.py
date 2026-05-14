@@ -8,7 +8,7 @@ st.title("Capmatinib")
 st.image(f"compound_structures/compound_25145656.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [25145656](https://pubchem.ncbi.nlm.nih.gov/compound/25145656)")
 st.markdown(f"IUPAC Name: 2-fluoro-N-methyl-4-[7-(quinolin-6-ylmethyl)imidazo[1,2-b][1,2,4]triazin-2-yl]benzamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

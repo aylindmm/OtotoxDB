@@ -8,7 +8,7 @@ st.title("Topiramate")
 st.image(f"compound_structures/compound_5284627.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5284627](https://pubchem.ncbi.nlm.nih.gov/compound/5284627)")
 st.markdown(f"IUPAC Name: [(1R,2S,6S,9R)-4,4,11,11-tetramethyl-3,5,7,10,12-pentaoxatricyclo[7.3.0.02,6]dodecan-6-yl]methyl sulfamate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.143169951153781")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

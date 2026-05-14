@@ -8,7 +8,7 @@ st.title("Digoxin")
 st.image(f"compound_structures/compound_2724385.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2724385](https://pubchem.ncbi.nlm.nih.gov/compound/2724385)")
 st.markdown(f"IUPAC Name: 3-[(3S,5R,8R,9S,10S,12R,13S,14S,17R)-3-[(2R,4S,5S,6R)-5-[(2S,4S,5S,6R)-5-[(2S,4S,5S,6R)-4,5-dihydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-6-methyloxan-2-yl]oxy-12,14-dihydroxy-10,13-dimethyl-1,2,3,4,5,6,7,8,9,11,12,15,16,17-tetradecahydrocyclopenta[a]phenanthren-17-yl]-2H-furan-5-one")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

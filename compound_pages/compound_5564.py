@@ -8,7 +8,7 @@ st.title("Triclosan")
 st.image(f"compound_structures/compound_5564.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5564](https://pubchem.ncbi.nlm.nih.gov/compound/5564)")
 st.markdown(f"IUPAC Name: 5-chloro-2-(2,4-dichlorophenoxy)phenol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

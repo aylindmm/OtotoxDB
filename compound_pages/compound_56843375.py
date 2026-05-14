@@ -8,7 +8,7 @@ st.title("Tertomotide")
 st.image(f"compound_structures/compound_56843375.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [56843375](https://pubchem.ncbi.nlm.nih.gov/compound/56843375)")
 st.markdown(f"IUPAC Name: (2S)-6-amino-2-[[(2S)-1-[(2S,3S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S,3R)-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-1-[(2S)-2-[[(2S)-2-[[(2S)-2-amino-4-carboxybutanoyl]amino]propanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]pyrrolidine-2-carbonyl]amino]propanoyl]amino]-4-methylpentanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxybutanoyl]amino]-3-hydroxypropanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-4-methylpentanoyl]amino]-5-(diaminomethylideneamino)pentanoyl]amino]-3-phenylpropanoyl]amino]-3-methylpentanoyl]pyrrolidine-2-carbonyl]amino]hexanoic acid")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

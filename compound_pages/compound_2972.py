@@ -8,7 +8,7 @@ st.title("Deferiprone")
 st.image(f"compound_structures/compound_2972.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2972](https://pubchem.ncbi.nlm.nih.gov/compound/2972)")
 st.markdown(f"IUPAC Name: 3-hydroxy-1,2-dimethylpyridin-4-one")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("129-56-6")
 st.image(f"compound_structures/compound_8515.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8515](https://pubchem.ncbi.nlm.nih.gov/compound/8515)")
 st.markdown(f"IUPAC Name: 14,15-diazatetracyclo[7.6.1.02,7.013,16]hexadeca-1(15),2,4,6,9(16),10,12-heptaen-8-one")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

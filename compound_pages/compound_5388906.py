@@ -8,7 +8,7 @@ st.title("Bedaquiline")
 st.image(f"compound_structures/compound_5388906.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5388906](https://pubchem.ncbi.nlm.nih.gov/compound/5388906)")
 st.markdown(f"IUPAC Name: (1R,2S)-1-(6-bromo-2-methoxyquinolin-3-yl)-4-(dimethylamino)-2-naphthalen-1-yl-1-phenylbutan-2-ol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

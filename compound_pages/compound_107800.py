@@ -8,7 +8,7 @@ st.title("Dactimicin")
 st.image(f"compound_structures/compound_107800.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [107800](https://pubchem.ncbi.nlm.nih.gov/compound/107800)")
 st.markdown(f"IUPAC Name: N-[4-amino-3-[3-amino-6-(1-aminoethyl)oxan-2-yl]oxy-2,5-dihydroxy-6-methoxycyclohexyl]-2-(aminomethylideneamino)-N-methylacetamide")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

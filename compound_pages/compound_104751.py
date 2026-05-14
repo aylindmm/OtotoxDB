@@ -8,7 +8,7 @@ st.title("Bapta")
 st.image(f"compound_structures/compound_104751.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [104751](https://pubchem.ncbi.nlm.nih.gov/compound/104751)")
 st.markdown(f"IUPAC Name: 2-[2-[2-[2-[bis(carboxymethyl)amino]phenoxy]ethoxy]-N-(carboxymethyl)anilino]acetic acid")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

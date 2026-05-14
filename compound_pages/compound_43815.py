@@ -8,8 +8,8 @@ st.title("Paroxetine")
 st.image(f"compound_structures/compound_43815.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [43815](https://pubchem.ncbi.nlm.nih.gov/compound/43815)")
 st.markdown(f"IUPAC Name: (3S,4R)-3-(1,3-benzodioxol-5-yloxymethyl)-4-(4-fluorophenyl)piperidine")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0589523328280276")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

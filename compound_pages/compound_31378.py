@@ -8,8 +8,8 @@ st.title("Fludrocortisone")
 st.image(f"compound_structures/compound_31378.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [31378](https://pubchem.ncbi.nlm.nih.gov/compound/31378)")
 st.markdown(f"IUPAC Name: (8S,9R,10S,11S,13S,14S,17R)-9-fluoro-11,17-dihydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-1,2,6,7,8,11,12,14,15,16-decahydrocyclopenta[a]phenanthren-3-one")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

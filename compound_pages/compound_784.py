@@ -8,7 +8,7 @@ st.title("Hydrogen peroxide")
 st.image(f"compound_structures/compound_784.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [784](https://pubchem.ncbi.nlm.nih.gov/compound/784)")
 st.markdown(f"IUPAC Name: hydrogen peroxide")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.0757958564931784")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

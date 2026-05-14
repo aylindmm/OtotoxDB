@@ -8,7 +8,7 @@ st.title("Mitoquinone mesylate")
 st.image(f"compound_structures/compound_11388331.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11388331](https://pubchem.ncbi.nlm.nih.gov/compound/11388331)")
 st.markdown(f"IUPAC Name: 10-(4,5-dimethoxy-2-methyl-3,6-dioxocyclohexa-1,4-dien-1-yl)decyl-triphenylphosphanium;methanesulfonate")
-st.markdown(f"Score: -0.0672494956287828")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

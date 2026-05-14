@@ -8,7 +8,7 @@ st.title("Tramadol")
 st.image(f"compound_structures/compound_33741.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [33741](https://pubchem.ncbi.nlm.nih.gov/compound/33741)")
 st.markdown(f"IUPAC Name: cis-(1R,2R)-2-[(dimethylamino)methyl]-1-(3-methoxyphenyl)cyclohexan-1-ol")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

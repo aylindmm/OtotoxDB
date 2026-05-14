@@ -8,7 +8,7 @@ st.title("Ginkgolide a")
 st.image(f"compound_structures/compound_9909368.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9909368](https://pubchem.ncbi.nlm.nih.gov/compound/9909368)")
 st.markdown(f"IUPAC Name: (1R,3R,6R,7S,8S,10R,11S,13S,16S,17R)-8-tert-butyl-6,17-dihydroxy-16-methyl-2,4,14,19-tetraoxahexacyclo[8.7.2.01,11.03,7.07,11.013,17]nonadecane-5,15,18-trione")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

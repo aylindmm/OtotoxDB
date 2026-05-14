@@ -8,7 +8,7 @@ st.title("Amitrole")
 st.image(f"compound_structures/compound_1639.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1639](https://pubchem.ncbi.nlm.nih.gov/compound/1639)")
 st.markdown(f"IUPAC Name: 1H-1,2,4-triazol-5-amine")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

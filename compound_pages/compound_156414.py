@@ -8,7 +8,7 @@ st.title("Canertinib")
 st.image(f"compound_structures/compound_156414.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [156414](https://pubchem.ncbi.nlm.nih.gov/compound/156414)")
 st.markdown(f"IUPAC Name: N-[4-(3-chloro-4-fluoroanilino)-7-(3-morpholin-4-ylpropoxy)quinazolin-6-yl]prop-2-enamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

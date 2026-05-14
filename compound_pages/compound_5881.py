@@ -8,7 +8,7 @@ st.title("Dehydroepiandrosterone")
 st.image(f"compound_structures/compound_5881.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5881](https://pubchem.ncbi.nlm.nih.gov/compound/5881)")
 st.markdown(f"IUPAC Name: (3S,8R,9S,10R,13S,14S)-3-hydroxy-10,13-dimethyl-1,2,3,4,7,8,9,11,12,14,15,16-dodecahydrocyclopenta[a]phenanthren-17-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

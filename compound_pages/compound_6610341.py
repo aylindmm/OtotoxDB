@@ -8,7 +8,7 @@ st.title("Mntbap")
 st.image(f"compound_structures/compound_6610341.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6610341](https://pubchem.ncbi.nlm.nih.gov/compound/6610341)")
 st.markdown(f"IUPAC Name: manganese(3+);4-[10,15,20-tris(4-carboxyphenyl)porphyrin-22,24-diid-5-yl]benzoic acid")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Carcainium chloride")
 st.image(f"compound_structures/compound_13966.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [13966](https://pubchem.ncbi.nlm.nih.gov/compound/13966)")
 st.markdown(f"IUPAC Name: bis(2-anilino-2-oxoethyl)-dimethylazanium chloride")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

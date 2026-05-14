@@ -8,7 +8,7 @@ st.title("Doxazosin")
 st.image(f"compound_structures/compound_3157.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3157](https://pubchem.ncbi.nlm.nih.gov/compound/3157)")
 st.markdown(f"IUPAC Name: [4-(4-amino-6,7-dimethoxyquinazolin-2-yl)piperazin-1-yl]-(2,3-dihydro-1,4-benzodioxin-3-yl)methanone")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

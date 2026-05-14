@@ -8,8 +8,8 @@ st.title("Ifenprodil")
 st.image(f"compound_structures/compound_3689.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3689](https://pubchem.ncbi.nlm.nih.gov/compound/3689)")
 st.markdown(f"IUPAC Name: 4-[2-(4-benzylpiperidin-1-yl)-1-hydroxypropyl]phenol")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

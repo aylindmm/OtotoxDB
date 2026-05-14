@@ -8,8 +8,8 @@ st.title("518058-84-9")
 st.image(f"compound_structures/compound_21014417.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [21014417](https://pubchem.ncbi.nlm.nih.gov/compound/21014417)")
 st.markdown(f"IUPAC Name: 5-fluoro-N-[(3-hydroxyphenyl)methyl]-1H-indole-2-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

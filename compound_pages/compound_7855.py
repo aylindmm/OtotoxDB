@@ -8,7 +8,7 @@ st.title("Acrylonitrile")
 st.image(f"compound_structures/compound_7855.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7855](https://pubchem.ncbi.nlm.nih.gov/compound/7855)")
 st.markdown(f"IUPAC Name: prop-2-enenitrile")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

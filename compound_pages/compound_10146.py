@@ -8,7 +8,7 @@ st.title("Nuciferine")
 st.image(f"compound_structures/compound_10146.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [10146](https://pubchem.ncbi.nlm.nih.gov/compound/10146)")
 st.markdown(f"IUPAC Name: (6aR)-1,2-dimethoxy-6-methyl-5,6,6a,7-tetrahydro-4H-dibenzo[de,g]quinoline")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

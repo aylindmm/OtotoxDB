@@ -8,7 +8,7 @@ st.title("5r9f9ne9z2")
 st.image(f"compound_structures/compound_155491322.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [155491322](https://pubchem.ncbi.nlm.nih.gov/compound/155491322)")
 st.markdown(f"IUPAC Name: platinum;bis(propan-2-amine);dichloride;dihydroxide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

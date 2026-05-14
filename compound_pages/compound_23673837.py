@@ -8,7 +8,7 @@ st.title("Docusate sodium")
 st.image(f"compound_structures/compound_23673837.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23673837](https://pubchem.ncbi.nlm.nih.gov/compound/23673837)")
 st.markdown(f"IUPAC Name: sodium 1,4-bis(2-ethylhexoxy)-1,4-dioxobutane-2-sulfonate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

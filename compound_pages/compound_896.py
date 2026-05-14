@@ -8,7 +8,7 @@ st.title("Melatonin")
 st.image(f"compound_structures/compound_896.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [896](https://pubchem.ncbi.nlm.nih.gov/compound/896)")
 st.markdown(f"IUPAC Name: N-[2-(5-methoxy-1H-indol-3-yl)ethyl]acetamide")
-st.markdown(f"Score: -0.282447881640888")
+st.markdown(f"Score: -0.168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

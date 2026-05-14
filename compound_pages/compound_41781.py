@@ -8,7 +8,7 @@ st.title("Torasemide")
 st.image(f"compound_structures/compound_41781.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [41781](https://pubchem.ncbi.nlm.nih.gov/compound/41781)")
 st.markdown(f"IUPAC Name: 1-[[4-(3-methylanilino)-3-pyridinyl]sulfonyl]-3-propan-2-ylurea")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

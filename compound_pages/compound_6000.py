@@ -8,7 +8,7 @@ st.title("Tubocurarine")
 st.image(f"compound_structures/compound_6000.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6000](https://pubchem.ncbi.nlm.nih.gov/compound/6000)")
 st.markdown(f"IUPAC Name: (1S,16R)-10,25-dimethoxy-15,15,30-trimethyl-7,23-dioxa-30-aza-15-azoniaheptacyclo[22.6.2.23,6.18,12.118,22.027,31.016,34]hexatriaconta-3(36),4,6(35),8(34),9,11,18(33),19,21,24,26,31-dodecaene-9,21-diol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Astaxanthin")
 st.image(f"compound_structures/compound_5281224.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281224](https://pubchem.ncbi.nlm.nih.gov/compound/5281224)")
 st.markdown(f"IUPAC Name: (6S)-6-hydroxy-3-[(1E,3E,5E,7E,9E,11E,13E,15E,17E)-18-[(4S)-4-hydroxy-2,6,6-trimethyl-3-oxocyclohexen-1-yl]-3,7,12,16-tetramethyloctadeca-1,3,5,7,9,11,13,15,17-nonaenyl]-2,4,4-trimethylcyclohex-2-en-1-one")
-st.markdown(f"Score: -0.0941492938802959")
+st.markdown(f"Score: -0.067374094660603")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

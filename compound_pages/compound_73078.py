@@ -8,7 +8,7 @@ st.title("Tetrandrine")
 st.image(f"compound_structures/compound_73078.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [73078](https://pubchem.ncbi.nlm.nih.gov/compound/73078)")
 st.markdown(f"IUPAC Name: (1S,14S)-9,20,21,25-tetramethoxy-15,30-dimethyl-7,23-dioxa-15,30-diazaheptacyclo[22.6.2.23,6.18,12.114,18.027,31.022,33]hexatriaconta-3(36),4,6(35),8,10,12(34),18,20,22(33),24,26,31-dodecaene")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

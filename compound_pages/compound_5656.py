@@ -8,7 +8,7 @@ st.title("Venlafaxine")
 st.image(f"compound_structures/compound_5656.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5656](https://pubchem.ncbi.nlm.nih.gov/compound/5656)")
 st.markdown(f"IUPAC Name: 1-[2-(dimethylamino)-1-(4-methoxyphenyl)ethyl]cyclohexan-1-ol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0842176183257537")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

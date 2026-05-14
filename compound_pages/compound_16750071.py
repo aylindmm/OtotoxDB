@@ -8,7 +8,7 @@ st.title("3-[(4-amino-1-tert-butyl-1h-pyrazolo[3,4-d]pyrimidin-3-yl)methyl]pheno
 st.image(f"compound_structures/compound_16750071.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16750071](https://pubchem.ncbi.nlm.nih.gov/compound/16750071)")
 st.markdown(f"IUPAC Name: 3-[(4-amino-1-tert-butylpyrazolo[3,4-d]pyrimidin-3-yl)methyl]phenol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

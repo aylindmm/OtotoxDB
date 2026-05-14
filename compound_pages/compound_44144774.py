@@ -8,7 +8,7 @@ st.title("Prevantics swab")
 st.image(f"compound_structures/compound_44144774.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [44144774](https://pubchem.ncbi.nlm.nih.gov/compound/44144774)")
 st.markdown(f"IUPAC Name: (1E)-2-[6-[[amino-[(E)-[amino-(4-chloroanilino)methylidene]amino]methylidene]amino]hexyl]-1-[amino-(4-chloroanilino)methylidene]guanidine;(2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoic acid;propan-2-ol;(3R,4S,5R)-3,4,5,6-tetrahydroxyhexanoic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

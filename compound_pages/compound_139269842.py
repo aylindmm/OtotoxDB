@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Mitotempo", layout="wide")
-st.title("Mitotempo")
+st.set_page_config(page_title="Dtxsid601044299", layout="wide")
+st.title("Dtxsid601044299")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_139269842.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [139269842](https://pubchem.ncbi.nlm.nih.gov/compound/139269842)")
 st.markdown(f"IUPAC Name: nan")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

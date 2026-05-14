@@ -8,7 +8,7 @@ st.title("Pasireotide")
 st.image(f"compound_structures/compound_9941444.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9941444](https://pubchem.ncbi.nlm.nih.gov/compound/9941444)")
 st.markdown(f"IUPAC Name: [(3S,6S,9S,12R,15S,18S,20R)-9-(4-aminobutyl)-3-benzyl-12-(1H-indol-3-ylmethyl)-2,5,8,11,14,17-hexaoxo-15-phenyl-6-[(4-phenylmethoxyphenyl)methyl]-1,4,7,10,13,16-hexazabicyclo[16.3.0]henicosan-20-yl] N-(2-aminoethyl)carbamate")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

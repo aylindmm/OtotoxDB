@@ -8,7 +8,7 @@ st.title("Berberine chloride")
 st.image(f"compound_structures/compound_12456.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [12456](https://pubchem.ncbi.nlm.nih.gov/compound/12456)")
 st.markdown(f"IUPAC Name: 16,17-dimethoxy-5,7-dioxa-13-azoniapentacyclo[11.8.0.02,10.04,8.015,20]henicosa-1(13),2,4(8),9,14,16,18,20-octaene chloride")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

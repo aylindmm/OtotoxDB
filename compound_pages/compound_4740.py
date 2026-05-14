@@ -8,8 +8,8 @@ st.title("Pentoxifylline")
 st.image(f"compound_structures/compound_4740.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4740](https://pubchem.ncbi.nlm.nih.gov/compound/4740)")
 st.markdown(f"IUPAC Name: 3,7-dimethyl-1-(5-oxohexyl)purine-2,6-dione")
-st.markdown(f"Score: -0.0403496973772697")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

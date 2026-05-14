@@ -8,8 +8,8 @@ st.title("Acyclovir")
 st.image(f"compound_structures/compound_135398513.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135398513](https://pubchem.ncbi.nlm.nih.gov/compound/135398513)")
 st.markdown(f"IUPAC Name: 2-amino-9-(2-hydroxyethoxymethyl)-1H-purin-6-one")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0252652854977261")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

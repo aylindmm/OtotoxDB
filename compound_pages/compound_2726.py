@@ -8,7 +8,7 @@ st.title("Chlorpromazine")
 st.image(f"compound_structures/compound_2726.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2726](https://pubchem.ncbi.nlm.nih.gov/compound/2726)")
 st.markdown(f"IUPAC Name: 3-(2-chlorophenothiazin-10-yl)-N,N-dimethylpropan-1-amine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

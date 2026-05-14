@@ -8,7 +8,7 @@ st.title("Naringenin")
 st.image(f"compound_structures/compound_439246.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [439246](https://pubchem.ncbi.nlm.nih.gov/compound/439246)")
 st.markdown(f"IUPAC Name: (2S)-5,7-dihydroxy-2-(4-hydroxyphenyl)-2,3-dihydrochromen-4-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

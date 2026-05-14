@@ -8,7 +8,7 @@ st.title("Melanin")
 st.image(f"compound_structures/compound_6325610.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6325610](https://pubchem.ncbi.nlm.nih.gov/compound/6325610)")
 st.markdown(f"IUPAC Name: 6,14-dimethyl-4,12-diazapentacyclo[8.6.1.12,5.013,17.09,18]octadeca-1(17),2,5,9(18),10,13-hexaene-7,8,15,16-tetrone")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

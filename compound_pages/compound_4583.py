@@ -8,7 +8,7 @@ st.title("Ofloxacin")
 st.image(f"compound_structures/compound_4583.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4583](https://pubchem.ncbi.nlm.nih.gov/compound/4583)")
 st.markdown(f"IUPAC Name: 7-fluoro-2-methyl-6-(4-methylpiperazin-1-yl)-10-oxo-4-oxa-1-azatricyclo[7.3.1.05,13]trideca-5(13),6,8,11-tetraene-11-carboxylic acid")
-st.markdown(f"Score: 0.0806993947545393")
+st.markdown(f"Score: 0.0926393801583291")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

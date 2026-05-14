@@ -8,7 +8,7 @@ st.title("Nevirapine")
 st.image(f"compound_structures/compound_4463.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4463](https://pubchem.ncbi.nlm.nih.gov/compound/4463)")
 st.markdown(f"IUPAC Name: 2-cyclopropyl-7-methyl-2,4,9,15-tetrazatricyclo[9.4.0.03,8]pentadeca-1(11),3,5,7,12,14-hexaen-10-one")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

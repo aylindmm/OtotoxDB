@@ -8,7 +8,7 @@ st.title("C1p")
 st.image(f"compound_structures/compound_447420.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [447420](https://pubchem.ncbi.nlm.nih.gov/compound/447420)")
 st.markdown(f"IUPAC Name: N-[(2S)-1-[[(2S,3S)-1-(benzenesulfonyl)-5-phenyl-2-sulfanylpentan-3-yl]amino]-4-methyl-1-oxopentan-2-yl]morpholine-4-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

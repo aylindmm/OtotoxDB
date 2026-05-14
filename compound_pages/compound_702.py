@@ -8,7 +8,7 @@ st.title("Ethanol")
 st.image(f"compound_structures/compound_702.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [702](https://pubchem.ncbi.nlm.nih.gov/compound/702)")
 st.markdown(f"IUPAC Name: ethanol")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

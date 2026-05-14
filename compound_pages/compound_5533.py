@@ -8,7 +8,7 @@ st.title("Trazodone")
 st.image(f"compound_structures/compound_5533.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5533](https://pubchem.ncbi.nlm.nih.gov/compound/5533)")
 st.markdown(f"IUPAC Name: 2-[3-[4-(3-chlorophenyl)piperazin-1-yl]propyl]-[1,2,4]triazolo[4,3-a]pyridin-3-one")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0842176183257537")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Idebenone")
 st.image(f"compound_structures/compound_3686.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3686](https://pubchem.ncbi.nlm.nih.gov/compound/3686)")
 st.markdown(f"IUPAC Name: 2-(10-hydroxydecyl)-5,6-dimethoxy-3-methylcyclohexa-2,5-diene-1,4-dione")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

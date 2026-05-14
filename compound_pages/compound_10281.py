@@ -8,7 +8,7 @@ st.title("Thymoquinone")
 st.image(f"compound_structures/compound_10281.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [10281](https://pubchem.ncbi.nlm.nih.gov/compound/10281)")
 st.markdown(f"IUPAC Name: 2-methyl-5-propan-2-ylcyclohexa-2,5-diene-1,4-dione")
-st.markdown(f"Score: -0.0806993947545393")
+st.markdown(f"Score: -0.0505305709954523")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Tetrabromobisphenol a")
 st.image(f"compound_structures/compound_6618.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6618](https://pubchem.ncbi.nlm.nih.gov/compound/6618)")
 st.markdown(f"IUPAC Name: 2,6-dibromo-4-[2-(3,5-dibromo-4-hydroxyphenyl)propan-2-yl]phenol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

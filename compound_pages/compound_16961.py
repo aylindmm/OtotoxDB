@@ -8,8 +8,8 @@ st.title("Dexamethasone sodium phosphate")
 st.image(f"compound_structures/compound_16961.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16961](https://pubchem.ncbi.nlm.nih.gov/compound/16961)")
 st.markdown(f"IUPAC Name: disodium;[2-[(8S,9R,10S,11S,13S,14S,16R,17R)-9-fluoro-11,17-dihydroxy-10,13,16-trimethyl-3-oxo-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-17-yl]-2-oxoethyl] phosphate")
-st.markdown(f"Score: -0.0403496973772697")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

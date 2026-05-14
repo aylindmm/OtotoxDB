@@ -8,7 +8,7 @@ st.title("Taurine")
 st.image(f"compound_structures/compound_1123.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1123](https://pubchem.ncbi.nlm.nih.gov/compound/1123)")
 st.markdown(f"IUPAC Name: 2-aminoethanesulfonic acid")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

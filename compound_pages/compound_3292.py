@@ -8,7 +8,7 @@ st.title("Ethotoin")
 st.image(f"compound_structures/compound_3292.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3292](https://pubchem.ncbi.nlm.nih.gov/compound/3292)")
 st.markdown(f"IUPAC Name: 3-ethyl-5-phenylimidazolidine-2,4-dione")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

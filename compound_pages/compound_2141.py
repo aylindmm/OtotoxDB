@@ -8,7 +8,7 @@ st.title("Amifostine")
 st.image(f"compound_structures/compound_2141.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2141](https://pubchem.ncbi.nlm.nih.gov/compound/2141)")
 st.markdown(f"IUPAC Name: 2-(3-aminopropylamino)ethylsulfanylphosphonic acid")
-st.markdown(f"Score: -0.753194351042367")
+st.markdown(f"Score: -1.54960417719387")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

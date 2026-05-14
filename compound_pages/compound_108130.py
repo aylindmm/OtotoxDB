@@ -8,7 +8,7 @@ st.title("Schisandrin b")
 st.image(f"compound_structures/compound_108130.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [108130](https://pubchem.ncbi.nlm.nih.gov/compound/108130)")
 st.markdown(f"IUPAC Name: 3,4,5,19-tetramethoxy-9,10-dimethyl-15,17-dioxatetracyclo[10.7.0.02,7.014,18]nonadeca-1(19),2,4,6,12,14(18)-hexaene")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

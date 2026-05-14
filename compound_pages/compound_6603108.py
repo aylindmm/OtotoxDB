@@ -8,7 +8,7 @@ st.title("Scopolamine hydrobromide")
 st.image(f"compound_structures/compound_6603108.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6603108](https://pubchem.ncbi.nlm.nih.gov/compound/6603108)")
 st.markdown(f"IUPAC Name: [(1R,2R,4S,5S)-9-methyl-3-oxa-9-azatricyclo[3.3.1.02,4]nonan-7-yl] (2S)-3-hydroxy-2-phenylpropanoate;hydrobromide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

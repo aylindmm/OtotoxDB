@@ -8,8 +8,8 @@ st.title("Ethosuximide")
 st.image(f"compound_structures/compound_3291.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3291](https://pubchem.ncbi.nlm.nih.gov/compound/3291)")
 st.markdown(f"IUPAC Name: 3-ethyl-3-methylpyrrolidine-2,5-dione")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Desmopressin")
 st.image(f"compound_structures/compound_5311065.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311065](https://pubchem.ncbi.nlm.nih.gov/compound/5311065)")
 st.markdown(f"IUPAC Name: (2S)-N-[(2R)-1-[(2-amino-2-oxoethyl)amino]-5-(diaminomethylideneamino)-1-oxopentan-2-yl]-1-[(4R,7S,10S,13S,16S)-7-(2-amino-2-oxoethyl)-10-(3-amino-3-oxopropyl)-13-benzyl-16-[(4-hydroxyphenyl)methyl]-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carbonyl]pyrrolidine-2-carboxamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

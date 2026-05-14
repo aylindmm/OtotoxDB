@@ -8,7 +8,7 @@ st.title("Phloretin")
 st.image(f"compound_structures/compound_4788.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4788](https://pubchem.ncbi.nlm.nih.gov/compound/4788)")
 st.markdown(f"IUPAC Name: 3-(4-hydroxyphenyl)-1-(2,4,6-trihydroxyphenyl)propan-1-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

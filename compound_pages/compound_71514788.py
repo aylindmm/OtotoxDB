@@ -8,7 +8,7 @@ st.title("Necrox-5")
 st.image(f"compound_structures/compound_71514788.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [71514788](https://pubchem.ncbi.nlm.nih.gov/compound/71514788)")
 st.markdown(f"IUPAC Name: 5-[(1,1-dioxo-1,4-thiazinan-4-yl)methyl]-N-(oxan-4-ylmethyl)-2-phenyl-1H-indol-7-amine;methanesulfonic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

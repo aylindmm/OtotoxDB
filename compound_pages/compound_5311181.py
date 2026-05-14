@@ -8,7 +8,7 @@ st.title("Iloprost")
 st.image(f"compound_structures/compound_5311181.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311181](https://pubchem.ncbi.nlm.nih.gov/compound/5311181)")
 st.markdown(f"IUPAC Name: (5E)-5-[(3aS,4R,5R,6aS)-5-hydroxy-4-[(E,3S)-3-hydroxy-4-methyloct-1-en-6-ynyl]-3,3a,4,5,6,6a-hexahydro-1H-pentalen-2-ylidene]pentanoic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

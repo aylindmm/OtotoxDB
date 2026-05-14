@@ -8,7 +8,7 @@ st.title("Docetaxel")
 st.image(f"compound_structures/compound_148124.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [148124](https://pubchem.ncbi.nlm.nih.gov/compound/148124)")
 st.markdown(f"IUPAC Name: [(1S,2S,3R,4S,7R,9S,10S,12R,15S)-4-acetyloxy-1,9,12-trihydroxy-15-[(2R,3S)-2-hydroxy-3-[(2-methylpropan-2-yl)oxycarbonylamino]-3-phenylpropanoyl]oxy-10,14,17,17-tetramethyl-11-oxo-6-oxatetracyclo[11.3.1.03,10.04,7]heptadec-13-en-2-yl] benzoate")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

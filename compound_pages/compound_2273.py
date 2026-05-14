@@ -8,7 +8,7 @@ st.title("Azosemide")
 st.image(f"compound_structures/compound_2273.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2273](https://pubchem.ncbi.nlm.nih.gov/compound/2273)")
 st.markdown(f"IUPAC Name: 2-chloro-5-(2H-tetrazol-5-yl)-4-(thiophen-2-ylmethylamino)benzenesulfonamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

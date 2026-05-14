@@ -8,7 +8,7 @@ st.title("Pitavastatin")
 st.image(f"compound_structures/compound_5282452.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5282452](https://pubchem.ncbi.nlm.nih.gov/compound/5282452)")
 st.markdown(f"IUPAC Name: (E,3R,5S)-7-[2-cyclopropyl-4-(4-fluorophenyl)quinolin-3-yl]-3,5-dihydroxyhept-6-enoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

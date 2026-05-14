@@ -8,7 +8,7 @@ st.title("Ebselen")
 st.image(f"compound_structures/compound_3194.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3194](https://pubchem.ncbi.nlm.nih.gov/compound/3194)")
 st.markdown(f"IUPAC Name: 2-phenyl-1,2-benzoselenazol-3-one")
-st.markdown(f"Score: -0.201748486886348")
+st.markdown(f"Score: -0.134748189321206")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

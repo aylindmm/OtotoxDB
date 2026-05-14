@@ -8,7 +8,7 @@ st.title("Enoxacin")
 st.image(f"compound_structures/compound_3229.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3229](https://pubchem.ncbi.nlm.nih.gov/compound/3229)")
 st.markdown(f"IUPAC Name: 1-ethyl-6-fluoro-4-oxo-7-piperazin-1-yl-1,8-naphthyridine-3-carboxylic acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

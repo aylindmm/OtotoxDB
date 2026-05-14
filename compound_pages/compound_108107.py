@@ -8,7 +8,7 @@ st.title("Benzamil")
 st.image(f"compound_structures/compound_108107.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [108107](https://pubchem.ncbi.nlm.nih.gov/compound/108107)")
 st.markdown(f"IUPAC Name: 3,5-diamino-N-(N'-benzylcarbamimidoyl)-6-chloropyrazine-2-carboxamide")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Ox5xk1jd8c")
 st.image(f"compound_structures/compound_10000860.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [10000860](https://pubchem.ncbi.nlm.nih.gov/compound/10000860)")
 st.markdown(f"IUPAC Name: [(1R,2R)-2-(aminomethyl)cyclobutyl]methanamine;(2S)-2-oxidopropanoate;platinum(2+)")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

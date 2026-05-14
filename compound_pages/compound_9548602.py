@@ -8,7 +8,7 @@ st.title("Creatine phosphate")
 st.image(f"compound_structures/compound_9548602.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9548602](https://pubchem.ncbi.nlm.nih.gov/compound/9548602)")
 st.markdown(f"IUPAC Name: 2-[methyl-[(E)-N'-phosphonocarbamimidoyl]amino]acetic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

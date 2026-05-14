@@ -8,7 +8,7 @@ st.title("1255580-76-7")
 st.image(f"compound_structures/compound_46224516.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [46224516](https://pubchem.ncbi.nlm.nih.gov/compound/46224516)")
 st.markdown(f"IUPAC Name: 2-cyclohexyl-6-methoxy-N-(1-propan-2-ylpiperidin-4-yl)-7-(3-pyrrolidin-1-ylpropoxy)quinazolin-4-amine")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

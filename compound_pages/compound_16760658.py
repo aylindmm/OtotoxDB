@@ -8,7 +8,7 @@ st.title("Sodium salicylate")
 st.image(f"compound_structures/compound_16760658.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16760658](https://pubchem.ncbi.nlm.nih.gov/compound/16760658)")
 st.markdown(f"IUPAC Name: sodium 2-hydroxybenzoate")
-st.markdown(f"Score: 0.215198386012105")
+st.markdown(f"Score: 0.286339902307563")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

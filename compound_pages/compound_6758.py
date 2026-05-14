@@ -8,7 +8,7 @@ st.title("Rotenone")
 st.image(f"compound_structures/compound_6758.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6758](https://pubchem.ncbi.nlm.nih.gov/compound/6758)")
 st.markdown(f"IUPAC Name: (1S,6R,13S)-16,17-dimethoxy-6-prop-1-en-2-yl-2,7,20-trioxapentacyclo[11.8.0.03,11.04,8.014,19]henicosa-3(11),4(8),9,14,16,18-hexaen-12-one")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

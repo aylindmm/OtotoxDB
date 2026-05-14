@@ -8,7 +8,7 @@ st.title("Belinostat")
 st.image(f"compound_structures/compound_6918638.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6918638](https://pubchem.ncbi.nlm.nih.gov/compound/6918638)")
 st.markdown(f"IUPAC Name: (E)-N-hydroxy-3-[3-(phenylsulfamoyl)phenyl]prop-2-enamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

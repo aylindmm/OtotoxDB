@@ -8,7 +8,7 @@ st.title("Sb-203580")
 st.image(f"compound_structures/compound_176155.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [176155](https://pubchem.ncbi.nlm.nih.gov/compound/176155)")
 st.markdown(f"IUPAC Name: 4-[4-(4-fluorophenyl)-2-(4-methylsulfinylphenyl)-1H-imidazol-5-yl]pyridine")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

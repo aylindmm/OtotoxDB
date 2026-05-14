@@ -8,7 +8,7 @@ st.title("3-butenenitrile")
 st.image(f"compound_structures/compound_8009.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8009](https://pubchem.ncbi.nlm.nih.gov/compound/8009)")
 st.markdown(f"IUPAC Name: but-3-enenitrile")
-st.markdown(f"Score: 0.0941492938802959")
+st.markdown(f"Score: 0.0757958564931784")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

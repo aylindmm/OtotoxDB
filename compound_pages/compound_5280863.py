@@ -8,8 +8,8 @@ st.title("Kaempferol")
 st.image(f"compound_structures/compound_5280863.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280863](https://pubchem.ncbi.nlm.nih.gov/compound/5280863)")
 st.markdown(f"IUPAC Name: 3,5,7-trihydroxy-2-(4-hydroxyphenyl)chromen-4-one")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

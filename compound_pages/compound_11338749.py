@@ -8,7 +8,7 @@ st.title("519187-97-4")
 st.image(f"compound_structures/compound_11338749.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11338749](https://pubchem.ncbi.nlm.nih.gov/compound/11338749)")
 st.markdown(f"IUPAC Name: 1-[3-[2-(1-benzothiophen-5-yl)ethoxy]propyl]azetidin-3-ol;(Z)-but-2-enedioic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

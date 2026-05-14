@@ -8,8 +8,8 @@ st.title("Baclofen")
 st.image(f"compound_structures/compound_2284.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2284](https://pubchem.ncbi.nlm.nih.gov/compound/2284)")
 st.markdown(f"IUPAC Name: 4-amino-3-(4-chlorophenyl)butanoic acid")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0842176183257537")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Hs2o3-")
 st.image(f"compound_structures/compound_439208.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [439208](https://pubchem.ncbi.nlm.nih.gov/compound/439208)")
 st.markdown(f"IUPAC Name: hydroxy-oxido-oxo-sulfanylidene-lambda6-sulfane")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

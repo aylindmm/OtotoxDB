@@ -8,7 +8,7 @@ st.title("Styrene")
 st.image(f"compound_structures/compound_7501.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7501](https://pubchem.ncbi.nlm.nih.gov/compound/7501)")
 st.markdown(f"IUPAC Name: styrene")
-st.markdown(f"Score: 0.107599193006052")
+st.markdown(f"Score: 0.513727471787098")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

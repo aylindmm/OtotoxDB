@@ -8,7 +8,7 @@ st.title("9h-pyrido[3,4-b]indole")
 st.image(f"compound_structures/compound_64961.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [64961](https://pubchem.ncbi.nlm.nih.gov/compound/64961)")
 st.markdown(f"IUPAC Name: 9H-pyrido[3,4-b]indole")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

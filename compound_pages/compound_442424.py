@@ -8,7 +8,7 @@ st.title("Genipin")
 st.image(f"compound_structures/compound_442424.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [442424](https://pubchem.ncbi.nlm.nih.gov/compound/442424)")
 st.markdown(f"IUPAC Name: methyl (1R,4aS,7aS)-1-hydroxy-7-(hydroxymethyl)-1,4a,5,7a-tetrahydrocyclopenta[c]pyran-4-carboxylate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

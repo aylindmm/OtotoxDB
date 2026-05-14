@@ -8,7 +8,7 @@ st.title("Lycopene")
 st.image(f"compound_structures/compound_446925.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [446925](https://pubchem.ncbi.nlm.nih.gov/compound/446925)")
 st.markdown(f"IUPAC Name: (6E,8E,10E,12E,14E,16E,18E,20E,22E,24E,26E)-2,6,10,14,19,23,27,31-octamethyldotriaconta-2,6,8,10,12,14,16,18,20,22,24,26,30-tridecaene")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

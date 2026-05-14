@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Cisplatina", layout="wide")
-st.title("Cisplatina")
+st.set_page_config(page_title="Cisplatin", layout="wide")
+st.title("Cisplatin")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_5460033.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5460033](https://pubchem.ncbi.nlm.nih.gov/compound/5460033)")
 st.markdown(f"IUPAC Name: azane;dichloroplatinum")
-st.markdown(f"Score: 23.4835238735709")
+st.markdown(f"Score: 17.0709112346303")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

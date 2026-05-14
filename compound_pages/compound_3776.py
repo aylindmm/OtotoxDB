@@ -8,7 +8,7 @@ st.title("Isopropyl alcohol")
 st.image(f"compound_structures/compound_3776.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3776](https://pubchem.ncbi.nlm.nih.gov/compound/3776)")
 st.markdown(f"IUPAC Name: propan-2-ol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

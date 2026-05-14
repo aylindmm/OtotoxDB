@@ -8,7 +8,7 @@ st.title("Cerovive")
 st.image(f"compound_structures/compound_6440181.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6440181](https://pubchem.ncbi.nlm.nih.gov/compound/6440181)")
 st.markdown(f"IUPAC Name: disodium;4-[(Z)-[tert-butyl(oxido)azaniumylidene]methyl]benzene-1,3-disulfonate")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

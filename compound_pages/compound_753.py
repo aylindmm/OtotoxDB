@@ -8,8 +8,8 @@ st.title("Glycerol")
 st.image(f"compound_structures/compound_753.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [753](https://pubchem.ncbi.nlm.nih.gov/compound/753)")
 st.markdown(f"IUPAC Name: propane-1,2,3-triol")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0505305709954523")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

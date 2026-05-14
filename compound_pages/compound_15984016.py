@@ -8,7 +8,7 @@ st.title("Serofendic acid")
 st.image(f"compound_structures/compound_15984016.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [15984016](https://pubchem.ncbi.nlm.nih.gov/compound/15984016)")
 st.markdown(f"IUPAC Name: (1S,4S,5R,9S,10S,12S,13S,14R)-14-hydroxy-5,9-dimethyl-13-(methylsulfinylmethyl)tetracyclo[10.2.2.01,10.04,9]hexadecane-5-carboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

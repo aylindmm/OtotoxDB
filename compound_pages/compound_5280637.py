@@ -8,7 +8,7 @@ st.title("Cynaroside")
 st.image(f"compound_structures/compound_5280637.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280637](https://pubchem.ncbi.nlm.nih.gov/compound/5280637)")
 st.markdown(f"IUPAC Name: 2-(3,4-dihydroxyphenyl)-5-hydroxy-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

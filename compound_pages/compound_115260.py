@@ -8,7 +8,7 @@ st.title("S-methylglutathione")
 st.image(f"compound_structures/compound_115260.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [115260](https://pubchem.ncbi.nlm.nih.gov/compound/115260)")
 st.markdown(f"IUPAC Name: (2S)-2-amino-5-[[(2R)-1-(carboxymethylamino)-3-methylsulfanyl-1-oxopropan-2-yl]amino]-5-oxopentanoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

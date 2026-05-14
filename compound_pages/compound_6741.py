@@ -8,8 +8,8 @@ st.title("Methylprednisolone")
 st.image(f"compound_structures/compound_6741.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6741](https://pubchem.ncbi.nlm.nih.gov/compound/6741)")
 st.markdown(f"IUPAC Name: (6S,8S,9S,10R,11S,13S,14S,17R)-11,17-dihydroxy-17-(2-hydroxyacetyl)-6,10,13-trimethyl-7,8,9,11,12,14,15,16-octahydro-6H-cyclopenta[a]phenanthren-3-one")
-st.markdown(f"Score: -0.121049092131809")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

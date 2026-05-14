@@ -8,7 +8,7 @@ st.title("Gadodiamide")
 st.image(f"compound_structures/compound_153921.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [153921](https://pubchem.ncbi.nlm.nih.gov/compound/153921)")
 st.markdown(f"IUPAC Name: 2-[bis[2-[carboxylatomethyl-[2-(methylamino)-2-oxoethyl]amino]ethyl]amino]acetate;gadolinium(3+)")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

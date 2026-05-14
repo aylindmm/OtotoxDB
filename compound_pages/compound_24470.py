@@ -8,7 +8,7 @@ st.title("Silver nitrate")
 st.image(f"compound_structures/compound_24470.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24470](https://pubchem.ncbi.nlm.nih.gov/compound/24470)")
 st.markdown(f"IUPAC Name: silver nitrate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

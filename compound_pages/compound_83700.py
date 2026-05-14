@@ -8,7 +8,7 @@ st.title("13752-51-7")
 st.image(f"compound_structures/compound_83700.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [83700](https://pubchem.ncbi.nlm.nih.gov/compound/83700)")
 st.markdown(f"IUPAC Name: morpholin-4-yl morpholine-4-carbodithioate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

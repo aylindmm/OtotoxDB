@@ -8,7 +8,7 @@ st.title("Celiomycin")
 st.image(f"compound_structures/compound_135398671.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135398671](https://pubchem.ncbi.nlm.nih.gov/compound/135398671)")
 st.markdown(f"IUPAC Name: (3S)-3,6-diamino-N-[(3S,6Z,9S,12S,15S)-3-[(4R,6S)-2-amino-6-hydroxy-1,4,5,6-tetrahydropyrimidin-4-yl]-6-[(carbamoylamino)methylidene]-9,12-bis(hydroxymethyl)-2,5,8,11,14-pentaoxo-1,4,7,10,13-pentazacyclohexadec-15-yl]hexanamide")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

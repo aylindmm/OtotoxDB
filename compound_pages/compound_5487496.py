@@ -8,7 +8,7 @@ st.title("N-benzyloxycarbonyl-leucyl-leucyl-phenylalaninal")
 st.image(f"compound_structures/compound_5487496.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5487496](https://pubchem.ncbi.nlm.nih.gov/compound/5487496)")
 st.markdown(f"IUPAC Name: benzyl N-[(2S)-4-methyl-1-[[(2S)-4-methyl-2-[(1-oxo-3-phenylpropan-2-yl)amino]pentanoyl]amino]-1-oxopentan-2-yl]carbamate")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

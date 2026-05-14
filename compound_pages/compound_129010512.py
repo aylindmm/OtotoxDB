@@ -8,7 +8,7 @@ st.title("Dihexa")
 st.image(f"compound_structures/compound_129010512.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [129010512](https://pubchem.ncbi.nlm.nih.gov/compound/129010512)")
 st.markdown(f"IUPAC Name: (2S,3S)-N-(6-amino-6-oxohexyl)-2-[[(2S)-2-(hexanoylamino)-3-(4-hydroxyphenyl)propanoyl]amino]-3-methylpentanamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

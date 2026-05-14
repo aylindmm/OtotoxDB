@@ -8,7 +8,7 @@ st.title("2,3-dihydroxybenzoate")
 st.image(f"compound_structures/compound_54675818.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54675818](https://pubchem.ncbi.nlm.nih.gov/compound/54675818)")
 st.markdown(f"IUPAC Name: 2-carboxy-6-hydroxyphenolate")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

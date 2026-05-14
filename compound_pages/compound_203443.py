@@ -8,7 +8,7 @@ st.title("2-deoxystreptamine")
 st.image(f"compound_structures/compound_203443.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [203443](https://pubchem.ncbi.nlm.nih.gov/compound/203443)")
 st.markdown(f"IUPAC Name: (1S,3R,4S,6R)-4,6-diaminocyclohexane-1,2,3-triol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

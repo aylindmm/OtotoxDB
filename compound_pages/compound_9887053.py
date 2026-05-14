@@ -8,7 +8,7 @@ st.title("Oxaliplatin")
 st.image(f"compound_structures/compound_9887053.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9887053](https://pubchem.ncbi.nlm.nih.gov/compound/9887053)")
 st.markdown(f"IUPAC Name: [(1R,2R)-2-azanidylcyclohexyl]azanide;oxalic acid;platinum(2+)")
-st.markdown(f"Score: 0.699394754539341")
+st.markdown(f"Score: 0.378979282465892")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

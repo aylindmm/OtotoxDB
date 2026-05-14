@@ -8,7 +8,7 @@ st.title("Aminophylline")
 st.image(f"compound_structures/compound_9433.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9433](https://pubchem.ncbi.nlm.nih.gov/compound/9433)")
 st.markdown(f"IUPAC Name: bis(1,3-dimethyl-7H-purine-2,6-dione);ethane-1,2-diamine")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

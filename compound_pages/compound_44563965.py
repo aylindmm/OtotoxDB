@@ -8,7 +8,7 @@ st.title("Gentamicin c1 sulfate")
 st.image(f"compound_structures/compound_44563965.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [44563965](https://pubchem.ncbi.nlm.nih.gov/compound/44563965)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-[(1R)-1-(methylamino)ethyl]oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol;sulfuric acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

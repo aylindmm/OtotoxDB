@@ -8,7 +8,7 @@ st.title("Ivacaftor")
 st.image(f"compound_structures/compound_16220172.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16220172](https://pubchem.ncbi.nlm.nih.gov/compound/16220172)")
 st.markdown(f"IUPAC Name: N-(2,4-ditert-butyl-5-hydroxyphenyl)-4-oxo-1H-quinoline-3-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

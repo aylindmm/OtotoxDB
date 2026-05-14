@@ -8,8 +8,8 @@ st.title("Cefotaxime")
 st.image(f"compound_structures/compound_5742673.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5742673](https://pubchem.ncbi.nlm.nih.gov/compound/5742673)")
 st.markdown(f"IUPAC Name: (6R,7R)-3-(acetyloxymethyl)-7-[[(2Z)-2-(2-amino-1,3-thiazol-4-yl)-2-methoxyiminoacetyl]amino]-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

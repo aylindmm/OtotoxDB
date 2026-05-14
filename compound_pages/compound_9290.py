@@ -8,7 +8,7 @@ st.title("Calcium gluconate")
 st.image(f"compound_structures/compound_9290.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9290](https://pubchem.ncbi.nlm.nih.gov/compound/9290)")
 st.markdown(f"IUPAC Name: calcium bis((2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoate)")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

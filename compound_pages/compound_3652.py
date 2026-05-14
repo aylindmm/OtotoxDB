@@ -8,7 +8,7 @@ st.title("Hydroxychloroquine")
 st.image(f"compound_structures/compound_3652.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3652](https://pubchem.ncbi.nlm.nih.gov/compound/3652)")
 st.markdown(f"IUPAC Name: 2-[4-[(7-chloroquinolin-4-yl)amino]pentyl-ethylamino]ethanol")
-st.markdown(f"Score: 0.215198386012105")
+st.markdown(f"Score: 0.21896580764696")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

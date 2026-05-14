@@ -8,8 +8,8 @@ st.title("Linezolid")
 st.image(f"compound_structures/compound_441401.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [441401](https://pubchem.ncbi.nlm.nih.gov/compound/441401)")
 st.markdown(f"IUPAC Name: N-[[(5S)-3-(3-fluoro-4-morpholin-4-ylphenyl)-2-oxo-1,3-oxazolidin-5-yl]methyl]acetamide")
-st.markdown(f"Score: 0.0134498991257566")
-st.markdown(f"Classification: ototoxic")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

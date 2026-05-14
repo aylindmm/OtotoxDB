@@ -8,7 +8,7 @@ st.title("Neamine")
 st.image(f"compound_structures/compound_72392.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72392](https://pubchem.ncbi.nlm.nih.gov/compound/72392)")
 st.markdown(f"IUPAC Name: (2R,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-2,3-dihydroxycyclohexyl]oxyoxane-3,4-diol")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

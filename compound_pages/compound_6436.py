@@ -8,7 +8,7 @@ st.title("Triamcinolone acetonide")
 st.image(f"compound_structures/compound_6436.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6436](https://pubchem.ncbi.nlm.nih.gov/compound/6436)")
 st.markdown(f"IUPAC Name: (1S,2S,4R,8S,9S,11S,12R,13S)-12-fluoro-11-hydroxy-8-(2-hydroxyacetyl)-6,6,9,13-tetramethyl-5,7-dioxapentacyclo[10.8.0.02,9.04,8.013,18]icosa-14,17-dien-16-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

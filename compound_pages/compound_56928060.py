@@ -8,7 +8,7 @@ st.title("Glycopeptide")
 st.image(f"compound_structures/compound_56928060.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [56928060](https://pubchem.ncbi.nlm.nih.gov/compound/56928060)")
 st.markdown(f"IUPAC Name: (2S)-2-[[(2R)-2-[[(4R)-4-[[(2R)-2-[2-[(3R,4R,5S,6R)-5-[(2S,3R,4R,5S,6R)-3-acetamido-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-(ethylamino)-2-hydroxy-6-(hydroxymethyl)oxan-4-yl]oxypropanoylamino]propanoyl]amino]-5-amino-5-oxopentanoyl]amino]-6-aminohexanoyl]amino]propanoic acid")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

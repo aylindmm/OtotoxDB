@@ -8,7 +8,7 @@ st.title("Noc-5")
 st.image(f"compound_structures/compound_135402057.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135402057](https://pubchem.ncbi.nlm.nih.gov/compound/135402057)")
 st.markdown(f"IUPAC Name: (Z)-[3-aminopropyl(propan-2-yl)amino]-hydroxyimino-oxidoazanium")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

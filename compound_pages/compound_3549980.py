@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="2-propylpentanoate", layout="wide")
-st.title("2-propylpentanoate")
+st.set_page_config(page_title="Valproate", layout="wide")
+st.title("Valproate")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_3549980.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3549980](https://pubchem.ncbi.nlm.nih.gov/compound/3549980)")
 st.markdown(f"IUPAC Name: 2-propylpentanoate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0757958564931784")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

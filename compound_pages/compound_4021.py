@@ -8,7 +8,7 @@ st.title("Mci-186")
 st.image(f"compound_structures/compound_4021.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4021](https://pubchem.ncbi.nlm.nih.gov/compound/4021)")
 st.markdown(f"IUPAC Name: 5-methyl-2-phenyl-4H-pyrazol-3-one")
-st.markdown(f"Score: -0.188298587760592")
+st.markdown(f"Score: -0.10948290382348")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

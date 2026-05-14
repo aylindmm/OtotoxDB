@@ -8,7 +8,7 @@ st.title("Carvacrol")
 st.image(f"compound_structures/compound_10364.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [10364](https://pubchem.ncbi.nlm.nih.gov/compound/10364)")
 st.markdown(f"IUPAC Name: 2-methyl-5-propan-2-ylphenol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Bromate")
 st.image(f"compound_structures/compound_84979.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [84979](https://pubchem.ncbi.nlm.nih.gov/compound/84979)")
 st.markdown(f"IUPAC Name: bromate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

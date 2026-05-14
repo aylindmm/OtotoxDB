@@ -8,7 +8,7 @@ st.title("Refchem:910044")
 st.image(f"compound_structures/compound_3091786.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3091786](https://pubchem.ncbi.nlm.nih.gov/compound/3091786)")
 st.markdown(f"IUPAC Name: 2-methyl-N-[2-methyl-4-[(2-methylphenyl)diazenyl]phenyl]pyrazole-3-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Nicotinamide")
 st.image(f"compound_structures/compound_936.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [936](https://pubchem.ncbi.nlm.nih.gov/compound/936)")
 st.markdown(f"IUPAC Name: pyridine-3-carboxamide")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0421088091628769")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

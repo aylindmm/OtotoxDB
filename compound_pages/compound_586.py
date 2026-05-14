@@ -8,7 +8,7 @@ st.title("Creatine")
 st.image(f"compound_structures/compound_586.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [586](https://pubchem.ncbi.nlm.nih.gov/compound/586)")
 st.markdown(f"IUPAC Name: 2-[carbamimidoyl(methyl)amino]acetic acid")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

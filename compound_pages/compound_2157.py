@@ -8,7 +8,7 @@ st.title("Amiodarone")
 st.image(f"compound_structures/compound_2157.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2157](https://pubchem.ncbi.nlm.nih.gov/compound/2157)")
 st.markdown(f"IUPAC Name: (2-butyl-1-benzofuran-3-yl)-[4-[2-(diethylamino)ethoxy]-3,5-diiodophenyl]methanone")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.134748189321206")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

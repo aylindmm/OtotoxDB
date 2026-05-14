@@ -8,8 +8,8 @@ st.title("Perindopril")
 st.image(f"compound_structures/compound_107807.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [107807](https://pubchem.ncbi.nlm.nih.gov/compound/107807)")
 st.markdown(f"IUPAC Name: (2S,3aS,7aS)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxopentan-2-yl]amino]propanoyl]-2,3,3a,4,5,6,7,7a-octahydroindole-2-carboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

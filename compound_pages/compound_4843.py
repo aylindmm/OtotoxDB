@@ -8,8 +8,8 @@ st.title("Piracetam")
 st.image(f"compound_structures/compound_4843.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4843](https://pubchem.ncbi.nlm.nih.gov/compound/4843)")
 st.markdown(f"IUPAC Name: 2-(2-oxopyrrolidin-1-yl)acetamide")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

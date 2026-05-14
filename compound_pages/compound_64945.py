@@ -8,7 +8,7 @@ st.title("Ursolic acid")
 st.image(f"compound_structures/compound_64945.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [64945](https://pubchem.ncbi.nlm.nih.gov/compound/64945)")
 st.markdown(f"IUPAC Name: (1S,2R,4aS,6aR,6aS,6bR,8aR,10S,12aR,14bS)-10-hydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

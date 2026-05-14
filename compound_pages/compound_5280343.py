@@ -8,7 +8,7 @@ st.title("Quercetin")
 st.image(f"compound_structures/compound_5280343.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280343](https://pubchem.ncbi.nlm.nih.gov/compound/5280343)")
 st.markdown(f"IUPAC Name: 2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxychromen-4-one")
-st.markdown(f"Score: -0.147948890383322")
+st.markdown(f"Score: -0.0842176183257537")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

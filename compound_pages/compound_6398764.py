@@ -8,7 +8,7 @@ st.title("Tenofovir disoproxil fumarate")
 st.image(f"compound_structures/compound_6398764.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6398764](https://pubchem.ncbi.nlm.nih.gov/compound/6398764)")
 st.markdown(f"IUPAC Name: [[(2R)-1-(6-aminopurin-9-yl)propan-2-yl]oxymethyl-(propan-2-yloxycarbonyloxymethoxy)phosphoryl]oxymethyl propan-2-yl carbonate;(E)-but-2-enedioic acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

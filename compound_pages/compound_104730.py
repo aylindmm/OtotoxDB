@@ -8,7 +8,7 @@ st.title("Cobalt")
 st.image(f"compound_structures/compound_104730.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [104730](https://pubchem.ncbi.nlm.nih.gov/compound/104730)")
 st.markdown(f"IUPAC Name: cobalt")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.067374094660603")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

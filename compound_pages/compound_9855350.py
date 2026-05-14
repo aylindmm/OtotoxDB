@@ -8,7 +8,7 @@ st.title("Gentak")
 st.image(f"compound_structures/compound_9855350.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9855350](https://pubchem.ncbi.nlm.nih.gov/compound/9855350)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-(1-aminoethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol;(2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-(aminomethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol;(2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-[1-(methylamino)ethyl]oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol;sulfuric acid")
-st.markdown(f"Score: 0.34969737726967")
+st.markdown(f"Score: 0.269496378642412")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

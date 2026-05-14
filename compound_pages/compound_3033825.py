@@ -8,7 +8,7 @@ st.title("Levosimendan")
 st.image(f"compound_structures/compound_3033825.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3033825](https://pubchem.ncbi.nlm.nih.gov/compound/3033825)")
 st.markdown(f"IUPAC Name: 2-[[4-[(4R)-4-methyl-6-oxo-4,5-dihydro-1H-pyridazin-3-yl]phenyl]hydrazinylidene]propanedinitrile")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

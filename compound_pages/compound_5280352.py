@@ -8,8 +8,8 @@ st.title("Bilirubin")
 st.image(f"compound_structures/compound_5280352.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280352](https://pubchem.ncbi.nlm.nih.gov/compound/5280352)")
 st.markdown(f"IUPAC Name: 3-[2-[[3-(2-carboxyethyl)-5-[(Z)-(3-ethenyl-4-methyl-5-oxopyrrol-2-ylidene)methyl]-4-methyl-1H-pyrrol-2-yl]methyl]-5-[(Z)-(4-ethenyl-3-methyl-5-oxopyrrol-2-ylidene)methyl]-4-methyl-1H-pyrrol-3-yl]propanoic acid")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0336870473303015")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

@@ -8,8 +8,8 @@ st.title("Flunarizine")
 st.image(f"compound_structures/compound_941361.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [941361](https://pubchem.ncbi.nlm.nih.gov/compound/941361)")
 st.markdown(f"IUPAC Name: 1-[bis(4-fluorophenyl)methyl]-4-[(E)-3-phenylprop-2-enyl]piperazine")
-st.markdown(f"Score: -0.0403496973772697")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Mefloquine")
 st.image(f"compound_structures/compound_4046.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4046](https://pubchem.ncbi.nlm.nih.gov/compound/4046)")
 st.markdown(f"IUPAC Name: [2,8-bis(trifluoromethyl)quinolin-4-yl]-piperidin-2-ylmethanol")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.34529223513559")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

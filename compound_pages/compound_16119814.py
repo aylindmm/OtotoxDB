@@ -8,7 +8,7 @@ st.title("Caspofungin")
 st.image(f"compound_structures/compound_16119814.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16119814](https://pubchem.ncbi.nlm.nih.gov/compound/16119814)")
 st.markdown(f"IUPAC Name: (10R,12S)-N-[(3S,6S,9S,11R,15S,18S,20R,21S,24S,25S)-21-(2-aminoethylamino)-3-[(1R)-3-amino-1-hydroxypropyl]-6-[(1S,2S)-1,2-dihydroxy-2-(4-hydroxyphenyl)ethyl]-11,20,25-trihydroxy-15-[(1R)-1-hydroxyethyl]-2,5,8,14,17,23-hexaoxo-1,4,7,13,16,22-hexazatricyclo[22.3.0.09,13]heptacosan-18-yl]-10,12-dimethyltetradecanamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

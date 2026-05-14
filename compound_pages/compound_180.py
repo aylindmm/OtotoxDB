@@ -8,7 +8,7 @@ st.title("Acetone")
 st.image(f"compound_structures/compound_180.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [180](https://pubchem.ncbi.nlm.nih.gov/compound/180)")
 st.markdown(f"IUPAC Name: propan-2-one")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

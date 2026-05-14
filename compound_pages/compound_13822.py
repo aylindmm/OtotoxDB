@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Triethylstannane", layout="wide")
-st.title("Triethylstannane")
+st.set_page_config(page_title="Refchem:386121", layout="wide")
+st.title("Refchem:386121")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_13822.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [13822](https://pubchem.ncbi.nlm.nih.gov/compound/13822)")
 st.markdown(f"IUPAC Name: triethylstannane")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

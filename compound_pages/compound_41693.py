@@ -8,8 +8,8 @@ st.title("Sufentanil")
 st.image(f"compound_structures/compound_41693.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [41693](https://pubchem.ncbi.nlm.nih.gov/compound/41693)")
 st.markdown(f"IUPAC Name: N-[4-(methoxymethyl)-1-(2-thiophen-2-ylethyl)piperidin-4-yl]-N-phenylpropanamide")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.10948290382348")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

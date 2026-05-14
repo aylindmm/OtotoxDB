@@ -8,7 +8,7 @@ st.title("Eupatilin")
 st.image(f"compound_structures/compound_5273755.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5273755](https://pubchem.ncbi.nlm.nih.gov/compound/5273755)")
 st.markdown(f"IUPAC Name: 2-(3,4-dimethoxyphenyl)-5,7-dihydroxy-6-methoxychromen-4-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

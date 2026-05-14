@@ -8,7 +8,7 @@ st.title("Epoetin alfa")
 st.image(f"compound_structures/compound_92043599.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [92043599](https://pubchem.ncbi.nlm.nih.gov/compound/92043599)")
 st.markdown(f"IUPAC Name: (4R,5S,6S,7R,9R,10R,11E,13E,16R)-10-[(2R,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy-6-[(2S,3R,4R,5S,6R)-5-[(2R,4R,5S,6S)-4,5-dihydroxy-4,6-dimethyloxan-2-yl]oxy-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-4-hydroxy-7-(2-hydroxyethyl)-5-methoxy-9,16-dimethyl-1-oxacyclohexadeca-11,13-dien-2-one")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

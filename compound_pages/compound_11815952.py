@@ -8,7 +8,7 @@ st.title("4-methylthiobenzoic acid")
 st.image(f"compound_structures/compound_11815952.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11815952](https://pubchem.ncbi.nlm.nih.gov/compound/11815952)")
 st.markdown(f"IUPAC Name: 4-methylbenzenecarbothioic S-acid")
-st.markdown(f"Score: -0.0806993947545393")
+st.markdown(f"Score: -0.0505305709954523")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

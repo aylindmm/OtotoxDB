@@ -8,7 +8,7 @@ st.title("Lovastatin")
 st.image(f"compound_structures/compound_53232.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [53232](https://pubchem.ncbi.nlm.nih.gov/compound/53232)")
 st.markdown(f"IUPAC Name: [(1S,3R,7S,8S,8aR)-8-[2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl]-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl] (2S)-2-methylbutanoate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

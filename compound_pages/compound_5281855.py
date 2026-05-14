@@ -8,7 +8,7 @@ st.title("Ellagic acid")
 st.image(f"compound_structures/compound_5281855.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281855](https://pubchem.ncbi.nlm.nih.gov/compound/5281855)")
 st.markdown(f"IUPAC Name: 6,7,13,14-tetrahydroxy-2,9-dioxatetracyclo[6.6.2.04,16.011,15]hexadeca-1(15),4,6,8(16),11,13-hexaene-3,10-dione")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

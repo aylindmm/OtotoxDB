@@ -8,7 +8,7 @@ st.title("Ethambutol")
 st.image(f"compound_structures/compound_14052.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [14052](https://pubchem.ncbi.nlm.nih.gov/compound/14052)")
 st.markdown(f"IUPAC Name: (2S)-2-[2-[[(2S)-1-hydroxybutan-2-yl]amino]ethylamino]butan-1-ol")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0589523328280276")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Pantoprazole")
 st.image(f"compound_structures/compound_4679.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4679](https://pubchem.ncbi.nlm.nih.gov/compound/4679)")
 st.markdown(f"IUPAC Name: 6-(difluoromethoxy)-2-[(3,4-dimethoxy-2-pyridinyl)methylsulfinyl]-1H-benzimidazole")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

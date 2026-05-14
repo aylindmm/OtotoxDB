@@ -8,8 +8,8 @@ st.title("Isosorbide")
 st.image(f"compound_structures/compound_12597.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [12597](https://pubchem.ncbi.nlm.nih.gov/compound/12597)")
 st.markdown(f"IUPAC Name: (3S,3aR,6R,6aR)-2,3,3a,5,6,6a-hexahydrofuro[3,2-b]furan-3,6-diol")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

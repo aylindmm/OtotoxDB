@@ -8,7 +8,7 @@ st.title("Piceatannol")
 st.image(f"compound_structures/compound_667639.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [667639](https://pubchem.ncbi.nlm.nih.gov/compound/667639)")
 st.markdown(f"IUPAC Name: 4-[(E)-2-(3,5-dihydroxyphenyl)ethenyl]benzene-1,2-diol")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

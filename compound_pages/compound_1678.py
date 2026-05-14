@@ -8,7 +8,7 @@ st.title("3-nitropropionic acid")
 st.image(f"compound_structures/compound_1678.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1678](https://pubchem.ncbi.nlm.nih.gov/compound/1678)")
 st.markdown(f"IUPAC Name: 3-nitropropanoic acid")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

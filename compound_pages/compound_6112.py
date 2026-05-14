@@ -8,7 +8,7 @@ st.title("Lipoic acid")
 st.image(f"compound_structures/compound_6112.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6112](https://pubchem.ncbi.nlm.nih.gov/compound/6112)")
 st.markdown(f"IUPAC Name: 5-[(3R)-dithiolan-3-yl]pentanoic acid")
-st.markdown(f"Score: -0.0806993947545393")
+st.markdown(f"Score: -0.0589523328280276")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

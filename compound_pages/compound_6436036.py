@@ -8,7 +8,7 @@ st.title("Ozolinone")
 st.image(f"compound_structures/compound_6436036.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6436036](https://pubchem.ncbi.nlm.nih.gov/compound/6436036)")
 st.markdown(f"IUPAC Name: (2Z)-2-(3-methyl-4-oxo-5-piperidin-1-yl-1,3-thiazolidin-2-ylidene)acetic acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Sodium butyrate")
 st.image(f"compound_structures/compound_5222465.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5222465](https://pubchem.ncbi.nlm.nih.gov/compound/5222465)")
 st.markdown(f"IUPAC Name: sodium butanoate")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

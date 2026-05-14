@@ -8,7 +8,7 @@ st.title("Salvianolic acid a")
 st.image(f"compound_structures/compound_5281793.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281793](https://pubchem.ncbi.nlm.nih.gov/compound/5281793)")
 st.markdown(f"IUPAC Name: (2R)-3-(3,4-dihydroxyphenyl)-2-[(E)-3-[2-[(E)-2-(3,4-dihydroxyphenyl)ethenyl]-3,4-dihydroxyphenyl]prop-2-enoyl]oxypropanoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

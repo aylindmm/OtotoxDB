@@ -8,7 +8,7 @@ st.title("Metrizamide")
 st.image(f"compound_structures/compound_443944.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [443944](https://pubchem.ncbi.nlm.nih.gov/compound/443944)")
 st.markdown(f"IUPAC Name: 3-acetamido-5-[acetyl(methyl)amino]-2,4,6-triiodo-N-[(3R,4R,5S,6R)-2,4,5-trihydroxy-6-(hydroxymethyl)oxan-3-yl]benzamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

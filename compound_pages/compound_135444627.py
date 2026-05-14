@@ -8,7 +8,7 @@ st.title("Asoxime chloride")
 st.image(f"compound_structures/compound_135444627.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135444627](https://pubchem.ncbi.nlm.nih.gov/compound/135444627)")
 st.markdown(f"IUPAC Name: 1-[[2-[(E)-hydroxyiminomethyl]pyridin-1-ium-1-yl]methoxymethyl]pyridin-1-ium-4-carboxamide dichloride")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

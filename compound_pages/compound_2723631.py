@@ -8,7 +8,7 @@ st.title("N,n'-dimethylthiourea")
 st.image(f"compound_structures/compound_2723631.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2723631](https://pubchem.ncbi.nlm.nih.gov/compound/2723631)")
 st.markdown(f"IUPAC Name: 1,3-dimethylthiourea")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

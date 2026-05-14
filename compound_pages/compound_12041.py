@@ -8,7 +8,7 @@ st.title("Ethyl pyruvate")
 st.image(f"compound_structures/compound_12041.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [12041](https://pubchem.ncbi.nlm.nih.gov/compound/12041)")
 st.markdown(f"IUPAC Name: ethyl 2-oxopropanoate")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

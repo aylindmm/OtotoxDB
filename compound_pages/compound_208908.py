@@ -8,7 +8,7 @@ st.title("Lapatinib")
 st.image(f"compound_structures/compound_208908.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [208908](https://pubchem.ncbi.nlm.nih.gov/compound/208908)")
 st.markdown(f"IUPAC Name: N-[3-chloro-4-[(3-fluorophenyl)methoxy]phenyl]-6-[5-[(2-methylsulfonylethylamino)methyl]furan-2-yl]quinazolin-4-amine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

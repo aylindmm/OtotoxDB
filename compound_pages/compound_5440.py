@@ -8,7 +8,7 @@ st.title("Thiethylperazine")
 st.image(f"compound_structures/compound_5440.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5440](https://pubchem.ncbi.nlm.nih.gov/compound/5440)")
 st.markdown(f"IUPAC Name: 2-ethylsulfanyl-10-[3-(4-methylpiperazin-1-yl)propyl]phenothiazine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

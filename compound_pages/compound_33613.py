@@ -8,8 +8,8 @@ st.title("Amoxicillin")
 st.image(f"compound_structures/compound_33613.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [33613](https://pubchem.ncbi.nlm.nih.gov/compound/33613)")
 st.markdown(f"IUPAC Name: (2S,5R,6R)-6-[[(2R)-2-amino-2-(4-hydroxyphenyl)acetyl]amino]-3,3-dimethyl-7-oxo-4-thia-1-azabicyclo[3.2.0]heptane-2-carboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0336870473303015")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Propantheline bromide")
 st.image(f"compound_structures/compound_9279.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9279](https://pubchem.ncbi.nlm.nih.gov/compound/9279)")
 st.markdown(f"IUPAC Name: methyl-di(propan-2-yl)-[2-(9H-xanthene-9-carbonyloxy)ethyl]azanium bromide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

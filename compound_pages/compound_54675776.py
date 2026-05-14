@@ -8,7 +8,7 @@ st.title("Tetracycline")
 st.image(f"compound_structures/compound_54675776.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54675776](https://pubchem.ncbi.nlm.nih.gov/compound/54675776)")
 st.markdown(f"IUPAC Name: (4S,4aS,5aS,6S,12aR)-4-(dimethylamino)-1,6,10,11,12a-pentahydroxy-6-methyl-3,12-dioxo-4,4a,5,5a-tetrahydrotetracene-2-carboxamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

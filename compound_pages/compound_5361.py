@@ -8,7 +8,7 @@ st.title("Suramin")
 st.image(f"compound_structures/compound_5361.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5361](https://pubchem.ncbi.nlm.nih.gov/compound/5361)")
 st.markdown(f"IUPAC Name: 8-[[4-methyl-3-[[3-[[3-[[2-methyl-5-[(4,6,8-trisulfonaphthalen-1-yl)carbamoyl]phenyl]carbamoyl]phenyl]carbamoylamino]benzoyl]amino]benzoyl]amino]naphthalene-1,3,5-trisulfonic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

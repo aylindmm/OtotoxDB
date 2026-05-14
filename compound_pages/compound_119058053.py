@@ -8,7 +8,7 @@ st.title("P5pzx56ucw")
 st.image(f"compound_structures/compound_119058053.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [119058053](https://pubchem.ncbi.nlm.nih.gov/compound/119058053)")
 st.markdown(f"IUPAC Name: methyl 3-methyl-2-[(1-pentylindazole-3-carbonyl)amino]butanoate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

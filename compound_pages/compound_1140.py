@@ -8,7 +8,7 @@ st.title("Toluene")
 st.image(f"compound_structures/compound_1140.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1140](https://pubchem.ncbi.nlm.nih.gov/compound/1140)")
 st.markdown(f"IUPAC Name: toluene")
-st.markdown(f"Score: 0.134498991257566")
+st.markdown(f"Score: 0.538992757284824")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

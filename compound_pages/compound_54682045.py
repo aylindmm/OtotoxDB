@@ -8,7 +8,7 @@ st.title("Choline magnesium trisalicylate")
 st.image(f"compound_structures/compound_54682045.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54682045](https://pubchem.ncbi.nlm.nih.gov/compound/54682045)")
 st.markdown(f"IUPAC Name: magnesium;tris(2-carboxyphenolate);2-hydroxyethyl(trimethyl)azanium")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

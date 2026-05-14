@@ -8,8 +8,8 @@ st.title("Prednisone")
 st.image(f"compound_structures/compound_5865.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5865](https://pubchem.ncbi.nlm.nih.gov/compound/5865)")
 st.markdown(f"IUPAC Name: (8S,9S,10R,13S,14S,17R)-17-hydroxy-17-(2-hydroxyacetyl)-10,13-dimethyl-6,7,8,9,12,14,15,16-octahydrocyclopenta[a]phenanthrene-3,11-dione")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0168435236651507")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

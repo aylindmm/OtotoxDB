@@ -8,8 +8,8 @@ st.title("Rosuvastatin")
 st.image(f"compound_structures/compound_446157.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [446157](https://pubchem.ncbi.nlm.nih.gov/compound/446157)")
 st.markdown(f"IUPAC Name: (E,3R,5S)-7-[4-(4-fluorophenyl)-2-[methyl(methylsulfonyl)amino]-6-propan-2-ylpyrimidin-5-yl]-3,5-dihydroxyhept-6-enoic acid")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

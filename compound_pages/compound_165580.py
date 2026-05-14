@@ -8,7 +8,7 @@ st.title("Paromomycin")
 st.image(f"compound_structures/compound_165580.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [165580](https://pubchem.ncbi.nlm.nih.gov/compound/165580)")
 st.markdown(f"IUPAC Name: (2S,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(2R,3S,4R,5S)-5-[(1R,2R,3S,5R,6S)-3,5-diamino-2-[(2S,3R,4R,5S,6R)-3-amino-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-6-hydroxycyclohexyl]oxy-4-hydroxy-2-(hydroxymethyl)oxolan-3-yl]oxyoxane-3,4-diol")
-st.markdown(f"Score: 0.0941492938802959")
+st.markdown(f"Score: 0.10948290382348")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Mephenytoin")
 st.image(f"compound_structures/compound_4060.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4060](https://pubchem.ncbi.nlm.nih.gov/compound/4060)")
 st.markdown(f"IUPAC Name: 5-ethyl-3-methyl-5-phenylimidazolidine-2,4-dione")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

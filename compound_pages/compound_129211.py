@@ -8,7 +8,7 @@ st.title("Tamsulosin")
 st.image(f"compound_structures/compound_129211.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [129211](https://pubchem.ncbi.nlm.nih.gov/compound/129211)")
 st.markdown(f"IUPAC Name: 5-[(2R)-2-[2-(2-ethoxyphenoxy)ethylamino]propyl]-2-methoxybenzenesulfonamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

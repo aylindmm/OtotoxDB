@@ -8,7 +8,7 @@ st.title("Allopurinol")
 st.image(f"compound_structures/compound_135401907.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135401907](https://pubchem.ncbi.nlm.nih.gov/compound/135401907)")
 st.markdown(f"IUPAC Name: 1,5-dihydropyrazolo[5,4-d]pyrimidin-4-one")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

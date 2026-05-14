@@ -8,8 +8,8 @@ st.title("Olvanil")
 st.image(f"compound_structures/compound_5311093.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311093](https://pubchem.ncbi.nlm.nih.gov/compound/5311093)")
 st.markdown(f"IUPAC Name: (Z)-N-[(4-hydroxy-3-methoxyphenyl)methyl]octadec-9-enamide")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

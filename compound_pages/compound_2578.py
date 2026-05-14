@@ -8,7 +8,7 @@ st.title("Carmustine")
 st.image(f"compound_structures/compound_2578.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2578](https://pubchem.ncbi.nlm.nih.gov/compound/2578)")
 st.markdown(f"IUPAC Name: 1,3-bis(2-chloroethyl)-1-nitrosourea")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

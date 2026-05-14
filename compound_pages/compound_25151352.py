@@ -8,7 +8,7 @@ st.title("Pexidartinib")
 st.image(f"compound_structures/compound_25151352.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [25151352](https://pubchem.ncbi.nlm.nih.gov/compound/25151352)")
 st.markdown(f"IUPAC Name: 5-[(5-chloro-1H-pyrrolo[2,3-b]pyridin-3-yl)methyl]-N-[[6-(trifluoromethyl)-3-pyridinyl]methyl]pyridin-2-amine")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

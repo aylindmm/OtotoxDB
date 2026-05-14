@@ -8,7 +8,7 @@ st.title("Lopinavir")
 st.image(f"compound_structures/compound_92727.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [92727](https://pubchem.ncbi.nlm.nih.gov/compound/92727)")
 st.markdown(f"IUPAC Name: (2S)-N-[(2S,4S,5S)-5-[[2-(2,6-dimethylphenoxy)acetyl]amino]-4-hydroxy-1,6-diphenylhexan-2-yl]-3-methyl-2-(2-oxo-1,3-diazinan-1-yl)butanamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Vancomycin")
 st.image(f"compound_structures/compound_14969.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [14969](https://pubchem.ncbi.nlm.nih.gov/compound/14969)")
 st.markdown(f"IUPAC Name: (1S,2R,18R,19R,22S,25R,28R,40S)-48-[(2S,3R,4S,5S,6R)-3-[(2S,4S,5S,6S)-4-amino-5-hydroxy-4,6-dimethyloxan-2-yl]oxy-4,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-22-(2-amino-2-oxoethyl)-5,15-dichloro-2,18,32,35,37-pentahydroxy-19-[[(2R)-4-methyl-2-(methylamino)pentanoyl]amino]-20,23,26,42,44-pentaoxo-7,13-dioxa-21,24,27,41,43-pentazaoctacyclo[26.14.2.23,6.214,17.18,12.129,33.010,25.034,39]pentaconta-3,5,8(48),9,11,14,16,29(45),30,32,34(39),35,37,46,49-pentadecaene-40-carboxylic acid")
-st.markdown(f"Score: 1.0221923335575")
+st.markdown(f"Score: 0.859019706922688")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

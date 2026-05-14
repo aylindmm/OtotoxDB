@@ -8,7 +8,7 @@ st.title("Chicoric acid")
 st.image(f"compound_structures/compound_5281764.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281764](https://pubchem.ncbi.nlm.nih.gov/compound/5281764)")
 st.markdown(f"IUPAC Name: (2R,3R)-2,3-bis[[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxy]butanedioic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

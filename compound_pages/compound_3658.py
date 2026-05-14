@@ -8,7 +8,7 @@ st.title("Hydroxyzine")
 st.image(f"compound_structures/compound_3658.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3658](https://pubchem.ncbi.nlm.nih.gov/compound/3658)")
 st.markdown(f"IUPAC Name: 2-[2-[4-[(4-chlorophenyl)-phenylmethyl]piperazin-1-yl]ethoxy]ethanol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

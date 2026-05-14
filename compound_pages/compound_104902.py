@@ -8,7 +8,7 @@ st.title("Tirilazad mesylate")
 st.image(f"compound_structures/compound_104902.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [104902](https://pubchem.ncbi.nlm.nih.gov/compound/104902)")
 st.markdown(f"IUPAC Name: (8S,10S,13S,14S,16R,17S)-17-[2-[4-(2,6-dipyrrolidin-1-ylpyrimidin-4-yl)piperazin-1-yl]acetyl]-10,13,16-trimethyl-6,7,8,12,14,15,16,17-octahydrocyclopenta[a]phenanthren-3-one;methanesulfonic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Methylmercury(1+)")
 st.image(f"compound_structures/compound_6860.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6860](https://pubchem.ncbi.nlm.nih.gov/compound/6860)")
 st.markdown(f"IUPAC Name: methylmercury(1+)")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

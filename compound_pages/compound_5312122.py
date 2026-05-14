@@ -8,7 +8,7 @@ st.title("Kn-93")
 st.image(f"compound_structures/compound_5312122.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5312122](https://pubchem.ncbi.nlm.nih.gov/compound/5312122)")
 st.markdown(f"IUPAC Name: N-[2-[[[(E)-3-(4-chlorophenyl)prop-2-enyl]-methylamino]methyl]phenyl]-N-(2-hydroxyethyl)-4-methoxybenzenesulfonamide")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Rolipram")
 st.image(f"compound_structures/compound_5092.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5092](https://pubchem.ncbi.nlm.nih.gov/compound/5092)")
 st.markdown(f"IUPAC Name: 4-(3-cyclopentyloxy-4-methoxyphenyl)pyrrolidin-2-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

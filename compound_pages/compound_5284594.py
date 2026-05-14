@@ -8,8 +8,8 @@ st.title("Nalmefene")
 st.image(f"compound_structures/compound_5284594.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5284594](https://pubchem.ncbi.nlm.nih.gov/compound/5284594)")
 st.markdown(f"IUPAC Name: (4R,4aS,7aS,12bS)-3-(cyclopropylmethyl)-7-methylidene-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinoline-4a,9-diol")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

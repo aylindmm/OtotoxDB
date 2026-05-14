@@ -8,7 +8,7 @@ st.title("Retinoic acid")
 st.image(f"compound_structures/compound_444795.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [444795](https://pubchem.ncbi.nlm.nih.gov/compound/444795)")
 st.markdown(f"IUPAC Name: (2E,4E,6E,8E)-3,7-dimethyl-9-(2,6,6-trimethylcyclohexen-1-yl)nona-2,4,6,8-tetraenoic acid")
-st.markdown(f"Score: -0.0941492938802959")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

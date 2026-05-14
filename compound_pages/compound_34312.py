@@ -8,7 +8,7 @@ st.title("Oxcarbazepine")
 st.image(f"compound_structures/compound_34312.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [34312](https://pubchem.ncbi.nlm.nih.gov/compound/34312)")
 st.markdown(f"IUPAC Name: 5-oxo-6H-benzo[b][1]benzazepine-11-carboxamide")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

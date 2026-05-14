@@ -8,7 +8,7 @@ st.title("Iopamidol")
 st.image(f"compound_structures/compound_65492.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [65492](https://pubchem.ncbi.nlm.nih.gov/compound/65492)")
 st.markdown(f"IUPAC Name: 1-N,3-N-bis(1,3-dihydroxypropan-2-yl)-5-[[(2S)-2-hydroxypropanoyl]amino]-2,4,6-triiodobenzene-1,3-dicarboxamide")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

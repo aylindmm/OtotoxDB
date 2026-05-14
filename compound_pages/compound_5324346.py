@@ -8,8 +8,8 @@ st.title("Fluvoxamine")
 st.image(f"compound_structures/compound_5324346.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5324346](https://pubchem.ncbi.nlm.nih.gov/compound/5324346)")
 st.markdown(f"IUPAC Name: 2-[(E)-[5-methoxy-1-[4-(trifluoromethyl)phenyl]pentylidene]amino]oxyethanamine")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0168435236651507")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

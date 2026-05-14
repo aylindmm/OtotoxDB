@@ -8,7 +8,7 @@ st.title("Madecassic acid")
 st.image(f"compound_structures/compound_73412.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [73412](https://pubchem.ncbi.nlm.nih.gov/compound/73412)")
 st.markdown(f"IUPAC Name: (1S,2R,4aS,6aR,6aS,6bR,8R,8aR,9R,10R,11R,12aR,14bS)-8,10,11-trihydroxy-9-(hydroxymethyl)-1,2,6a,6b,9,12a-hexamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

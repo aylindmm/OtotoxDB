@@ -8,7 +8,7 @@ st.title("Ku6m163b0r")
 st.image(f"compound_structures/compound_117587625.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [117587625](https://pubchem.ncbi.nlm.nih.gov/compound/117587625)")
 st.markdown(f"IUPAC Name: azane;bis(oxygen(2-));bis(ruthenium(3+));ruthenium(4+);hexachloride")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

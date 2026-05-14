@@ -8,8 +8,8 @@ st.title("Selegiline")
 st.image(f"compound_structures/compound_26757.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [26757](https://pubchem.ncbi.nlm.nih.gov/compound/26757)")
 st.markdown(f"IUPAC Name: (2R)-N-methyl-1-phenyl-N-prop-2-ynylpropan-2-amine")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

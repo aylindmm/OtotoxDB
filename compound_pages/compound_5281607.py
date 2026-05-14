@@ -8,7 +8,7 @@ st.title("Chrysin")
 st.image(f"compound_structures/compound_5281607.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281607](https://pubchem.ncbi.nlm.nih.gov/compound/5281607)")
 st.markdown(f"IUPAC Name: 5,7-dihydroxy-2-phenylchromen-4-one")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

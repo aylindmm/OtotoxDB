@@ -8,7 +8,7 @@ st.title("Ergocalciferol")
 st.image(f"compound_structures/compound_5280793.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280793](https://pubchem.ncbi.nlm.nih.gov/compound/5280793)")
 st.markdown(f"IUPAC Name: (1S,3Z)-3-[(2E)-2-[(1R,3aS,7aR)-1-[(E,2R,5R)-5,6-dimethylhept-3-en-2-yl]-7a-methyl-2,3,3a,5,6,7-hexahydro-1H-inden-4-ylidene]ethylidene]-4-methylidenecyclohexan-1-ol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

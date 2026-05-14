@@ -8,7 +8,7 @@ st.title("Furosemide")
 st.image(f"compound_structures/compound_3440.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3440](https://pubchem.ncbi.nlm.nih.gov/compound/3440)")
 st.markdown(f"IUPAC Name: 4-chloro-2-(furan-2-ylmethylamino)-5-sulfamoylbenzoic acid")
-st.markdown(f"Score: 1.9502353732347")
+st.markdown(f"Score: 1.48223008253327")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

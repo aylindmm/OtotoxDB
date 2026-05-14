@@ -8,7 +8,7 @@ st.title("Spermidine")
 st.image(f"compound_structures/compound_1102.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1102](https://pubchem.ncbi.nlm.nih.gov/compound/1102)")
 st.markdown(f"IUPAC Name: N'-(3-aminopropyl)butane-1,4-diamine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Etimicin")
 st.image(f"compound_structures/compound_9912913.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9912913](https://pubchem.ncbi.nlm.nih.gov/compound/9912913)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4-amino-3-[(2R,3R,6S)-3-amino-6-(aminomethyl)oxan-2-yl]oxy-6-(ethylamino)-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

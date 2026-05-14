@@ -8,7 +8,7 @@ st.title("Cyclophosphamide")
 st.image(f"compound_structures/compound_2907.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2907](https://pubchem.ncbi.nlm.nih.gov/compound/2907)")
 st.markdown(f"IUPAC Name: N,N-bis(2-chloroethyl)-2-oxo-1,3,2lambda5-oxazaphosphinan-2-amine")
-st.markdown(f"Score: 0.0806993947545393")
+st.markdown(f"Score: 0.067374094660603")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Dieckol")
 st.image(f"compound_structures/compound_3008868.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3008868](https://pubchem.ncbi.nlm.nih.gov/compound/3008868)")
 st.markdown(f"IUPAC Name: 4-[4-[6-(3,5-dihydroxyphenoxy)-4,7,9-trihydroxydibenzo-p-dioxin-2-yl]oxy-3,5-dihydroxyphenoxy]dibenzo-p-dioxin-1,3,6,8-tetrol")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

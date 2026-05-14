@@ -8,7 +8,7 @@ st.title("Zingerone")
 st.image(f"compound_structures/compound_31211.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [31211](https://pubchem.ncbi.nlm.nih.gov/compound/31211)")
 st.markdown(f"IUPAC Name: 4-(4-hydroxy-3-methoxyphenyl)butan-2-one")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

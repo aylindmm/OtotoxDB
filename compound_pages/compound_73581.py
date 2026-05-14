@@ -8,7 +8,7 @@ st.title("Bilobalide")
 st.image(f"compound_structures/compound_73581.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [73581](https://pubchem.ncbi.nlm.nih.gov/compound/73581)")
 st.markdown(f"IUPAC Name: (1S,4R,7R,8S,9R,11S)-9-tert-butyl-7,9-dihydroxy-3,5,12-trioxatetracyclo[6.6.0.01,11.04,8]tetradecane-2,6,13-trione")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

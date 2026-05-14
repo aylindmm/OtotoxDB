@@ -8,7 +8,7 @@ st.title("Sodium valproate")
 st.image(f"compound_structures/compound_16760703.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16760703](https://pubchem.ncbi.nlm.nih.gov/compound/16760703)")
 st.markdown(f"IUPAC Name: sodium 2-propylpentanoate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.101061141990905")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

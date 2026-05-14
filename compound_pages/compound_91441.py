@@ -8,7 +8,7 @@ st.title("Chloroquine sulfate")
 st.image(f"compound_structures/compound_91441.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [91441](https://pubchem.ncbi.nlm.nih.gov/compound/91441)")
 st.markdown(f"IUPAC Name: 4-N-(7-chloroquinolin-4-yl)-1-N,1-N-diethylpentane-1,4-diamine;sulfuric acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

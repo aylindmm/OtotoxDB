@@ -8,7 +8,7 @@ st.title("Tetrodotoxin")
 st.image(f"compound_structures/compound_11174599.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11174599](https://pubchem.ncbi.nlm.nih.gov/compound/11174599)")
 st.markdown(f"IUPAC Name: (1R,5R,6R,7R,9S,11S,12S,13S,14S)-3-amino-14-(hydroxymethyl)-8,10-dioxa-2,4-diazatetracyclo[7.3.1.17,11.01,6]tetradec-3-ene-5,9,12,13,14-pentol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

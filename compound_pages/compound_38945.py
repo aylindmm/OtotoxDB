@@ -8,8 +8,8 @@ st.title("Tocainide")
 st.image(f"compound_structures/compound_38945.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [38945](https://pubchem.ncbi.nlm.nih.gov/compound/38945)")
 st.markdown(f"IUPAC Name: 2-amino-N-(2,6-dimethylphenyl)propanamide")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0168435236651507")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

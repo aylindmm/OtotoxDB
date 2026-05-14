@@ -8,7 +8,7 @@ st.title("Fotemustine")
 st.image(f"compound_structures/compound_104799.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [104799](https://pubchem.ncbi.nlm.nih.gov/compound/104799)")
 st.markdown(f"IUPAC Name: 1-(2-chloroethyl)-3-(1-diethoxyphosphorylethyl)-1-nitrosourea")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

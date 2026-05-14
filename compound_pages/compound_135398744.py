@@ -8,7 +8,7 @@ st.title("Sildenafil")
 st.image(f"compound_structures/compound_135398744.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135398744](https://pubchem.ncbi.nlm.nih.gov/compound/135398744)")
 st.markdown(f"IUPAC Name: 5-[2-ethoxy-5-(4-methylpiperazin-1-yl)sulfonylphenyl]-1-methyl-3-propyl-6H-pyrazolo[4,5-d]pyrimidin-7-one")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.143169951153781")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

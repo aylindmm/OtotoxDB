@@ -8,7 +8,7 @@ st.title("Ribavirin")
 st.image(f"compound_structures/compound_37542.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [37542](https://pubchem.ncbi.nlm.nih.gov/compound/37542)")
 st.markdown(f"IUPAC Name: 1-[(2R,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]-1,2,4-triazole-3-carboxamide")
-st.markdown(f"Score: 0.0537995965030262")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

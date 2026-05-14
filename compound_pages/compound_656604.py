@@ -8,7 +8,7 @@ st.title("Bucillamine")
 st.image(f"compound_structures/compound_656604.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [656604](https://pubchem.ncbi.nlm.nih.gov/compound/656604)")
 st.markdown(f"IUPAC Name: (2R)-2-[(2-methyl-2-sulfanylpropanoyl)amino]-3-sulfanylpropanoic acid")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

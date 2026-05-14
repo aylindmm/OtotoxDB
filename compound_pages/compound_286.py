@@ -8,7 +8,7 @@ st.title("Aminooxyacetic acid")
 st.image(f"compound_structures/compound_286.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [286](https://pubchem.ncbi.nlm.nih.gov/compound/286)")
 st.markdown(f"IUPAC Name: 2-aminooxyacetic acid")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

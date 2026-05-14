@@ -8,7 +8,7 @@ st.title("N-methyl-d-aspartic acid")
 st.image(f"compound_structures/compound_22880.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [22880](https://pubchem.ncbi.nlm.nih.gov/compound/22880)")
 st.markdown(f"IUPAC Name: (2R)-2-(methylamino)butanedioic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

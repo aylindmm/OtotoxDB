@@ -8,7 +8,7 @@ st.title("Dibekacin sulfate")
 st.image(f"compound_structures/compound_636364.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [636364](https://pubchem.ncbi.nlm.nih.gov/compound/636364)")
 st.markdown(f"IUPAC Name: (2S,3R,4S,5S,6R)-4-amino-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-(aminomethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol;sulfuric acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

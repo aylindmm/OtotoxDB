@@ -8,7 +8,7 @@ st.title("Sparfloxacin")
 st.image(f"compound_structures/compound_60464.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60464](https://pubchem.ncbi.nlm.nih.gov/compound/60464)")
 st.markdown(f"IUPAC Name: 5-amino-1-cyclopropyl-7-[(3R,5S)-3,5-dimethylpiperazin-1-yl]-6,8-difluoro-4-oxoquinoline-3-carboxylic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

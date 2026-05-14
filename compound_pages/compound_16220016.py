@@ -8,8 +8,8 @@ st.title("Salmon calcitonin")
 st.image(f"compound_structures/compound_16220016.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16220016](https://pubchem.ncbi.nlm.nih.gov/compound/16220016)")
 st.markdown(f"IUPAC Name: (4S)-4-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[2-[[(2S)-2-[[(2S)-2-[[(4R,7S,10S,13S,16S,19S,22R)-22-amino-16-(2-amino-2-oxoethyl)-7-[(1R)-1-hydroxyethyl]-10,19-bis(hydroxymethyl)-13-(2-methylpropyl)-6,9,12,15,18,21-hexaoxo-1,2-dithia-5,8,11,14,17,20-hexazacyclotricosane-4-carbonyl]amino]-3-methylbutanoyl]amino]-4-methylpentanoyl]amino]acetyl]amino]hexanoyl]amino]-4-methylpentanoyl]amino]-3-hydroxypropanoyl]amino]-5-oxopentanoyl]amino]-5-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-1-[[(2S)-5-amino-1-[[(2S,3R)-1-[[(2S)-1-[(2S)-2-[[(2S)-1-[[(2S,3R)-1-[[(2S)-4-amino-1-[[(2S,3R)-1-[[2-[[(2S)-1-[[2-[[(2S,3R)-1-[(2S)-2-carbamoylpyrrolidin-1-yl]-3-hydroxy-1-oxobutan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1,4-dioxobutan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]carbamoyl]pyrrolidin-1-yl]-3-(4-hydroxyphenyl)-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-3-(1H-imidazol-5-yl)-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-5-oxopentanoic acid")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

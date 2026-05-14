@@ -8,7 +8,7 @@ st.title("Dunnione")
 st.image(f"compound_structures/compound_262097.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [262097](https://pubchem.ncbi.nlm.nih.gov/compound/262097)")
 st.markdown(f"IUPAC Name: 2,3,3-trimethyl-2H-benzo[g][1]benzofuran-4,5-dione")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

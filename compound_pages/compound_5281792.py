@@ -8,7 +8,7 @@ st.title("Rosmarinic acid")
 st.image(f"compound_structures/compound_5281792.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281792](https://pubchem.ncbi.nlm.nih.gov/compound/5281792)")
 st.markdown(f"IUPAC Name: (2R)-3-(3,4-dihydroxyphenyl)-2-[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxypropanoic acid")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0421088091628769")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

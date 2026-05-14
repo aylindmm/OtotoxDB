@@ -8,7 +8,7 @@ st.title("Favipiravir")
 st.image(f"compound_structures/compound_492405.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [492405](https://pubchem.ncbi.nlm.nih.gov/compound/492405)")
 st.markdown(f"IUPAC Name: 5-fluoro-2-oxo-1H-pyrazine-3-carboxamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

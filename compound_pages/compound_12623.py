@@ -8,7 +8,7 @@ st.title("Trimethylstannane")
 st.image(f"compound_structures/compound_12623.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [12623](https://pubchem.ncbi.nlm.nih.gov/compound/12623)")
 st.markdown(f"IUPAC Name: trimethylstannane")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.101061141990905")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

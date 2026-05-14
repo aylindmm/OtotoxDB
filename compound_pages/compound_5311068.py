@@ -8,7 +8,7 @@ st.title("Dexmedetomidine")
 st.image(f"compound_structures/compound_5311068.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311068](https://pubchem.ncbi.nlm.nih.gov/compound/5311068)")
 st.markdown(f"IUPAC Name: 5-[(1S)-1-(2,3-dimethylphenyl)ethyl]-1H-imidazole")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

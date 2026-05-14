@@ -8,7 +8,7 @@ st.title("Nafamostat mesylate")
 st.image(f"compound_structures/compound_5311180.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311180](https://pubchem.ncbi.nlm.nih.gov/compound/5311180)")
 st.markdown(f"IUPAC Name: (6-carbamimidoylnaphthalen-2-yl) 4-(diaminomethylideneamino)benzoate;methanesulfonic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

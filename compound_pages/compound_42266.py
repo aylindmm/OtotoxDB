@@ -8,7 +8,7 @@ st.title("Indacrinone")
 st.image(f"compound_structures/compound_42266.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [42266](https://pubchem.ncbi.nlm.nih.gov/compound/42266)")
 st.markdown(f"IUPAC Name: 2-[(6,7-dichloro-2-methyl-1-oxo-2-phenyl-3H-inden-5-yl)oxy]acetic acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

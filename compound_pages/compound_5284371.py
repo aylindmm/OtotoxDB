@@ -8,7 +8,7 @@ st.title("Codeine")
 st.image(f"compound_structures/compound_5284371.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5284371](https://pubchem.ncbi.nlm.nih.gov/compound/5284371)")
 st.markdown(f"IUPAC Name: (4R,4aR,7S,7aR,12bS)-9-methoxy-3-methyl-2,4,4a,7,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-7-ol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0589523328280276")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("2-(1,3-dioxo-1,3-dihydro-2h-isoindol-2-yl)-3-(1h-indol-3-yl)propanoic 
 st.image(f"compound_structures/compound_344265.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [344265](https://pubchem.ncbi.nlm.nih.gov/compound/344265)")
 st.markdown(f"IUPAC Name: 2-(1,3-dioxoisoindol-2-yl)-3-(1H-indol-3-yl)propanoic acid")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

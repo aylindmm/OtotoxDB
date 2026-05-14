@@ -8,7 +8,7 @@ st.title("Notoginsenoside r1")
 st.image(f"compound_structures/compound_441934.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [441934](https://pubchem.ncbi.nlm.nih.gov/compound/441934)")
 st.markdown(f"IUPAC Name: (2S,3R,4S,5S,6R)-2-[(2S)-2-[(3S,5R,6S,8R,9R,10R,12R,13R,14R,17S)-6-[(2R,3R,4S,5S,6R)-4,5-dihydroxy-6-(hydroxymethyl)-3-[(2S,3R,4S,5R)-3,4,5-trihydroxyoxan-2-yl]oxyoxan-2-yl]oxy-3,12-dihydroxy-4,4,8,10,14-pentamethyl-2,3,5,6,7,9,11,12,13,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]-6-methylhept-5-en-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

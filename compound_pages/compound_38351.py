@@ -8,7 +8,7 @@ st.title("Amikacin sulfate")
 st.image(f"compound_structures/compound_38351.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [38351](https://pubchem.ncbi.nlm.nih.gov/compound/38351)")
 st.markdown(f"IUPAC Name: (2S)-4-amino-N-[(1R,2S,3S,4R,5S)-5-amino-2-[(2S,3R,4S,5S,6R)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4-[(2R,3R,4S,5S,6R)-6-(aminomethyl)-3,4,5-trihydroxyoxan-2-yl]oxy-3-hydroxycyclohexyl]-2-hydroxybutanamide;sulfuric acid")
-st.markdown(f"Score: 0.0806993947545393")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

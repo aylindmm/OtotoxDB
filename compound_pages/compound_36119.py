@@ -8,7 +8,7 @@ st.title("Sisomicin")
 st.image(f"compound_structures/compound_36119.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [36119](https://pubchem.ncbi.nlm.nih.gov/compound/36119)")
 st.markdown(f"IUPAC Name: (2R,3R,4R,5R)-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[[(2S,3R)-3-amino-6-(aminomethyl)-3,4-dihydro-2H-pyran-2-yl]oxy]-2-hydroxycyclohexyl]oxy-5-methyl-4-(methylamino)oxane-3,5-diol")
-st.markdown(f"Score: 0.161398789509079")
+st.markdown(f"Score: 0.126326427488631")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

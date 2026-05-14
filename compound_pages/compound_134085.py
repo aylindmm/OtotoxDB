@@ -8,7 +8,7 @@ st.title("7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid")
 st.image(f"compound_structures/compound_134085.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [134085](https://pubchem.ncbi.nlm.nih.gov/compound/134085)")
 st.markdown(f"IUPAC Name: 7-oxo-1-azabicyclo[3.2.0]hept-2-ene-2-carboxylic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

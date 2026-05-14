@@ -8,7 +8,7 @@ st.title("Oxybutynin")
 st.image(f"compound_structures/compound_4634.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4634](https://pubchem.ncbi.nlm.nih.gov/compound/4634)")
 st.markdown(f"IUPAC Name: 4-(diethylamino)but-2-ynyl 2-cyclohexyl-2-hydroxy-2-phenylacetate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

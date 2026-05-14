@@ -8,8 +8,8 @@ st.title("Dextromethorphan")
 st.image(f"compound_structures/compound_5360696.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5360696](https://pubchem.ncbi.nlm.nih.gov/compound/5360696)")
 st.markdown(f"IUPAC Name: (1S,9S,10S)-4-methoxy-17-methyl-17-azatetracyclo[7.5.3.01,10.02,7]heptadeca-2(7),3,5-triene")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0505305709954523")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

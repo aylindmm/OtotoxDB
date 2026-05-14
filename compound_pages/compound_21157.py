@@ -8,7 +8,7 @@ st.title("2-amino-4-(s-butylsulfonimidoyl)butanoic acid")
 st.image(f"compound_structures/compound_21157.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [21157](https://pubchem.ncbi.nlm.nih.gov/compound/21157)")
 st.markdown(f"IUPAC Name: 2-amino-4-(butylsulfonimidoyl)butanoic acid")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Carbamazepine")
 st.image(f"compound_structures/compound_2554.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2554](https://pubchem.ncbi.nlm.nih.gov/compound/2554)")
 st.markdown(f"IUPAC Name: benzo[b][1]benzazepine-11-carboxamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

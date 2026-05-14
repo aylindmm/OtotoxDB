@@ -8,7 +8,7 @@ st.title("Spectinomycin")
 st.image(f"compound_structures/compound_15541.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [15541](https://pubchem.ncbi.nlm.nih.gov/compound/15541)")
 st.markdown(f"IUPAC Name: (1R,3S,5R,8R,10R,11S,12S,13R,14S)-8,12,14-trihydroxy-5-methyl-11,13-bis(methylamino)-2,4,9-trioxatricyclo[8.4.0.03,8]tetradecan-7-one")
-st.markdown(f"Score: 0.0941492938802959")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

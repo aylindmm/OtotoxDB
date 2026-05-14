@@ -8,7 +8,7 @@ st.title("Ribociclib")
 st.image(f"compound_structures/compound_44631912.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [44631912](https://pubchem.ncbi.nlm.nih.gov/compound/44631912)")
 st.markdown(f"IUPAC Name: 7-cyclopentyl-N,N-dimethyl-2-[(5-piperazin-1-yl-2-pyridinyl)amino]pyrrolo[2,3-d]pyrimidine-6-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

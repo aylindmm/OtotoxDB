@@ -8,7 +8,7 @@ st.title("Anisomycin")
 st.image(f"compound_structures/compound_253602.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [253602](https://pubchem.ncbi.nlm.nih.gov/compound/253602)")
 st.markdown(f"IUPAC Name: [(2R,3S,4S)-4-hydroxy-2-[(4-methoxyphenyl)methyl]pyrrolidin-3-yl] acetate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

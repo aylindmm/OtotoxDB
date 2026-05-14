@@ -8,8 +8,8 @@ st.title("Hydralazine")
 st.image(f"compound_structures/compound_3637.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3637](https://pubchem.ncbi.nlm.nih.gov/compound/3637)")
 st.markdown(f"IUPAC Name: phthalazin-1-ylhydrazine")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

@@ -8,8 +8,8 @@ st.title("Pioglitazone")
 st.image(f"compound_structures/compound_4829.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4829](https://pubchem.ncbi.nlm.nih.gov/compound/4829)")
 st.markdown(f"IUPAC Name: 5-[[4-[2-(5-ethyl-2-pyridinyl)ethoxy]phenyl]methyl]-1,3-thiazolidine-2,4-dione")
-st.markdown(f"Score: -0.0403496973772697")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

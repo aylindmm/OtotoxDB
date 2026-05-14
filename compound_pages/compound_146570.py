@@ -8,7 +8,7 @@ st.title("Escitalopram")
 st.image(f"compound_structures/compound_146570.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [146570](https://pubchem.ncbi.nlm.nih.gov/compound/146570)")
 st.markdown(f"IUPAC Name: (1S)-1-[3-(dimethylamino)propyl]-1-(4-fluorophenyl)-3H-2-benzofuran-5-carbonitrile")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

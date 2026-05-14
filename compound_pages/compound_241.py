@@ -8,7 +8,7 @@ st.title("Benzene")
 st.image(f"compound_structures/compound_241.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [241](https://pubchem.ncbi.nlm.nih.gov/compound/241)")
 st.markdown(f"IUPAC Name: benzene")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

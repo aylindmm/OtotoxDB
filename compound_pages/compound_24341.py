@@ -8,7 +8,7 @@ st.title("Hypochlorous acid")
 st.image(f"compound_structures/compound_24341.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24341](https://pubchem.ncbi.nlm.nih.gov/compound/24341)")
 st.markdown(f"IUPAC Name: hypochlorous acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

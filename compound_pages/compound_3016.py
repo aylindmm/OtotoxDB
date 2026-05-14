@@ -8,8 +8,8 @@ st.title("Diazepam")
 st.image(f"compound_structures/compound_3016.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3016](https://pubchem.ncbi.nlm.nih.gov/compound/3016)")
 st.markdown(f"IUPAC Name: 7-chloro-1-methyl-5-phenyl-3H-1,4-benzodiazepin-2-one")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0589523328280276")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

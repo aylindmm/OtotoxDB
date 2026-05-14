@@ -8,7 +8,7 @@ st.title("Amantadine")
 st.image(f"compound_structures/compound_2130.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2130](https://pubchem.ncbi.nlm.nih.gov/compound/2130)")
 st.markdown(f"IUPAC Name: adamantan-1-amine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0757958564931784")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

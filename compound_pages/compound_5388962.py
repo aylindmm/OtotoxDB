@@ -8,7 +8,7 @@ st.title("Enalapril")
 st.image(f"compound_structures/compound_5388962.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5388962](https://pubchem.ncbi.nlm.nih.gov/compound/5388962)")
 st.markdown(f"IUPAC Name: (2S)-1-[(2S)-2-[[(2S)-1-ethoxy-1-oxo-4-phenylbutan-2-yl]amino]propanoyl]pyrrolidine-2-carboxylic acid")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

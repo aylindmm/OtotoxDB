@@ -8,7 +8,7 @@ st.title("Ribostamycin")
 st.image(f"compound_structures/compound_33042.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [33042](https://pubchem.ncbi.nlm.nih.gov/compound/33042)")
 st.markdown(f"IUPAC Name: (2R,3S,4R,5R,6R)-5-amino-2-(aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-2-[(2S,3R,4S,5R)-3,4-dihydroxy-5-(hydroxymethyl)oxolan-2-yl]oxy-3-hydroxycyclohexyl]oxyoxane-3,4-diol")
-st.markdown(f"Score: 0.121049092131809")
+st.markdown(f"Score: 0.0842176183257537")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

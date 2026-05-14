@@ -8,7 +8,7 @@ st.title("Riboflavin")
 st.image(f"compound_structures/compound_493570.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [493570](https://pubchem.ncbi.nlm.nih.gov/compound/493570)")
 st.markdown(f"IUPAC Name: 7,8-dimethyl-10-[(2S,3S,4R)-2,3,4,5-tetrahydroxypentyl]benzo[g]pteridine-2,4-dione")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

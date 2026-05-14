@@ -8,7 +8,7 @@ st.title("Fti-277")
 st.image(f"compound_structures/compound_3005532.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3005532](https://pubchem.ncbi.nlm.nih.gov/compound/3005532)")
 st.markdown(f"IUPAC Name: methyl (2S)-2-[[4-[[(2R)-2-amino-3-sulfanylpropyl]amino]-2-phenylbenzoyl]amino]-4-methylsulfanylbutanoate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

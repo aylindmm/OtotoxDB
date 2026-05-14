@@ -8,7 +8,7 @@ st.title("2241300-51-4")
 st.image(f"compound_structures/compound_139600293.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [139600293](https://pubchem.ncbi.nlm.nih.gov/compound/139600293)")
 st.markdown(f"IUPAC Name: 4-[1-(2-methyl-3H-benzimidazol-5-yl)imidazo[4,5-c]pyridin-2-yl]-1,2,5-oxadiazol-3-amine;dihydrochloride")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

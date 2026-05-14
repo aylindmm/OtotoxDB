@@ -8,7 +8,7 @@ st.title("Chiisanoside")
 st.image(f"compound_structures/compound_21626427.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [21626427](https://pubchem.ncbi.nlm.nih.gov/compound/21626427)")
 st.markdown(f"IUPAC Name: [(2S,3R,4S,5S,6R)-6-[[(2R,3R,4R,5S,6R)-3,4-dihydroxy-6-(hydroxymethyl)-5-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxyoxan-2-yl]oxymethyl]-3,4,5-trihydroxyoxan-2-yl] (1R,2R,5S,8R,9R,10R,12R,16R,17S,18S,21S)-16-hydroxy-1,2,17-trimethyl-14-oxo-8,18-bis(prop-1-en-2-yl)-13-oxapentacyclo[10.8.1.02,10.05,9.017,21]henicosane-5-carboxylate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

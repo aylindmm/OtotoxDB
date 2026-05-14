@@ -8,7 +8,7 @@ st.title("D-glutamine")
 st.image(f"compound_structures/compound_145815.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [145815](https://pubchem.ncbi.nlm.nih.gov/compound/145815)")
 st.markdown(f"IUPAC Name: (2R)-2,5-diamino-5-oxopentanoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

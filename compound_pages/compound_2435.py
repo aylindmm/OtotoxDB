@@ -8,7 +8,7 @@ st.title("Brimonidine")
 st.image(f"compound_structures/compound_2435.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2435](https://pubchem.ncbi.nlm.nih.gov/compound/2435)")
 st.markdown(f"IUPAC Name: 5-bromo-N-(4,5-dihydro-1H-imidazol-2-yl)quinoxalin-6-amine")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

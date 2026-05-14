@@ -8,7 +8,7 @@ st.title("Dibekacin")
 st.image(f"compound_structures/compound_470999.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [470999](https://pubchem.ncbi.nlm.nih.gov/compound/470999)")
 st.markdown(f"IUPAC Name: (2S,3R,4S,5S,6R)-4-amino-2-[(1S,2S,3R,4S,6R)-4,6-diamino-3-[(2R,3R,6S)-3-amino-6-(aminomethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxy-6-(hydroxymethyl)oxane-3,5-diol")
-st.markdown(f"Score: 0.174848688634835")
+st.markdown(f"Score: 0.117904665656055")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

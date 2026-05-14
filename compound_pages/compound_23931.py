@@ -8,7 +8,7 @@ st.title("Mercury")
 st.image(f"compound_structures/compound_23931.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23931](https://pubchem.ncbi.nlm.nih.gov/compound/23931)")
 st.markdown(f"IUPAC Name: mercury")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.10948290382348")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

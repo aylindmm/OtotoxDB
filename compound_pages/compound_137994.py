@@ -8,7 +8,7 @@ st.title("Tanol")
 st.image(f"compound_structures/compound_137994.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [137994](https://pubchem.ncbi.nlm.nih.gov/compound/137994)")
 st.markdown(f"IUPAC Name: nan")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

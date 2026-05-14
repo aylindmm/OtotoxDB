@@ -8,8 +8,8 @@ st.title("Lithium")
 st.image(f"compound_structures/compound_3028194.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3028194](https://pubchem.ncbi.nlm.nih.gov/compound/3028194)")
 st.markdown(f"IUPAC Name: lithium")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0252652854977261")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

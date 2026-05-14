@@ -8,7 +8,7 @@ st.title("Bupropion")
 st.image(f"compound_structures/compound_444.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [444](https://pubchem.ncbi.nlm.nih.gov/compound/444)")
 st.markdown(f"IUPAC Name: 2-(tert-butylamino)-1-(3-chlorophenyl)propan-1-one")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0842176183257537")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

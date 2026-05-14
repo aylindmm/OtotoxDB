@@ -8,7 +8,7 @@ st.title("Chloramphenicol")
 st.image(f"compound_structures/compound_5959.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5959](https://pubchem.ncbi.nlm.nih.gov/compound/5959)")
 st.markdown(f"IUPAC Name: 2,2-dichloro-N-[(1R,2R)-1,3-dihydroxy-1-(4-nitrophenyl)propan-2-yl]acetamide")
-st.markdown(f"Score: 0.121049092131809")
+st.markdown(f"Score: 0.0589523328280276")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

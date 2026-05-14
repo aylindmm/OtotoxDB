@@ -8,7 +8,7 @@ st.title("Norfloxacin")
 st.image(f"compound_structures/compound_4539.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4539](https://pubchem.ncbi.nlm.nih.gov/compound/4539)")
 st.markdown(f"IUPAC Name: 1-ethyl-6-fluoro-4-oxo-7-piperazin-1-ylquinoline-3-carboxylic acid")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

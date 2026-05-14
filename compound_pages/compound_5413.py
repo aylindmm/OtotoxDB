@@ -8,7 +8,7 @@ st.title("Tetraethylammonium")
 st.image(f"compound_structures/compound_5413.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5413](https://pubchem.ncbi.nlm.nih.gov/compound/5413)")
 st.markdown(f"IUPAC Name: tetraethylazanium")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

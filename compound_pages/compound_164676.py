@@ -8,7 +8,7 @@ st.title("Tanshinone iia")
 st.image(f"compound_structures/compound_164676.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [164676](https://pubchem.ncbi.nlm.nih.gov/compound/164676)")
 st.markdown(f"IUPAC Name: 1,6,6-trimethyl-8,9-dihydro-7H-naphtho[1,2-g][1]benzofuran-10,11-dione")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Clonidine")
 st.image(f"compound_structures/compound_2803.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2803](https://pubchem.ncbi.nlm.nih.gov/compound/2803)")
 st.markdown(f"IUPAC Name: N-(2,6-dichlorophenyl)-4,5-dihydro-1H-imidazol-2-amine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.067374094660603")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

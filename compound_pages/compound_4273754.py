@@ -8,7 +8,7 @@ st.title("Jwh-015")
 st.image(f"compound_structures/compound_4273754.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4273754](https://pubchem.ncbi.nlm.nih.gov/compound/4273754)")
 st.markdown(f"IUPAC Name: (2-methyl-1-propylindol-3-yl)-naphthalen-1-ylmethanone")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

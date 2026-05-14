@@ -8,7 +8,7 @@ st.title("Potassium canrenoate")
 st.image(f"compound_structures/compound_23671691.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23671691](https://pubchem.ncbi.nlm.nih.gov/compound/23671691)")
 st.markdown(f"IUPAC Name: potassium 3-[(8R,9S,10R,13S,14S,17R)-17-hydroxy-10,13-dimethyl-3-oxo-2,8,9,11,12,14,15,16-octahydro-1H-cyclopenta[a]phenanthren-17-yl]propanoate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

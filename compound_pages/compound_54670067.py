@@ -8,7 +8,7 @@ st.title("L-ascorbic acid")
 st.image(f"compound_structures/compound_54670067.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54670067](https://pubchem.ncbi.nlm.nih.gov/compound/54670067)")
 st.markdown(f"IUPAC Name: (2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one")
-st.markdown(f"Score: -0.215198386012105")
+st.markdown(f"Score: -0.151591712986357")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

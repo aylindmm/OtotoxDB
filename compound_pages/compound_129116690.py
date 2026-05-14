@@ -8,7 +8,7 @@ st.title("2097416-76-5")
 st.image(f"compound_structures/compound_129116690.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [129116690](https://pubchem.ncbi.nlm.nih.gov/compound/129116690)")
 st.markdown(f"IUPAC Name: (6R)-7-[(3,4-difluorophenyl)methyl]-6-(methoxymethyl)-2-[5-methyl-2-[(2-methylpyrazol-3-yl)amino]pyrimidin-4-yl]-5,6-dihydroimidazo[1,2-a]pyrazin-8-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

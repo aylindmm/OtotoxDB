@@ -8,7 +8,7 @@ st.title("1011-51-4")
 st.image(f"compound_structures/compound_3270828.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3270828](https://pubchem.ncbi.nlm.nih.gov/compound/3270828)")
 st.markdown(f"IUPAC Name: 5-(4-methoxyphenyl)-1,3-oxazole")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

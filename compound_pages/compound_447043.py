@@ -8,7 +8,7 @@ st.title("Azithromycin")
 st.image(f"compound_structures/compound_447043.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [447043](https://pubchem.ncbi.nlm.nih.gov/compound/447043)")
 st.markdown(f"IUPAC Name: (2R,3S,4R,5R,8R,10R,11R,12S,13S,14R)-11-[(2S,3R,4S,6R)-4-(dimethylamino)-3-hydroxy-6-methyloxan-2-yl]oxy-2-ethyl-3,4,10-trihydroxy-13-[(2R,4R,5S,6S)-5-hydroxy-4-methoxy-4,6-dimethyloxan-2-yl]oxy-3,5,6,8,10,12,14-heptamethyl-1-oxa-6-azacyclopentadecan-15-one")
-st.markdown(f"Score: 0.107599193006052")
+st.markdown(f"Score: 0.151591712986357")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

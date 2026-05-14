@@ -8,7 +8,7 @@ st.title("Pancuronium bromide")
 st.image(f"compound_structures/compound_27350.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [27350](https://pubchem.ncbi.nlm.nih.gov/compound/27350)")
 st.markdown(f"IUPAC Name: [(2S,3S,5S,8R,9S,10S,13S,14S,16S,17R)-17-acetyloxy-10,13-dimethyl-2,16-bis(1-methylpiperidin-1-ium-1-yl)-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-3-yl] acetate dibromide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

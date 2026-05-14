@@ -8,7 +8,7 @@ st.title("Estradiol")
 st.image(f"compound_structures/compound_5757.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5757](https://pubchem.ncbi.nlm.nih.gov/compound/5757)")
 st.markdown(f"IUPAC Name: (8R,9S,13S,14S,17S)-13-methyl-6,7,8,9,11,12,14,15,16,17-decahydrocyclopenta[a]phenanthrene-3,17-diol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0421088091628769")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

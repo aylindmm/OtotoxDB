@@ -8,7 +8,7 @@ st.title("M-xylene")
 st.image(f"compound_structures/compound_7929.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7929](https://pubchem.ncbi.nlm.nih.gov/compound/7929)")
 st.markdown(f"IUPAC Name: 1,3-xylene")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

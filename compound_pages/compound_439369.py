@@ -8,7 +8,7 @@ st.title("Abiocine")
 st.image(f"compound_structures/compound_439369.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [439369](https://pubchem.ncbi.nlm.nih.gov/compound/439369)")
 st.markdown(f"IUPAC Name: 2-[(1R,2R,3S,4R,5R,6S)-3-(diaminomethylideneamino)-4-[(2R,3R,4R,5S)-3-[(2S,3S,4S,5R,6S)-4,5-dihydroxy-6-(hydroxymethyl)-3-(methylamino)oxan-2-yl]oxy-4-hydroxy-4-(hydroxymethyl)-5-methyloxolan-2-yl]oxy-2,5,6-trihydroxycyclohexyl]guanidine")
-st.markdown(f"Score: 0.147948890383322")
+st.markdown(f"Score: 0.117904665656055")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

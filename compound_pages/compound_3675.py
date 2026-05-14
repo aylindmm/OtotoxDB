@@ -8,7 +8,7 @@ st.title("Phenelzine")
 st.image(f"compound_structures/compound_3675.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3675](https://pubchem.ncbi.nlm.nih.gov/compound/3675)")
 st.markdown(f"IUPAC Name: 2-phenylethylhydrazine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

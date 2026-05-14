@@ -8,7 +8,7 @@ st.title("Vardenafil")
 st.image(f"compound_structures/compound_135400189.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135400189](https://pubchem.ncbi.nlm.nih.gov/compound/135400189)")
 st.markdown(f"IUPAC Name: 2-[2-ethoxy-5-(4-ethylpiperazin-1-yl)sulfonylphenyl]-5-methyl-7-propyl-3H-imidazo[5,1-f][1,2,4]triazin-4-one")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

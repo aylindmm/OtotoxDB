@@ -8,7 +8,7 @@ st.title("Piperlongumine")
 st.image(f"compound_structures/compound_637858.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [637858](https://pubchem.ncbi.nlm.nih.gov/compound/637858)")
 st.markdown(f"IUPAC Name: 1-[(E)-3-(3,4,5-trimethoxyphenyl)prop-2-enoyl]-2,3-dihydropyridin-6-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,8 +8,8 @@ st.title("Aspirin")
 st.image(f"compound_structures/compound_2244.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2244](https://pubchem.ncbi.nlm.nih.gov/compound/2244)")
 st.markdown(f"IUPAC Name: 2-acetyloxybenzoic acid")
-st.markdown(f"Score: -0.0806993947545393")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.176856998484083")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

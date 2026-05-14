@@ -8,7 +8,7 @@ st.title("(3r)-3-(5-chloro-2-methoxy-phenyl)-3-fluoro-6-(trifluoromethyl)indolin
 st.image(f"compound_structures/compound_656757.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [656757](https://pubchem.ncbi.nlm.nih.gov/compound/656757)")
 st.markdown(f"IUPAC Name: (3R)-3-(5-chloro-2-methoxyphenyl)-3-fluoro-6-(trifluoromethyl)-1H-indol-2-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

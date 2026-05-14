@@ -8,7 +8,7 @@ st.title("Chlorogenic acid")
 st.image(f"compound_structures/compound_1794427.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1794427](https://pubchem.ncbi.nlm.nih.gov/compound/1794427)")
 st.markdown(f"IUPAC Name: (1S,3R,4R,5R)-3-[(E)-3-(3,4-dihydroxyphenyl)prop-2-enoyl]oxy-1,4,5-trihydroxycyclohexane-1-carboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

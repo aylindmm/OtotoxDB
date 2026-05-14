@@ -8,7 +8,7 @@ st.title("S-allyl-l-cysteine")
 st.image(f"compound_structures/compound_9793905.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9793905](https://pubchem.ncbi.nlm.nih.gov/compound/9793905)")
 st.markdown(f"IUPAC Name: (2R)-2-amino-3-prop-2-enylsulfanylpropanoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Cocaine")
 st.image(f"compound_structures/compound_446220.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [446220](https://pubchem.ncbi.nlm.nih.gov/compound/446220)")
 st.markdown(f"IUPAC Name: methyl (1R,2R,3S,5S)-3-benzoyloxy-8-methyl-8-azabicyclo[3.2.1]octane-2-carboxylate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

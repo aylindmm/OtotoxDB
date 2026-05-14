@@ -8,7 +8,7 @@ st.title("Lead")
 st.image(f"compound_structures/compound_5352425.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5352425](https://pubchem.ncbi.nlm.nih.gov/compound/5352425)")
 st.markdown(f"IUPAC Name: lead")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.193700522149234")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

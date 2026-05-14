@@ -8,7 +8,7 @@ st.title("22002-87-5")
 st.image(f"compound_structures/compound_5497152.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5497152](https://pubchem.ncbi.nlm.nih.gov/compound/5497152)")
 st.markdown(f"IUPAC Name: (2-hydroxy-3-phosphonooxypropyl) (Z)-octadec-9-enoate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

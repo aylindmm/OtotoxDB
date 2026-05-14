@@ -8,7 +8,7 @@ st.title("Sphingosine-1-phosphate")
 st.image(f"compound_structures/compound_5283560.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5283560](https://pubchem.ncbi.nlm.nih.gov/compound/5283560)")
 st.markdown(f"IUPAC Name: [(E,2S,3R)-2-amino-3-hydroxyoctadec-4-enyl] dihydrogen phosphate")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

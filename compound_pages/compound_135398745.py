@@ -8,7 +8,7 @@ st.title("Olanzapine")
 st.image(f"compound_structures/compound_135398745.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135398745](https://pubchem.ncbi.nlm.nih.gov/compound/135398745)")
 st.markdown(f"IUPAC Name: 2-methyl-4-(4-methylpiperazin-1-yl)-10H-thieno[2,3-b][1,5]benzodiazepine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.067374094660603")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

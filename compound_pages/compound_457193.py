@@ -8,7 +8,7 @@ st.title("Dactinomycin")
 st.image(f"compound_structures/compound_457193.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [457193](https://pubchem.ncbi.nlm.nih.gov/compound/457193)")
 st.markdown(f"IUPAC Name: 2-amino-4,6-dimethyl-3-oxo-1-N,9-N-bis[(3R,6S,7R,10S,16S)-7,11,14-trimethyl-2,5,9,12,15-pentaoxo-3,10-di(propan-2-yl)-8-oxa-1,4,11,14-tetrazabicyclo[14.3.0]nonadecan-6-yl]phenoxazine-1,9-dicarboxamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

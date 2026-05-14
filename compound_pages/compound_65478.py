@@ -8,7 +8,7 @@ st.title("151-73-5")
 st.image(f"compound_structures/compound_65478.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [65478](https://pubchem.ncbi.nlm.nih.gov/compound/65478)")
 st.markdown(f"IUPAC Name: disodium;[2-[(8S,9R,10S,11S,13S,14S,16S,17R)-9-fluoro-11,17-dihydroxy-10,13,16-trimethyl-3-oxo-6,7,8,11,12,14,15,16-octahydrocyclopenta[a]phenanthren-17-yl]-2-oxoethyl] phosphate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("885-70-1")
 st.image(f"compound_structures/compound_70169.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [70169](https://pubchem.ncbi.nlm.nih.gov/compound/70169)")
 st.markdown(f"IUPAC Name: 5,11-dihydropyrido[2,3-b][1,4]benzodiazepin-6-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Colistin")
 st.image(f"compound_structures/compound_5311054.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5311054](https://pubchem.ncbi.nlm.nih.gov/compound/5311054)")
 st.markdown(f"IUPAC Name: N-[(2S)-4-amino-1-[[(2S,3R)-1-[[(2S)-4-amino-1-oxo-1-[[(3S,6S,9S,12S,15R,18S,21S)-6,9,18-tris(2-aminoethyl)-3-[(1R)-1-hydroxyethyl]-12,15-bis(2-methylpropyl)-2,5,8,11,14,17,20-heptaoxo-1,4,7,10,13,16,19-heptazacyclotricos-21-yl]amino]butan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxobutan-2-yl]-5-methylheptanamide")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Emtricitabine")
 st.image(f"compound_structures/compound_60877.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60877](https://pubchem.ncbi.nlm.nih.gov/compound/60877)")
 st.markdown(f"IUPAC Name: 4-amino-5-fluoro-1-[(2R,5S)-2-(hydroxymethyl)-1,3-oxathiolan-5-yl]pyrimidin-2-one")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

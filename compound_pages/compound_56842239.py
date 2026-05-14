@@ -8,7 +8,7 @@ st.title("N-3 pufa")
 st.image(f"compound_structures/compound_56842239.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [56842239](https://pubchem.ncbi.nlm.nih.gov/compound/56842239)")
 st.markdown(f"IUPAC Name: (4Z,7Z,10Z,13Z,16Z,19Z)-docosa-4,7,10,13,16,19-hexaenoic acid;(5Z,8Z,11Z,14Z,17Z)-icosa-5,8,11,14,17-pentaenoic acid;(9Z,12Z,15Z)-octadeca-9,12,15-trienoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

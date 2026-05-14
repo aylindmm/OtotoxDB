@@ -8,7 +8,7 @@ st.title("Carbon monoxide")
 st.image(f"compound_structures/compound_281.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [281](https://pubchem.ncbi.nlm.nih.gov/compound/281)")
 st.markdown(f"IUPAC Name: carbon monoxide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.101061141990905")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

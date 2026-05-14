@@ -8,7 +8,7 @@ st.title("Benzethonium chloride")
 st.image(f"compound_structures/compound_8478.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8478](https://pubchem.ncbi.nlm.nih.gov/compound/8478)")
 st.markdown(f"IUPAC Name: benzyl-dimethyl-[2-[2-[4-(2,4,4-trimethylpentan-2-yl)phenoxy]ethoxy]ethyl]azanium chloride")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0168435236651507")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

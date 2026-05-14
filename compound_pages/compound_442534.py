@@ -8,7 +8,7 @@ st.title("Paeoniflorin")
 st.image(f"compound_structures/compound_442534.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [442534](https://pubchem.ncbi.nlm.nih.gov/compound/442534)")
 st.markdown(f"IUPAC Name: [(1R,2S,3R,5R,6R,8S)-6-hydroxy-8-methyl-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-9,10-dioxatetracyclo[4.3.1.02,5.03,8]decan-2-yl]methyl benzoate")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("722456-31-7")
 st.image(f"compound_structures/compound_4058452.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4058452](https://pubchem.ncbi.nlm.nih.gov/compound/4058452)")
 st.markdown(f"IUPAC Name: 2-(3-benzyltriazolo[4,5-d]pyrimidin-7-yl)sulfanyl-1,3-benzoxazole")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

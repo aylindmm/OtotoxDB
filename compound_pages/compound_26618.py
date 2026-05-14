@@ -8,7 +8,7 @@ st.title("Xipamide")
 st.image(f"compound_structures/compound_26618.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [26618](https://pubchem.ncbi.nlm.nih.gov/compound/26618)")
 st.markdown(f"IUPAC Name: 4-chloro-N-(2,6-dimethylphenyl)-2-hydroxy-5-sulfamoylbenzamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

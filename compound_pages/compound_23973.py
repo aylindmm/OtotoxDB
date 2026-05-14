@@ -8,7 +8,7 @@ st.title("Cadmium")
 st.image(f"compound_structures/compound_23973.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23973](https://pubchem.ncbi.nlm.nih.gov/compound/23973)")
 st.markdown(f"IUPAC Name: cadmium")
-st.markdown(f"Score: 0.0806993947545393")
+st.markdown(f"Score: 0.252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

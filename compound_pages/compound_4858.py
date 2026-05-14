@@ -8,7 +8,7 @@ st.title("Pj34")
 st.image(f"compound_structures/compound_4858.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4858](https://pubchem.ncbi.nlm.nih.gov/compound/4858)")
 st.markdown(f"IUPAC Name: 2-(dimethylamino)-N-(6-oxo-5H-phenanthridin-2-yl)acetamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

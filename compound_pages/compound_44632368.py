@@ -8,7 +8,7 @@ st.title("Esketamine hydrochloride")
 st.image(f"compound_structures/compound_44632368.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [44632368](https://pubchem.ncbi.nlm.nih.gov/compound/44632368)")
 st.markdown(f"IUPAC Name: (2S)-2-(2-chlorophenyl)-2-(methylamino)cyclohexan-1-one;hydrochloride")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Linolenic acid")
 st.image(f"compound_structures/compound_5280934.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280934](https://pubchem.ncbi.nlm.nih.gov/compound/5280934)")
 st.markdown(f"IUPAC Name: (9Z,12Z,15Z)-octadeca-9,12,15-trienoic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

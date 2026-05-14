@@ -8,7 +8,7 @@ st.title("5,7-dihydroxy-4-methylcoumarin")
 st.image(f"compound_structures/compound_5354284.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5354284](https://pubchem.ncbi.nlm.nih.gov/compound/5354284)")
 st.markdown(f"IUPAC Name: 5,7-dihydroxy-4-methylchromen-2-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

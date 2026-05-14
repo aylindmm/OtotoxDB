@@ -8,7 +8,7 @@ st.title("Tauroursodeoxycholic acid")
 st.image(f"compound_structures/compound_9848818.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9848818](https://pubchem.ncbi.nlm.nih.gov/compound/9848818)")
 st.markdown(f"IUPAC Name: 2-[[(4R)-4-[(3R,5S,7S,8R,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]ethanesulfonic acid")
-st.markdown(f"Score: -0.0806993947545393")
+st.markdown(f"Score: -0.0505305709954523")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

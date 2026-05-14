@@ -8,7 +8,7 @@ st.title("Tedizolid phosphate")
 st.image(f"compound_structures/compound_11476460.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [11476460](https://pubchem.ncbi.nlm.nih.gov/compound/11476460)")
 st.markdown(f"IUPAC Name: [(5R)-3-[3-fluoro-4-[6-(2-methyltetrazol-5-yl)-3-pyridinyl]phenyl]-2-oxo-1,3-oxazolidin-5-yl]methyl dihydrogen phosphate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

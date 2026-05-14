@@ -8,7 +8,7 @@ st.title("Acetovanillone")
 st.image(f"compound_structures/compound_2214.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2214](https://pubchem.ncbi.nlm.nih.gov/compound/2214)")
 st.markdown(f"IUPAC Name: 1-(4-hydroxy-3-methoxyphenyl)ethanone")
-st.markdown(f"Score: -0.0672494956287828")
+st.markdown(f"Score: -0.0421088091628769")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

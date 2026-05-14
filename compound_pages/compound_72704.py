@@ -8,7 +8,7 @@ st.title("Berberrubine")
 st.image(f"compound_structures/compound_72704.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [72704](https://pubchem.ncbi.nlm.nih.gov/compound/72704)")
 st.markdown(f"IUPAC Name: 17-methoxy-5,7-dioxa-13-azoniapentacyclo[11.8.0.02,10.04,8.015,20]henicosa-1(13),2,4(8),9,14,16,18,20-octaen-16-ol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

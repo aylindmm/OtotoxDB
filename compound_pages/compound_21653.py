@@ -8,7 +8,7 @@ st.title("Dihydrostreptomycin sulfate")
 st.image(f"compound_structures/compound_21653.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [21653](https://pubchem.ncbi.nlm.nih.gov/compound/21653)")
 st.markdown(f"IUPAC Name: bis(2-[(1R,2R,3S,4R,5R,6S)-3-(diaminomethylideneamino)-4-[(2R,3R,4R,5S)-3-[(2S,3S,4S,5R,6S)-4,5-dihydroxy-6-(hydroxymethyl)-3-(methylamino)oxan-2-yl]oxy-4-hydroxy-4-(hydroxymethyl)-5-methyloxolan-2-yl]oxy-2,5,6-trihydroxycyclohexyl]guanidine);sulfuric acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

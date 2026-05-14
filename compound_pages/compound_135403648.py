@@ -8,7 +8,7 @@ st.title("Folinic acid")
 st.image(f"compound_structures/compound_135403648.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135403648](https://pubchem.ncbi.nlm.nih.gov/compound/135403648)")
 st.markdown(f"IUPAC Name: (2S)-2-[[4-[(2-amino-5-formyl-4-oxo-3,6,7,8-tetrahydropteridin-6-yl)methylamino]benzoyl]amino]pentanedioic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

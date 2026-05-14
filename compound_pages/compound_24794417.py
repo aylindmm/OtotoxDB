@@ -8,7 +8,7 @@ st.title("D-aminophosphonovaleric acid")
 st.image(f"compound_structures/compound_24794417.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [24794417](https://pubchem.ncbi.nlm.nih.gov/compound/24794417)")
 st.markdown(f"IUPAC Name: [(4R)-4-amino-4-carboxybutyl]-hydroxyphosphinate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

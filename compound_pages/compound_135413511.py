@@ -8,7 +8,7 @@ st.title("Tirapazamine")
 st.image(f"compound_structures/compound_135413511.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135413511](https://pubchem.ncbi.nlm.nih.gov/compound/135413511)")
 st.markdown(f"IUPAC Name: 1,4-dioxido-1,2,4-benzotriazine-1,4-diium-3-amine")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

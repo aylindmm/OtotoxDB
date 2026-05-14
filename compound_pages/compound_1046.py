@@ -8,7 +8,7 @@ st.title("Pyrazinamide")
 st.image(f"compound_structures/compound_1046.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [1046](https://pubchem.ncbi.nlm.nih.gov/compound/1046)")
 st.markdown(f"IUPAC Name: pyrazine-2-carboxamide")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0252652854977261")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

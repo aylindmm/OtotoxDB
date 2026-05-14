@@ -8,7 +8,7 @@ st.title("L-carnitine")
 st.image(f"compound_structures/compound_10917.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [10917](https://pubchem.ncbi.nlm.nih.gov/compound/10917)")
 st.markdown(f"IUPAC Name: (3R)-3-hydroxy-4-(trimethylazaniumyl)butanoate")
-st.markdown(f"Score: -0.0806993947545393")
+st.markdown(f"Score: -0.0589523328280276")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

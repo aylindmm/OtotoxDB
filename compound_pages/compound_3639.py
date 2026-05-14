@@ -8,7 +8,7 @@ st.title("Hydrochlorothiazide")
 st.image(f"compound_structures/compound_3639.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3639](https://pubchem.ncbi.nlm.nih.gov/compound/3639)")
 st.markdown(f"IUPAC Name: 6-chloro-1,1-dioxo-3,4-dihydro-2H-1lambda6,2,4-benzothiadiazine-7-sulfonamide")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

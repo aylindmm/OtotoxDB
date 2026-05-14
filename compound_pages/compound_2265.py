@@ -8,8 +8,8 @@ st.title("Azathioprine")
 st.image(f"compound_structures/compound_2265.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2265](https://pubchem.ncbi.nlm.nih.gov/compound/2265)")
 st.markdown(f"IUPAC Name: 6-(3-methyl-5-nitroimidazol-4-yl)sulfanyl-7H-purine")
-st.markdown(f"Score: 0.0134498991257566")
-st.markdown(f"Classification: ototoxic")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Caroverine")
 st.image(f"compound_structures/compound_65709.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [65709](https://pubchem.ncbi.nlm.nih.gov/compound/65709)")
 st.markdown(f"IUPAC Name: 1-[2-(diethylamino)ethyl]-3-[(4-methoxyphenyl)methyl]quinoxalin-2-one")
-st.markdown(f"Score: -0.0403496973772697")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

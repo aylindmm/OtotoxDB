@@ -8,7 +8,7 @@ st.title("Arctigenin")
 st.image(f"compound_structures/compound_64981.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [64981](https://pubchem.ncbi.nlm.nih.gov/compound/64981)")
 st.markdown(f"IUPAC Name: (3R,4R)-4-[(3,4-dimethoxyphenyl)methyl]-3-[(4-hydroxy-3-methoxyphenyl)methyl]oxolan-2-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

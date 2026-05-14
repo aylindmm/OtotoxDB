@@ -8,8 +8,8 @@ st.title("Mitomycin c")
 st.image(f"compound_structures/compound_5746.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5746](https://pubchem.ncbi.nlm.nih.gov/compound/5746)")
 st.markdown(f"IUPAC Name: [(4S,6S,7R,8S)-11-amino-7-methoxy-12-methyl-10,13-dioxo-2,5-diazatetracyclo[7.4.0.02,7.04,6]trideca-1(9),11-dien-8-yl]methyl carbamate")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Diphenyleneiodonium")
 st.image(f"compound_structures/compound_3101.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3101](https://pubchem.ncbi.nlm.nih.gov/compound/3101)")
 st.markdown(f"IUPAC Name: 8-iodoniatricyclo[7.4.0.02,7]trideca-1(13),2,4,6,9,11-hexaene")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

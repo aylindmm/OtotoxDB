@@ -8,7 +8,7 @@ st.title("Quinine sulfate")
 st.image(f"compound_structures/compound_16051948.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [16051948](https://pubchem.ncbi.nlm.nih.gov/compound/16051948)")
 st.markdown(f"IUPAC Name: bis((R)-[(2S,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-(6-methoxyquinolin-4-yl)methanol);sulfuric acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

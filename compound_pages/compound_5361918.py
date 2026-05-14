@@ -8,8 +8,8 @@ st.title("Methylnaltrexone")
 st.image(f"compound_structures/compound_5361918.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5361918](https://pubchem.ncbi.nlm.nih.gov/compound/5361918)")
 st.markdown(f"IUPAC Name: (4R,4aS,7aR,12bS)-3-(cyclopropylmethyl)-4a,9-dihydroxy-3-methyl-2,4,5,6,7a,13-hexahydro-1H-4,12-methanobenzofuro[3,2-e]isoquinolin-3-ium-7-one")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

@@ -8,7 +8,7 @@ st.title("Steroid")
 st.image(f"compound_structures/compound_139082353.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [139082353](https://pubchem.ncbi.nlm.nih.gov/compound/139082353)")
 st.markdown(f"IUPAC Name: N-[(1R)-1-[(3S,8R,9R,10S,13R,14R,17R)-3-(dimethylamino)-10,13-dimethyl-2,3,4,7,8,9,11,12,14,15,16,17-dodecahydro-1H-cyclopenta[a]phenanthren-17-yl]ethyl]-N-methylacetamide")
-st.markdown(f"Score: -0.0806993947545393")
+st.markdown(f"Score: -0.117904665656055")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

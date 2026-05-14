@@ -8,7 +8,7 @@ st.title("Cpi-455")
 st.image(f"compound_structures/compound_78426698.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [78426698](https://pubchem.ncbi.nlm.nih.gov/compound/78426698)")
 st.markdown(f"IUPAC Name: 7-oxo-5-phenyl-6-propan-2-yl-1H-pyrazolo[1,5-a]pyrimidine-3-carbonitrile")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

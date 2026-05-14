@@ -8,7 +8,7 @@ st.title("Pentamidine isethionate")
 st.image(f"compound_structures/compound_8813.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [8813](https://pubchem.ncbi.nlm.nih.gov/compound/8813)")
 st.markdown(f"IUPAC Name: 4-[5-(4-carbamimidoylphenoxy)pentoxy]benzenecarboximidamide;bis(2-hydroxyethanesulfonic acid)")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

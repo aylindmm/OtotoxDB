@@ -8,8 +8,8 @@ st.title("Cyclosporin a")
 st.image(f"compound_structures/compound_5284373.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5284373](https://pubchem.ncbi.nlm.nih.gov/compound/5284373)")
 st.markdown(f"IUPAC Name: (3S,6S,9S,12R,15S,18S,21S,24S,30S,33S)-30-ethyl-33-[(E,1R,2R)-1-hydroxy-2-methylhex-4-enyl]-1,4,7,10,12,15,19,25,28-nonamethyl-6,9,18,24-tetrakis(2-methylpropyl)-3,21-di(propan-2-yl)-1,4,7,10,13,16,19,22,25,28,31-undecazacyclotritriacontane-2,5,8,11,14,17,20,23,26,29,32-undecone")
-st.markdown(f"Score: 0.0")
-st.markdown(f"Classification: undetermined")
+st.markdown(f"Score: 0.0505305709954523")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

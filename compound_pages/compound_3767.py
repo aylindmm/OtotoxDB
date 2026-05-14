@@ -8,7 +8,7 @@ st.title("Isoniazid")
 st.image(f"compound_structures/compound_3767.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3767](https://pubchem.ncbi.nlm.nih.gov/compound/3767)")
 st.markdown(f"IUPAC Name: pyridine-4-carbohydrazide")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

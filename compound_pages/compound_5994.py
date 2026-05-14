@@ -8,7 +8,7 @@ st.title("Progesterone")
 st.image(f"compound_structures/compound_5994.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5994](https://pubchem.ncbi.nlm.nih.gov/compound/5994)")
 st.markdown(f"IUPAC Name: (8S,9S,10R,13S,14S,17S)-17-acetyl-10,13-dimethyl-1,2,6,7,8,9,11,12,14,15,16,17-dodecahydrocyclopenta[a]phenanthren-3-one")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

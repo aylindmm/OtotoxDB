@@ -8,7 +8,7 @@ st.title("U0126")
 st.image(f"compound_structures/compound_3006531.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3006531](https://pubchem.ncbi.nlm.nih.gov/compound/3006531)")
 st.markdown(f"IUPAC Name: (2Z,3Z)-2,3-bis[amino-(2-aminophenyl)sulfanylmethylidene]butanedinitrile")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

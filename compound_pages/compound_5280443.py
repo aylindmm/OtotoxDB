@@ -8,7 +8,7 @@ st.title("Apigenin")
 st.image(f"compound_structures/compound_5280443.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5280443](https://pubchem.ncbi.nlm.nih.gov/compound/5280443)")
 st.markdown(f"IUPAC Name: 5,7-dihydroxy-2-(4-hydroxyphenyl)chromen-4-one")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

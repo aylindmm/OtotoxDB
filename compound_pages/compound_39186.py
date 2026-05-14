@@ -8,7 +8,7 @@ st.title("Diltiazem")
 st.image(f"compound_structures/compound_39186.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [39186](https://pubchem.ncbi.nlm.nih.gov/compound/39186)")
 st.markdown(f"IUPAC Name: [(2S,3S)-5-[2-(dimethylamino)ethyl]-2-(4-methoxyphenyl)-4-oxo-2,3-dihydro-1,5-benzothiazepin-3-yl] acetate")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

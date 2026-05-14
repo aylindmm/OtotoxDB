@@ -8,7 +8,7 @@ st.title("3-methyladenine")
 st.image(f"compound_structures/compound_135398661.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135398661](https://pubchem.ncbi.nlm.nih.gov/compound/135398661)")
 st.markdown(f"IUPAC Name: 3-methyl-7H-purin-6-imine")
-st.markdown(f"Score: -0.0672494956287828")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

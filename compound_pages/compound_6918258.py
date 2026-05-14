@@ -8,7 +8,7 @@ st.title("Trk-710")
 st.image(f"compound_structures/compound_6918258.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6918258](https://pubchem.ncbi.nlm.nih.gov/compound/6918258)")
 st.markdown(f"IUPAC Name: bis((2S)-4-acetyl-2-methyl-5-oxo-2H-furan-3-olate);platinum(2+);trans-(1R,2R)-cyclohexane-1,2-diamine")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0084217618325753")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -2,13 +2,13 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="Euk 207", layout="wide")
-st.title("Euk 207")
+st.set_page_config(page_title="Euk-207", layout="wide")
+st.title("Euk-207")
 # Display the image in Streamlit
 st.image(f"compound_structures/compound_135469150.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135469150](https://pubchem.ncbi.nlm.nih.gov/compound/135469150)")
 st.markdown(f"IUPAC Name: 13,16,19,22-tetraoxa-3,6-diazatricyclo[21.3.1.18,12]octacosa-1(27),2,6,8(28),9,11,23,25-octaene-27,28-diol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

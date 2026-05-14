@@ -8,7 +8,7 @@ st.title("Cccp")
 st.image(f"compound_structures/compound_2603.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2603](https://pubchem.ncbi.nlm.nih.gov/compound/2603)")
 st.markdown(f"IUPAC Name: 2-[(3-chlorophenyl)hydrazinylidene]propanedinitrile")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

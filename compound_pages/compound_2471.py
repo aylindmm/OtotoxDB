@@ -8,7 +8,7 @@ st.title("Bumetanide")
 st.image(f"compound_structures/compound_2471.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2471](https://pubchem.ncbi.nlm.nih.gov/compound/2471)")
 st.markdown(f"IUPAC Name: 3-(butylamino)-4-phenoxy-5-sulfamoylbenzoic acid")
-st.markdown(f"Score: 0.188298587760592")
+st.markdown(f"Score: 0.151591712986357")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

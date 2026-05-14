@@ -8,7 +8,7 @@ st.title("Valganciclovir")
 st.image(f"compound_structures/compound_135413535.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [135413535](https://pubchem.ncbi.nlm.nih.gov/compound/135413535)")
 st.markdown(f"IUPAC Name: [2-[(2-amino-6-oxo-1H-purin-9-yl)methoxy]-3-hydroxypropyl] (2S)-2-amino-3-methylbutanoate")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0421088091628769")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

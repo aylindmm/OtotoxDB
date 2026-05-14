@@ -8,7 +8,7 @@ st.title("O-phenylenediamine")
 st.image(f"compound_structures/compound_7243.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7243](https://pubchem.ncbi.nlm.nih.gov/compound/7243)")
 st.markdown(f"IUPAC Name: benzene-1,2-diamine")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

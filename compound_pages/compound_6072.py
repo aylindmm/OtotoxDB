@@ -8,7 +8,7 @@ st.title("Phlorizin")
 st.image(f"compound_structures/compound_6072.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6072](https://pubchem.ncbi.nlm.nih.gov/compound/6072)")
 st.markdown(f"IUPAC Name: 1-[2,4-dihydroxy-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyphenyl]-3-(4-hydroxyphenyl)propan-1-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

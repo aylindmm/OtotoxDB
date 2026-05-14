@@ -8,7 +8,7 @@ st.title("Methyl (3s)-3-(((1,1-dimethylethoxy)carbonyl)amino)-5-fluoro-4-oxopent
 st.image(f"compound_structures/compound_9881695.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9881695](https://pubchem.ncbi.nlm.nih.gov/compound/9881695)")
 st.markdown(f"IUPAC Name: methyl (3S)-5-fluoro-3-[(2-methylpropan-2-yl)oxycarbonylamino]-4-oxopentanoate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

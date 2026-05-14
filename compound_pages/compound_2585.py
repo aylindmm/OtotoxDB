@@ -8,8 +8,8 @@ st.title("Carvedilol")
 st.image(f"compound_structures/compound_2585.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2585](https://pubchem.ncbi.nlm.nih.gov/compound/2585)")
 st.markdown(f"IUPAC Name: 1-(9H-carbazol-4-yloxy)-3-[2-(2-methoxyphenoxy)ethylamino]propan-2-ol")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0252652854977261")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

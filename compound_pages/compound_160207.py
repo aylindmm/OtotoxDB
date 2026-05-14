@@ -8,7 +8,7 @@ st.title("Glucarolactam")
 st.image(f"compound_structures/compound_160207.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [160207](https://pubchem.ncbi.nlm.nih.gov/compound/160207)")
 st.markdown(f"IUPAC Name: (2S,3R,4S,5R)-3,4,5-trihydroxy-6-oxopiperidine-2-carboxylic acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

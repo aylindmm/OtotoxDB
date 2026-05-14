@@ -8,7 +8,7 @@ st.title("148-18-5")
 st.image(f"compound_structures/compound_533728.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [533728](https://pubchem.ncbi.nlm.nih.gov/compound/533728)")
 st.markdown(f"IUPAC Name: sodium N,N-diethylcarbamodithioate")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0336870473303015")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

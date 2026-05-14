@@ -8,7 +8,7 @@ st.title("Mozavaptan")
 st.image(f"compound_structures/compound_119369.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [119369](https://pubchem.ncbi.nlm.nih.gov/compound/119369)")
 st.markdown(f"IUPAC Name: N-[4-[5-(dimethylamino)-2,3,4,5-tetrahydro-1-benzazepine-1-carbonyl]phenyl]-2-methylbenzamide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

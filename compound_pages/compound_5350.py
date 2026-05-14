@@ -8,7 +8,7 @@ st.title("Sulforaphane")
 st.image(f"compound_structures/compound_5350.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5350](https://pubchem.ncbi.nlm.nih.gov/compound/5350)")
 st.markdown(f"IUPAC Name: 1-isothiocyanato-4-methylsulfinylbutane")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

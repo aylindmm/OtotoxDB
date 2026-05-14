@@ -8,7 +8,7 @@ st.title("Piretanide")
 st.image(f"compound_structures/compound_4849.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4849](https://pubchem.ncbi.nlm.nih.gov/compound/4849)")
 st.markdown(f"IUPAC Name: 4-phenoxy-3-pyrrolidin-1-yl-5-sulfamoylbenzoic acid")
-st.markdown(f"Score: 0.0403496973772697")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

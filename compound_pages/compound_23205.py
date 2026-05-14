@@ -8,7 +8,7 @@ st.title("Helenalin")
 st.image(f"compound_structures/compound_23205.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [23205](https://pubchem.ncbi.nlm.nih.gov/compound/23205)")
 st.markdown(f"IUPAC Name: (3aR,5R,5aR,8aR,9S,9aS)-9-hydroxy-5,8a-dimethyl-1-methylidene-3a,4,5,5a,9,9a-hexahydroazuleno[6,7-b]furan-2,8-dione")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

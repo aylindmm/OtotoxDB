@@ -8,7 +8,7 @@ st.title("Sarsasapogenin")
 st.image(f"compound_structures/compound_92095.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [92095](https://pubchem.ncbi.nlm.nih.gov/compound/92095)")
 st.markdown(f"IUPAC Name: (1R,2S,4S,5'S,6R,7S,8R,9S,12S,13S,16S,18R)-5',7,9,13-tetramethylspiro[5-oxapentacyclo[10.8.0.02,9.04,8.013,18]icosane-6,2'-oxane]-16-ol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

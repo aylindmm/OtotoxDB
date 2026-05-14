@@ -8,7 +8,7 @@ st.title("Kanamycin a sulfate")
 st.image(f"compound_structures/compound_441374.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [441374](https://pubchem.ncbi.nlm.nih.gov/compound/441374)")
 st.markdown(f"IUPAC Name: (2R,3S,4S,5R,6R)-2-(aminomethyl)-6-[(1R,2R,3S,4R,6S)-4,6-diamino-3-[(2S,3R,4S,5S,6R)-4-amino-3,5-dihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-2-hydroxycyclohexyl]oxyoxane-3,4,5-triol;sulfuric acid")
-st.markdown(f"Score: 0.201748486886348")
+st.markdown(f"Score: 0.160013474818932")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

@@ -8,7 +8,7 @@ st.title("Dipotassium n-acetyl-dl-aspartate")
 st.image(f"compound_structures/compound_6451553.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6451553](https://pubchem.ncbi.nlm.nih.gov/compound/6451553)")
 st.markdown(f"IUPAC Name: dipotassium;2-acetamidobutanedioate")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

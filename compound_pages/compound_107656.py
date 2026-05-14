@@ -8,7 +8,7 @@ st.title("133681-84-2")
 st.image(f"compound_structures/compound_107656.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [107656](https://pubchem.ncbi.nlm.nih.gov/compound/107656)")
 st.markdown(f"IUPAC Name: 2-[[4-(2,6-dipyrrolidin-1-ylpyrimidin-4-yl)piperazin-1-yl]methyl]-2,5,7,8-tetramethyl-3,4-dihydrochromen-6-ol;dihydrochloride")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

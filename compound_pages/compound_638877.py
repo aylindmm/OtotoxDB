@@ -8,7 +8,7 @@ st.title("N-tert-butyl-alpha-phenylnitrone")
 st.image(f"compound_structures/compound_638877.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [638877](https://pubchem.ncbi.nlm.nih.gov/compound/638877)")
 st.markdown(f"IUPAC Name: N-tert-butyl-1-phenylmethanimine oxide")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

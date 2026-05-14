@@ -8,7 +8,7 @@ st.title("Ketorolac")
 st.image(f"compound_structures/compound_3826.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3826](https://pubchem.ncbi.nlm.nih.gov/compound/3826)")
 st.markdown(f"IUPAC Name: 5-benzoyl-2,3-dihydro-1H-pyrrolizine-1-carboxylic acid")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

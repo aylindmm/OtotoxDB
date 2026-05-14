@@ -8,8 +8,8 @@ st.title("Octreotide")
 st.image(f"compound_structures/compound_448601.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [448601](https://pubchem.ncbi.nlm.nih.gov/compound/448601)")
 st.markdown(f"IUPAC Name: (4R,7S,10S,13R,16S,19R)-10-(4-aminobutyl)-19-[[(2R)-2-amino-3-phenylpropanoyl]amino]-16-benzyl-N-[(2R,3R)-1,3-dihydroxybutan-2-yl]-7-[(1R)-1-hydroxyethyl]-13-(1H-indol-3-ylmethyl)-6,9,12,15,18-pentaoxo-1,2-dithia-5,8,11,14,17-pentazacycloicosane-4-carboxamide")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0084217618325753")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

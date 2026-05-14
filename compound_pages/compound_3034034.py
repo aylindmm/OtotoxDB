@@ -8,7 +8,7 @@ st.title("Quinine")
 st.image(f"compound_structures/compound_3034034.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [3034034](https://pubchem.ncbi.nlm.nih.gov/compound/3034034)")
 st.markdown(f"IUPAC Name: (R)-[(2S,4S,5R)-5-ethenyl-1-azabicyclo[2.2.2]octan-2-yl]-(6-methoxyquinolin-4-yl)methanol")
-st.markdown(f"Score: 0.309347679892401")
+st.markdown(f"Score: 0.269496378642412")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

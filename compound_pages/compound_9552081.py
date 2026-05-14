@@ -8,7 +8,7 @@ st.title("Chlorhexidine digluconate")
 st.image(f"compound_structures/compound_9552081.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [9552081](https://pubchem.ncbi.nlm.nih.gov/compound/9552081)")
 st.markdown(f"IUPAC Name: (1E)-2-[6-[[amino-[(E)-[amino-(4-chloroanilino)methylidene]amino]methylidene]amino]hexyl]-1-[amino-(4-chloroanilino)methylidene]guanidine;bis((2R,3S,4R,5R)-2,3,4,5,6-pentahydroxyhexanoic acid)")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

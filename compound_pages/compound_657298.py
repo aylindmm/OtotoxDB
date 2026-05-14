@@ -8,7 +8,7 @@ st.title("Propylthiouracil")
 st.image(f"compound_structures/compound_657298.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [657298](https://pubchem.ncbi.nlm.nih.gov/compound/657298)")
 st.markdown(f"IUPAC Name: 6-propyl-2-sulfanylidene-1H-pyrimidin-4-one")
-st.markdown(f"Score: 0.0268997982515131")
+st.markdown(f"Score: 0.0505305709954523")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

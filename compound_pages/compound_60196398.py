@@ -8,7 +8,7 @@ st.title("Atropine sulfate")
 st.image(f"compound_structures/compound_60196398.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [60196398](https://pubchem.ncbi.nlm.nih.gov/compound/60196398)")
 st.markdown(f"IUPAC Name: bis([(1S,5R)-8-methyl-8-azabicyclo[3.2.1]octan-3-yl] 3-hydroxy-2-phenylpropanoate);sulfuric acid")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

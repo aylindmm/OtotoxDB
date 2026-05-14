@@ -8,7 +8,7 @@ st.title("Acetyl-l-carnitine")
 st.image(f"compound_structures/compound_7045767.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7045767](https://pubchem.ncbi.nlm.nih.gov/compound/7045767)")
 st.markdown(f"IUPAC Name: (3R)-3-acetyloxy-4-(trimethylazaniumyl)butanoate")
-st.markdown(f"Score: -0.0537995965030262")
+st.markdown(f"Score: -0.0252652854977261")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

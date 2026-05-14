@@ -8,7 +8,7 @@ st.title("Trehalose")
 st.image(f"compound_structures/compound_7427.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [7427](https://pubchem.ncbi.nlm.nih.gov/compound/7427)")
 st.markdown(f"IUPAC Name: (2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-3,4,5-triol")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

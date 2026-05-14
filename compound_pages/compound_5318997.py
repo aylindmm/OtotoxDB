@@ -8,7 +8,7 @@ st.title("Icariin")
 st.image(f"compound_structures/compound_5318997.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5318997](https://pubchem.ncbi.nlm.nih.gov/compound/5318997)")
 st.markdown(f"IUPAC Name: 5-hydroxy-2-(4-methoxyphenyl)-8-(3-methylbut-2-enyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-3-[(2S,3R,4R,5R,6S)-3,4,5-trihydroxy-6-methyloxan-2-yl]oxychromen-4-one")
-st.markdown(f"Score: -0.0134498991257566")
+st.markdown(f"Score: -0.0084217618325753")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

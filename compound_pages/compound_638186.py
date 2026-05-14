@@ -8,7 +8,7 @@ st.title("Trans-1,2-dichloroethylene")
 st.image(f"compound_structures/compound_638186.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [638186](https://pubchem.ncbi.nlm.nih.gov/compound/638186)")
 st.markdown(f"IUPAC Name: (E)-1,2-dichloroethene")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

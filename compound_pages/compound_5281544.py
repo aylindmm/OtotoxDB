@@ -8,7 +8,7 @@ st.title("Oleuropein")
 st.image(f"compound_structures/compound_5281544.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [5281544](https://pubchem.ncbi.nlm.nih.gov/compound/5281544)")
 st.markdown(f"IUPAC Name: methyl (4S,5E,6S)-4-[2-[2-(3,4-dihydroxyphenyl)ethoxy]-2-oxoethyl]-5-ethylidene-6-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxy-4H-pyran-3-carboxylate")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

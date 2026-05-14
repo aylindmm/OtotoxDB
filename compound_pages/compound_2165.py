@@ -8,7 +8,7 @@ st.title("Amodiaquine")
 st.image(f"compound_structures/compound_2165.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [2165](https://pubchem.ncbi.nlm.nih.gov/compound/2165)")
 st.markdown(f"IUPAC Name: 4-[(7-chloroquinolin-4-yl)amino]-2-(diethylaminomethyl)phenol")
-st.markdown(f"Score: 0.0134498991257566")
+st.markdown(f"Score: 0.0336870473303015")
 st.markdown(f"Classification: ototoxic")
 
 st.write("---")

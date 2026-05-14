@@ -8,7 +8,7 @@ st.title("Pravastatin")
 st.image(f"compound_structures/compound_54687.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [54687](https://pubchem.ncbi.nlm.nih.gov/compound/54687)")
 st.markdown(f"IUPAC Name: (3R,5R)-7-[(1S,2S,6S,8S,8aR)-6-hydroxy-2-methyl-8-[(2S)-2-methylbutanoyl]oxy-1,2,6,7,8,8a-hexahydronaphthalen-1-yl]-3,5-dihydroxyheptanoic acid")
-st.markdown(f"Score: -0.0268997982515131")
+st.markdown(f"Score: -0.0168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")

@@ -8,8 +8,8 @@ st.title("Nitroglycerin")
 st.image(f"compound_structures/compound_4510.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [4510](https://pubchem.ncbi.nlm.nih.gov/compound/4510)")
 st.markdown(f"IUPAC Name: 1,3-dinitrooxypropan-2-yl nitrate")
-st.markdown(f"Score: -0.0134498991257566")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.067374094660603")
+st.markdown(f"Classification: ototoxic")
 
 st.write("---")
 

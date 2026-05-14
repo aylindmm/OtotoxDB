@@ -8,8 +8,8 @@ st.title("Cycloheximide")
 st.image(f"compound_structures/compound_6197.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [6197](https://pubchem.ncbi.nlm.nih.gov/compound/6197)")
 st.markdown(f"IUPAC Name: 4-[(2R)-2-[(1S,3S,5S)-3,5-dimethyl-2-oxocyclohexyl]-2-hydroxyethyl]piperidine-2,6-dione")
-st.markdown(f"Score: -0.0268997982515131")
-st.markdown(f"Classification: otoprotective")
+st.markdown(f"Score: 0.0")
+st.markdown(f"Classification: undetermined")
 
 st.write("---")
 

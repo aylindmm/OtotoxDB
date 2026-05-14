@@ -8,7 +8,7 @@ st.title("Resveratrol")
 st.image(f"compound_structures/compound_445154.jpg", width=300)
 st.markdown(f"PubChem Compound ID: [445154](https://pubchem.ncbi.nlm.nih.gov/compound/445154)")
 st.markdown(f"IUPAC Name: 5-[(E)-2-(4-hydroxyphenyl)ethenyl]benzene-1,3-diol")
-st.markdown(f"Score: -0.282447881640888")
+st.markdown(f"Score: -0.168435236651507")
 st.markdown(f"Classification: otoprotective")
 
 st.write("---")
