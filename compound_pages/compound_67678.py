@@ -60,15 +60,17 @@ target_info = load_data()
 
 tar_filtered = target_info[(target_info["PubChem_CID"] == 67678) ]
 
-tar_filtered['UniProt..SwissProt..Primary.ID.of.Target.Chain'] = tar_filtered['UniProt..SwissProt..Primary.ID.of.Target.Chain'].apply(lambda x: f"https://www.uniprot.org/uniprotkb/{x}/")  
 tar_filtered = tar_filtered.loc[:,('Target.Name', 'prot_name','UniProt..SwissProt..Primary.ID.of.Target.Chain', "variable", 'value') ]
 
 if tar_filtered.empty:
     st.info("No target information available for this compound.")
 else:
     for variable in tar_filtered['Target.Name'].unique():
-        st.markdown(f"**{variable}**")
         source_df = tar_filtered[tar_filtered['Target.Name'] == variable]
+        uniid = source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].iloc[0]
+        st.markdown([{variable}](target_{uniid}/))
+        source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'] = source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].apply(lambda x: f"https://www.uniprot.org/uniprotkb/{x}/") 
+
         st.markdown(f"Uniprot ID: [{source_df['prot_name'].iloc[0]}]({source_df['UniProt..SwissProt..Primary.ID.of.Target.Chain'].iloc[0]})")
 
 
