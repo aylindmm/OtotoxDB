@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="5HT3A", layout="wide")
-st.title("5-hydroxytryptamine receptor 3A")
+st.title("5-hydroxytryptamine receptor 3A/3B/3C/3D/3E")
 st.markdown(f"Uniprot ID: [P46098](https://www.uniprot.org/uniprotkb/P46098/)")
 st.markdown(f"Protein symbol: 5HT3A")
 

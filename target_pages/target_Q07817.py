@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="B2CL1", layout="wide")
-st.title("Bcl-2-like protein 1")
+st.title("Isoform Bcl-X(L) of Bcl-2-like protein 1 (Bcl-xL)")
 st.markdown(f"Uniprot ID: [Q07817](https://www.uniprot.org/uniprotkb/Q07817/)")
 st.markdown(f"Protein symbol: B2CL1")
 

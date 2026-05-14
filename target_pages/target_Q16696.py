@@ -2,10 +2,10 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title="ACHA2", layout="wide")
-st.title("Neuronal acetylcholine receptor; alpha2/beta4")
-st.markdown(f"Uniprot ID: [Q15822](https://www.uniprot.org/uniprotkb/Q15822/)")
-st.markdown(f"Protein symbol: ACHA2")
+st.set_page_config(page_title="CP2AD", layout="wide")
+st.title("Cytochrome P450 2A13")
+st.markdown(f"Uniprot ID: [Q16696](https://www.uniprot.org/uniprotkb/Q16696/)")
+st.markdown(f"Protein symbol: CP2AD")
 
 
 st.write("---")
@@ -20,7 +20,7 @@ def load_data():
 target_info = load_data()
 compounds = pd.read_csv("data/compounds.tsv", sep='\t')
 
-tar_filtered = target_info[(target_info['UniProt..SwissProt..Primary.ID.of.Target.Chain'] == 'Q15822') ]
+tar_filtered = target_info[(target_info['UniProt..SwissProt..Primary.ID.of.Target.Chain'] == 'Q16696') ]
 
 tar_filtered = tar_filtered.loc[:,("PubChem_CID","variable", 'value') ]
 

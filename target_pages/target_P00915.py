@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="CAH1", layout="wide")
-st.title("Carbonic anhydrase 1")
+st.title("Carbonic anhydrase 1/12/13/14/2/3/4/5A, mitochondrial/5B, mitochondrial/6/7/9")
 st.markdown(f"Uniprot ID: [P00915](https://www.uniprot.org/uniprotkb/P00915/)")
 st.markdown(f"Protein symbol: CAH1")
 

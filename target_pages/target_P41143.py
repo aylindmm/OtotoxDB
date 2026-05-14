@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 
 st.set_page_config(page_title="OPRD", layout="wide")
-st.title("Delta-type opioid receptor")
+st.title("Delta-type/Kappa-type/Mu-type opioid receptor")
 st.markdown(f"Uniprot ID: [P41143](https://www.uniprot.org/uniprotkb/P41143/)")
 st.markdown(f"Protein symbol: OPRD")
 
