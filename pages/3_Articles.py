@@ -68,7 +68,7 @@ df_chart =  df_filtered.groupby(["Year"])['PMID'].size().reset_index(name="gross
 
 chart = (
     alt.Chart(df_chart)
-    .mark_line()
+    .mark_line(color="#F08200")
     .encode(
         x=alt.X("Year:N", title="Year"),
         y=alt.Y("gross:Q", title="Number of Articles"),
