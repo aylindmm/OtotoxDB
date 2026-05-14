@@ -30,8 +30,9 @@ df_filtered = df[ df["compound_count"].between(compound_count[0], compound_count
 df_filtered = df_filtered.sort_values(by="compound_count", ascending=False)
 
 # Convert the Uniprot column to string
+df_filtered['link_to_page'] = df_filtered['UniProt..SwissProt..Primary.ID.of.Target.Chain']
 df_filtered['UniProt..SwissProt..Primary.ID.of.Target.Chain'] = df_filtered['UniProt..SwissProt..Primary.ID.of.Target.Chain'].apply(lambda x: f"https://www.uniprot.org/uniprotkb/{x}/")  
-
+df_filtered['link_to_page'] = df_filtered['link_to_page'].apply(lambda x: f"target_{x}/")
 import ast
 
 df_filtered["name"] = df_filtered["name"].apply(lambda x: ", ".join(ast.literal_eval(x)) if isinstance(x, str) else ", ".join(x))
@@ -42,8 +43,10 @@ st.dataframe(
     df_filtered,
     use_container_width=True,
     column_config={"UniProt..SwissProt..Primary.ID.of.Target.Chain": st.column_config.LinkColumn("UniProt ID", display_text="https://www.uniprot.org/uniprotkb/(.*?)/"),
-                  "name": st.column_config.ListColumn(label="Compounds")
-    },
+                  "name": st.column_config.ListColumn(label="Compounds"),
+                  "prot_name": st.column_config.TextColumn(label="Symbol"),
+                  "link_to_page": st.column_config.LinkColumn("Details", 
+                                                                      display_text=":material/open_in_new:") },               
     hide_index=True
 )
 

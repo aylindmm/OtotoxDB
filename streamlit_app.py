@@ -11,15 +11,6 @@ target_page = st.Page("pages/4_Targets.py", title="Targets")
 download_page = st.Page("pages/5_Download.py", title="Download")
 
 
-# Sidebar navigation (matches the left panel in your image)
-with st.sidebar:
-    st.page_link(main_page, label="Home", icon="🏠")
-    st.page_link(compounds_page, label="Compounds")
-    st.page_link(articles_page, label="Articles")
-    st.page_link(target_page, label="Targets")
-    st.page_link(download_page, label="Download")
-    
-
 df = pd.read_csv("data/compounds.tsv", sep="\t")
 df = df.sort_values(by="name")
 
@@ -43,8 +34,7 @@ for index, row in df2.iterrows():
     # Ensure these .py files actually exist in your 'compounds' folder!
     page = st.Page(f"target_pages/target_{Uid}.py", title=f"{Uid}")
     target_pages.append(page)
-
-    
+   
 
 # 2. Define your main app structure
 # You must include the compound_pages list here
