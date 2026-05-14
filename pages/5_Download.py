@@ -21,14 +21,63 @@ df = load_data()
 csv = df.to_csv(index=False).encode('utf-8')
 
 st.download_button(
-    label="Download data as CSV",
+    label="Download compound data",
     data=csv,
+    file_name='compounds.csv',
+    mime='text/csv',
+)
+
+st.write(
+    """
+    This is a .csv file that contains the following columns:
+"""
+)
+
+@st.cache_data
+def load_data():
+    df = pd.read_csv("data/targets.tsv", sep="\t")
+    return df
+
+
+df2 = load_data()
+
+# Convert dataframe to CSV
+csv2 = df2.to_csv(index=False).encode('utf-8')
+
+st.download_button(
+    label="Download target data",
+    data=csv2,
+    file_name='targets.csv',
+    mime='text/csv',
+)
+
+st.write(
+    """
+    This is a .csv file that contains the following columns:
+"""
+)
+
+
+@st.cache_data
+def load_data():
+    df = pd.read_csv("data/sources.tsv", sep="\t")
+    return df
+
+
+df3 = load_data()
+
+# Convert dataframe to CSV
+csv3 = df3.to_csv(index=False).encode('utf-8')
+
+st.download_button(
+    label="Download aticle data",
+    data=csv3,
     file_name='articles.csv',
     mime='text/csv',
 )
 
 st.write(
     """
-    The file contains the following columns:
+    This is a .csv file that contains the following columns:
 """
 )
