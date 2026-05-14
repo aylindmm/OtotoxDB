@@ -39,7 +39,8 @@ for variable in df_filtered['variable'].unique():
     label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
     st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
-    source_df[["PMID", "Year","Title", "dose", "administrarion_route"]].rename(columns={"PMID": "PubMed ID", 
+    st.dataframe(
+        source_df[["PMID", "Year","Title", "dose", "administrarion_route"]].rename(columns={"PMID": "PubMed ID", 
                                                                                         "Title": "Title", 
                                                                                         "Year": "Year",
                                                                                         "dose": "Dose",
