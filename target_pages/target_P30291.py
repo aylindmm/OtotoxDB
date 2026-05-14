@@ -23,9 +23,6 @@ compounds = pd.read_csv("data/compounds.tsv", sep='\t')
 tar_filtered = target_info[(target_info['UniProt..SwissProt..Primary.ID.of.Target.Chain'] == 'P30291') ]
 
 tar_filtered = tar_filtered.loc[:,("PubChem_CID","variable", 'value') ]
-tar_filtered['link_to_compound_page'] = tar_filtered['PubChem_CID']
-tar_filtered['link_to_compound_page'] = tar_filtered.apply(lambda row: f"compound_{row['PubChem_CID'].split('/')[-1]}", axis=1)
-
 
 if tar_filtered.empty:
     st.info("No compound information available for this target.")
@@ -35,8 +32,7 @@ else:
         source_df = tar_filtered[tar_filtered['PubChem_CID'] == variable]
 
         compound_name = compounds[compounds['PubChem_CID'] == variable]['name'].iloc[0]
-        compound_link = source_df['link_to_compound_page'].iloc[0]
-        st.markdown(f"Compound name: [{compound_name}]({compound_link})")
+        st.markdown(f"Compound name: [{compound_name}](compound_{variable})")
 
         pubchem_url = f"https://pubchem.ncbi.nlm.nih.gov/compound/{variable}" if pd.notnull(variable) else "#"
         st.markdown(f"PubChem CID: [{variable}]({pubchem_url})")
