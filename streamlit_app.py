@@ -33,6 +33,7 @@ for index, row in df.iterrows():
     compound_pages.append(page)
     
 df2 = pd.read_csv("data/targets.tsv", sep="\t")
+df2 = df2.drop_duplicates(subset='UniProt..SwissProt..Primary.ID.of.Target.Chain')  # ← here, before the loop
 df2 = df2.sort_values(by="prot_name")
     
 target_pages = []
