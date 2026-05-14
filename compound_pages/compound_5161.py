@@ -39,6 +39,11 @@ for variable in df_filtered['variable'].unique():
     label = variable_labels.get(variable, variable)  # falls back to raw name if not in dict
     st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
+
+    import ast
+    df_filtered["dose"] = df_filtered["dose"].apply(lambda x: ", ".join(ast.literal_eval(x)) if isinstance(x, str) else ", ".join(x))
+    df_filtered["administration_route"] = df_filtered["administration_route"].apply(lambda x: ", ".join(ast.literal_eval(x)) if isinstance(x, str) else ", ".join(x))
+
     st.dataframe(
         source_df[["PMID", "Year","Title", "dose", "administration_route"]].rename(columns={"PMID": "PubMed ID", 
                                                                                         "Title": "Title", 
