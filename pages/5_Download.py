@@ -27,11 +27,6 @@ st.download_button(
     mime='text/csv',
 )
 
-st.write(
-    """
-    This is a .csv file that contains the following columns:
-"""
-)
 
 @st.cache_data
 def load_data():
@@ -51,12 +46,6 @@ st.download_button(
     mime='text/csv',
 )
 
-st.write(
-    """
-    This is a .csv file that contains the following columns:
-"""
-)
-
 
 @st.cache_data
 def load_data():
@@ -74,10 +63,4 @@ st.download_button(
     data=csv3,
     file_name='articles.csv',
     mime='text/csv',
-)
-
-st.write(
-    """
-    This is a .csv file that contains the following columns:
-"""
 )
