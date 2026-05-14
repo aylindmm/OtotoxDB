@@ -20,7 +20,7 @@ def load_data():
 target_info = load_data()
 compounds = pd.read_csv("data/compounds.tsv", sep='\t')
 
-tar_filtered = target_info[(target_info["Uniprot_ID"] == 'P49802') ]
+tar_filtered = target_info[(target_info['UniProt..SwissProt..Primary.ID.of.Target.Chain'] == 'P49802') ]
 
 tar_filtered = tar_filtered.loc[:,("PubChem_CID","variable", 'value') ]
 tar_filtered['link_to_compound_page'] = tar_filtered['PubChem_CID']
