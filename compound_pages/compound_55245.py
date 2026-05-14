@@ -40,11 +40,11 @@ for variable in df_filtered['variable'].unique():
     st.markdown(f"**{label}**")
     source_df = df_filtered[df_filtered['variable'] == variable]
     st.dataframe(
-        source_df[["PMID", "Year","Title", "dose", "administrarion_route"]].rename(columns={"PMID": "PubMed ID", 
+        source_df[["PMID", "Year","Title", "dose", "administration_route"]].rename(columns={"PMID": "PubMed ID", 
                                                                                         "Title": "Title", 
                                                                                         "Year": "Year",
                                                                                         "dose": "Dose",
-                                                                                        "administrarion_route": "Administration route"}),
+                                                                                        "administration_route": "Administration route"}),
         use_container_width=True,
         column_config={
             "PubMed ID": st.column_config.LinkColumn("PubMed ID", display_text="https://pubmed.ncbi.nlm.nih.gov/(.*?)/"),
