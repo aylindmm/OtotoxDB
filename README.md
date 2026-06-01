@@ -1,4 +1,4 @@
-# 🎈OtotoxDB
+# OtotoxDB
 
 Welcome to the OtotoxDB, a comprehensive database of compounds that have been shown to have ototoxic effects. This database is designed to provide researchers, clinicians, and students with easy access to information about ototoxic compounds, including their chemical properties, mechanisms of action, and associated research articles.
 
