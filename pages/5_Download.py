@@ -64,3 +64,7 @@ st.download_button(
     file_name='articles.csv',
     mime='text/csv',
 )
+
+st.divider()
+
+st.write("To install a local version of this app, visit this [GitHub repository](https://github.com/aylindmm/Ototoxic_DB)")

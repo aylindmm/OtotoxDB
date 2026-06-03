@@ -1,7 +1,7 @@
 import streamlit as st
 # Show the page title and description.
 st.set_page_config(page_title="OtotoxDB")
-st.title("Otoactive Compounds Data Base")
+st.title("Otoactive Compounds Database")
 st.write(
     """
     Welcome to the OtotoxDB, a comprehensive database of compounds that have been shown to have ototoxic effects.
@@ -45,10 +45,12 @@ with col4:
 
 st.divider()
 
-st.write("This database was funded by Convocatoria para proyectos de colaboración interinstitucional UAM-IPN INNOVA METRO-POLITEC convenio  SECTEI/040/2024")
+st.caption("This database was funded by Convocatoria para proyectos de colaboración interinstitucional UAM-IPN INNOVA METRO-POLITEC convenio  SECTEI/040/2024")
 
-col2, col3 = st.columns(2)
+col1, col2, col3 = st.columns(3)
 
+with col1: 
+    st.caption("Version 1.0, last updated May 2026")
 with col2:
     st.caption("**Universidad Autónoma Metropolitana** \n  Unidad Cuajimalpa")
 with col3:
