@@ -9,6 +9,7 @@ compounds_page = st.Page("pages/2_Compounds.py", title="Compounds")
 articles_page = st.Page("pages/3_Articles.py", title="Articles")
 target_page = st.Page("pages/4_Targets.py", title="Targets")
 download_page = st.Page("pages/5_Download.py", title="Download")
+about_page = st.Page("pages/6_About.py", title="About")
 
 
 df = pd.read_csv("data/compounds.tsv", sep="\t")
@@ -44,7 +45,8 @@ pg = st.navigation({
         compounds_page,
         articles_page,
         target_page,
-        download_page
+        download_page,
+        about_page
         
     ],
     "Compounds": compound_pages,
